@@ -1,0 +1,5 @@
+Rules:
+- Use exactly one "shall" and write exactly one sentence.
+- Put any trigger, state or feature condition only in the leading WHEN, IF, WHILE or WHERE clause. If the description contains no trigger, state or feature condition, use the Ubiquitous pattern.
+- Do not introduce any actor, action, condition, threshold or constraint that the description does not state or clearly imply. If it gives no concrete number, do not invent one.
+- Do not use outside knowledge or assumptions about how software usually works to fill gaps in the description.

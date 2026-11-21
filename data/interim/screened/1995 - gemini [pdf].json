@@ -1,0 +1,1676 @@
+[
+  {
+    "id": "1995 - gemini [pdf]__C0001",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "All software will be maintained under a version control system, and must include facilities for easy (nearly automatic) inclusion into the Gemini software environment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0002",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Support Maintenance, test Monitoring, operation, test- Must allow full access to ing all subsystems.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0003",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "U SER - LEVEL REQUIREMENTS",
+    "text": "U SER - LEVEL REQUIREMENTS TABLE 2 - 2 User-level requirements Developer Maintenance, test Monitoring, testing Must allow full access to each subsystem in test.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0004",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "It should also be noted that what the system has to guarantee in terms of operations must fulfill all possible requirements, but it does not mean that all features will be made available to all users at all locations at all times.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0005",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "To allow observing astronomers to achieve this objective, the system must offer to a user an interface which, while fulfilling the various operational requirements in the different modes and offering status information both automatically and on request at any required level, is still simple to learn and secure in its use.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0006",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Privileges U SER - LEVEL REQUIREMENTS Observing astronomers shall have no privileges as far as the direct control of the telescope is concerned.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0007",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "U SER - LEVEL REQUIREMENTS",
+    "text": "They shall not be able to send control commands directly but they must be able to enquire about the status of the telescope or any subsystem at any time.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0008",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "U SER - LEVEL REQUIREMENTS",
+    "text": "• Operation mode Traditional interactive operation shall normally be replaced by operation via an automatic sequencer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0009",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "A certain degree of interaction shall be provided, meaning in this case that the user will interact with the scheduler program, rather than with the control programs directly.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0010",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "It must also be possible to break and resequence this queue.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0011",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "In particular, Operations staff will be able to enable direct interactive operation, but this shall not be considered as the normal operation mode for the reasons explained in Section 2.7 on page 2-12.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0012",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "It is evident that, for some functions (such as adjustment of spectrograph slit width for seeing conditions) it must be necessary to include interactive capability.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0013",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The existence of the scheduling queue shall be transparent to the on-site observer during the initial phases of telescope operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0014",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "U SER - LEVEL REQUIREMENTS",
+    "text": "They shall also monitor general performance and system safety.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0015",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "U SER - LEVEL REQUIREMENTS",
+    "text": "• Privileges Operations staff shall have privileges to access all commands and maintenance pro- cedures in case of problems.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0016",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "U SER - LEVEL REQUIREMENTS",
+    "text": "However, they shall not have access to subsystems while these are in normal opera- tion.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0017",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "U SER - LEVEL REQUIREMENTS",
+    "text": "• Operation mode Operations staff shall have access to operation tables in update mode, while observ- ing astronomers will have access to them only in read mode (for example the list of filters mounted on an instrument).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0018",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "They shall be able to change the operational status of units according to the results of tests performed on such units (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0019",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O PERATIONAL CONTEXT",
+    "text": "Nevertheless strict configuration control guidelines must be followed to prevent interference with ongoing normal operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0020",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Parallel access to all the mounted instruments shall be provided, though only one instru- ment has access to the telescope beam (active instrument).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0021",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O PERATIONAL CONTEXT",
+    "text": "Various situations are possible for the other (inactive) instruments: •they shall be able to take calibration or flat field exposures in parallel •they shall be able to prepare for an exposure to start as soon as the telescope beam is switched back to them (in this case, they are in a hot standby situation) •they shall be able to work; at all foreseen operation levels (observing, maintenance, test) (see Section 3.2.1 on page 3-3).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0022",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O PERATIONAL CONTEXT",
+    "text": "Regardless of the status of an inactive instrument, it shall not be possible for any of its permitted actions to adversely impact the active instrument.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0023",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "In this case a subset of the available functionality must be made available through a standardized interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0024",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Visitor instruments must be capable of operating in this mode to be adequately supported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0025",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "However it must be recognized that: •the Gemini standards may not prove cost effective for some visitor instruments •the Gemini standards will evolve over time as requirements and technology change •the evolution of Gemini standards might require existing visitor instruments to rewrite or rework large areas of their control system •visitor instruments built later in time than the initial complement of Gemini instruments may want to take advantage of different and/or less expensive technology if it better suits the goals of their project For these reasons it is probably not possible to establish a combined standard to which all instruments, both Gemini and visitor, adhere to completely.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0026",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O BSERVING MODE REQUIREMENTS",
+    "text": "Independently of the location of users at the telescope site, they shall be able to access (according to their privileges) any part of the whole setup with a simple logon and configuration operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0027",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Monitoring shall exist both in the form of automatic displays of status information at different locations, and in the form of explicit access to the required status informa- tion from any point.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0028",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Monitoring shall not affect the performance of ongoing observations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0029",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "A.The observing program must be fully automated, requiring very little human interaction during the observation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0030",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The means that the Gemini software must include a sufficiently rich programming environment to make this feasible.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0031",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "C.All control software must provide support for simulated use within the virtual telescope.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0032",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "This software must consider target positions, weather conditions, and instrument configura- tions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0033",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O BSERVING MODE REQUIREMENTS",
+    "text": "O BSERVING MODE REQUIREMENTS E.There must be software to support the flexible scheduling, both manually and via a scheduler, allowing for the interleaving of observing programs in a manner that is transparent to the individual observing programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0034",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O BSERVING MODE REQUIREMENTS",
+    "text": "F.To maximize the use of the available observing time it must be possible to queue all of the observing that is possible with the currently available instruments.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0035",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "D.It must be possible to restrict specific operations to specific remote sites.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0036",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O BSERVING MODE REQUIREMENTS",
+    "text": "Despite the obvious limitations introduced by the link bandwidths available at the differ- ent locations, the system shall be totally transparent to local or remote use.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0037",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Security of operation shall be considered and might imply different operation levels and privileges at different sites.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0038",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "This should reduce the amount of specific software needed for remote operations, as the common layers of soft- ware shall cope from the beginning with a distributed environment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0039",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The philosophy behind this is that, for safety con- siderations, telescope control commands cannot be issued without a staff member (not necessarily the same person) having direct access to: •a hard wired “stop” button •real time video and audio •control of the telescope Remote observing means that users shall be able to observe from a remote site such as Cerro Tololo, Hilo or even home Institutes.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0040",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O BSERVING MODE REQUIREMENTS",
+    "text": "Remote users shall normally interact with the system via •operators at the Gemini 8m Telescopes control facility •operators at the Gemini 8m Telescopes site facility •operators at the Gemini 8m Telescopes base facility •operators at the Gemini 8m Telescopes remote operations facility •via the scheduler program and shall not control any part of the Gemini 8m Telescopes directly.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0041",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O BSERVING MODE REQUIREMENTS",
+    "text": "Remote access, in this case, must be possible from the Gemini 8m Telescopes base facility.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0042",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The requirements specific to service observing are: A.The observing program must be automated, requiring little human interaction during the observation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0043",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The means that the Gemini software must include a sufficiently rich pro- gramming environment to make this feasible.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0044",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "So whichever scheme is adopted to perform automatic sequences, interaction shall be allowed at the desired level (for example, only on error conditions, any time the user is allowed to break a sequence, etc.).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0045",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "G ENERAL SOFTWARE REQUIREMENTS",
+    "text": "This can be achieved only with the help of appropriate scheduling software, which must advise the operations team on the best choice to make which is compatible with the relative priorities of the various observing programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0046",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "B.All subsystems must respond to a common set of commands to test operational status, inquiries as to version, perform self-tests, etc.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0047",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "All IOC subsystems must respond to additional common commands for such activities as start, stop, initialize, reset parameters, etc.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0048",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "C.The support structure for communicating commands must be reliable, with a uniform ACK/NAK protocol adopted across all systems.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0049",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Timeouts must be supported at approxi- mately 500 msec.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0050",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "D.Handshaking of commands between IOCs must occur within 100-200 msec, signaling acceptance of each command.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0051",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "G ENERAL SOFTWARE REQUIREMENTS",
+    "text": "G ENERAL SOFTWARE REQUIREMENTS E.For commands allowing delayed replies, timeouts for that reply must also be sup- ported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0052",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Data from detectors must be stored in the most effective method permit- ted by available technology.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0053",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "1. For focusing and related activities, maximum acceptable detector readout time is",
+    "text": "For mosaicked, large optical detectors, a full readout of the detector must be done in about 2 or 3 minutes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0054",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "1. For focusing and related activities, maximum acceptable detector readout time is",
+    "text": "Since the Gemini system supports monitoring of operation, there must be the capability of providing multiple, simultaneous access to data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0055",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "1. For focusing and related activities, maximum acceptable detector readout time is",
+    "text": "The LAN must sup- port a transfer rate of 20-40 Mbits/second.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0056",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The system data capacity is capable of retaining 7 days of data produced by the largest instrument, the last 3 days of which must be available interactively from hard disk or similar medium.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0057",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The requirements for transferring video data are: A.The system must allow for fast transmission of rough images every 0.5 sec.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0058",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "This high-quality transmission must require less than 20 sec, and can only be assisted with loss-less compression.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0059",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "To preserve the integrity of the system, there must be a system of privileges established at each operating level of the system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0060",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The allocation system must ensure that the system cannot remain deadlocked with respect to this resource allocation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0061",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Finally, procedures must be implemented for convenience and system integrity, to sim- plify and codify common tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0062",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The appropriate limits are: A.Every command must be accepted/rejected within 2 sec and before the correspond- ing action occurs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0063",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "(This is different than the ACK/NAK response of the communica- tions protocol - here, the target system must have examined the command and verified its validity.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0064",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "B.Status display update must be within 4 sec at the local stations (certain functions, such as telescope position, may have tighter constraints).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0065",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "C.Requests of subsystems for status information must be answered within 5 sec and be possible in maintenance level operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0066",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "T EST AND CHECKOUT REQUIREMENTS",
+    "text": "T EST AND CHECKOUT REQUIREMENTS The telescope and instrument software shall contain built-in test (BIT) facilities to verify Gemini 8m Telescopes system and Gemini 8m Telescopes software performances.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0067",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "T EST AND CHECKOUT REQUIREMENTS",
+    "text": "Every Gemini 8m Telescopes software module shall have corresponding test specifica- tions to check normal operation of releases, to be used both for acceptance tests and as an on-line test procedure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0068",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "T EST AND CHECKOUT REQUIREMENTS",
+    "text": "The Gemini 8m Telescopes control software shall also provide for execution of self-test sequences of the Gemini 8m Telescopes system and subsystems.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0069",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "T EST AND CHECKOUT REQUIREMENTS",
+    "text": "These shall automati- cally exercise all subsystems present in a given operational configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0070",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Subsystems must notify the user when faults occur.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0071",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "This notification must be specific as to origin and problem.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0072",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The notification must also be capable of being electronically logged.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0073",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "one detector, one instrument) predefined procedures must exist to redefine the environment in such a way that operation can restart with the remain- ing equipment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0074",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "In case of computer hardware failure concerning the user station equipment, it shall be possible to transfer control from one user station to another via a simple software reconfig- uration procedure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0075",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "In this case there shall be a pro- cedure to replace faulty cards and/or assemblies.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0076",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "If it is possible to observe with that par- ticular IOC in a failed state (in general, this is limited to IOCs that are associated with individual scientific instruments) then it must be possible to reconfigure the system to do so.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0077",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "C ONSTRAINTS",
+    "text": "All communication shall be based on the use of standard communication protocols, where retry procedures are applied (a form of software redundancy) as part of the protocol.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0078",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "External documentation must include Unix-style man pages.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0079",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "I.All Gemini subsystem packages must provide modules for the testing and diagnosis of the subsystem.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0080",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "J.All instrumentation control software must provide full access to all instrument function- ality.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0081",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "K.All Gemini software must be version labeled, both in source and binary form.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0082",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Therefore all hardware subsystems must provide a software simulation module (as stated earlier) that responds in reasonable fashion to commands directed at that hardware.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0083",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Control information must be transferred, typically in the form of commands and replies from users, to telescope and instruments.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0084",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Control information on all controlled variables must be provided by all subsystems on request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0085",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "No request for information shall produce a delay of control activities or locking, even if the corresponding equipment is not available or faulty.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0086",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Delay times for the exchange of control information must stay within precise time limits to be defined in “General Description” in Chapter 2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0087",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "D ATA S PECIFICATIONS",
+    "text": "It must also be possible to restrict user access to such information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0088",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Detector data must be acquired and stored in the most effective way technology will allow; effectiveness should be evaluated in terms of cost, space requirements, lon- gevity, and speed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0089",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "This shall lead to the definition of a Gemini 8m Telescopes stan- dard, used on all instruments.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0090",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "In general, operational overheads must be kept as low as possible, to maximize actual observing times.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0091",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "However, there must be at least two copies - one to secure data as acquired and one to do assessment of data quality on-line (this last copy preferably on removable media).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0092",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Other astronomical information such as that coming from sky field monitors, autoguider cameras and sky monitoring devices such as cloud and seeing monitors shall also be capa- ble of being available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0093",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O PERATION",
+    "text": "It shall be possible to update all non-protected parameter values, i.e.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0094",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Protections must also be enforced (see also Security in Section 3.5.6 on page 3- 20) among users and the operational software should indicate clearly to users the current operation level and check the compatibility between subsystems in different modes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0095",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O PERATION",
+    "text": "In addition, the system must support off-site observing modes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0096",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O PERATION",
+    "text": "As a conclusion, the Gemini 8m Telescopes control software shall allow simultaneous operation of up to six active control nodes and up to two more monitoring nodes (one local and one remote) without appreciable degradation of performance.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0097",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "In practice the operation and facilities foreseen so far for the Gemini 8m Telescopes will limit this number to a maximum in the order of three active nodes, but the Gemini 8m Telescopes computers and software shall be capable of coping with the load of 10 active nodes, should the case arise.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0098",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Every command must be acknowledged in a positive or negative way before the occurrence of the corresponding action within given response times.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0099",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "There must be automatic procedures to implement startup and shutdown of the telescope and instruments.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0100",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "These must allow startup and shutdown of instruments independently of the telescope and without affecting the telescope operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0101",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Reconfiguration procedures must exist, to change the observing environment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0102",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The definition of the observing environments must be dynamic, i.e.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0103",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The user interface tools shall be based on standards, defined in Section 4.2.5 on page 4- 7, which will be portable across different computer hardware platforms (Portable User Interface Toolkit).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0104",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "E XTERNAL I NTERFACE R EQUIREMENTS",
+    "text": "Standard interfaces to the control electronics shall be available, in the form of: •standard bus systems •a standard set of interface cards to be used on all the subsystems and instruments •a standard software skeleton running on the control electronics The existence of hardware standards is clearly essential for maintenance and repairs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0105",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The standard software must be adequate for the real-time requirements and must offer drivers to the standard electronics to be used on all the Gemini 8m Telescopes software subsystems and instruments.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0106",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Links between electronics interfaces and main processors must meet the requirements imposed by the data specifications (see Section 3.1 on page 3- 1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0107",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "image processing systems, star catalogues) •software associated with visitor instrumentation •embedded software dedicated to hardware control, but not communicating on-line with the other Gemini 8m Telescopes software (in general this would be microprocessor code) E XTERNAL I NTERFACE R EQUIREMENTS The Gemini 8m Telescopes software must interface to the external software and clearly the interfaces are fully part of the Gemini 8m Telescopes software.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0108",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "E XTERNAL I NTERFACE R EQUIREMENTS",
+    "text": "The following statements are proposed: “It shall be possible to monitor the quality (image quality, spectral resolution, signal to noise, etc.) of the astronomical data as it comes in.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0109",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Astronomical communities have made considerable investments in image processing software, and therefore, compatibility with and adaptations to these pack- ages must be sought.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0110",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "E XTERNAL I NTERFACE R EQUIREMENTS",
+    "text": "In all these cases the specific on-line (quick-look) software development shall be seen as a subset of the development for the off-line data reduction system, to avoid as far as possi- ble duplication of development effort.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0111",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The output format of the Gemini 8m Telescopes data must be compatible with the GEM- INI archive requirements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0112",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Gemini 8m Telescopes software must be able to interface with all commercial soft- ware packages available on the Gemini 8m Telescopes and integrated into the Gemini 8m Telescopes operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0113",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "E XTERNAL I NTERFACE R EQUIREMENTS",
+    "text": "The LAN shall support the majority of the Gemini 8m Telescopes system internal communication needs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0114",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "E XTERNAL I NTERFACE R EQUIREMENTS",
+    "text": "This LAN must be capable of dealing both with the data band- widths required (at peak and on average) and with the required response times and synchronization needs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0115",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "E XTERNAL I NTERFACE R EQUIREMENTS",
+    "text": "This LAN shall be supplemented with a Local Time Bus, for distribution of absolute and relative time signals, and both a digital reflective memory bus and an analog event-based bus, for distribution of signals with requirements not satisfied by a LAN.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0116",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "No distinction is made here between WAN and point to point links as there shall be no difference in the software between the two cases.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0117",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "G ENERAL C ONSTRAINTS",
+    "text": "G ENERAL C ONSTRAINTS To eliminate conceptual access problems, while coping with different bandwidths, LAN and WAN interfaces shall be homogeneous and shall be based on standards which allow migration on different media, should they become required during the Gemini 8m Tele- scopes project life.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0118",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "G ENERAL C ONSTRAINTS",
+    "text": "For maintenance reasons and hardware independence, a clear hierarchical model must be implemented, supporting separation of logical and physical layers, e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0119",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "All essential tasks, not including remote observing, must take place on resources controlled by the project (such as leased lines).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0120",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The use of these features must be limited and constrained by the following guidelines: 1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0121",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "G ENERAL C ONSTRAINTS",
+    "text": "G ENERAL C ONSTRAINTS To allow coordination both locally at the Gemini 8m Telescopes site between the var- ious users and with remote users, the software shall support access to the system from any user station.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0122",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Particular constraints are: A.Computers used at the Gemini 8m Telescopes site, particularly in the test phase when they are outside the control room and near the subsystem under test, shall be checked against altitude and humidity specifications for the Gemini 8m Telescopes site (see also [EDS] in Section 1.3).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0123",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "B.Computer hardware must be able to run the Gemini 8m Telescopes software envi- ronment (operating systems, Gemini 8m Telescopes software) and provide compati- bility in data format (identical internal data representation).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0124",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "C.Common development and implementation tools must be both available and sup- ported D.Identical network access must be supported E.Local processing power must be such that telescope and instrument control does not represent a significant overhead in the whole process of executing an observing pro- gram (the overhead, if any, should be limited by the time it takes for physical devices to act) G ENERAL C ONSTRAINTS F.The choice of a scalable hardware architecture with computers at various performance levels should solve the problem of adequate on-line data assessment, as the amount of this activity is very variable and dependent upon the kind of detector and method used.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0125",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "G ENERAL C ONSTRAINTS",
+    "text": "In any case, remote operation must include remote monitoring from the Gemini 8m Tele- scopes base facilities, together with access tools for diagnostic and test use.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0126",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "These are: A.Individual instruments must be able to run fully independently.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0127",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "B.Telescope software at the two telescopes must be maintained to be identical in the upper layers (even if hardware should differ).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0128",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "D.Switching to different configurations must be possible at any time with appropriate pro- cedures.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0129",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "E.There must be easy procedures to reconfigure the system when subsystems are modified or removed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0130",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "F.The number of main packages of software must be kept to a minimum to facilitate main- tenance, but compatibly with the need to have the right degree of modularity.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0131",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "J.All software which does not directly control specific hardware must be written as machine independent, portable code.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0132",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "A TTRIBUTES K.To allow for expansion and maintenance, Gemini 8m Telescopes standards must be defined for the on-line software and the development environment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0133",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "L.On-line version control must be implemented.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0134",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "That is, the version control system must be available to recover/restore versions at all times.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0135",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "M.At boot time, the Gemini 8m Telescopes software shall check the consistency of ver- sions of all the various software components.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0136",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Changing system constants, such as arcseconds/bit for an encoder, shall not require recompiling but will be updated as part of system startup, and, for some constants, will be modifiable during operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0137",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "To guarantee maximum availability of the control system, retry procedures must be embodied in the software in case of error or failure (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0138",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Should recovery also fail, the error or failure has to be reported in a clear form (to identify the cause of the problem) and the system shall put itself into a safe state, whenever a safety aspect might be involved.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0139",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "To avoid unnecessary downtime, it must be possible for the system to reconfigure itself in order to continue observing, in a different mode if required, given the failure of a single non-critical subsystem.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0140",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "A TTRIBUTES To increase software robustness, range checking and validity checking shall be supported before execution of any input command.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0141",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "This must be possible ahead of time, preparing observing sequences for automatic observations and simulating observations to estimate results.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0142",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "It must be possible to apply continuous moni- toring to all subsystems on request, both when in operation and when idle, to check their operational status.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0143",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "The requirements must be achievable and stated in such a way that verification is permitted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0144",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "The requirements will be expressed as: A.Mean Time to Repair for each maintenance level B.Maximum Time to Repair for each maintenance level C.Preventative Maintenance hours per year All equipment shall support a programmed adjustment and maintenance interval of 30 days or longer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0145",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "30 days or longer.",
+    "text": "All Gemini Software must be designed with human engineering requirements under consideration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0146",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Gemini system must be self-monitoring to invoke safety monitoring to prevent risk to people or damage to equipment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0147",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Subsystems must be able to detect such danger and report it appropriately.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0148",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "In the event that the risk persists, subsystems must be able to move themselves into safe states to protect people and equipment (i.e.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0149",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Safety protection must be applied whenever there is the risk that the actions of the control software could endanger people or cause damage to any Gemini 8m Telescopes sub- system, for example, by driving beyond limits or by overexposing detectors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0150",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "This protec- tion, where implemented, must be independent of the software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0151",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "A TTRIBUTES The Gemini 8m Telescopes software shall be able to bring the Gemini 8m Telescopes system quickly to a safe state upon detection of danger.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0152",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "Safety aspects shall be ana- lyzed during the functional specification phase of the software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0153",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "Security must be provided in order to both prevent accidental mix-up of commands from different users on different parts of the system and to prevent intrusion from the wide area network into the Gemini 8m Telescopes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0154",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "In particular, the astronomical database must be protected from intrusion, whether the purpose is to access private data or to be destructive.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0155",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "A TTRIBUTES",
+    "text": "A system that is operating in Engineering/Maintenance mode must ignore directives from other systems, though status information should still be provided for use by other systems.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0156",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "This interlock must not depend on any software for reliable operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0157",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The interlock philosophy is as follows: •All hazards capable of causing death and/or loss of irreplacable equipment shall be passively interlocked.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0158",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "•All hazards capable of causing injury and/or severe damage to equipment shall be actively interlocked (severe damage implies that repairs are not repairable at the depot level.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0159",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The software itself, its installation process, and its docu- mentation must be developed with this expandability in mind, using general industry standards.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0160",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The software must be strictly modular, i.e.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0161",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "L IFE C YCLE A SPECTS",
+    "text": "At the same time, the possibility must exist to acquire information about other parts of the system (for example, telescope coordinates) (as mentioned in the control flow require- ments in Section 3.1.1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0162",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The following criteria for later selection shall be kept in mind: •Emphasis on development and productivity requirements, including cross support tools •Portability of software (target hardware independence) •Hardware and vendor independence •Use of industrial and defacto standards.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0163",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Test procedure methods have to be defined in the Software Test Plan (STP), while test plans shall be written for all individual software packages and modules comprising the Gemini 8m Telescopes software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0164",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Every system must thus be able to supply its current version upon request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0165",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "F.The database must support both remote access and distributed data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0166",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "This means the video data signals must be encoded digitally and trans- ferred via the WAN to remote sites.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0167",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "There must be some form of security to control access to system features, possibly restricting some operations to specific remote sites (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0168",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "3. Maintenance and testing",
+    "text": "There are start-up and shut-down procedures that must exist at many different levels: 1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0169",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "There must be a way to shut down all subsystems (hardware and software).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0170",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "1. System logging information should include all important events, properly time-",
+    "text": "It must be possible to log engineering data at up to 200 Hz rates for short periods of time.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0171",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "1. System logging information should include all important events, properly time-",
+    "text": "This data must be available to external software packages for analysis.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0172",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "1. System logging information should include all important events, properly time-",
+    "text": "Long-term logging of engineering data must be possible at slower (1 Hz or less) rates, into a common format (baselined as SYBASE).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0173",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "3. Warning. All other unexpected conditions result in warnings that are properly",
+    "text": "All subsystems must group errors into these categories.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0174",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O THER C ONTROLS AND S OFTWARE R EQUIREMENTS",
+    "text": "In addition to start-up procedures, there must be well-defined recovery proce- dures for any subsystem that has become inoperative.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0175",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O THER C ONTROLS AND S OFTWARE R EQUIREMENTS",
+    "text": "Command retries must be included in the system for most common timeouts or no- response conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0176",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "B.The communication software must support the standard ARPA services (telnet, FTP, SMTP, etc) as well as NFS, RPC, IPC, and the Unix socket interface library.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0177",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "O THER C ONTROLS AND S OFTWARE R EQUIREMENTS",
+    "text": "These interface routines are part of the Gemini software and must conform to the standards given in this document.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0178",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The computer hardware used for development must conform to the following: A.Workstations must match specified software standards and present a well-designed devel- opment environment, including cross-support for VxWorks development, if needed.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0179",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "D.Internal data formats must be compatible across workstations used for development.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0180",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "All communication hardware must meet the data flow requirements and software proto- cols defined in this document.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0181",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "F.Interlock connections must be provided for all critical subsystems.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0182",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "The first field of every database record holds the record name, which must be unique across all IOCs attached to the same TCP/IP subnet.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0183",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "An IOC device driver interrupt routine must be available to accept the external interrupts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0184",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "Every record support module must provide a record processing routine.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0185",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": "U SER R EQUIREMENTS FOR EPICS D EVELOPERS",
+    "text": "Because the experimental areas must be coordinated with the main facility control system and since 25% of the beamtime must be made available to independent investigators it was strongly recommended that EPICS be used as the toolkit for all CATS development work.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "1995 - gemini [pdf]__C0186",
+    "document": "1995 - gemini [pdf].txt",
+    "nearest_heading": null,
+    "text": "This section presents the “generic” commands that all Gemini systems must respond to.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

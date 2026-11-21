@@ -1,0 +1,814 @@
+[
+  {
+    "id": "PURE-001",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-002",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-003",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-004",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-005",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-006",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-007",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-008",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-009",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-010",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-011",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-012",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-013",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-014",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-015",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-016",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-017",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-018",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-019",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-020",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-021",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-022",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-023",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-024",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-025",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-026",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-027",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-028",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-029",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-030",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-031",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-032",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-033",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-034",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-035",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-036",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-037",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-038",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-039",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-040",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-041",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-042",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-043",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-044",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-045",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-046",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-047",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-048",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-049",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-050",
+    "hard_fails": [],
+    "soft_flags": [
+      "word count 21 outside [25, 70]"
+    ]
+  },
+  {
+    "id": "PURE-051",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-052",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-053",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-054",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-055",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-056",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-057",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-058",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-059",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-060",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-061",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-062",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-063",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-064",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-065",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-066",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-067",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-068",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-069",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-070",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-071",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-072",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-073",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-074",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-075",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-076",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-077",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-078",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-079",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-080",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-081",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-082",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-083",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-084",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-085",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-086",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-087",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-088",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-089",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-090",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-091",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-092",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-093",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-094",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-095",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-096",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-097",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-098",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-099",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-100",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-101",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-102",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-103",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-104",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-105",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-106",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-107",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-108",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-109",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-110",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-111",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-112",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-113",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-114",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-115",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-116",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-117",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-118",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-119",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-120",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-121",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-122",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-123",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-124",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-125",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-126",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-127",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-128",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-129",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-130",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-131",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-132",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-133",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-134",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-135",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-136",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-137",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-138",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-139",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-140",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-141",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-142",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-143",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-144",
+    "hard_fails": [],
+    "soft_flags": [
+      "no vagueness marker found"
+    ]
+  },
+  {
+    "id": "PURE-145",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-146",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-147",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-148",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-149",
+    "hard_fails": [],
+    "soft_flags": []
+  },
+  {
+    "id": "PURE-150",
+    "hard_fails": [],
+    "soft_flags": []
+  }
+]

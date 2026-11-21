@@ -1,0 +1,8 @@
+measure,n_A,n_B,agreement,cohen_kappa
+admissible: ubiquitous,93.0,92.0,0.82,0.6192893401015229
+admissible: event-driven,33.0,47.0,0.8,0.4942683749157113
+admissible: unwanted-behaviour,19.0,21.0,0.88,0.48096885813148793
+admissible: state-driven,15.0,10.0,0.94,0.6086956521739131
+admissible: optional-feature,3.0,7.0,0.96,0.3827160493827161
+admissible: complex,3.0,15.0,0.8933333333333333,0.08045977011494243
+best pattern,,,0.6666666666666666,0.4677831393698554

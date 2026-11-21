@@ -1,0 +1,4340 @@
+[
+  {
+    "id": "2000 - nasa x38 [doc]__C0001",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "REQUIREMENTS",
+    "text": "Whenever a power-on reset occurs, System Initialization shall [SRS194] perform the following functions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0002",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "REQUIREMENTS",
+    "text": "As part of System Initialization , the Boot ROM shall [SRS234] be configured to, after completing IBIT, call the manufacturer-supplied VxWorks Board Support Package (BSP) initialization software followed by a call to the FTSS System Initialization software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0003",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "REQUIREMENTS",
+    "text": "System Initialization shall [SRS014] initiate the watchdog timer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0004",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "REQUIREMENTS",
+    "text": "System Initialization shall [SRS292] enable and reset the processor’s watchdog timer such that, in the absence of a fault, the watchdog timer does not expire and reset the processor..",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0005",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "System Initialization shall [SRS008] synchronize the FCP virtual group in the presence of a power on skew of 2.5 seconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0006",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "System Initialization shall [SRS010] configure the FCP virtual group to use all available synchronized processors, if at least 3 of the 5 FCRs are active.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0007",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "If any of the FCP processors are not synchronized, System Initialization in the surviving triplex shall [SRS177] attempt to sync with the failed FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0008",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "If the failed FCP processor has not synced in 2.5 seconds after the surviving triplex has detected the loss of the FCP, then the surviving triplex shall [SRS178], within 1 second, send a single voted VMEbus reset through the NE to the failed FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0009",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "System Initialization shall [SRS011] align processor state and congruent aligned memory locations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0010",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FCP shall [SRS296] configure ICP simplex virtual groups for each channel in the FCP virtual group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0011",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FCP shall [SRS297] wait up to 15 seconds, after configuring the ICP virtual groups, for communication to start from the ICP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0012",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "System Initialization shall [SRS215] call an application initialization function to allow the application to (at least) create tasks, create communication sockets, initialize the vehicle mode, and initialize memory alignment allowance.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0013",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FCP shall [SRS221], after application initialization is complete, send an FCP Ready Sync message to the ICP The FCP shall [SRS189] wait up to 2.5 seconds (from the sending of the FCP Ready Sync) for the ICP Ready signal.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0014",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FCP shall [SRS243], if the NEFU ICP fails to send its ICP Ready signal, mask out that ICP, but continue to use the NE.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0015",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "System Initialization shall [SRS199], when all other activities are completed, start the 50 Hz timer and enable the timer interrupt.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0016",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "System Initialization, from hardware reset to starting of the 50 Hz timer, shall [SRS015] take no longer than 1.5 minutes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0017",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS017] provide an API call to install a task into a rate group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0018",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS196] support up to 20 tasks per rate group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0019",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS018] provide an API call to install a rate group into a vehicle mode at system initialization.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0020",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS197] support up to 3 rate groups per vehicle mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0021",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS195] support up to 5 vehicle modes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0022",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS software shall [SRS002] provide the identical services in all vehicle modes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0023",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS019] provide an API call for an FCP application task to alert the scheduler of a vehicle mode change.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0024",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS020] complete the change from one vehicle mode to the next within 1.02 seconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0025",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS021] process vehicle mode changes during minor frame 49.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0026",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS022] execute cyclic tasks, providing an API call to allow the application to block until its next iteration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0027",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS024] execute as the highest priority FTSS or application task in the system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0028",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS025] keep a minor frame count from 0 to 49.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0029",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS027] give tasks priority values according to their rate - the higher the rate, the higher the priority.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0030",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS028] detect 50 Hz, 10 Hz and 1 Hz rate group over-runs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0031",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS029] report rate group over-runs to the application via an API service for incorporation in the telemetry data stream.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0032",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS216] provide an API call to specify which task was running within the rate group which over-ran.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0033",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS030] provide a mechanism to inform a task when it did not complete during the previous frame and restart it at the beginning of the task.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0034",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS181] set the 50 Hz interval timer to a count down value so as to cause the next minor frame interrupt at 20 msec from the previous interrupt congruently in all operational FCPs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0035",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS032] issue a 50 Hz interrupt to the ICPs by means of a VMEbus IRQ5 interrupt.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0036",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS191] issue the 50 Hz interrupt to all the ICPs with a skew no greater than 330 microseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0037",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS033] send the minor frame number, vehicle mode, mission elapsed time (MET), and separation elapsed time (SEP) to the ICP prior to the 50 Hz interrupt.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0038",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS034] take no longer than 1 millisecond to execute scheduler and Time Services FTSS overhead tasks in each rate group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0039",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS software shall [SRS278] provide an API call that provides the application program the minor frame number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0040",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The behavior of synchronous tasks executed by the scheduler must be deterministic.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0041",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Task and Rate Group Execution The scheduler shall [SRS035] provide rate groups that execute at 50 Hz, 10 Hz and 1 Hz., with a drift rate no greater than 50 microseconds per second, and with a jitter no greater than 330 microseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0042",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS037] provide a method to schedule tasks at a set rate and in a set order within the rate group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0043",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS198] execute all the tasks in each of the rate groups that have been installed in the current mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0044",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS039] rely on the order used in adding tasks to a rate group to determine the task priorities.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0045",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS042] provide a method for a task to be scheduled as a 50 Hz \"helper\" task for source congruency input exchanges and voted output exchanges that starts in a particular minor frame but runs only during every 5th or 50th minor frame, effectively running at a lower, sub-rate, 10 Hz or 1 Hz, respectively.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0046",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The scheduler shall [SRS270] provide a task deadline capability that allows the application to specify which minor frame a task should start in and finish in.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0047",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Tasks in a rate group must suspend on a scheduler API call at the top of their execution loop.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0048",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SIGNAL",
+    "text": "SIGNAL CODE EXCEPTION SIGBUS _EXC_OFF_MACH Machine check SIGBUS _EXC_OFF_INST Instruction access SIGBUS _EXC_OFF_ALIGN Alignment SIGILL _EXC_OFF_PROG Program SIGBUS _EXC_OFF_DATA Data access SIGFPE _EXC_OFF_FPU Floating point unavailable SIGTRAP _EXC_OFF_INST_BRK Instruction breakpoint SIGTRAP _EXC_OFF_TRACE Trace SIGILL _EXC_OFF_SYSCALL System call Upon the occurrence of an exception of either kind (hardware or software), the FCP shall [SRS172] make the error type available to the application, via an API service, for incorporation in the telemetry stream and include all context data relevant to the exception, namely the contents of the Machine State Register (MSR), and the machine status Save/Restore Registers (SRR0 & SRR1).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0049",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SIGILL",
+    "text": "The scheduler shall [SRS031] provide a mechanism for a task optionally to define a user written software-exception-handling routine that runs in the context of the task.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0050",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SIGILL",
+    "text": "For hardware exceptions and reserved exceptions, the FTSS shall [SRS276] make the error type and its context data available to the application, then return from the exception handler to the task that was running when the exception occurred.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0051",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SIGILL",
+    "text": "For software exceptions occurring within the FTSS, the FTSS shall [SRS277] make the error type and its context data available to the application, then restart the offending task at its beginning.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0052",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SIGILL",
+    "text": "For other software exceptions, regardless of whether or not a user written exception handling routine is invoked, if an exception occurs, the scheduler shall [SRS173], after making available the error type and context data to the application, resume processing (after the exception-handling routine runs, if provided) at the initialization point of the offending task.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0053",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SIGILL",
+    "text": "For software exceptions occurring during Startup, FTSS shall [SRS301] issue a VME reset to the FCR in which the exception occurred.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0054",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "\"Immediate\" message passing within a virtual group is not restricted to the highest rate group, but must be used carefully by the application to prevent desynchronization.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0055",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS047] provide \"synchronous\" message passing services in the form of \"message queues\".",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0056",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS048] provide \"immediate\" message passing services in the form of \"pipes\".",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0057",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS049] provide the capability to \"broadcast\" messages to all virtual groups.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0058",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS050] restrict the use of \"immediate\" message passing services between virtual groups (from FCP to ICP) to tasks running in the highest rate group on the FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0059",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS051] detect message passing between application tasks living on the same virtual group and bypass the usage of the network element.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0060",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS052] route messages to the proper virtual group(s) and socket.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0061",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS053] deliver messages in the same order at each member of a virtual group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0062",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS054] perform synchronous message passing at rate group frame boundaries.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0063",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS235] detect a babbling NE or ICP within 20 milliseconds of the receipt of the first erroneous packet.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0064",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS255] mask out a babbling NE or ICP within 40 milliseconds after it is detected.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0065",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Synchronous message passing sockets shall [SRS055] queue outgoing messages until they are transmitted at frame boundaries.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0066",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "If there is insufficient space to enqueue a message for transmission, Communication services shall [SRS059] return an error to the corresponding task.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0067",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS062] provide a message queue communication mechanism that guarantees message delivery between a sending and receiving task.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0068",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS063] provide an API for \"message queue\" communication.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0069",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS064] provide the following error handling information as feedback to the \"message queue\" API calls: notification of invalid or out of range application specified parameters on all operations, notification of an attempt to create a broadcast message queue, message queue \"open\" of end point ( SENDER/RECEIVER ) by non-assigned virtual group, message queue is full when performing a send operation, connection/transmission error, FTSS unable to create/open message queue, and notification that a received message was truncated to the buffer size provided.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0070",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS066] only allow a single task living on each specified virtual group to \"open\" the respective end of the queue.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0071",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS067] provide a \"pipe\" communication mechanism allowing immediate message passing through the network and allowing a 50hz FCP transfer task to poll until it can read an immediate message from the ICP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0072",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS068] provide an API for \"pipe\" communication.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0073",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS069] provide the capability to create \"pipe\"s which \"broadcast\" their messages to all virtual groups.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0074",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS070] provide the following error handling information as feedback to the \"pipe\" API calls: notification of invalid or out of range application specified parameters on all operations, notification of an attempt to create a broadcast pipe with an ICP as the sending virtual group, pipe \"open\" of end point ( SENDER/RECEIVER ) by non-assigned virtual group, notification upon receiving a message that the previous message was overwritten, connection/transmission error, FTSS unable to create/open pipe, and notification that a received message was truncated to the buffer size provided.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0075",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Communication services shall [SRS073] only allow a single task living on each specified virtual group to \"open\" the respective end of the pipe.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0076",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS software shall [SRS237] configure the FCP to act as the Radstone IBIT master, with the exception that the ICP on the NEFU is the master.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0077",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS260] configure each FCP to perform IBIT Minimum Processing Environment (MPE) Tests, Power-up Tests, and Initial BIT on each FCP, as shown inTable 3.2-2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0078",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS261] configure each FCP to halt processing if any of the MPE tests fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0079",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS262] configure each FCP to continue processing if any of the Power-up or Initial BIT tests fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0080",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "KIND OF TEST",
+    "text": "KIND OF TEST TEST NAME MPE Test Program Programmable Read Only Memory (PROM) Test MPE Test Flash BootROM Checksum Test MPE Test On-board Random Access Memory (RAM) Test MPE Test Universe Device Test Power-up Test Timebase & Decrementer Test Power-up Test System Input Output Industry Standard Architecture (ISA) Bridge Test Power-up Test Main RAM Test Power-up Test Counter/Timer and Parallel I/O CIO Timers Test Power-up Test PowerPC Cache Test (on-chip only) Power-up Test PowerPC Memory Management Unit (MMU) Test Power-up Test PowerPC Floating Point Unit (FPU) Test Power-up Test Boot Flash Test Power-up Test Hardware Register Test Initial BIT Universe Test on Power-up The FTSS shall [SRS287] configure each ICP to perform IBIT Minimum Processing Environment (MPE) Tests, Power-up Tests, and Initial BIT on each ICP, as shown inTable 3.2-3.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0081",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS288] configure each ICP to halt processing if any of the MPE tests fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0082",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS289] configure each ICP to continue processing if any of the Power-up or Initial BIT tests fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0083",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "(ICPs only) Initial BIT Universe Test on Power-up The FTSS shall [SRS264] configure each ICP/PMC1553 to perform IBIT MPE Tests and Initial BIT as shown in Table 3.2-4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0084",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS265] configure each ICP/PMC1553 to halt processing if any of the MPE tests fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0085",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS266] configure each ICP/PMC1553 to continue processing if any of the Initial BIT tests fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0086",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "KIND OF TEST",
+    "text": "KIND OF TEST TEST NAME MPE Electrically Erasable Programmable Read Only Memory (EEPROM) header contents check to meet the expected values MPE EEPROM checksum for correct contents (test code and data are valid) Initial BIT Advance Communications Engine (ACE) 0 existence test Initial BIT ACE 0 RAM Test Initial BIT ACE 0 Register Test Initial BIT ACE 0 Interrupt Test The FTSS shall [SRS267] configure each MPCC to perform MPE Tests as shown in Table 3.2-5.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0087",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "KIND OF TEST",
+    "text": "KIND OF TEST TEST NAME MPE Control and Status Register Test MPE Erasable PROM Checksum Test MPE Local RAM Test MPE 68020 Processor Test MPE Dual-port RAM Test When the IBIT is complete, the FTSS in the channels that are part of the fault masking group shall [SRS239] report the results of IBIT for all Radstone boards to the application software for telemetry.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0088",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "68020 Processor Test",
+    "text": "In IBIT failure cases that cause processing to halt, the failure shall [SRS269] be handled as described in Section 3.2.6.2, Recovery.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0089",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "68020 Processor Test",
+    "text": "FTSS shall [SRS290], in ICP and FCP IBIT failure cases that allow processing to continue, after saving the results of IBIT for reporting to the application, in the first minor frame after Startup or recovery, consider the FCR to be failed, and start performing recovery actions for the FCR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0090",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "68020 Processor Test",
+    "text": "Continuous BIT, in conjunction with Redundancy Management and Scheduler operations running in the 50 Hz rategroup after the application tasks, shall [SRS091] take less than 2 milliseconds under nominal no-fault conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0091",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "68020 Processor Test",
+    "text": "Continuous BIT, in conjunction with Redundancy Management and Scheduler operations running in the 50 Hz rategroup after the application tasks, shall [SRS183] take less than 3 milliseconds while processing faults.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0092",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "68020 Processor Test",
+    "text": "Continuous BIT shall [SRS093] execute on the FCP virtual group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0093",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "68020 Processor Test",
+    "text": "Continuous BIT shall [SRS094] reset the processor’s built-in watchdog timer at 50 Hz.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0094",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "68020 Processor Test",
+    "text": "Continuous BIT shall [SRS095] exercise the presence test at 50 Hz to ensure that all processors in the FCP virtual group are synchronized.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0095",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "68020 Processor Test",
+    "text": "The presence test shall [SRS184] also ascertain that all processors are executing the same 50 Hz, 10 Hz and 1 Hz frames.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0096",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Continuous BIT shall [SRS096] diagnose the faulty FCR within 1 second after detecting a failure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0097",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Continuous BIT shall [SRS097] detect a failed ICP processor by detecting the absence of a periodic message for 2 consecutive minor cycles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0098",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Continuous BIT shall [SRS098] report all diagnosed failures and recovery actions to the application for incorporation in the telemetry stream.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0099",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "RAM Scrub RAM scrub shall [SRS043] actively trigger the EDAC function by cyclically reading (and writing back if an error is found) all used RAM.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0100",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "RAM scrub shall [SRS044] report detected errors to the application, congruently on all channels, via an API service for inclusion in the telemetry stream.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0101",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "RAM scrub shall [SRS187] be capable of scrubbing at least 10 megabytes every 8 minutes, given at least 1% of the CPU is available for this processing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0102",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "RAM scrub shall [SRS275] not scrub the area used for telemetry data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0103",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS099] provide an API call to enable the application to retrieve the health status of the processors, network elements, network element links, MPCCs, and ICP controlled interfaces.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0104",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS100] provide an API call to enable the application to request that the FTSS RM software initiate a voted reset of a channel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0105",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS201] be able to accommodate power up of all 5 channels and maintain all 5 NEs active, assuming no failures.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0106",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS101] define an initial mapping of physical hardware to virtual group identifiers consisting of 1 quadruplex FCP virtual group and 5 ICP simplexes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0107",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "If an FCR is diagnosed as faulty during Startup, Redundancy Management shall [SRS102] exclude the FCP in the faulty channel from the initial FCP virtual group configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0108",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Figure STYLEREF 1 \\s 3‑ SEQ Figure \\* ARABIC \\s 1 2 Fault-down Map Redundancy Management shall [SRS104] implement the following strategies to reconfigure hardware resources: degrade the FCP virtual group, re-integrate an FCP processor into the FCP virtual group, re-integrate a Network Element, or mask a Network Element.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0109",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "When the FCP virtual group is configured as a quadruplex and a failed FCR other than the NEFU has been diagnosed, Redundancy Management shall [SRS106] degrade the FCP virtual group to triplex, removing the FCR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0110",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "When the FCP virtual group is configured as a triplex, and if the NEFU is still active (4 NEs active total), and a failed FCR other than the NEFU has been diagnosed, Redundancy Management shall [SRS282] degrade the FCP virtual group to degraded triplex, removing the FCR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0111",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "If the FCP is configured as a triplex, and if the NEFU is not still active (3 NEs active total), and another failure in the FCP FCR is diagnosed, Redundancy Management shall [SRS284] mask out the processors on the failed FCR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0112",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "If a failure in an FCR other than the NEFU is diagnosed when the FCP is configured as a degraded triplex, no action shall [SRS254] be taken.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0113",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "For the NEFU, if the first failure is diagnosed, Redundancy Management shall [SRS245] issue a configuration update to mask out the failed processor.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0114",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "For the NEFU, if errors are identified after the processor has been masked out, and if at least 4 NEs are still active, the NE shall [SRS283] be removed from the configuration and recovery will be attempted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0115",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "If the configuration needs to be changed due to a fault, as specified above, Redundancy Management shall [SRS128] issue a configuration update to mask out the failed network element.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0116",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS109] degrade the FCP virtual group within 3 minor frames of fault detection and isolation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0117",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Recovery consists of the following steps: Redundancy Management shall [SRS204] issue a voted reset to the failed channel, if alignment is permitted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0118",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "(Note that NEFU recovery does not depend on whether alignment is permitted.) Redundancy Management shall [SRS129] initiate transient NE recovery to restore Byzantine-resilient communications, if alignment is permitted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0119",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "(Note that NEFU recovery does not depend on whether alignment is permitted.) Redundancy Management shall [SRS110] reintegrate a failed FCP processor with the FCP virtual group when alignment is permitted and when the processor failure is not permanent.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0120",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "From the time that the FCR failure has been identified, if the components of the FCR are recoverable and alignment is permitted, to the time the FCR is recovered, shall [SRS205] be no more than 1.5 minutes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0121",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS208], within 60 milliseconds after 1.5 minutes has elapsed since the voted reset was sent to the failed channel, if the voted reset fails to recover the failed channel and alignment is still allowed, request from the application a power cycle of the channel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0122",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "(Note that NEFU recovery does not depend on whether alignment is permitted.) Redundancy Management shall [SRS209], within 60 milliseconds after 1.5 minutes has elapsed since the first power cycle request, if the FCR has not been recovered and alignment is still allowed, issue another request to the application for a power cycle of the channel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0123",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "(Note that NEFU recovery does not depend on whether alignment is permitted.) Redundancy Management shall [SRS211], if power cycle requests fail to result in a recovered channel, request the application to power down the channel and declare the channel to be permanently failed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0124",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The application software shall [SRS285] have the capability to reset a permanently failed channel to its initial recovery state.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0125",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS117] reintegrate a processor that is temporarily disabled during a time when alignment was not permitted, when alignment is subsequently permitted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0126",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "An API call shall [SRS274] be provided that allows the application to notify FTSS that an FCR is intentionally being powered down.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0127",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS302] provide an API call to allow the application to specify whether recovery and alignment of failed FCRs is permitted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0128",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "While synchronization is being attempted, the FCP virtual group shall [SRS123] maintain synchronous operations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0129",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Only when memory alignment is permitted, Redundancy Management shall [SRS124] initiate periodic re-synchronization attempts on the FCP virtual group at a 1 second rate.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0130",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS125] perform memory alignment on a major frame boundary upon successful synchronization of all members of the FCP virtual group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0131",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS281], during memory alignment, configure the NE to mask out the processor being re-synchronized.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0132",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS271] notify the application that alignment and reintegration of a processor will take place in 1 second.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0133",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS272] wait for the ICP to signal that it has completed initialization before suspending the application for memory re-alignment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0134",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "During alignment, Redundancy Management shall [SRS126] update MET (and, by extension, SEP).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0135",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS214], if alignment is permitted, incorporate a new channel within 1.5 minutes after power is applied to the channel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0136",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Redundancy Management shall [SRS236], if alignment is permitted, serially incorporate two new channels if they are powered on simultaneously.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0137",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Data Management Three types of memory are defined: Congruent aligned - always aligned Congruent initialized - initialized from nonvolatile memory Non-congruent - never aligned The FTSS API shall [SRS046] define a methodology for segregating and managing congruent aligned, congruent initialized, and non-congruent memory such that congruent aligned memory is aligned and congruent initialized memory is initialized during channel recovery.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0138",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS API shall [SRS217] specify a memory map that provides the boundaries for congruent aligned memory, congruent initialized memory, and non-congruent memory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0139",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Memory alignment shall [SRS045] align processor state and congruent aligned memory locations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0140",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The re-align function shall [SRS186] write the voted value from the currently synchronized channels into the target channel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0141",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS200] initialize congruent initialized memory locations from non-volatile memory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0142",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Memory alignment shall [SRS203] take no more than 1 second per Megabyte of data to be realigned.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0143",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FCP watchdog timer shall [SRS293] remain active during memory re-alignment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0144",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Memory alignment shall [SRS294] reset the watchdog timer such that, in the absence of a fault, the timer never expires and resets the processor.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0145",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Time Services Time Services shall [SRS142] provide Mission Elapsed Time and Separation Elapsed Time, with resolution partitioned as follows according to rate group, in order to guarantee identical copies of time representation across all FCPs: 50 Hz Mission Elapsed Time 20 milliseconds, 10 Hz Mission Elapsed Time 100 milliseconds, 1 Hz Mission Elapsed Time 1 second, 50 Hz Separation Elapsed Time 20 milliseconds, 10 Hz Separation Elapsed Time 100 milliseconds, and 1 Hz Separation Elapsed Time 1 second.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0146",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "The Mission Elapsed Time shall [SRS218] have a drift rate of at worst 50 PPM.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0147",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "The Mission Elapsed Time shall [SRS144] not rollover for 30 days.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0148",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "The Separation Elapsed Time shall [SRS145] not rollover for 1 day.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0149",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "The Mission Elapsed Time shall [SRS165] be initialized to zero at the first 50 Hz frame.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0150",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "The Separation Elapsed Time shall [SRS161] be initialized to zero at startup, and start counting up in the next frame after being notified via an API call that the X-38 vehicle has been released from the Space Shuttle Remote Manipulator System.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0151",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "The Separation Elapsed Time shall [SRS219] have a drift rate of at worst 50 PPM.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0152",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "Time Services shall [SRS246] provide a utility timer to the application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0153",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "Note that this timer is not voted, and must be assigned to a variable defined using non-congruent memory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0154",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "The utility timer shall [SRS247] have an accuracy equal to or better than 50 PPM.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0155",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "The utility timer shall [SRS256] have a resolution equal to or better than 60.6 nanoseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0156",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "The utility timer shall [SRS248] shall be set to zero prior to the first application task running in the first minor frame of each major frame.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0157",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "1 Hz Separation Elapsed Time\t1 second.",
+    "text": "System Support Services CTC Requirements If transmission status indicates an error in telemetry and/or remote commanding operations 10 consecutive times, the following actions shall [SRS298] be taken: Support Services shall [SRS299] switch to the redundant MPCC device to continue telemetry and/or remote commanding operations.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0158",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Support Services shall [SRS242] continue to close and reopen a faulty MPCC device until status shows that the device has recovered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0159",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "In all error cases, Support Services shall [SRS222] attempt to choose an error-free FCC-MPCC path, switching back and forth between channels if necessary.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0160",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Support Services shall [SRS286] provide an API call which allows the application to specify which MPCC channels in a C&T FCR should be used for telemetry and/or command reception.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0161",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The telemetry capability shall [SRS148] be capable of transferring 12,800 bytes within the 10 Hz frame from the FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0162",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The telemetry capability shall [SRS149] transfer the telemetry block from the FCP to the FCC-MPCC connected to the CTC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0163",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The telemetry capability shall [SRS150] signal the FCC-MPCC to transfer the telemetry block to the CTC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0164",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The telemetry capability shall [SRS300] provide status data to FTSS FDI about each FCC-MPCC RS-422 link to the CTC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0165",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Support Services shall [SRS151] provide an API call to specify the address and length of a telemetry buffer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0166",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Support Services shall [SRS257] use no more than 5.2 milliseconds of FCP processing time to move the telemetry data to the FCC-MPCC board and complete communication and error handling for the FCC-MPCC board.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0167",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Command Read Requirements The Command Read capability shall [SRS152] check for the presence of a command and status message from each CTC on each FCC-MPCC at 10hz.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0168",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The Command Read capability on each FCP shall [SRS153] read the command data received from each CTC via the FCC-MPCC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0169",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS304] provide status data to the application about each FCC-MPCC RS-422 link to the CTC used for command data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0170",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Support Services shall [SRS156] provide an API call to provide the current command data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0171",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Power Down Services FTSS shall [SRS249] provide an API call which closes and deletes all rate groups, deletes all communication mechanisms (including any internal to FTSS), and then deletes all tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0172",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "API/FTSS Interfaces The Application Programmer’s Interface (API) to Fault Tolerant System Services (FTSS) shall [SRS164] be as defined in the Application Programmer’s Interface, Draper Document #297752.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0173",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Computer Resource Requirements Computer Hardware Requirements The FTSS shall [SRS158] execute on the Radstone Power PC 604R.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0174",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Computer Hardware Resource Utilization Requirements The FTSS software and the VxWorks operating system, together shall [SRS193] utilize no more than 3 megabytes of ROM.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0175",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The largest single block of data transmitted on the VME Bus by the FTSS shall [SRS223] transmit in no longer than 100 microseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0176",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "All FTSS data provided for telemetry (as specified in the requirements) shall [SRS250] fit within the allocated budget of 5000 bits per second.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0177",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "In addition, the FTSS software shall [SRS280] provide up to 600 bits of start-up data that indicates the state of the FTPP system during start-up.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0178",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Computer Software Requirements The FTSS software shall [SRS159] be written in the C programming language.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0179",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS160] use the VxWorks Operating System version 5.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0180",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS software and the VxWorks operating system shall [SRS258] utilize no more than 9 Megabytes of DRAM code and data space.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0181",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Of the 9 Megabytes of DRAM allocation, only 4 Megabytes of FTSS/VxWork’s DRAM shall [SRS259] be re-aligned during any re-alignment attempts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0182",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS253] be compiled, linked and downloaded using Tornado 2 for the NT environment prior to delivery, for all engineering and formal releases.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0183",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS object modules linked to the application on the four FCPs shall [SRS166] be identical.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0184",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "After initial synchronization, the FCPs shall [SRS168] remain synchronized until a hardware fault occurs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0185",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "ICP Services FTSS shall [SRS303] provide an API call to allow the ICP application to determine on which channel it resides.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0186",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS225] provide an API call to allow applications to send a status message to FDIR running on the FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0187",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS226] provide \"immediate\" message passing services in the form of \"pipes\".",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0188",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS227] route messages to the proper virtual group(s) and socket.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0189",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "If there is insufficient space to enqueue a message for transmission, FTSS shall [SRS228] return an error to the corresponding task.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0190",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS229] provide the following error handling information as feedback to the \"pipe\" API calls: notification of invalid or out of range application specified parameters on all operations, pipe \"open\" of end point ( SENDER/RECEIVER ) by non-assigned virtual group, notification upon receiving a message that the previous message was overwritten, connection/transmission error, FTSS unable to create/open pipe, and notification that a received message was truncated to the buffer size provided.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0191",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "FTSS shall [SRS230] only allow a single task residing on each specified virtual group to \"open\" the respective end of the pipe.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0192",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The presence or absence of an NEFU ICP shall [SRS220] not impact the FTSS software (i.e.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0193",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS231] provide an API call to retrieve the current minor frame number sent from the FCP over the VME interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0194",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS232] provide an API call to retrieve the current MET value sent from the FCP over the VME interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0195",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS233] provide an API call to retrieve the current SEP value sent from the FCP over the VME interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0196",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "The FTSS shall [SRS295] notify the application on the ICP, via an API call, 2 minor frames prior to an alignment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0197",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Packaging Requirements FTSS deliveries shall [SRS252] be made using CD ROM media.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0198",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "REQUIREMENTS TRACEABILITY",
+    "text": "FTPP Section # FTPP Section Name FTPP Requirement SRS Req #s 3.1 FTPP System Requirements Each FTPP shall (3.1.1) consist of five (5) NEs (one for each FCC and one for the NEFU) and FTSS software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0199",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "REQUIREMENTS TRACEABILITY",
+    "text": "NA 3.1 FTPP System Requirements For the FTPP system (5 NEs per flight system), the contractor shall (3.1.2) deliver the following end products: NA 3.1 FTPP System Requirements The FTPP spare hardware shall (3.1.28) include one (1) radiation hardened FTPP set (5 NEs) and three (3) individual NEs including all optical connects, cables, and required accessories which are flight certified to meet the requirements specified herein for the X-38 space flight vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0200",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "NA 3.1 FTPP System Requirements The contractor shall (3.1.3) develop a preliminary design for the FTPP Architecture.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0201",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "NA 3.1 FTPP System Requirements This system shall (3.1.4) provide real time redundancy and fault tolerance among the four FCCs and the NEFU.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0202",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS043, SRS091, SRS093, SRS094, SRS095, SRS096, SRS102, SRS104, SRS106, SRS109, SRS128, SRS183, SRS184, SRS187, SRS235, SRS282, SRS283 3.1 FTPP System Requirements The FTPP system shall not (3.1.5) solely exceed these timing requirement budgets.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0203",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS034, SRS035 3.1 FTPP System Requirements In the presence of a maximum 2.5 second power-on skew, the FTPP system shall (3.1.6) be capable of completing FCC system power-up and initialization without synchronization errors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0204",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS008",
+    "text": "SRS008 3.1 FTPP System Requirements Following power being applied to all five chassis, the FTPP system shall (3.1.7) become operational in at most 1.5 minutes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0205",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS015",
+    "text": "SRS015 3.1 FTPP System Requirements The FTPP shall (3.1.26) detect a babbling NE or ICP within 20 milliseconds of the receipt of the first erroneous packet.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0206",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS235",
+    "text": "SRS235 3.1 FTPP System Requirements The FTPP shall (3.1.27) recover from a babbling NE or ICP within 40 milliseconds after it is detected.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0207",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS255",
+    "text": "SRS255 3.1 FTPP System Requirements An exchange of a single packet of data from an ICP to the FCPs via the NE shall (3.1.8) take no longer than 200 microseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0208",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS255",
+    "text": "hw 3.1 FTPP System Requirements An exchange and broadcast of a single packet of data from the FCPs to the ICPs and the FCPs via the NE shall (3.1.9) take no longer than 150 microseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0209",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS255",
+    "text": "A packet size is assumed to be 60 bytes hw 3.1 FTPP System Requirements Under no fault conditions, after initial power on, the FTPP system shall (3.1.10) create six Virtual Groups (VGs), a fault masking FCP, and the five ICPs, and enter the data in the NE Configuration Table (CT).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0210",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS255",
+    "text": "SRS101, SRS296 3.1 FTPP System Requirements From the time that the NE failure has been identified, and the NE is recoverable, to the time the NE is recovered shall (3.1.11) be no more than 1.5 minutes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0211",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS205",
+    "text": "SRS205 3.1 FTPP System Requirements The FTPP shall (3.1.12) be capable of restoring a corrected faulty computer into the flight critical computer set.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0212",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS205",
+    "text": "SRS124, SRS214 3.1 FTPP System Requirements The FTPP shall (3.1.14) take no more than 1 second per Megabyte of data to be realigned.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0213",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS203",
+    "text": "SRS203 3.1 FTPP System Requirements The failed channel, provided it is recoverable, shall (3.1.15) be recovered in less than 1.5 minutes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0214",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS205",
+    "text": "SRS205 3.1 FTPP System Requirements The FTPP voting implementation shall (3.1.16) isolate and remove a faulty computer from the flight critical computer set within 60 milliseconds, once the fault has manifested itself.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0215",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS109",
+    "text": "SRS109 3.1 FTPP System Requirements The FTPP system shall (3.1.17) be two fault tolerant for any two non-simultaneous hardware faults through out all phases of the X-38 mission (i.e., from power on to power off, without degradation).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0216",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS109",
+    "text": "SRS043, SRS091, SRS093, SRS094, SRS095, SRS096, SRS102, SRS104, SRS106, SRS109, SRS128, SRS183, SRS184, SRS187 SRS235, SRS282, SRS283, SRS281 3.1 FTPP System Requirements The FTPP system shall (3.1.18) be capable of powering up and operating with any combination of 3 of the 5 FCR's active.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0217",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS109",
+    "text": "SRS010, SRS102 3.1 FTPP System Requirements The FTPP system shall (3.1.19) be able to accommodate power up of all 5 channels and maintain all 5 NEs active, assuming no failures.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0218",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS201",
+    "text": "SRS201 3.1 FTPP System Requirements The FTPP system shall (3.1.20) incorporate additional channels in the active set as they are powered-on by the application software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0219",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS201",
+    "text": "SRS124, SRS125, SRS126, SRS214 3.1 FTPP System Requirements After the initial power-up of only two FCRs and the NEFU, the FTPP system shall (3.1.25) be able to incorporate two more FCRs, upon their simultaneous or separate power-up.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0220",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS236",
+    "text": "SRS236 3.1 FTPP System Requirements The FTPP system shall (3.1.21) monitor for the presence of new channels at a 1 Hz periodic rate.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0221",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS124",
+    "text": "SRS124 3.1 FTPP System Requirements All healthy FCRs shall (3.1.22) be incorporated as they become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0222",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS124",
+    "text": "SRS125, SRS126, SRS214 3.1 FTPP System Requirements All FCP processing channels (up to 4) shall (3.1.23) be incorporated into the FCP virtual group as they become available, provided that recovery and memory alignment is allowed by the application software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0223",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS124",
+    "text": "SRS123, SRS124, SRS125, SRS126, SRS214 3.1 FTPP System Requirements When memory realignment is not permitted, the FTPP system shall (3.1.24) maintain, at a minimum, 3 channels of I/O or 2 channels of I/O and the NEFU.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0224",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS254",
+    "text": "SRS254 3.2.1 Network Element Addressing Convention The FCC hardware shall (3.2.1.1) use 3-digit binary numbers as outlined above for both addresses.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0225",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS254",
+    "text": "hw 3.2.2.1 Data Exchange Primitives The X-38 NE shall (3.2.2.1.1) provide four types of data exchange primitives as described below, in accordance with the Byzantine-resilient replicated determinism requirements described in [1].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0226",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS254",
+    "text": "(Class 0, 1, 2, Broadcast) hw 3.2.2.2 Configuration Table Updates The NE shall (3.2.2.2.1) keep track of the grouping of physical processors into virtual groups.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0227",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS254",
+    "text": "hw 3.2.2.2 Configuration Table Updates The CT shall (3.2.2.2.2) also contain time-outs and vote masks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0228",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.2 Configuration Table Updates It shall (3.2.2.2.3) be possible to modify the CT whenever any of this information is changed by using a CT update primitive in a synchronous and atomic manner.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0229",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.3 Initial Synchronization (ISYNC) The NE shall (3.2.2.3.1) be configured to automatically enter ISYNC microcode following power on.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0230",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.3 Initial Synchronization (ISYNC) The NE shall (3.2.2.3.2) start transmitting a sync message using class 2 exchanges once 3 fault tolerant clocks have synchronized, thus enabling inter-NE data exchanges.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0231",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.3 Initial Synchronization (ISYNC) A time-out period shall (3.2.2.3.3) be started when 3 NEs have joined in.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0232",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.3 Initial Synchronization (ISYNC) The ISYNC procedure shall (3.2.2.3.4) terminate when all 5 NEs are synchronized, four NEs are synchronized (when only four NEs are powered), or after the time-out period.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0233",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.3 Initial Synchronization (ISYNC) The NE microcode shall (3.2.2.3.6) initialize the time-outs and vote masks in the NE CT using values stored in the NE.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0234",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.3 Initial Synchronization (ISYNC) The maximum time-out value shall (3.2.2.3.7) be 327.68 microseconds (256 counts of the least significant bit of the fault tolerant clock which is 1.28 microseconds).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0235",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) An NE that fails to synchronize with other NEs during ISYNC after a pre-defined time-out period shall (3.2.2.4.1) then enter TNR microcode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0236",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) An NE shall (3.2.2.4.12) directly enter TNR microcode after a voted reset or an NE watchdog timer reset.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0237",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) It shall (3.2.2.4.2) stay in TNR mode indefinitely until a successful TNR exchange is observed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0238",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) The operational NEs shall (3.2.2.4.3) enter a \"working group\" TNR routine when the FCPs request to send a TNR packet.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0239",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) If no new NE is observed, the functioning NEs shall (3.2.2.4.6) return to the operational mode within 500 microseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0240",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) If there is a new NE, the state of the reintegrated NE shall (3.2.2.4.13) be made congruent with the state of the operational NEs as follows.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0241",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) The Configuration Table shall (3.2.2.4.7) be exchanged and voted into the newly recovered NE.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0242",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) Time-outs in the scoreboard shall (3.2.2.4.8) be aligned by resetting all time-outs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0243",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) The global synchronous timer shall (3.2.2.4.9) be realigned by exchanging and voting the timer value.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0244",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.4 Transient NE Recovery (TNR) Provided the failed NE is in a recoverable state, recovery of a failed NE shall (3.2.2.4.11) take no longer than 500 microseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0245",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.5 Voted Resets There shall (3.2.2.5.1) be built-in support on the NE for voted resets, including a special packet type for executing the primitive.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0246",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.5 Voted Resets The NE shall (3.2.2.5.3) provide the capability to perform a voted VME bus reset.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0247",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports The NE shall (3.2.2.6.1) place error syndromes in the input information block whenever a packet is successfully delivered to the FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0248",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports The NE syndromes shall (3.2.2.6.2) be located in the second longword of the input information block buffer cell.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0249",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports The NE syndromes shall (3.2.2.6.3) include indications of vote errors, fault-tolerant clock synchronization errors, and fiber-optic link errors, as detailed below.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0250",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports Each syndrome shall (3.2.2.6.4) represent an occurrence of the indicated error at some time between delivery of the previous packet and delivery of the current packet.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0251",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports The scoreboard syndromes shall (3.2.2.6.5) be located in the third longword of the input information block buffer cell.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0252",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports They shall (3.2.2.6.6) include indications of scoreboard vote errors, Output Buffer Not Empty (OBNE) time-outs, and Input Buffer Not Full (IBNF) time-outs, as follows.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0253",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports When a majority, but not a unanimity, of FCP members are observed with packets in their output buffers, a time-out shall (3.2.2.6.7) be initiated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0254",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports If the time-out expires before the other members transmit the packet, the remaining member shall (3.2.2.6.8) be ignored, the packet exchanged, and an OBNE time-out recorded.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0255",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports When a majority, but not a unanimity, of FCP members are observed with room in their input buffers, a time-out shall (3.2.2.6.15) be initiated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0256",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.6 Error Syndrome Reports If the time-out expires before the other members have room in their input buffers, any member without room in their input buffer shall (3.2.2.6.16) be ignored, the packet exchanged, and an IBNF time-out recorded.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0257",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.7 Timestamps The NE shall (3.2.2.7.1) place a timestamp in the input information block of each packet successfully delivered to an FCP or ICP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0258",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.7 Timestamps The timestamps shall (3.2.2.7.2) be congruent across all members of the destination FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0259",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.7 Timestamps The timestamps shall (3.2.2.7.3) also be congruent across all active processors in the case of a broadcast.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0260",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.7 Timestamps The timestamp shall (3.2.2.7.4) be a 32-bit quantity that indicates relative time within the FCC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0261",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.7 Timestamps The resolution of the timestamp shall (3.2.2.7.5) be 1.28 microseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0262",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.7 Timestamps When the timestamp counter reaches the maximum value (Hex FFFFFFFF or approximately 5500 seconds), it shall (3.2.2.7.6) wrap around to zero.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0263",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.7 Timestamps The timestamp counter shall (3.2.2.7.7) be initialized to zero during ISYNC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0264",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.7 Timestamps The counter shall (3.2.2.7.8) increase monotonically after that, except during TNR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0265",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.7 Timestamps The timestamps shall (3.2.2.7.9) be frozen during TNR until the realignment is complete.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0266",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.8 Debug Commands The NE shall (3.2.2.8.1) implement in microcode support commands to aid in debugging new NEs and for performing stand-alone diagnostics and self-tests.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0267",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.2.8 Debug Commands As a minimum, the following diagnostic functionality shall (3.2.2.8.2) be supported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0268",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "Timestamp test hw 3.2.3.1.1 Prototype NE Physical Characteristics The prototype NE shall (3.2.3.1.1.1) reside on a single commercial grade 6U VME board.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0269",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.1 Prototype NE Physical Characteristics The prototype NE shall (3.2.3.1.1.2) dissipate no more than 35 Watts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0270",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.1 Prototype NE Physical Characteristics The operating temperature range for the prototype NEs shall (3.2.3.1.1.3) be from 0 to 32.2º C at the inlet to the cooling fans.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0271",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.1 Prototype NE Physical Characteristics The storage temperature range shall (3.2.3.1.1.4) be from - 30º to + 60º C.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0272",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.1 Prototype NE Physical Characteristics The prototype NEs shall (3.2.3.1.1.5) use convection cooling.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0273",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.1 Prototype NE Physical Characteristics The prototype NE shall (3.2.3.1.1.6) be fabricated using commercial grade components.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0274",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Each flight NE shall (3.2.3.1.2.1) reside on a single ruggedized, wedge-locked, conduction-cooled 6U VME board.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0275",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics It shall (3.2.3.1.2.2) be able to be installed in an Air Transportable Rack (ATR) Chassis with .8 pitch spacing card slots.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0276",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics The conduction-cooled boards’ mechanical core shall (3.2.3.1.2.3) be designed in accordance with IEEE 1101.2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0277",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Power de-coupling mechanisms shall (3.2.3.1.2.4) be designed into the NE.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0278",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Backplane connector form factors shall (3.2.3.1.2.5) be in accordance with the VME64 with extensions (5 row P1 and P2) draft standard.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0279",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Connector P2 shall (3.2.3.1.2.6) have all pins in row z connected to ground;Row d pins 1 through 31 connected to ground and row d pin 32 connected to +5 VDC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0280",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Connector P1 shall (3.2.3.1.2.7) have Row z pins 1 through 32 connected to ground, row d pins 1 and 32 connected to +5 VDC, row d pins 2 through 31 connected to ground with the exception of pins 3 through 8, pins 12, 14, 16, 18, 20, 22, 24, 26, 28, and 30 which will not be connected.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0281",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Connector P1 pins 1 and 32 of row d shall (3.2.3.1.2.8) be connected to +5V.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0282",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics The inter-NE communications shall (3.2.3.1.2.9) be through fiber.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0283",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Test points shall (3.2.3.1.2.10) be made available at the P2 connector for examining the operational status of the NE.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0284",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Each flight NE shall (3.2.3.1.2.11) dissipate no more than 35 Watts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0285",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Each flight NE shall (3.2.3.1.2.12) be conduction-cooled.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0286",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Flight hardware shall (3.2.3.1.2.13) be fabricated using radiation-hardened and/or radiation tolerant components.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0287",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.2 Flight NE Physical Characteristics Fabrication and assembly of the boards shall (3.2.3.1.2.14) meet NAS 5300.4(3L), NAS 5300.4(3J-1), NHB5300.4(3A-2), IPC 275, IPC 6011, IPC 6012 and GSFC-S-312-P-003.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0288",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3 Flight NE Environmental Qualification Conditions The flight NE shall (3.2.3.1.3.1) be capable of meeting all performance requirements specified herein during and after exposure to the environmental service conditions specified herein.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0289",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3 Flight NE Environmental Qualification Conditions The flight NE shall (3.2.3.1.3.2) be designed and constructed so that no part of any component shifts in setting, position, or adjustment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0290",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3 Flight NE Environmental Qualification Conditions No degradation shall (3.2.3.1.3.3) be caused in the performance that is specified in Subsections 3.2.3.1.3.1 through 3.2.3.1.3.11 hw 3.2.3.1.3.1 Temperature The flight NE shall (3.2.3.1.3.1.1) meet the following temperature requirement while operating, 32 F to 149 F (0 C to 65 C) at the card edge.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0291",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.1 Temperature The NE shall (3.2.3.1.3.1.2) operate with a worst case card edge thermal interface temperature of +65 °C for greater than 10 hours.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0292",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.1 Temperature The storage (i.e., non-operating) temperature range for the flight NE shall (3.2.3.1.3.1.3) be from -30 °C to 60 °C.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0293",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.1 Temperature For qualification testing, the flight NE shall (3.2.3.1.3.1.4) meet the following temperature requirement while operating, 12 F to 152 F (-11 C to 66.7 C) at the card edge.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0294",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.2 Vibration The flight NE shall (3.2.3.1.3.2.1) be capable of complying with all of the performance specified herein while not operating during all specified levels.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0295",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.2.1 Random Vibration The flight NE shall (3.2.3.1.3.2.1.1) be capable of withstanding the following environment in non-operational mode: Frequency, Hz Qualification Level g2/Hz 20 0.026 20-50 +3 dB/Octave 50-800 0.16 800-2000 -3 dB/Octave 2000 0.026 hw 3.2.3.1.3.2.1 Random Vibration For qualification testing, the sweep time per axis shall (3.2.3.1.3.2.1.2) be 3 minutes, 14.1 g-rms overall.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0296",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.2.1 Random Vibration The flight NE shall (3.2.3.1.3.2.1.3) be non operating during the application of this vibration in all axes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0297",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.3 Ionization Radiation The flight NE shall (3.2.3.1.3.3.1) be designed to be capable of complying with all the performance requirements specified herein while being subjected to the total dose, single event upset and latchup immune requirements in SSP 30512 Rev.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0298",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.3 Ionization Radiation All radiation test results shall (3.2.3.1.3.3.7) be characterized and documented.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0299",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.4 Shock (Non-operating) The flight NE shall (3.2.3.1.3.4.1) be designed to be capable of complying with all the performance requirements specified herein after being subjected to a total of six impact shocks, consisting of six shocks (one in each opposite direction) along each of three orthogonal axes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0300",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.4 Shock (Non-operating) The waveform and amplitude of the shock pulses shall (3.2.3.1.3.4.2) be sawtooth shock pulse 20g peak, 11 milliseconds nominal duration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0301",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.5 Humidity The flight NE shall (3.2.3.1.3.5.1) be designed to comply with all of the performance requirements specified herein while withstanding the effects of up to 90% relative humidity, non condensing while operating.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0302",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.6 Pressure The flight NE shall (3.2.3.1.3.6.1) be designed to be capable of complying with all the performance requirements specified herein while non-operating in an atmosphere of 8 to 18 Psia.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0303",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.8 Electromagnetic Radiation The flight NE shall (3.2.3.1.3.8.1) be designed to be electromagnetically compatible with the Radstone Power PC 604R hw 3.2.3.1.3.10.1 MTBF The design, manufacturing, and radiation environment composite failure rate/Mean Time Between Failures (MTBFs) of the flight NE shall (3.2.3.1.3.10.1.1) be predicted using techniques in MIL-HDBK 217 or other commonly accepted procedures.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0304",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.10.2 Operational Service Life The useful operating service life shall (3.2.3.1.3.10.2.1) be a minimum of 30,000 hours.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0305",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.10.2 Operational Service Life The useful operating life shall (3.2.3.1.3.10.2.2) be determined by analysis and presented at the critical design review.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0306",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.10.3 Storage Life The flight NE storage life shall (3.2.3.1.3.10.3.1) be 5 years or better.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0307",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.12.1 Temperature Range For acceptance testing, the flight NE shall (3.2.3.1.3.12.1.3) meet the following temperature requirement while operating, 32 F to 132 F (0 C to 55.6 C) at the card edge.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0308",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.1.3.12.2 Random Vibration Requirements The ESS random vibration Power Spectral Density for the flight NE shall (3.2.3.1.3.12.2.1) be as follows: Total 10.8 grms …[ Frequency, Hz Level g2/Hz 20 0.015 20-50 +3 dB/Octave 50-800 0.09 800-2000 -3 dB/Octave 2000 0.015 hw 3.2.3.2 Operational Characteristics The X-38 NE shall (3.2.3.2.1) be able to communicate with 4 other NEs.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0309",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.2 Operational Characteristics The NE shall (3.2.3.2.2) support at least two physical processors per FCR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0310",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.2 Operational Characteristics The NE shall (3.2.3.2.3) support at least 6 virtual groups.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0311",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.2 Operational Characteristics The NE shall (3.2.3.2.5) support class 1 and class 2 bandwidth of at least 1 Mbyte/sec.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0312",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.2 Operational Characteristics The skew between NEs, measured at delivery of messages to dual-port RAM accessible by the processors via the VME bus, shall (3.2.3.2.6) be no more than 100 nsecs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0313",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.2.3.2 Operational Characteristics The NEs shall (3.2.3.2.7) be able to achieve phase-locked synchronization of the fault-tolerant clocks in less than 5 milliseconds from the time the last FCC powered up and exited the reset state hw 3.2.4 Miscellaneous NE Requirements The contractor shall (3.2.4.1) maintain a product identification and tracking system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0314",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "NA 3.2.4 Miscellaneous NE Requirements Each NE and flight cable assembly shall (3.2.4.2) be identified by a part or type number and a unique serial number, consistent with the configuration management system and the specification for the contract.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0315",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "NA 3.2.5 Network Element Fifth Unit (NEFU) Requirements The presence, or absence of, an NEFU ICP shall (3.2.5.2) not impact the NE firmware (i.e., the NE firmware will not be different).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0316",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "hw 3.3.1 Programming Language and Operating System [2] Fault Tolerant System Services (FTSS) software shall (3.3.1.1) use VxWorks Version 5.4 as the Operating System.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0317",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS160",
+    "text": "SRS160 3.3.1 Programming Language and Operating System [2] The software shall (3.3.1.2) be written in the C programming language, with the exception of the system loader software which may be written in scripts, and operate on a PowerPC 604R.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0318",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS160",
+    "text": "SRS158, SRS159 3.3.1 Programming Language and Operating System [2] The FTSS software and the VxWorks operating system, together, shall (3.3.1.3) take up no more than 3 Megabytes of ROM, when loaded into FCP or ICP memory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0319",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS193",
+    "text": "SRS193 3.3.1 Programming Language and Operating System [2] The FTSS software and the VxWorks operating system shall (3.3.1.4) utilize no more than 9 Megabytes of DRAM code and data space.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0320",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS258",
+    "text": "SRS258 3.3.1 Programming Language and Operating System [2] Of the 9 Megabytes of DRAM allocation, only 4 Megabytes of FTSS/VxWork’s DRAM shall (3.3.1.5) be re-aligned during any re-alignment attempts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0321",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS259",
+    "text": "SRS259 3.3.2 Start Up Upon CPU reset caused by power on, watchdog timer or by other means, Start Up shall (3.3.2.1) execute the initial BIT (IBIT).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0322",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS237",
+    "text": "SRS237 3.3.2 Start Up After successfully completing IBIT, the software shall (3.3.2.3) continue with the initialization of VxWorks and FTSS software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0323",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS234",
+    "text": "SRS234 3.3.2 Start Up If MPCC IBIT failed, the FTSS SW shall (3.3.2.24) switch to using the redundant MPCC card in that C&T FCR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0324",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS299",
+    "text": "SRS299 3.3.2 Start Up If the 5th ICP fails, the FTSS SW shall (3.3.2.25) ignore the error and allow the NE to continue the synch process and become part of the voting group, if possible.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0325",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS243",
+    "text": "SRS243 3.3.2 Start Up On each FCP, the FTPP system shall (3.3.2.26) configure the Radstone firmware to perform the IBIT tests shown in Table 3.3.2.1, FCP IBIT Table.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0326",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS260",
+    "text": "SRS260 3.3.2 Start Up The FTPP system shall (3.3.2.27) configure the Radstone processor to halt processing if any of the MPE tests, mentioned in Table 3.3.2.1, FCP IBIT Table, fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0327",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS261",
+    "text": "SRS261 3.3.2 Start Up The FTPP system shall (3.3.2.28) configure the Radstone processor to continue processing if any of the Power-up tests or Initial BIT tests mentioned in Table 3.3.2.1, FCP IBIT Table, fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0328",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS262",
+    "text": "SRS262 3.3.2 Start Up In all FCP IBIT cases, provided the hardware state permits, the FTSS shall (3.3.2.29) log the error and report it in the X-38 telemetry stream.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0329",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS239",
+    "text": "SRS239 3.3.2 Start Up Upon completion of logging a Power-up test or Initial BIT test failure, the FTSS system shall (3.3.2.43) consider the FCP failed and attempt recovery actions as stated in requirement 3.3.5.29.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0330",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS290",
+    "text": "SRS290 3.3.2 Start Up On each ICP, the FTPP system shall (3.3.2.30) configure the Radstone firmware to perform the IBIT tests shown in Table 3.3.2.2, ICP IBIT Table.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0331",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS287",
+    "text": "SRS287 3.3.2 Start Up The FTPP system shall (3.3.2.31) configure the Radstone processor to halt processing if any of the MPE tests, mentioned in Table 3.3.2.2, ICP IBIT Table, fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0332",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS288",
+    "text": "SRS288 3.3.2 Start Up The FTPP system shall (3.3.2.32) configure the Radstone processor to continue processing if any of the Power-up tests or Initial BIT tests mentioned in Table 3.3.2.2, ICP IBIT Table, fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0333",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS289",
+    "text": "SRS289 3.3.2 Start Up In all ICP IBIT cases, provided the hardware state permits, the FTSS shall (3.3.2.33) log the error and report it in the X-38 telemetry stream.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0334",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS239",
+    "text": "SRS239 3.3.2 Start Up Upon completion of logging a Power-up test or Initial BIT test failure, the FTSS system shall (3.3.2.44) consider the ICP failed and attempt recovery actions as stated in requirement 3.3.5.29.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0335",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS290",
+    "text": "SRS290 3.3.2 Start Up On each ICP/PMC1553, the FTPP system shall (3.3.2.34) configure the Radstone firmware to perform the IBIT tests shown in Table 3.3.2.3, ICP/PMC1553 IBIT Table.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0336",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS264",
+    "text": "SRS264 3.3.2 Start Up The FTPP system shall (3.3.2.35) configure the Radstone ICP/PMC1553 card to halt processing if any of the MPE tests, mentioned in Table 3.3.2.3, ICP/PMC1553 IBIT Table, fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0337",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS265",
+    "text": "SRS265 3.3.2 Start Up The FTPP system shall (3.3.2.36) configure the Radstone ICP/PMC1553 card to continue processing if any of the Initial BIT tests mentioned in Table 3.3.2.3, ICP/PMC1553 IBIT Table, fail.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0338",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS266",
+    "text": "SRS266 3.3.2 Start Up In all ICP/PMC1553 IBIT cases, provided the hardware state permits, the FTSS shall (3.3.2.37) log the error and report it in the X-38 telemetry stream.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0339",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS239",
+    "text": "SRS239 3.3.2 Start Up On each MPCC, the FTPP system shall (3.3.2.38) configure the Radstone firmware to perform the IBIT tests shown in Table 3.3.2.4, MPCC IBIT Table.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0340",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS267",
+    "text": "SRS267 3.3.2 Start Up In all MPCC IBIT cases, provided the hardware state permits, the FTSS shall (3.3.2.40) log the error and report it in the X-38 telemetry stream.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0341",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS239",
+    "text": "SRS239 3.3.2 Start Up If IBIT fails, the FTSS SW shall (3.3.2.41) handle the failure as stated in the preceding IBIT requirements and in requirement 3.3.5.29’s table, FTPP Failure Response/Recovery Mechanisms.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0342",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS269",
+    "text": "SRS269 3.3.2 Start Up However, the FTSS SW shall (3.3.2.42) notify the application software if the 5th ICP’s heartbeat ceases to exist.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0343",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS098",
+    "text": "SRS098 3.3.2 Start Up The surviving triplex shall (3.3.2.5) attempt to sync with the failed FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0344",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS177",
+    "text": "SRS177 3.3.2 Start Up If the failed FCP has not synced in 2.5 seconds, after the surviving triplex has detected the loss of the FCP, then the surviving triplex shall (3.3.2.6) send a voted VMEbus reset through the NE to the failed FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0345",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS178",
+    "text": "SRS178 3.3.2 Start Up Start Up shall (3.3.2.12) synchronize its FCP with other operational FCPs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0346",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS008",
+    "text": "SRS008 3.3.2 Start Up Start Up shall (3.3.2.13) make their state congruent.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0347",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS011",
+    "text": "SRS011 3.3.2 Start Up The FCP state shall (3.3.2.14) include all volatile memory, read/write memory, registers, timers, and counters, except that part of the memory exclusively set aside for channel-unique information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0348",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS011",
+    "text": "SRS011 3.3.2 Start Up It shall (3.3.2.17) support normal synchronization following power on or reset.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0349",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS194",
+    "text": "SRS194 3.3.2 Start Up Start Up shall (3.3.2.18) be able to synchronize all operational FCPs in the presence of this skew in the power on sequence.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0350",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS008",
+    "text": "SRS008 3.3.2 Start Up Start Up shall (3.3.2.19) test to ensure that all four FCPs are synchronized.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0351",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS008",
+    "text": "SRS008, SRS010 3.3.2 Start Up Unsynchronized processors shall (3.3.2.20) be excluded from the FCP configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0352",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS008",
+    "text": "SRS010, SRS296 3.3.2 Start Up During start up the FCP watchdog timer shall (3.3.2.45) be active.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0353",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS008",
+    "text": "SRS014, SRS292 3.3.2 Start Up System Initialization shall (3.3.2.21) initiate execution of FTSS and X-38 application code.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0354",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS199",
+    "text": "SRS199 3.3.3 Vehicle/Mission Manager The Mission Manager Template shall (3.3.3.1) provide a mechanism for (but not limited to) creating and controlling task execution, creating message queues and other interprocessor communication mechanisms, and provide on/off capability for processor resynchronization.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0355",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS199",
+    "text": "SRS215, SRS302 3.3.4 Scheduler The Scheduler shall (3.3.4.1) support three rate groups: 50 Hz (minor frame), 10 Hz (medium frame), and 1 Hz (major frame).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0356",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS199",
+    "text": "SRS197, SRS195, SRS035 3.3.4 Scheduler The FTSS software shall (3.3.4.18) take at most 1 msec of a 50 Hz minor frame.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0357",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS199",
+    "text": "SRS024, SRS034 3.3.4 Scheduler The Scheduler shall (3.3.4.3) set the timer to a count down value so as to cause the next minor frame interrupt at 20 msec (+/- 330 usecs) from the previous interrupt congruently in all operational FCPs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0358",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS035, SRS181 3.3.4 Scheduler The FTSS software shall (3.3.4.19) provide an API call which provides the application program the minor frame number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0359",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS278",
+    "text": "SRS278 3.3.4 Scheduler Process scheduling shall (3.3.4.4) only be performed at certain controlled locations (synchronization points).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0360",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS022",
+    "text": "SRS022 3.3.4 Scheduler The Scheduler shall (3.3.4.5) place processing time bounds on all rate groups to ensure that no rate group monopolizes the FCC's processor.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0361",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS028",
+    "text": "SRS028 3.3.4 Scheduler It shall (3.3.4.6) be possible to reassign a task to a different rate group as a function of the mission mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0362",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS028",
+    "text": "SRS017, SRS018, SRS195, SRS196, SRS197, SRS198 3.3.4 Scheduler Tasks within a rate group shall (3.3.4.7) be executed in the order in which the mission manager registers the tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0363",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS028",
+    "text": "SRS022, SRS039, SRS037, SRS198 3.3.4 Scheduler It shall (3.3.4.8) be possible to alter the execution sequence of tasks within a rate group as a function of mission mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0364",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS028",
+    "text": "SRS002, SRS017, SRS196, SRS018, SRS019, SRS020, SRS021, SRS197, SRS195, SRS198 3.3.4 Scheduler Higher iteration tasks shall (3.3.4.9) have higher priority over lower iteration tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0365",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS027",
+    "text": "SRS027 3.3.4 Scheduler The Scheduler shall (3.3.4.12) detect 50 Hz, 10 Hz, and 1 Hz frame overruns at the next frame following the end of their respective rate boundaries.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0366",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS028",
+    "text": "SRS028 3.3.4 Scheduler The Scheduler shall (3.3.4.13) attempt recovery from a frame overrun according to the following policy: SRS030 3.3.4 Scheduler if the scheduler determines that a task did not finish within its specified rate boundary, the scheduler shall (3.3.4.14) signal that a task overrun occurred.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0367",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS030",
+    "text": "SRS030 3.3.4 Scheduler When the task restart begins, the FTSS shall (3.3.4.15) provide a mechanism to signal the task to execute its startup recovery actions, including updating the I-Load data and pre-stored last good data state.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0368",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS030",
+    "text": "SRS030 3.3.4 Scheduler Following a task overrun, the scheduler shall (3.3.4.17) provide an application programmer's interface call which specifies which task was running within the rate group which has overrun.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0369",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS216",
+    "text": "SRS216 3.3.4 Scheduler The FTSS software shall (3.3.4.20) provide a task deadline capability which allows an application to specify which minor frame that an application should start in and finish in.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0370",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS270",
+    "text": "SRS270 3.3.4 Scheduler The Scheduler in the FTPP shall (3.3.4.16) keep all redundant copies of a process, which are executing in different computers, in synchronization.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0371",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS181",
+    "text": "SRS181 3.3.5 Fault Detection, Identification, and Recovery The scope of FDIR shall (3.3.5.1) be limited to the hardware on the four FCP boards, the four MPCC/CTC boards, the five ICPs, and the five NEs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0372",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS181",
+    "text": "SRS095, SRS096, SRS184, SRS235, SRS298, SRS299, SRS300, SRS304 3.3.5 Fault Detection, Identification, and Recovery FDIR shall (3.3.5.2) receive this information and, after two consecutive missed “heartbeats,” conclude that the ICP is failed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0373",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS097",
+    "text": "SRS097 3.3.5 Fault Detection, Identification, and Recovery FDIR shall (3.3.5.3) report the total FCC status to the Vehicle/Mission Manager when requested to do so by the Vehicle/Mission Manager.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0374",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS097",
+    "text": "SRS098, SRS099 3.3.5 Fault Detection, Identification, and Recovery The FDIR shall (3.3.5.4) execute CBIT during all operational phases.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0375",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS095",
+    "text": "SRS095 3.3.5 Fault Detection, Identification, and Recovery The CBIT shall (3.3.5.5) be executed at a 50 Hz rate, after all 50 Hz flight critical operations are complete.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0376",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS095",
+    "text": "SRS093, SRS095, SRS034 3.3.5 Fault Detection, Identification, and Recovery The CBIT, at a minimum, shall (3.3.5.6) include a \"presence test\" to ascertain that all FCP processors are synchronized and are at the same relative point in time in the current minor frame.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0377",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS095",
+    "text": "SRS093, SRS095, SRS184 3.3.5 Fault Detection, Identification, and Recovery The presence test shall (3.3.5.7) also ascertain that all processors are executing the same 50 Hz, 10 Hz, and 1 Hz frames.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0378",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS184",
+    "text": "SRS184 3.3.5 Fault Detection, Identification, and Recovery The CBIT shall (3.3.5.8) also arm and reset the hardware watchdog timer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0379",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS184",
+    "text": "SRS014, SRS094 3.3.5 Fault Detection, Identification, and Recovery The CBIT shall (3.3.5.10) be executed without interfering with the normal execution of the application tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0380",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS034",
+    "text": "SRS034 3.3.5 Fault Detection, Identification, and Recovery The FDIR shall (3.3.5.11) not take more than 2 msec per minor frame under nominal no-fault conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0381",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS091",
+    "text": "SRS091 3.3.5 Fault Detection, Identification, and Recovery The FDIR shall (3.3.5.12) not take more than 3 msec per minor frame while processing faults.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0382",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS183",
+    "text": "SRS183 3.3.5 Fault Detection, Identification, and Recovery The FDIR shall (3.3.5.13) be able to discriminate between permanent and non-permanent faults.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0383",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS183",
+    "text": "SRS106, SRS110, SRS117, SRS204, SRS208, SRS209, SRS211, SRS282, SRS298 3.3.5 Fault Detection, Identification, and Recovery The FDIR shall (3.3.5.14) reset and retry the failed entity, such as an FCP or an NE, to perform this discrimination.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0384",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS183",
+    "text": "SRS106, SRS110, SRS117, SRS129 SRS204, SRS208, SRS209, SRS211, SRS282 3.3.5 Fault Detection, Identification, and Recovery To clear the failure, FDIR shall (3.3.5.15) request the Vehicle/Mission Manager to cycle power to that FCR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0385",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS183",
+    "text": "SRS208, SRS209 3.3.5 Fault Detection, Identification, and Recovery The FDIR shall (3.3.5.16) be able to identify a fault source, at least to an FCR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0386",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS095, SRS184, SRS096, SRS097 3.3.5 Fault Detection, Identification, and Recovery The FDIR shall (3.3.5.17) place all fault and recovery information in shared memory for inclusion in the frames that will be telemetred and recorded by the CTC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0387",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS098, SRS044 3.3.5 Fault Detection, Identification, and Recovery For the first permanent FCP failure, FDIR shall (3.3.5.30) degrade the redundancy level of the FCP from 4 to 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0388",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS106",
+    "text": "SRS106 3.3.5 Fault Detection, Identification, and Recovery If a second permanent FCP failure occurs, then FDIR shall (3.3.5.31) degrade the redundancy level of the FCP from 3 to 2 and operate in a degraded triplex mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0389",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS282",
+    "text": "SRS282 3.3.5 Fault Detection, Identification, and Recovery Additionally, FDIR shall (3.3.5.20) reinitialize and integrate an FCP if permitted by the Vehicle/Mission Manager.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0390",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS282",
+    "text": "SRS104, SRS110, SRS123, SRS124, SRS125, SRS126, SRS281, SRS302 3.3.5 Fault Detection, Identification, and Recovery FTSS shall (3.3.5.35) notify the applications that memory re-alignment and re-integration of an FCP is going to occur in 1 second.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0391",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS271",
+    "text": "SRS271 3.3.5 Fault Detection, Identification, and Recovery FTSS shall (3.3.5.36) wait for the ICP to signal that it has completed initialization before suspending the application for memory re-alignment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0392",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS272",
+    "text": "SRS272 3.3.5 Fault Detection, Identification, and Recovery The FCP watchdog timer shall (3.3.5.38) remain active during memory re-alignment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0393",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS272",
+    "text": "SRS293, SRS294 3.3.5 Fault Detection, Identification, and Recovery Reintegration of an FCP shall (3.3.5.21) be completed in at most 1.5 minutes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0394",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS214",
+    "text": "SRS214 3.3.5 Fault Detection, Identification, and Recovery It shall (3.3.5.22) be possible to perform voted VMEbus resets via the NEs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0395",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS204",
+    "text": "SRS204 3.3.5 Fault Detection, Identification, and Recovery For a permanent NE failure, FDIR shall (3.3.5.23) mask the failed NE.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0396",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS204",
+    "text": "SRS104, SRS245 3.3.5 Fault Detection, Identification, and Recovery For a transient NE failure, FDIR shall (3.3.5.24) mask the failed NE.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0397",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS204",
+    "text": "SRS104, SRS106, SRS245, SRS282 3.3.5 Fault Detection, Identification, and Recovery Additionally, FDIR shall (3.3.5.25) reinitialize and integrate the NE.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0398",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS104",
+    "text": "SRS104 3.3.5 Fault Detection, Identification, and Recovery Intentional powering down of an FCP, ICP, or NE shall (3.3.5.32) not be classified as a fault.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0399",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS104",
+    "text": "SRS285, SRS274, SRS128 3.3.5 Fault Detection, Identification, and Recovery FTSS shall (3.3.5.34) provide an API call which allows the application to notify FTSS that an FCP, ICP, or NE is intentionally being powered down.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0400",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS274",
+    "text": "SRS274 3.3.5 Fault Detection, Identification, and Recovery FTSS shall (3.3.5.37) provide an API call which allows the application to take an FCR out of the permanently failed state and place it back in the initial recovery state.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0401",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS285",
+    "text": "SRS285 3.3.5 Fault Detection, Identification, and Recovery A failed FCP or NE shall (3.3.5.27) be masked within three minor frames of fault detection and isolation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0402",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS109",
+    "text": "SRS109 3.3.5 Fault Detection, Identification, and Recovery The FTSS FDIR shall (3.3.5.28) exchange the status information of detected faults in the FCP, ICP, NE, and MPCC/CTC hardware with the NASA provided software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0403",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS109",
+    "text": "SRS044, SRS098 3.3.5 Fault Detection, Identification, and Recovery The FTPP system shall (3.3.5.29) perform the \"FTPP Failure Response/Recovery Mechanisms\"as listed in the following matrix and notes of interest.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0404",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS109",
+    "text": "SRS100, SRS104, SRS242, SRS222, SRS208, SRS209, SRS211, SRS245, SRS283, SRS284, SRS298, SRS299, SRS300, SRS304 3.3.6 Communications Synchronous communication shall (3.3.6.1) be in the form of messages enqueued for transmission at the start of the next rate group frame and dequeued for reading by the recipient task within the next rate group frame after it is received.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0405",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS109",
+    "text": "SRS047, SRS052, SRS063, SRS064 3.3.6 Communications A transmit packet queue and a receive packet queue shall (3.3.6.7) be maintained for each task or Communication ID (CID).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0406",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS053, SRS054, SRS055, SRS059, SRS062, SRS066 3.3.6 Communications Access to the transmit queues shall (3.3.6.8) be controlled within the communication service primitives .",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0407",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS062, SRS066 3.3.6 Communications Message passing communications primitives shall (3.3.6.9) be provided for task-to-task communication as well as for broadcast to all processors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0408",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS047, SRS048, SRS049, SRS051 SRS052, SRS062, SRS069 3.3.6 Communications Broadcast primitives shall (3.3.6.10) not be available on ICPs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0409",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS064, SRS070 3.3.6 Communications For the highest rate group tasks (i.e., tasks that can not be preempted), Immediate Message Services shall (3.3.6.11) also be provided.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0410",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS048, SRS050, SRS067, SRS068, SRS069, SRS070, SRS073 3.3.6 Communications A version of the Immediate Message Services shall (3.3.6.12) be provided to the ICPs that allows Class 2 writes to NEs and Class 1 reads from NEs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0411",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS226, SRS227, SRS228, SRS229, SRS230, SRS303 3.3.6 Communications Communications services shall (3.3.6.13) provide a version of Immediate Message Services between rate groups within the FCP that bypasses the NE and that can be used to control and monitor inter-rate group communications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0412",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS051",
+    "text": "SRS051 3.3.6 Communications Communication services shall (3.3.6.14) provide the capability for a “helper” task to be created to run in the 50 Hz rate group, but running in specific minor cycles (every 5th or every 50th) to provide data from the ICP to the lower rate tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0413",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS042",
+    "text": "SRS042 3.3.7 System Loader The procedures used to build the executable FTSS software using a cross-compiler and linker, down-load the image to the target processors, and burn the load image into the Radstone PowerPC flash RAM shall (3.3.7.1) be documented in the release notes that accompany Engineering Releases of the FTSS software and in the Software Users Manual.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0414",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS042",
+    "text": "NA 3.3.7 System Loader Any makefiles or other automated scripts that support the build, down-load, and flash programming processes shall (3.3.7.2) be delivered with the software to NASA.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0415",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS042",
+    "text": "NA 3.3.8 Memory Management For each mission mode, the congruent and non-congruent memory boundaries shall (3.3.8.1) be known and fixed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0416",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS217",
+    "text": "SRS217 3.3.8 Memory Management The Memory Management software shall (3.3.8.2) periodically \"scrub\" volatile and read/write memory in the FCP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0417",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS043",
+    "text": "SRS043 3.3.8 Memory Management It shall (3.3.8.3) not be necessary to scrub memory that is not used by the flight software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0418",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS043",
+    "text": "SRS043 3.3.8 Memory Management It shall (3.3.8.16) not be necessary to scrub that area used to store telemetry data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0419",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS275",
+    "text": "SRS275 3.3.8 Memory Management Memory scrubbing shall (3.3.8.5) be executed without interfering with normal execution of applications tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0420",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS187",
+    "text": "SRS187 3.3.8 Memory Management The memory scrubbing software shall (3.3.8.6) be capable of scrubbing 10 Megabytes in 8 minutes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0421",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS187",
+    "text": "SRS187 3.3.8 Memory Management The RAM scrub software shall (3.3.8.15) at most use 1% of an FCP CPU duty cycle.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0422",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS187",
+    "text": "SRS187 3.3.8 Memory Management Even though memory scrubbing is performed locally and the errors would not be congruent, the recording of errors shall (3.3.8.10) be congruent.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0423",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS044",
+    "text": "SRS044 3.3.8 Memory Management To support reintegrating a desynchronized channel, as specified in the FDIR requirements, the Memory Management software shall (3.3.8.11) \"re-align\" all of the volatile and read/write congruent memory, registers, timers and other locations that fit the description of \"volatile and read/write congruent locations\".",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0424",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS044",
+    "text": "SRS045, SRS126, SRS186, SRS200 3.3.8 Memory Management The re-align function shall (3.3.8.12) write the voted value from the good channels into the target channel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0425",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS044",
+    "text": "SRS186, SRS281 3.3.8 Memory Management The re-align function shall (3.3.8.13) be allowed only when permitted by the Vehicle/Mission Manager.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0426",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS044",
+    "text": "SRS110, SRS117, SRS125, SRS302 3.3.8 Memory Management Memory Management software shall (3.3.8.14) include (but not be limited to) memory scrubbing and memory realignment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0427",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "SRS043, SRS044, SRS046, SRS217, SRS045, SRS186, SRS200, SRS203, SRS187 3.3.9 Memory Protection Memory shall (3.3.9.1) be categorized into congruent (identical data) and non-congruent (data that is not identical) memory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0428",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS046",
+    "text": "SRS046 3.3.10 Time Management Time Management shall (3.3.10.4) provide MET.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0429",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS142",
+    "text": "SRS142 3.3.10 Time Management The MET shall (3.3.10.5) be initialized to zero at the first 50 Hz frame.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0430",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS165",
+    "text": "SRS165 3.3.10 Time Management The MET shall (3.3.10.6) measure real-time from this event with an accuracy of at most 50 Parts Per Million (PPM).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0431",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS218",
+    "text": "SRS218 3.3.10 Time Management The MET shall (3.3.10.7) have a resolution of 20 msec.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0432",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS142",
+    "text": "SRS142 3.3.10 Time Management The MET shall (3.3.10.8) be able to increment to at least 30 days without rolling over.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0433",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS144",
+    "text": "SRS144 3.3.10 Time Management The MET shall (3.3.10.9) be congruent across all FCP members.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0434",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS142",
+    "text": "SRS142 3.3.10 Time Management Following a processor recovery, during which time is frozen, the FTSS software shall (3.3.10.10) account for the frozen time and update MET to its proper value.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0435",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS218",
+    "text": "SRS218 3.3.10 Time Management Time Management shall (3.3.10.11) provide SEP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0436",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS142",
+    "text": "SRS142 3.3.10 Time Management Time Management shall (3.3.10.12) initialize SEP to zero within one minor cycle of the time when the vehicle/mission manager software has notified the FTSS software that the X-38 vehicle is released from the Space Shuttle Remote Manipulator System.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0437",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS161",
+    "text": "SRS161 3.3.10 Time Management The SEP shall (3.3.10.13) measure real-time from this event with an accuracy of at most 50 Parts Per Million (PPM).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0438",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS219",
+    "text": "SRS219 3.3.10 Time Management The SEP shall (3.3.10.14) have a resolution of 20 msec.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0439",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS142",
+    "text": "SRS142 3.3.10 Time Management The SEP shall (3.3.10.15) be able to increment to at least 1 day without rolling over.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0440",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS145",
+    "text": "SRS145 3.3.10 Time Management The SEP shall (3.3.10.16) be congruent across all FCP members.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0441",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS142",
+    "text": "SRS142 3.3.10 Time Management Following a processor recovery, during which time is frozen, the FTSS software shall (3.3.10.17) account for the frozen time and update SEP to its proper value.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0442",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS219",
+    "text": "SRS219 3.3.10 Time Management If the SEP API call is made prior to actual separation, the call shall (3.3.10.27) return zero (0).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0443",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS161",
+    "text": "SRS161 3.3.10 Time Management The Time Services, if dealing with the year designation, shall (3.3.10.21) be Year 2000-compliant.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0444",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS161",
+    "text": "No year designation used in any requirement 3.3.10 Time Management Time Management shall (3.3.10.23) provide a utility timer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0445",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS161",
+    "text": "SRS246, SRS248 3.3.10 Time Management The utility timer shall (3.3.10.24) be available via an FTSS API call(s).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0446",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS246",
+    "text": "SRS246 3.3.10 Time Management The utility timer shall (3.3.10.25) have a resolution of 60.6 nanoseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0447",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS256",
+    "text": "SRS256 3.3.10 Time Management The utility timer shall (3.3.10.26) have an accuracy of at most 50 PPM.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0448",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS247",
+    "text": "SRS247 3.3.11 Input/Output Services Load modules of the four FCPs shall (3.3.11.1) be identical.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0449",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS166",
+    "text": "SRS166 3.3.11 Input/Output Services Control flow of the four FCPs shall (3.3.11.2) be similar, if not identical.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0450",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS166",
+    "text": "SRS008, SRS011, SRS181, SRS191, SRS053, SRS054, SRS095, SRS184, SRS123, SRS125, SRS126, SRS045, SRS186, SRS200, SRS166, SRS168 3.3.11 Input/Output Services Asymmetric I/O calls shall (3.3.11.3) not be allowed to induce a large enough skew to force the FCPs to desynchronize.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0451",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS168",
+    "text": "SRS168 3.3.11 Input/Output Services A subset of FTSS shall (3.3.11.7) reside on the ICP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0452",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS168",
+    "text": "SRS225, SRS226, SRS227, SRS228, SRS229, SRS230 3.3.11 Input/Output Services FTSS shall (3.3.11.8) provide an API call which allows the application to specify which MPCC channels in a C&T FCR should be used for telemetry and/or command reception.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0453",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS286",
+    "text": "SRS286 3.3.12 Exception Handling Upon occurrence of an exception, the FTPP system shall (3.3.12.1) log the error and include all context data relevant to the exception e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0454",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS172",
+    "text": "SRS172 3.3.12 Exception Handling The error type and its context data shall (3.3.12.4) be made available to the application via an API call.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0455",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS172",
+    "text": "SRS172 3.3.12 Exception Handling For software exceptions, the FTPP system shall (3.3.12.2) then transfer control to a user specified exception handling routine, if one is provided.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0456",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS031",
+    "text": "SRS031 3.3.12 Exception Handling For hardware exceptions, the FTPP system shall (3.3.12.5) “handle” the exception by making the error and its context data available to the application and then returning from the exception handler.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0457",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS276",
+    "text": "SRS276 3.3.12 Exception Handling For reserved exceptions, the FTPP system shall (3.3.12.6) “handle” the exception by making the error and its context data available to the application and then returning from the exception handler.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0458",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS276",
+    "text": "SRS276 3.3.12 Exception Handling Finally, for software exceptions only, the FTPP system shall (3.3.12.3) then “jump back” to the initialization point for the offending task.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0459",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS173",
+    "text": "SRS173 3.3.12 Exception Handling If the exception occurs within the FTSS software, the FTPP system shall (3.3.12.7) “jump” back to the beginning of the task, skip all initialization code, and begin processing the task’s code again.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0460",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS173",
+    "text": "SRS277, SRS301 3.3.13 Application Interface An application programming interface shall (3.3.13.3) be documented in a FTSS API document.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0461",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS164",
+    "text": "SRS164 3.3.14 NEFU The presence, or absence of, an NEFU ICP shall (3.3.14.1) not impact the FTSS software (i.e., the FTSS ICP load will not be different).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0462",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS220",
+    "text": "SRS220 3.3.15 Power Down FTSS services shall (3.3.15) provide an API call which provides the capability to close and delete all communication mechanisms delete all rate groups, and suspend and delete all tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0463",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS249",
+    "text": "SRS249 3.4.1.1 FCP-ICP Communication Architecture The FCP-ICP communications shall (3.4.1.1.1) provide the following capabilities (these are written from the viewpoint of the FCP): 1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0464",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS249",
+    "text": "SRS025, SRS032, SRS033, SRS048, SRS097, SRS231, SRS232, SRS233, SRS295 3.4.1.2 FCP-ICP Communication Requirements As part of start-up or after recovering from a transient fault: after completing IBIT, the FCP shall (3.4.1.2.1) wait 15 seconds for the ICP to initialize all of its non-Radstone VME slave boards and its NE interface SRS297 3.4.1.2 FCP-ICP Communication Requirements then the FCP VG shall (3.4.1.2.2) send the FCP VG Ready Signal to the ICPs to indicate that the FCP VG is ready to begin FCP-ICP communications.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0465",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS221",
+    "text": "SRS221 3.4.1.2 FCP-ICP Communication Requirements To permit these task and pipe initializations in the ICPs, the FCP VG shall (3.4.1.2.8) wait at least 2.5 seconds for the ICP Ready Signals after the FCP VG has been notified that the ICPs received the FCP VG Ready Signals.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0466",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS189",
+    "text": "SRS189 3.4.1.2 FCP-ICP Communication Requirements The FCP shall (3.4.1.2.5) signal the start of each minor frame in all ICPs by means of a VMEbus IRQ5 interrupt.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0467",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS032",
+    "text": "SRS032 3.4.1.2 FCP-ICP Communication Requirements The interrupts across all channels shall (3.4.1.2.6) have a skew no greater than 330 microseconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0468",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS191",
+    "text": "SRS191 3.4.1.2 FCP-ICP Communication Requirements Each interrupt shall (3.4.1.2.7) be preceded by the FCP writing the information listed in 3.4.1.1.1-6 to a shared memory block over the VME backplane bus to its counterpart ICP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0469",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS033",
+    "text": "SRS033 3.4.2 FCP-CTC Communications The FTSS software shall (3.4.2.2) provide to the telemetry program the FTPP telemetry data which consists of the following elements: a.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0470",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS033",
+    "text": "SRS029, SRS044, SRS098 3.4.2 FCP-CTC Communications The data mentioned in requirement 3.4.2.2 and any other Draper-provided telemetry data shall (3.4.2.9) fit within Draper’s allocated telemetry budget of 5000 bits/sec.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0471",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS250",
+    "text": "SRS250 3.4.2 FCP-CTC Communications In addition, the FTSS software shall (3.4.2.11) provide up to 600 bits of start-up data that indicates the state of the FTPP system during start-up.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0472",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS280",
+    "text": "SRS280 3.4.2 FCP-CTC Communications Once every medium frame, the FTSS software shall (3.4.2.3) accept a pointer from the telemetry program to the buffer space containing the telemetry data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0473",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS280",
+    "text": "SRS148, SRS151 3.4.2 FCP-CTC Communications The FTSS software shall (3.4.2.4) move this buffer to the MPCC/CTC over the VMEbus.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0474",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS280",
+    "text": "SRS149, SRS150 3.4.2 FCP-CTC Communications The FTSS software shall (3.4.2.10) use no more than 5.2 milliseconds of FCP processing time to move the telemetry data to the MPCC/CTC board and complete communication and error handling for the MPCC/CTC board.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0475",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS257",
+    "text": "SRS257 3.4.2 FCP-CTC Communications The FTSS software shall (3.4.2.5) receive telemetry commands from both CTCs via the MPCC/CTC once every medium frame.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0476",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS152",
+    "text": "SRS152 3.4.2 FCP-CTC Communications The FTSS software shall (3.4.2.6) congruently decide which FCP channel should be the source of CTC data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0477",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS222",
+    "text": "SRS222 3.4.2 FCP-CTC Communications This decision shall (3.4.2.7) be made based on the health and status of all the physical links from the FCP to the CTC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0478",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS222",
+    "text": "SRS222 3.4.2 FCP-CTC Communications The FTSS software shall (3.4.2.8) deliver to the requisite NASA application program commands received from both CTCs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0479",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS222",
+    "text": "SRS153, SRS156 3.5 Miscellaneous Other Requirements Draper shall (3.5.5) not violate the 100 microseconds requirement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0480",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS223",
+    "text": "SRS223 3.5 Miscellaneous Other Requirements Draper shall (3.5.6) deliver FTSS engineering release version 5/6, and any subsequent versions of the FTSS software, only after the release has been proven to work under Tornado 2 for the NT environment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0481",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": "SRS253",
+    "text": "SRS253 3.5 Miscellaneous Other Requirements Draper shall (3.5.7) deliver FTSS engineering release version 5/6, and any subsequent versions of the FTSS software, via CD-ROM.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2000 - nasa x38 [doc]__C0482",
+    "document": "2000 - nasa x38 [doc].txt",
+    "nearest_heading": null,
+    "text": "They are comprised of processor entities, each of which must be resident in a different fault containment region.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

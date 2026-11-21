@@ -1,0 +1,56 @@
+{
+  "_comment": "Locked model lineup for the RQ2 capability-ladder experiment (task 1.10, relocked 2026-08-27). Supersedes the earlier gpt-5.6-sol/terra/luna lock: switched to an all-GPT-5.4 ladder so every tier carries a real dated/pinned snapshot ID, while keeping the single-provider/single-generation design (see docs/model_snapshot_verification.md). API keys stay in .env (gitignored), never here.",
+  "locked": true,
+  "locked_date": "2026-08-27",
+  "provider": "OpenAI",
+  "dated_snapshot_available": true,
+  "tiers": [
+    {
+      "tier": "weak",
+      "name": "nano",
+      "model_id": "gpt-5.4-nano",
+      "dated_snapshot_id": "gpt-5.4-nano-2026-03-17",
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08-31",
+      "price_per_million_tokens_usd": {"input": 0.20, "output": 1.25},
+      "snapshot_verified_date": "2026-08-27",
+      "snapshot_reverified_date": "2026-10-25",
+      "deprecated_date": "2026-10-01",
+      "api_shutdown_date": "2027-04-01",
+      "recommended_replacement": "gpt-6-luna",
+      "notes": "Cheapest GPT-5.4-class tier, for simple high-volume tasks per OpenAI's own description. Deprecated by OpenAI on 2026-10-01 (model and dated snapshot); removal from the API on 2027-04-01 (OpenAI deprecations page, checked 2026-10-25)."
+    },
+    {
+      "tier": "mid",
+      "name": "mini",
+      "model_id": "gpt-5.4-mini",
+      "dated_snapshot_id": "gpt-5.4-mini-2026-03-17",
+      "context_window_tokens": 400000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08-31",
+      "price_per_million_tokens_usd": {"input": 0.75, "output": 4.50},
+      "snapshot_verified_date": "2026-08-27",
+      "snapshot_reverified_date": "2026-10-25",
+      "notes": "Mid tier: 'strongest mini model yet for coding, computer use, and subagents' per OpenAI's own description. No deprecation notice (checked 2026-10-25)."
+    },
+    {
+      "tier": "frontier",
+      "name": "gpt-5.4",
+      "model_id": "gpt-5.4",
+      "dated_snapshot_id": "gpt-5.4-2026-03-05",
+      "context_window_tokens": 1050000,
+      "max_output_tokens": 128000,
+      "knowledge_cutoff": "2025-08-31",
+      "price_per_million_tokens_usd": {"input": 2.50, "output": 15.00},
+      "snapshot_verified_date": "2026-08-27",
+      "snapshot_reverified_date": "2026-10-25",
+      "notes": "Flagship GPT-5.4 tier: 'frontier model for complex professional work' per OpenAI's own description. Superseded on OpenAI's product line by GPT-5.5, GPT-5.6 and GPT-6, but not deprecated (checked 2026-10-25) -- chosen here specifically for its dated snapshot, not because it is OpenAI's current top model."
+    }
+  ],
+  "generation_params": {
+    "temperature": 0,
+    "max_tokens": null
+  },
+  "reproducibility_caveat": "gpt-5.4-nano and its snapshot gpt-5.4-nano-2026-03-17 were deprecated on 2026-10-01 and will be removed from the API on 2027-04-01 (replacement: gpt-6-luna); after that date the weak tier cannot be re-run on the same snapshot. gpt-5.4-2026-03-05 and gpt-5.4-mini-2026-03-17 carry no deprecation notice (checked 2026-10-25). All three tiers carry a real dated snapshot ID, confirmed on OpenAI's per-model docs pages on 2026-08-27 and 2026-10-25. Superseded the earlier gpt-5.6-sol/terra/luna lock, which had no dated snapshot available for any tier (see model_snapshot_verification.md history)."
+}

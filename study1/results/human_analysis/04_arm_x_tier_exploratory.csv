@@ -1,0 +1,17 @@
+analysis,criterion,test,wald_chi2,df,p
+confirmatory,faithfulness,F_E vs F_base x tier (exploratory),13.550902681337506,2,0.0011414551985174583
+confirmatory,faithfulness,F_R vs F_base x tier (exploratory),1.902157521163014,2,0.386324047432232
+confirmatory,unambiguity,F_E vs F_base x tier (exploratory),1.0217983651226101,2,0.5999558663460405
+confirmatory,unambiguity,F_R vs F_base x tier (exploratory),9.129775203420179,2,0.010411049325138507
+confirmatory,singularity,F_E vs F_base x tier (exploratory),0.3411312351928272,2,0.8431877598592027
+confirmatory,singularity,F_R vs F_base x tier (exploratory),15.498166960270371,2,0.0004311375056397615
+confirmatory,ears_wellformedness,F_E vs F_base x tier (exploratory),10.842837606383682,2,0.004420869851858833
+confirmatory,ears_wellformedness,F_R vs F_base x tier (exploratory),7.725112708663335,2,0.021014211031714608
+"sensitivity: excluding PURE-002, PURE-014",faithfulness,F_E vs F_base x tier (exploratory),13.705672880829407,2,0.001056454867805359
+"sensitivity: excluding PURE-002, PURE-014",faithfulness,F_R vs F_base x tier (exploratory),1.6340619943526289,2,0.44174124045205654
+"sensitivity: excluding PURE-002, PURE-014",unambiguity,F_E vs F_base x tier (exploratory),1.0226691665246084,2,0.5996947020009602
+"sensitivity: excluding PURE-002, PURE-014",unambiguity,F_R vs F_base x tier (exploratory),8.910529519172336,2,0.011617243690792346
+"sensitivity: excluding PURE-002, PURE-014",singularity,F_E vs F_base x tier (exploratory),0.335686172462025,2,0.8454864927486534
+"sensitivity: excluding PURE-002, PURE-014",singularity,F_R vs F_base x tier (exploratory),14.134155993087175,2,0.0008527211264778066
+"sensitivity: excluding PURE-002, PURE-014",ears_wellformedness,F_E vs F_base x tier (exploratory),12.274801013829011,2,0.0021605326144580133
+"sensitivity: excluding PURE-002, PURE-014",ears_wellformedness,F_R vs F_base x tier (exploratory),6.5456038316797756,2,0.03790008531503765

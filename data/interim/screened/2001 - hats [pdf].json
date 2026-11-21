@@ -1,0 +1,2576 @@
+[
+  {
+    "id": "2001 - hats [pdf]__C0001",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Victor Winter, shall approve this document.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0002",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Document Change Control Initial Release: 5/1/2001 Current Release: HATS GUI SRS 1.5 Indicator of Last Page in Document: ♦ Date of Last Review: 11/01/2001 Date of Next Review: None scheduled Target Date for Next Update: None scheduled Distribution List This following list of people shall receive a copy of this document every time a new version of this document becomes available: Customer: Dr.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0003",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "1.1.      Purpose and Intended Audience",
+    "text": "This document shall serve as a reference guide to the developer for software design, implementation, and maintenance.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0004",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "1.2.      Scope of Product",
+    "text": "The system shall provide to the user the ability to prepare applications, utilize HATS to apply transformations, and display and manipulate the output resulting from execution of transformations.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0005",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Level The number of edges that must be traversed in order to reach a node in a tree starting from the root.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0006",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.     Product Features",
+    "text": "Product Features The HATS-GUI shall provide a user with the ability to construct and use transformations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0007",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.     Product Features",
+    "text": "The HATS-GUI shall facilitate the following activities: • management of applications; • parsing of transformation language programs and target programs; • execution of transformation language programs; and • examination of SDT and pretty-printed output from transformations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0008",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.1. Management Of Applications",
+    "text": "Management Of Applications The HATS-GUI shall facilitate the creation, deletion, and modification of the files related to an application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0009",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.1. Management Of Applications",
+    "text": "As a practical matter, all files related to an application shall be stored in the same directory or folder.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0010",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.1. Management Of Applications",
+    "text": "In addition, the HATS-GUI shall manage file associations within an application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0011",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.1. Management Of Applications",
+    "text": "The HATS- GUI shall allow the user to examine and modify these associations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0012",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.2. Parsing Of Transformation Language Programs and Target Files",
+    "text": "Parsing Of Transformation Language Programs and Target Files The HATS-GUI shall orchestrate the parsing of transformation language programs and target files.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0013",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.2. Parsing Of Transformation Language Programs and Target Files",
+    "text": "Two types of files must be parsed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0014",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.3. Execution of Transformation Language Programs",
+    "text": "Execution of Transformation Language Programs The HATS-GUI shall orchestrate the execution of transformation language programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0015",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.3. Execution of Transformation Language Programs",
+    "text": "In order for HATS-SML to execute a transformation program, the program must be parsed and saved as an SDT.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0016",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.3. Execution of Transformation Language Programs",
+    "text": "The HATS-GUI shall capture data written to these streams and make that data available to the user.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0017",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.4. Examination of SDT and Pretty-Printed Output From Transformations",
+    "text": "Examination of SDT and Pretty-Printed Output From Transformations The HATS-GUI shall facilitate the display of transformation output and error messages received from HATS- SML in response to parsing or transformation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0018",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.1.4. Examination of SDT and Pretty-Printed Output From Transformations",
+    "text": "The display of SDTs and pretty-printed text shall allow the user to manipulate the display by choosing portions of the tree to display and by allowing the user to search for text strings and sub-trees.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0019",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.2.     Use Cases",
+    "text": "Before applying a transformation to a target file, a user must first prepare the application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0020",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "1. User selects option to configure editors.",
+    "text": "Editor configuration information must be sufficient to start the editor on the Host OS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0021",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.3.     General Constraints",
+    "text": "General Constraints The general constraints on the development of the system are as follows: • The system shall be platform independent and function properly on any operating system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0022",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.3.     General Constraints",
+    "text": "Specifically, the system shall be tested under Sun Solaris, Windows 2000, and Linux.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0023",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.3.     General Constraints",
+    "text": "• The system shall be designed in such a way as to minimize the number of windows opened by the application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0024",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.3.     General Constraints",
+    "text": "• The system shall be developed using the Java programming language.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0025",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.3.     General Constraints",
+    "text": "• The system shall be completed by December 2001.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0026",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.4.     Assumptions and Dependencies",
+    "text": "Assumptions and Dependencies The following assumptions are made with respect to the HATS-GUI: • A JVM shall have been installed on the system under which the HATS-GUI is running.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0027",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.4.     Assumptions and Dependencies",
+    "text": "• An ML interpreter shall have been installed on the system under which the HATS-GUI is running.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0028",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.4.     Assumptions and Dependencies",
+    "text": "• HATS shall run on the same system on which the HATS-GUI is running.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0029",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.4.     Assumptions and Dependencies",
+    "text": "• HATS shall support only one user at a time.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0030",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.4.     Assumptions and Dependencies",
+    "text": "• Users shall have a high level of sophistication and shall not need guidance in the form of extensive help messages.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0031",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.4.     Assumptions and Dependencies",
+    "text": "• The Host OS shall support a hierarchical, tree-structured file system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0032",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.4.     Assumptions and Dependencies",
+    "text": "• The development team shall use this SRS to implement the system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0033",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "2.4.     Assumptions and Dependencies",
+    "text": "• HATS-SML version 2.0 shall be available by October, 2001.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0034",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.1. User Interfaces",
+    "text": "User Interfaces [SRSreq 01] Any operation requiring the user to supply a file name shall allow the user either to select the files from a list derived from files in the currently open application or to key in a file name, a relative path name, or a complete path name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0035",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.1. User Interfaces",
+    "text": "[SRSreq 02] For any operation where the user is prompted to select from a list, the user shall be able to cancel the operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0036",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.1. User Interfaces",
+    "text": "[SRSreq 03] When collecting generated output files from HATS-SML, the HATS-GUI shall overwrite any file whose name is generated automatically.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0037",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.1. User Interfaces",
+    "text": "If X.tlp.parsed existed prior to executing the parser, it shall be overwritten without prompting the user.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0038",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.1. User Interfaces",
+    "text": "[SRSreq 04] When saving or copying files, the HATS-GUI shall use the following sequence of actions: • The HATS-GUI shall prompt the user for a file name for the file to be saved.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0039",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.1. User Interfaces",
+    "text": "• The HATS-GUI shall examine the contents of the application directory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0040",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.1. User Interfaces",
+    "text": "• If a file with the given name already exists, the HATS-GUI shall prompt the user to overwrite the existing file.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0041",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If the user agrees to overwrite the file, the HATS-GUI shall: o attempt to write the new file using a temporary name, o delete the previously existing file, o then rename the new file.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0042",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "• If the user does not agree to overwrite the existing file or if system errors occur while writing or renaming the new file or deleting the previous file, the new file shall not be written and the previous file shall be left unchanged.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0043",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "• In the case of an error, the HATS-GUI shall notify the user of the error.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0044",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "For example, the user shall be able to save an SDT generated during transformation program execution.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0045",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 05] Output pretty-printed text files and SDTs shall only be displayed when the user requests.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0046",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 06] The main interface shall be menu driven.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0047",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Table 5: Menu Items for HATS-GUI File Application Configure Run View Select Select Editors Generate Parser SDT Edit Close Node Display Parse Target Text Save-as Save File Associations Parse Program Standard error Delete Save-as HATS-SML Execute Transforms Standard output Exit Delete Pretty-Print Select Text Copy Text Software Requirements Specification CS4311 Date: Page 11/01/2001 28 Software Requirements Specification [SRSreq 07] The File menu shall contain menu items related to manipulating individual files and for closing the HATS-GUI application.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0048",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 08] The Application menu shall contain items related to manipulating entire applications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0049",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 09] The Configure menu shall contain items related to modifying the configuration of the application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0050",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 10] The Run menu shall contain items related to executing the HATS-SML programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0051",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 11] The View menu shall contain items related to viewing HATS-SML output.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0052",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 12] The File/Select menu item shall provide an interface for selecting files within the currently open application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0053",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 13] The File/Edit menu item shall provide an interface for starting an editor as an external process.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0054",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The editor shall be started according to information in the application configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0055",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 14] The File/Save-as menu item shall provide an interface for saving a previously selected file under a different name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0056",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 15] The File/Delete menu item shall provide an interface for deleting a selected file.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0057",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall prompt the user to confirm deletion prior to completing this action.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0058",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 16] The File/Exit menu item shall provide an interface for exiting the HATS-GUI.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0059",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 17] The Application/Select menu item shall provide an interface for selecting and opening an application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0060",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 18] The Application/Close menu item shall provide an interface for closing an application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0061",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 19] The Application/Save menu item shall provide an interface for saving application configuration information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0062",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 20] The Application/Save-as menu item shall provide an interface for saving an application and its associated files under a different name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0063",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 21] The Application/Delete menu item shall provide an interface for deleting an application and all the files in the application directory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0064",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 22] The Configure/Editors menu item shall provide an interface for the user to enter editor configuration information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0065",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "This information shall be used when editors are started as processes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0066",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 23] The Configure/Node Display menu item shall provide an interface for configuring the display of nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0067",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 24] The HATS-GUI shall allow the user to specify the number of levels of nodes to expand during SDT viewing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0068",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 25] The HATS-GUI shall allow the user to select the colors for types of displayed nodes in a displayed graph.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0069",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "At a minimum, the system shall provide eight colors (red, yellow, white, black, green, blue, orange, and violet) for displayed nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0070",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 26] The HATS-GUI shall allow the user to select the shapes for types of displayed nodes in a displayed graph.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0071",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "At a minimum, the system shall provide two shapes, rectangles and ellipses, for displayed nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0072",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 27] The Configure/File Associations menu item shall provide an interface for associating files in an application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0073",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 28] The Configure/HATS-SML menu item shall provide an interface for the user to enter implementation-dependent information for starting HATS-SML processes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0074",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 29] The Run/Generate Parser menu item shall provide an interface for generating a parser program.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0075",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 30] The Run/Parse Target menu item shall provide an interface for selecting and parsing target programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0076",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 31] The Run/Parse Program menu item shall provide an interface for selecting and parsing transformation language programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0077",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Software Requirements Specification CS4311 Date: Page 11/01/2001 29 Software Requirements Specification [SRSreq 32] The Run/Execute Transforms menu item shall provide an interface for selecting and executing transformation language programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0078",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 33] The Run/Pretty-print menu item shall provide an interface for selecting SDTs and pretty-print style files and formatting the SDT according to the style.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0079",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 34] The View/SDT menu item shall provide an interface for viewing, navigating through, and searching SDTs output from the execution of transformation programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0080",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 35] The View/Text menu item shall provide an interface for viewing and searching pretty-printed text.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0081",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 36] The View/Standard Error menu item shall provide an interface for viewing error strings collected from HATS-SML.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0082",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 37] The View/Standard Output menu item shall provide an interface for viewing debugging information collected from HATS-SML.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0083",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 38] The View/Select Text menu item shall provide an interface for selecting pretty-printed text or text strings associated with SDT displays.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0084",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 39] The View/Copy Text menu item shall provide an interface for copying selected text into an operating system buffer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0085",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.3.1. HATS-SML",
+    "text": "HATS-SML [SRSreq 40] The HATS-GUI shall interface with HATS-SML (version 2.0) in order to parse transformation language programs, execute transformation language programs, and create output SDTs, error messages, pretty-printed text, and parsed transformation language programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0086",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.3.1. HATS-SML",
+    "text": "The interface shall consist of starting HATS-SML programs and passing command line arguments and capturing data written to the standard output and standard error streams of the HATS-SML processes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0087",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.3.1. HATS-SML",
+    "text": "[SRSreq 41] The GUI shall allow the user to create, modify, copy, or delete applications or files regardless of the current status of HATS-SML.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0088",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.3.1. HATS-SML",
+    "text": "[SRSreq 42] If the HATS-GUI attempts to start a HATS-SML program and fails, the HATS-GUI shall notify the user by displaying the following message: “Unable to start HATS-SML.” The HATS-GUI shall provide any other details related to the failure that are available from the Host OS.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0089",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.3.2. Host OS",
+    "text": "Host OS [SRSreq 43] The HATS-GUI shall be able to communicate with Sun Solaris, Linux, and Windows 2000.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0090",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.3.2. Host OS",
+    "text": "[SRSreq 44] Data sets shall be saved as files using file names with the appropriate extensions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0091",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.3.2. Host OS",
+    "text": "[SRSreq 45] The user shall be able to initiate processes from an interface provided by the HATS-GUI.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0092",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.3.2. Host OS",
+    "text": "The HATS-GUI shall optionally pass command line arguments to the process.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0093",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.1.3.2. Host OS",
+    "text": "Software Requirements Specification CS4311 Date: Page 11/01/2001 30 Software Requirements Specification [SRSreq 47] The HATS-GUI shall interact with the HOST OS file services to perform the following tasks: • Create new files • Delete existing files • Open an existing file for read and/or write • Read from an open file • Write to an open file • Close an open file.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0094",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 48] The HATS-GUI shall interact with the HOST OS to find files in directories.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0095",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "(This capability is necessary for the HATS-GUI to display file lists.) [SRSreq 49] The HATS-GUI shall interact with the HOST OS to compare time stamps for files.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0096",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "These time stamps must be reported with a precision of one second or less.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0097",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.1. Application",
+    "text": "[SRSreq 50] The HATS-GUI shall allow a user to create an application minimally consisting of a lexical specification file, a grammar file, a user-defined functions file, and application configuration information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0098",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.1. Application",
+    "text": "The user shall be able to name this application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0099",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.1. Application",
+    "text": "[SRSreq 51] All files associated with a given application shall be stored in one directory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0100",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.1. Application",
+    "text": "[SRSreq 52] The directory in which application files are stored shall be named with the application name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0101",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.1. Application",
+    "text": "[SRSreq 53] There shall be exactly one file describing the lexical specification of inputs associated with an application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0102",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.1. Application",
+    "text": "It shall have the file extension .spec.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0103",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.1. Application",
+    "text": "[SRSreq 54] There shall be exactly one file describing the grammar of inputs associated with an application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0104",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.1. Application",
+    "text": "It shall have the file extension .grm.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0105",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 55] There shall be exactly one file describing the interpretation of function symbols associated with an application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0106",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "This file shall be written in ML and have the file extension .lib.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0107",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 56] <deleted> [SRSreq 57] The HATS-GUI shall suggest a file name for the user whenever it prompts the user to enter a file name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0108",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall suggest the same file name for files copied to a different directory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0109",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall suggest a file name with a sequentially numbered extension for files copied to the same directory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0110",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 58] An application shall have associated with it an application configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0111",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.2.     Input and Output",
+    "text": "[SRSreq 59] The HATS-GUI shall display output written to the standard output and standard error streams in a tab-selectable window.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0112",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.2.     Input and Output",
+    "text": "Text in this window shall be cleared prior to executing individual HATS- SML programs, unless the programs are contained in a program script.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0113",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.2.     Input and Output",
+    "text": "In the case of a script, the window contents shall be cleared prior to executing the script.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0114",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.4. Display Windows",
+    "text": "Display Windows [SRSreq 62] The system shall open a new window when the user selects to display output.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0115",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.4. Display Windows",
+    "text": "[SRSreq 63] Display windows opened by the system shall have buttons for closing the windows.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0116",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.4. Display Windows",
+    "text": "[SRSreq 64] A navigation window shall be available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0117",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.4. Display Windows",
+    "text": "[SRSreq 65] Each active display window shall have a mouse cursor, which indicates the location of the pointing device in the window.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0118",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.4. Display Windows",
+    "text": "[SRSreq 66] Each display window shall have a keyboard cursor to track the current location in the display.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0119",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.4. Display Windows",
+    "text": "[SRSreq 67] The keyboard cursor shall be movable by the arrow keys.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0120",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.1.4. Display Windows",
+    "text": "[SRSreq 68] The keyboard cursor shall be set to the location of the mouse cursor when the pointing device is clicked.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0121",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2. Stimulus/Response",
+    "text": "Stimulus/Response This section details the response the HATS-GUI shall make when it receives stimulus either from the user, the Host OS, or HATS-SML.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0122",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.1. File Menu",
+    "text": "File Menu [SRSreq 69] When a user selects the File/Select menu item, the HATS-GUI shall provide the user with a list of files in the currently open application and allow the user to select a file.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0123",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.1. File Menu",
+    "text": "[SRSreq 70] When a user selects the File/Save As menu item, the HATS-GUI shall prompt the user to enter a new name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0124",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.1. File Menu",
+    "text": "A new file shall be created in the currently open application with the newly entered file name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0125",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.1. File Menu",
+    "text": "The contents of the selected file shall be written into the new file, and the new file shall become the currently selected file.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0126",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.1. File Menu",
+    "text": "[SRSreq 71] When a user selects the File/Delete menu item, the HATS-GUI shall prompt the user to confirm the deletion operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0127",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.1. File Menu",
+    "text": "If the user confirms, the currently selected file shall be deleted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0128",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.1. File Menu",
+    "text": "No file shall be currently selected at the end of this operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0129",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.1. File Menu",
+    "text": "[SRSreq 72] When a user selects the File/Edit menu item, the HATS-GUI shall request that the operating system start a process and load that process with the editor specified by the application configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0130",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.1. File Menu",
+    "text": "The name of a selected file shall be passed to the editor as a command line argument.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0131",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The editor started by the HATS-GUI shall be the editor associated with the file in the application configuration, or if there is no editor associated with the file, then the editor associated with the file type of the file in the application configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0132",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If no editor is associated with either the file or the file type, then the default editor shall be used.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0133",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If no default editor has been selected, then the HATS-GUI shall present a list of the configured editors and allow the user to select an editor.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0134",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If no editors have been configured, then the HATS-GUI shall inform the user that an editor must be configured before starting an editor.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0135",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 73] When a user selects the File/Exit menu option, the HATS-GUI shall request the host operating system to kill all currently active HATS-SML processes started by the HATS-GUI and halt the HATS-GUI process.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0136",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If changes have been made to the configuration but have not been saved, the user shall be prompted to save the configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0137",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If the user agrees, the configuration shall be saved.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0138",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If the user does not agree, the configuration shall not be saved.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0139",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.2. Application Menu",
+    "text": "Application Menu [SRSreq 74] When a user selects the Application/Select menu item, the HATS-GUI shall display a list of directory names in the current working directory, allow a user to navigate the directory structure, and allow a user to select a previously created application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0140",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.2. Application Menu",
+    "text": "[SRSreq 75] When a user selects the Application/Close menu item, the HATS-GUI shall close the currently selected application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0141",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.2. Application Menu",
+    "text": "[SRSreq 76] When a user selects the Application/Save menu item, the HATS-GUI shall save all application configuration information to nonvolatile storage.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0142",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.2. Application Menu",
+    "text": "[SRSreq 77] When a user selects the Application/Save As menu item, the HATS-GUI shall prompt the user for a new application name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0143",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.2. Application Menu",
+    "text": "The HATS-GUI shall create a new directory at the same level as the currently selected application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0144",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.2. Application Menu",
+    "text": "All files in the application directory, including all subdirectories, shall be copied to the new directory, and the new directory shall become the currently selected application.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0145",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Software Requirements Specification CS4311 Date: Page 11/01/2001 33 Software Requirements Specification [SRSreq 78] When a user selects the Application/Delete menu item, the HATS-GUI shall prompt the user to confirm the deletion operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0146",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If the user confirms, all files in the application directory shall be deleted and the application directory itself shall be deleted.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0147",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 79] When deleting an application directory, if the application directory contains a subdirectory, the system shall confirm the deletion of the subdirectory with the user before continuing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0148",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If the user does not confirm the deletion of the subdirectory, the application director shall not be deleted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0149",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.3. Configure Menu",
+    "text": "Configure Menu [SRSreq 80] When a user selects the Configure menu options, the HATS-GUI shall provide a list of elements in the application configuration, allow the user to select an element, then prompt the user for a value for the configuration element.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0150",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.4. Run Menu",
+    "text": "Run Menu [SRSreq 81] When a user selects the Run/Generate Parser menu option, the HATS-GUI shall generate the parser using the MakeParser HATS-SML program as described in Appendix D.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0151",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.4. Run Menu",
+    "text": "[SRSreq 82] When a user selects the Run/Parse Target menu option, the HATS-GUI shall parse the selected target program by using the ParseTarget HATS-SML programs as described in Appendix D.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0152",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.4. Run Menu",
+    "text": "If no target program is selected, the HATS-GUI shall first prompt the user to select a target program.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0153",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.4. Run Menu",
+    "text": "[SRSreq 83] When a user selects the Run/Parse Program menu option, the HATS-GUI shall parse the selected transformation language program by using the ParseTlp HATS-SML programs as described in Appendix D.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0154",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.4. Run Menu",
+    "text": "If no target program is selected, the HATS-GUI shall first prompt the user to select a transformation language program.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0155",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.4. Run Menu",
+    "text": "[SRSreq 84] When a user selects the Run/Execute Transforms menu option, the HATS-GUI shall execute the ApplyTransformations HATS-SML programs as described in Appendix D.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0156",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.4. Run Menu",
+    "text": "[SRSreq 85] When a user selects the Run/Pretty-print menu option, the HATS-GUI shall execute the Pretty- print HATS-SML programs as described in Appendix D.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0157",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.5. View Menu",
+    "text": "View Menu [SRSreq 86] When a user selects the View/SDT menu option, the HATS-GUI shall prompt the user to select an SDT file in the current application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0158",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.5. View Menu",
+    "text": "The file list shall include SDTs in the application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0159",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.5. View Menu",
+    "text": "[SRSreq 87] When a user selects the View/Text menu option, the HATS-GUI shall prompt a user to select a pretty-printed text file in the current application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0160",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.5. View Menu",
+    "text": "[SRSreq 88] When a user selects the View/Standard Error menu option, the HATS-GUI shall display the standard error screen showing all outputs written to the standard error stream since the most recent clearing of this data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0161",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.1.5. View Menu",
+    "text": "[SRSreq 89] When a user selects the View/Standard Output menu option, the HATS-GUI shall display the standard error screen showing all outputs written to the standard output stream since the most recent clearing of this data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0162",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.2. Mouse and Keyboard actions",
+    "text": "[SRSreq 90] When viewing an SDT, a single left mouse click on an expandable displayed node shall expand the node by displaying the node’s children or collapse the node by hiding the node’s children.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0163",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.2. Mouse and Keyboard actions",
+    "text": "Software Requirements Specification CS4311 Date: Page 11/01/2001 34 Software Requirements Specification [SRSreq 91] When a displayed node is expanded, the number of levels of children added to the displayed graph shall be determined by the application configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0164",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.2. Mouse and Keyboard actions",
+    "text": "[SRSreq 92] When viewing an SDT, a single left mouse click on an already-expanded displayed node shall collapse the displayed node.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0165",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.2.3. HATS-SML Completion",
+    "text": "HATS-SML Completion [SRSreq 93] The HATS-GUI shall collect process exit codes from HATS-SML processes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0166",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.1.     Prepare Application",
+    "text": "[SRSreq 94] The GUI shall allow the user to import a file into the selected application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0167",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.2.     Parse/Execute Transformation",
+    "text": "Parse/Execute Transformation The HATS-GUI shall facilitate parsing transformation language programs and target files.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0168",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.2.     Parse/Execute Transformation",
+    "text": "The HATS-GUI shall orchestrate executing transformation language programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0169",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.2.     Parse/Execute Transformation",
+    "text": "The HATS-GUI shall make these data sets available for viewing and/or saving as permanent files in the application.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0170",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 95] The HATS-GUI shall use the protocol and program signatures listed in Appendix D when executing HATS-SML programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0171",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 96] To perform a transformation in an application, the HATS-GUI shall execute the following sequence of actions: • The HATS-GUI shall confirm that the transformation language program exists.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0172",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "(It is an error if the program does not exist.) • The HATS-GUI shall check that the parser file is younger than the grammar and lexical specification files and that the parser file was generated from the grammar and lexical specification files.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0173",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If this is not the case, the HATS-GUI shall generate a new parser file.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0174",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The HATS-GUI shall check that a parsed version of the transformation language program exists and is younger than the parser file and the transformation language program file.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0175",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If it is not, the HATS-GUI shall generate a new parsed version of the transformation language program.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0176",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The HATS-GUI shall start the FindTarget program using the transformation language program as input.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0177",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Software Requirements Specification CS4311 Date: Page 11/01/2001 35 Software Requirements Specification • The HATS-GUI shall take the list of target program files generated by FindTarget, and for each file in the list it shall check that a parsed version of the target program exists and is younger than the target parser file and the target program file.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0178",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If it is not, the HATS-GUI shall generate a new parsed version of the target program.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0179",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The HATS-GUI shall start the ApplyTransformation program in HATS-SML and pass the parsed transformation language program file name, the user defined library file name, and the output file name to the ApplyTransformation program.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0180",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall redirect the standard output and standard error streams and capture any text written to those streams.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0181",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 98] The HATS-GUI shall allow the user to continue working while transformations are taking place.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0182",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Thus a user shall be able to edit files, view output, and transmit other problems to HATS-SML while waiting for HATS-SML to generate output.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0183",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 99] The HATS-GUI shall allow the user to execute a script file.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0184",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "A script file shall contain a linear sequence of HATS-SML programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0185",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall begin with the first command and execute the commands sequentially until either an error occurs or all commands in the script file have been executed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0186",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 100] Prior to starting the execution of a script file, the display screens for the standard error and the standard output shall be cleared.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0187",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3. Display Transformation Output",
+    "text": "[SRSreq 101] The HATS-GUI shall allow a user to select output files in the application to display.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0188",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3. Display Transformation Output",
+    "text": "[SRSreq 102] The HATS-GUI shall allow a user to display selected output files.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0189",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3. Display Transformation Output",
+    "text": "The manner in which the output is displayed shall depend on the type of the output.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0190",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.1. Displayed Node and Text Selection",
+    "text": "Displayed Node and Text Selection [SRSreq 104] The user shall be able to select an arbitrary set of displayed nodes in a displayed graph.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0191",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.1. Displayed Node and Text Selection",
+    "text": "Selected displayed nodes shall be indicated visually.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0192",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.1. Displayed Node and Text Selection",
+    "text": "The following methods shall be used to select displayed nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0193",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.1. Displayed Node and Text Selection",
+    "text": "• A single node shall be selected by right-clicking the mouse cursor on the node.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0194",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.1. Displayed Node and Text Selection",
+    "text": "• A single node shall be selected by moving the keyboard cursor to the node (using the tab key) and pressing the enter key.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0195",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.1. Displayed Node and Text Selection",
+    "text": "• Clicking and dragging the pointing device selection rectangle around a set of displayed nodes shall select a set of adjacent nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0196",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.1. Displayed Node and Text Selection",
+    "text": "• A set of nodes shall be selected by holding the shift key while selecting nodes using the methods specified previously in this section.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0197",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.1. Displayed Node and Text Selection",
+    "text": "[SRSreq 105] The user shall be able to deselect all selected displayed nodes by • clicking either the right or left mouse buttons while the mouse cursor is not pointed at any displayed nodes and the shift key is not depressed; or Software Requirements Specification CS4311 Date: Page 11/01/2001 36 Software Requirements Specification • by pressing the escape key.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0198",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 106] When viewing an SDT, selecting nodes shall result in the highlight of all displayed nodes in the smallest well-formed tree of the selected nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0199",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 107] When the system displays a navigation window, the user shall be able to select a current SDT location by clicking the mouse cursor in the navigation window.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0200",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 108] When both an SDT and a pretty-printed text display corresponding to a single transformed target file are open, highlighting and cursor location motion shall be mirrored in the two windows.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0201",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.2. Display Windows",
+    "text": "Display Windows [SRSreq 109] The user shall be able to resize windows dynamically.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0202",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.2. Display Windows",
+    "text": "When displayed graph windows are resized, the HATS-GUI shall respond by utilizing the space available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0203",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.2. Display Windows",
+    "text": "[SRSreq 110] The display of an SDT shall also result in the display of text from leaf nodes in a text display area.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0204",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.2. Display Windows",
+    "text": "[SRSreq 111] The text displayed in the text display area shall correspond to the concatenation of the node labels (separated by spaces) of the leaf nodes of the displayed graph (in-order traversal, left to right).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0205",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.2. Display Windows",
+    "text": "If a leaf displayed node corresponds to a non-terminal SDT node, the label in the text window shall be surrounded by pointed brackets (<>).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0206",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.2. Display Windows",
+    "text": "For example, if a non-terminal TERM appears in a leaf node, its text representation shall be <TERM>.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0207",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.2. Display Windows",
+    "text": "[SRSreq 112] The HATS-GUI shall provide for the copying of text from the text display area to a system buffer available for pasting into other applications (such as an editor).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0208",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.2. Display Windows",
+    "text": "[SRSreq 113] The user shall be able to display more than one SDT at a time.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0209",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.2. Display Windows",
+    "text": "Each SDT shall be displayed in a separate window.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0210",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.3. Display of SDTs",
+    "text": "[SRSreq 114] The HATS-GUI shall provide for the manipulation and display of SDTs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0211",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.3. Display of SDTs",
+    "text": "[SRSreq 115] SDTs shall be displayed as directed acyclic graphs with nodes and edges.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0212",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 117] When a displayed node and its children are displayed simultaneously, the parent node shall be displayed higher than the children.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0213",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 118] All displayed children of a single node shall appear at the same height.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0214",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 119] The user shall be able to control the display by choosing the color and shapes of displayed nodes based on node type.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0215",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall use the shape and color of displayed node types stored in the application configuration to display nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0216",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Software Requirements Specification CS4311 Date: Page 11/01/2001 37 Software Requirements Specification [SRSreq 120] The user shall be able to expand displayed nodes (provided it is possible to expand the selected nodes).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0217",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall change the graph display by adding the descendant nodes to the displayed graph (thus changing the expandable nodes to internal nodes).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0218",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 121] The user shall be able to collapse displayed nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0219",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall change the displayed graph by removing all descendants of the selected displayed nodes (thus changing the internal nodes to non-expandable leaf nodes).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0220",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 122] The user shall be able to hide a set of selected displayed nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0221",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall change the display by removing the selected nodes from the display and changing the parent and descendant nodes of the removed nodes to nodes with hidden descendants and parents, respectively.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0222",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 123] The user shall be able to issue an unhide instruction that reverses the hide instruction for all displayed nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0223",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 124] After issuing the unhide instruction, a user shall be able to issue a rehide instruction that reverses the unhide instruction.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0224",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "All displayed nodes hidden before the most recent unhide instruction shall become hidden.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0225",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 125] The HATS-GUI shall allow the user to expand the SDT by a predetermined number of node levels.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0226",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 126] The HATS-GUI shall provide the function to fully expand a sub-tree regardless of the node expansion level in the application configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0227",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 127] The user shall be able to view multiple SDTs simultaneously.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0228",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 128] SDT displays shall also provide the user with a view of text associated with the leaves of the displayed sub-tree.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0229",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "This text shall be copy-and-pasteable in the host operating system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0230",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 129] SDT displays shall provide the user with the option to refresh the display.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0231",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The new SDT display shall approximate the previous SDT display by expanding the SDT to the same number of nodes, if this is possible.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0232",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.4. Navigation",
+    "text": "Navigation [SRSreq 130] If a displayed graph or a text display is too large to fit inside its window, the windows shall have scroll bars attached to them.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0233",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.4. Navigation",
+    "text": "Dragging scrollbar buttons shall scroll the display.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0234",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.4. Navigation",
+    "text": "Pressing the arrow keys of the keyboard shall also scroll the display.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0235",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.4. Navigation",
+    "text": "[SRSreq 131] For text windows, the keyboard cursor location shall move according the following rules: • A left arrow key moves the cursor to the left one character.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0236",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Software Requirements Specification CS4311 Date: Page 11/01/2001 38 Software Requirements Specification [SRSreq 133] For displayed graph windows, the keyboard cursor location shall move according the following rules: • A left arrow key moves the cursor to the next unhidden node to the left.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0237",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 134] The pointing-device cursor shall track the motion of the pointing device.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0238",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The keyboard cursor shall move to the text element or graph node closest to the pointing-device cursor when the pointing device is clicked.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0239",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 135] If the displayed graph of the entire SDT is too large for the window, a separate, small window with a compressed view of the SDT shall be displayed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0240",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 136] The user shall be able to turn the navigation window on and off.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0241",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 137] The HATS-GUI shall provide the user the capability to search SDTs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0242",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The user shall enter a search pattern (see Appendix E and the following requirement).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0243",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall search the SDT for a matching pattern.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0244",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "When a match is found, the HATS-GUI shall highlight the matching displayed nodes and center the display on the left-most, top-level displayed node in the matching pattern.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0245",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If no matches are found, the HATS-GUI shall display a message stating “No Match Found.” [SRSreq 138] To initiate an SDT search, the user shall be able to use the following sequence of actions.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0246",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 140] The HATS-GUI shall provide for repeating a search.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0247",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "Repeating a search shall find the next matching sub-tree starting from the current keyboard cursor location.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0248",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 141] The HATS-GUI shall provide for repeating a search in the reverse direction.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0249",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 142] The HATS-GUI shall provide the user the capability to search the text display for text sub-strings.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0250",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The user shall be prompted to enter a text string Software Requirements Specification CS4311 Date: Page 11/01/2001 39 Software Requirements Specification describing a string pattern.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0251",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The HATS-GUI shall search the text for a matching pattern.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0252",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "When a match is found, the HATS-GUI shall highlight the matching text and center the display on the left-most element of the matching text.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0253",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If no matches are found, the HATS-GUI shall display a message stating “No Match Found.” [SRSreq 143] When searching for text patterns, search begins at the current keyboard cursor location and continues left-to-right, top-to-bottom until the end of the text is encountered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0254",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.5. Display of Pretty-Printed Text",
+    "text": "[SRSreq 144] The formatting of the displayed pretty-printed text shall be faithful to the formatting represented in the pretty-printed text file.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0255",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.5. Display of Pretty-Printed Text",
+    "text": "No additional white space shall be inserted, and a fixed width font shall be used to display the text.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0256",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.5. Display of Pretty-Printed Text",
+    "text": "[SRSreq 145] The user shall be able to select pretty-printed text files to display.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0257",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.5. Display of Pretty-Printed Text",
+    "text": "[SRSreq 146] Selected pretty-printed text shall be displayed in a separate window.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0258",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.5. Display of Pretty-Printed Text",
+    "text": "[SRSreq 147] Windows for pretty-printed text shall allow for scrolling left, right, up, and down if the text is too large to display in the window.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0259",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "[SRSreq 148] The HATS-GUI shall provide the user the capability to search the text display for text sub-strings.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0260",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The user shall be prompted to enter a text string describing a string pattern.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0261",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The keyboard cursor shall be set to this location.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0262",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "If no matches are found, the HATS-GUI shall display a message stating “No Match Found.” [SRSreq 149] When searching for text patterns, search begins at the location of the keyboard cursor and continues left-to-right, top-to-bottom until the end of the text is encountered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0263",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.6. Display of Errors",
+    "text": "Display of Errors [SRSreq 150] The HATS-GUI shall not halt as a result of any error messages received from HATS-SML.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0264",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.6. Display of Errors",
+    "text": "[SRSreq 151] The HATS-GUI shall collect error messages from HATS-SML in a single display area.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0265",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.6. Display of Errors",
+    "text": "This display area shall be initially clear, and shall contain all error messages generated by HATS-SML since the HATS-GUI was started.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0266",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.6. Display of Errors",
+    "text": "The display area shall be a window accessible via a window tab.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0267",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.6. Display of Errors",
+    "text": "The display shall list all error received from HATS-SML in the order received.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0268",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.6. Display of Errors",
+    "text": "[SRSreq 152] Errors shall not be displayed until requested by the user.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0269",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.6. Display of Errors",
+    "text": "[SRSreq 153] The user shall be able to clear the error window without restarting the HATS-GUI.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0270",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.7. Display of SDT and Pretty-Printed Text from Common Target file",
+    "text": "Display of SDT and Pretty-Printed Text from Common Target file [SRSreq 154] When both an SDT and a pretty-printed text display corresponding to a single transformed target file are open, navigation in the SDT window shall result in navigation in the pretty-printed text window.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0271",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.2.3.3.7. Display of SDT and Pretty-Printed Text from Common Target file",
+    "text": "[SRSreq 155] When both an SDT and a pretty-printed text display corresponding to a single transformed target file are open, navigation in the pretty-printed text window shall result in navigation in the SDT display.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0272",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.     Non-behavioral Requirements",
+    "text": "Non-behavioral Requirements 3.3.1 Performance Requirements [SRSreq 156] The HATS-GUI shall display and SDT with 10,000 nodes in five seconds or less.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0273",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.1 Performance Requirements",
+    "text": "[SRSreq 157] The HATS-GUI shall display 1,000,000 node SDTs in the same amount of time, plus or minus two seconds, as it takes to display a 10,000 node SDT.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0274",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.1 Performance Requirements",
+    "text": "[SRSreq 158] The HATS-GUI shall allow a user to request transformations while HATS-SML is performing transformations or parsing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0275",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.1 Performance Requirements",
+    "text": "[SRSreq 159] The HATS-GUI shall allow a user to navigate through the display of an SDT with 10,000 nodes so that scrolling a screen width with any portion of the SDT displayed takes less than 3 seconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0276",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.1 Performance Requirements",
+    "text": "[SRSreq 160] The complexity of the text search algorithm shall not exceed O(n2) for n nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0277",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.1 Performance Requirements",
+    "text": "[SRSreq 161] The complexity of the tree search algorithm shall not exceed O(n2) for n nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0278",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.1 Performance Requirements",
+    "text": "[SRSreq 162] The complexity of the scrolling algorithms for text and displayed graphs shall not exceed O(n2) for n displayed nodes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0279",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.2 Qualitative Requirements",
+    "text": "3.3.2 Qualitative Requirements 3.3.2.1 Security [SRSreq 163] The user shall not be required to log in or authenticate his/her identity when using the system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0280",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.2.2 Portability",
+    "text": "[SRSreq 164] The GUI shall run on Windows 2000, Sun Solaris 8, and Linux operating systems without modification of the Java code.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0281",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.3    Design and Implementation Constraints",
+    "text": "3.3.3 Design and Implementation Constraints [SRSreq 165] The system shall be implemented in the Java 1.3 programming language.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0282",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "3.3.3    Design and Implementation Constraints",
+    "text": "This algorithm shall not be used in the HATS-GUI.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0283",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "7.       Appendix D: HATS-SML Communication Protocol",
+    "text": "The parser-program file must have been generated previously by MakeParser.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0284",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "The tlp-parser file must have been generated previously by MakeParser.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2001 - hats [pdf]__C0285",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": "8.1.      Overview",
+    "text": "Overview The HATS-GUI shall support searching the SDTs for matching sub-trees.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2001 - hats [pdf]__C0286",
+    "document": "2001 - hats [pdf].txt",
+    "nearest_heading": null,
+    "text": "“abc $def geh” following character matches the search string “abc \\$def” Other characters that must be preceded by a “\\” are “\\”, “*”, “^”, “[“, and “]”.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

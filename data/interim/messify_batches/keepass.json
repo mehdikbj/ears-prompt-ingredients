@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PURE-045",
+    "text": "KeePass must be downloaded and installed"
+  },
+  {
+    "id": "PURE-046",
+    "text": "Databases must have different names or else the previews one will be replace if selected"
+  },
+  {
+    "id": "PURE-047",
+    "text": "There must be entries in the database in order for them to be printed"
+  },
+  {
+    "id": "PURE-048",
+    "text": "An entry must belong to a group to be created"
+  },
+  {
+    "id": "PURE-049",
+    "text": "When the password field is completed the repeat password field must be completed"
+  },
+  {
+    "id": "PURE-050",
+    "text": "Sequence’s length must not be more than a line (59 characters)"
+  },
+  {
+    "id": "PURE-051",
+    "text": "In case a space is found in the path, it must be enclosed into quotes"
+  },
+  {
+    "id": "PURE-052",
+    "text": "If there is a composite key, both master password and key file are required"
+  }
+]

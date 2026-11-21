@@ -1,0 +1,2675 @@
+[
+  {
+    "id": "2007 - nde [pdf]__C0001",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "2 REFERENCED DOCUMENTS",
+    "text": "• National Oceanic and Atmospheric Administration Information Quality Guidelines, September 30, 2002, http://www.noaanews.noaa.gov/stories/iq.htm • Concept of Operations (CONOPS) for the National Polar-Orbiting Operational Environmental Satellite System (NPOESS) Program, Version 1.2, September 15, 2003 • Comprehensive Large Array-data Stewardship System (CLASS) Archive, Access and Distribution System Allocated Requirements, Version 1 • Concept of Operations for the National Environmental Satellite, Data, and Information Service: 2010-2020, 2002 • National Oceanic and Atmospheric Administration (NOAA) Concept of Operations (CONOPS) For NPOESS Data Exploitation (NDE), Version 2.0, 08/03/05 11 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 3 REQUIREMENTS 3.1 Required States and Modes 3.1.1 Open Mode The System shall provide the capability to operate in an Open Mode, within which authorized customers shall be allowed read-only access to requested Data Products.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0002",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.1.2 Degraded System Mode",
+    "text": "3.1.2 Degraded System Mode The System shall provide the capability to operate in a Degraded System Mode, within which the system generates a subset of products based upon priority and availability of system resources.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0003",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.1.2.1 Degraded Data Notification",
+    "text": "3.1.2.1 Degraded Data Notification The System shall provide the capability to notify customers upon the NPOESS Ground System entering and leaving a Degraded Operations Mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0004",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.1.3 Restricted Access Mode",
+    "text": "3.1.3 Restricted Access Mode The System shall provide the capability to operate in a Restricted Access Mode, within which only users meeting certain criteria will be authorized access to the data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0005",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.1.3.1 Restricted Access Notification",
+    "text": "3.1.3.1 Restricted Access Notification The System shall provide the capability to send an electronic notification to authorized users when they receive restricted access data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0006",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2 Capability Requirements",
+    "text": "3.2 Capability Requirements 3.2.1 Define Data Products The System shall be capable of defining Data Products for Ingest.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0007",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.2 Integrate System Elements",
+    "text": "3.2.2 Integrate System Elements The System shall be capable of integrating System Elements including Scientific Algorithms, Product Tailoring Tools, Data Format Translation Tools, and other pre-defined transformation utilities.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0008",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.3 Test Support",
+    "text": "3.2.3 Test Support The System shall provide the capability to support functional and performance tests of system elements without impacting operational product generation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0009",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.3 Test Support",
+    "text": "12 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 3.2.4 Maintain Records of Data and System Elements The System shall be capable of maintaining records of at least 30 days (configurable) worth of Ingest history.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0010",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.5 Control Algorithm Execution",
+    "text": "3.2.5 Control Algorithm Execution The System shall provide the capability to control the execution of Scientific Algorithms.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0011",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6 Data Product Generation",
+    "text": "3.2.6 Data Product Generation The System shall be capable of generating Data Products.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0012",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.1 Data Product Priorities",
+    "text": "3.2.6.1 Data Product Priorities The System shall provide the capability for an authorized user to adjust Product Generation priorities.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0013",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.2 Platte Carre Projection",
+    "text": "3.2.6.2 Platte Carre Projection The System shall be capable of rendering Platte Carre projections.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0014",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.3 Mercator Projection",
+    "text": "3.2.6.3 Mercator Projection The System shall be capable of rendering Mercator projections.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0015",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.4 Polar Stereographic Projection",
+    "text": "3.2.6.4 Polar Stereographic Projection The System shall be capable of rendering Polar Stereographic projections.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0016",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.5 Available Data Product Aggregations",
+    "text": "3.2.6.5 Available Data Product Aggregations The System shall be capable of aggregating Data Products up to and including one orbit.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0017",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.6 Time-Averaged Data Products",
+    "text": "3.2.6.6 Time-Averaged Data Products The System shall be capable of producing time-averaged Data Products.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0018",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.7 Available Grid Spacing",
+    "text": "3.2.6.7 Available Grid Spacing The System shall be capable of generating NOAA-Unique and Tailored Data Products with Government-specified grid spacing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0019",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.8 BUFR Data Format",
+    "text": "3.2.6.8 BUFR Data Format The System shall be capable of reformatting Data Products into BUFR.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0020",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.9 GRIB2 Data Format",
+    "text": "3.2.6.9 GRIB2 Data Format The System shall be capable of reformatting Data Products into GRIB2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0021",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.10 GeoTIFF Data Format",
+    "text": "3.2.6.10 GeoTIFF Data Format The System shall be capable of reformatting Data Products into GeoTIFF.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0022",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.11 HDF5 Data Format",
+    "text": "3.2.6.11 HDF5 Data Format The System shall be capable of reformatting Data Products into HDF5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0023",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.11 HDF5 Data Format",
+    "text": "13 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 3.2.6.12 netCDF Data Format The System shall be capable of reformatting Data Products into netCDF.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0024",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.13 GZIP Compression Format",
+    "text": "3.2.6.13 GZIP Compression Format The System shall be capable of compressing Data Products with the GZIP algorithm.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0025",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.14 ZIP Compression Format",
+    "text": "3.2.6.14 ZIP Compression Format The System shall be capable of compressing Data Products with the ZIP algorithm.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0026",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.15 RICE Compression Format",
+    "text": "3.2.6.15 RICE Compression Format The System shall be capable of compressing Data Products with the RICE algorithm.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0027",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.16 JPEG Compression Format",
+    "text": "3.2.6.16 JPEG Compression Format The System shall be capable of compressing images of Data Products with the JPEG algorithm.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0028",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.17 MPEG Compression Format",
+    "text": "3.2.6.17 MPEG Compression Format The System shall be capable of compressing animated images of Data Products with the MPEG algorithm.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0029",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.6.18 Data Product Recovery",
+    "text": "3.2.6.18 Data Product Recovery The System shall be capable of generating Data Products within a time frame not to exceed the maximum user-specified shelf-life of the Data Product.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0030",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.7 Data Product Availability",
+    "text": "3.2.7 Data Product Availability The System shall be capable of making Data Products available to registered users.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0031",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.7.1 User Subscription Requests",
+    "text": "3.2.7.1 User Subscription Requests The System shall provide an online capability for registered users to request subscriptions to xDRs, Ancillary, NOAA-Unique, and Tailored Data Products.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0032",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.7.2 Approve Subscription Requests",
+    "text": "3.2.7.2 Approve Subscription Requests The System shall provide an online capability for the Government to approve subscription requests for xDRs, Ancillary, NOAA-Unique, and Tailored Data Products.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0033",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.7.3 Archive NOAA-Unique Data Products",
+    "text": "3.2.7.3 Archive NOAA-Unique Data Products The System shall be capable of distributing NOAA-Unique Data Products to the CLASS Long-Term Archive (LTA).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0034",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.7.3.1 Provide Manifest and File Reports to CLASS",
+    "text": "3.2.7.3.1 Provide Manifest and File Reports to CLASS The System shall provide a list of files distributed to CLASS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0035",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.7.4 Receipt from CLASS",
+    "text": "3.2.7.4 Receipt from CLASS The System shall provide the capability to receive an electronic delivery acknowledgement message from CLASS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0036",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.7.4 Receipt from CLASS",
+    "text": "14 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 3.2.8 Data Delivery The System shall be capable of delivering NDE Data Products to registered user's computer systems.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0037",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.9 Order Status Notification",
+    "text": "3.2.9 Order Status Notification The System shall be capable of notifying registered users of the status of their orders.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0038",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.10 System Status Notification",
+    "text": "3.2.10 System Status Notification The System shall be capable of notifying registered users of the status of the System.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0039",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.11 Data Authorization Procedures",
+    "text": "3.2.11 Data Authorization Procedures The System shall ensure that NDE information is accessible only to those authorized to have access.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0040",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.12 Customer Registration",
+    "text": "3.2.12 Customer Registration The System shall be capable of registering Users for the purpose of controlling their access to System Elements and Data Products.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0041",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.13 Health and Status",
+    "text": "3.2.13 Health and Status The System shall provide a mechanism for reporting performance related to resource utilization, communications, product latencies, and hardware.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0042",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.14 Provide Automatic Failover",
+    "text": "3.2.14 Provide Automatic Failover The System shall provide an automatic failover capability that will re-create a fully functioning configuration from a failed configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0043",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.14.1 OPS Failover to Test",
+    "text": "3.2.14.1 OPS Failover to Test In the event of a failure of the Operational Environment during the NPOESS missions, the System Test Environment shall be capable of delivering products to the operational community within the same throughput and latency parameters as the operational system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0044",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.15 Monitor Input Data Integrity",
+    "text": "3.2.15 Monitor Input Data Integrity The System shall be capable of monitoring the integrity of all data received from external sources.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0045",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.15.1 Define Data Integrity Checks",
+    "text": "3.2.15.1 Define Data Integrity Checks The System shall provide the capability for an authorized user to define data input integrity checks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0046",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.15.2 Execute Data Integrity Checks",
+    "text": "3.2.15.2 Execute Data Integrity Checks The System shall be capable of executing and recording the results of data input integrity checks, and initiate actions based on those results.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0047",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.16 Data Product Latency",
+    "text": "3.2.16 Data Product Latency The System shall be capable of making products available for distribution according to customer- 15 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 specified latencies.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0048",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.17 Capture Performance Statistics",
+    "text": "3.2.17 Capture Performance Statistics The System shall have the capability to monitor, record statistics, and deliver reports on its performance.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0049",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.17.1 Performance Log Retention",
+    "text": "3.2.17.1 Performance Log Retention The System shall be capable of retaining logs of all performance data for no less than 90 consecutive calendar days.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0050",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.2.18 Generate Custom Reports",
+    "text": "3.2.18 Generate Custom Reports The System shall provide the capability to generate custom reports from data collected during data receipt, processing, and distribution.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0051",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3 External interface requirements",
+    "text": "3.3 External interface requirements 3.3.1 Receive from IDPS The System shall be capable of receiving data and products from IDPS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0052",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.1.1 xDR Ingest from IDPS",
+    "text": "3.3.1.1 xDR Ingest from IDPS The System shall be capable of requesting and accepting all xDRs generated by the IDPS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0053",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.1.2 SARSAT Telemetry from IDPS",
+    "text": "3.3.1.2 SARSAT Telemetry from IDPS The System shall be capable of receiving SARSAT Telemetry from the IDPS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0054",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.1.3 A-DCS Data and Telemetry from IDPS",
+    "text": "3.3.1.3 A-DCS Data and Telemetry from IDPS The System shall be capable of receiving A-DCS data and telemetry from the IDPS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0055",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.1.4 Product Subscriptions to the IDPS",
+    "text": "3.3.1.4 Product Subscriptions to the IDPS The System shall provide an operator console capable of utilizing IDPS client software for submitting subscriptions for Data Products to the IDPS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0056",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.1.5 Ad Hoc Requests to the IDPS",
+    "text": "3.3.1.5 Ad Hoc Requests to the IDPS The System shall be capable of automatically submitting Ad Hoc Requests to the IDPS for retransmission of Data Products.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0057",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.1.6 Data Delivery Notifications",
+    "text": "3.3.1.6 Data Delivery Notifications The System shall be capable of receiving Data Delivery Reports (DDRs) from the IDPS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0058",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.2 Ancillary Data Product Acquisition",
+    "text": "3.3.2 Ancillary Data Product Acquisition The System shall be capable of receiving Ancillary Data Products from the Environmental Satellite Processing Center (ESPC).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0059",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.2 Ancillary Data Product Acquisition",
+    "text": "16 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 3.3.3 Process Archived Data The System shall be capable of ingesting and processing archived data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0060",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.4 Receive from CLASS",
+    "text": "3.3.4 Receive from CLASS The System shall provide an operator console capable of requesting Data Products from the Comprehensive Large Array-data Stewardship System (CLASS).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0061",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.4.1 Data Products from CLASS",
+    "text": "3.3.4.1 Data Products from CLASS The System shall be capable of receiving Data Products delivered from CLASS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0062",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.4.2 Send CLASS Data Receipt",
+    "text": "3.3.4.2 Send CLASS Data Receipt The System shall be capable of sending a Data Receipt to CLASS for each Data Product received from CLASS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0063",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.5 MMC Interface Through ESPC",
+    "text": "3.3.5 MMC Interface Through ESPC ESPC Operations shall provide an interface between NDE and the NPOESS Mission Management Center (MMC) such that 100% of the NDE inquiries to the MMC and NDE replies to MMC requests are received by the MMC in a time not to exceed that specified in the ICD, and that 100% of the notifications and inquiries from the MMC to NDE are received by NDE in a time not to exceed that specified by the ICD.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0064",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.6 NPOESS Trouble Ticket Interface",
+    "text": "3.3.6 NPOESS Trouble Ticket Interface The System shall provide an operator console capable of interfacing with the NPOESS trouble ticketing system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0065",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.3.7 ESPC Trouble Ticket Interface",
+    "text": "3.3.7 ESPC Trouble Ticket Interface The System shall provide an operator console capable of interfacing with the ESPC trouble ticketing system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0066",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.4 Internal Interface Requirements",
+    "text": "3.4 Internal Interface Requirements 3.4.1 Schedule Tasks The System shall be capable of executing tasks according to a schedule.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0067",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.4.2 Event Driven Tasks",
+    "text": "3.4.2 Event Driven Tasks The System shall be capable of executing tasks initiated by events.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0068",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.4.3 Reliability of Scheduled Tasks",
+    "text": "3.4.3 Reliability of Scheduled Tasks The System shall be capable of executing 99% of its scheduled tasks in any consecutive 30 day period.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0069",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.4.4 Reliability of Event Driven Tasks",
+    "text": "3.4.4 Reliability of Event Driven Tasks 17 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 The System shall be capable of executing 99% of its event driven tasks in any consecutive 30 day period.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0070",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.4.5 Adjust Priorities of Tasks",
+    "text": "3.4.5 Adjust Priorities of Tasks The System shall be capable of adjusting the priorities of scheduled and event-driven tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0071",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.5 Internal data Requirements",
+    "text": "3.5 Internal data Requirements 3.5.1 Test Data Capacity The System shall have the capacity to store 4 Terabytes (TBs) of data for testing purposes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0072",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.5.2 Metadata Standards Validation",
+    "text": "3.5.2 Metadata Standards Validation The System shall be capable of reporting on all ingested, generated, and distributed data according to the (Federal Geographic Data Committee (FGDC) Content Standard for Digital Geospatial Metadata (CSDGM), Vers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0073",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.5.3 Record Quality Information",
+    "text": "3.5.3 Record Quality Information The System shall be capable of storing product quality information in the metadata of products created.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0074",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.5.4 NOAA-Unique Product Shelf Life",
+    "text": "3.5.4 NOAA-Unique Product Shelf Life The System shall be capable of retaining Data Products for a configurable period of time not to exceed 96 hours.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0075",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.6 Adaptation Requirements",
+    "text": "3.6 Adaptation Requirements 3.6.1 Technology Updates The System shall be capable of accepting technology updates without System downtime.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0076",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.6.2 Scalability",
+    "text": "3.6.2 Scalability The System shall be capable of adding additional capacity without redesign of it's infrastructure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0077",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.7 Security and Privacy Requirements",
+    "text": "3.7 Security and Privacy Requirements 3.7.1 Follow ESPC Security Procedures The System shall comply with ESPC (DoC/NOAA/NESDIS) procedures and policies as stated in the NOAA IT Security Manual 212-1300, Version 3.3, dated May 15, 2007.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0078",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.7.1 Follow ESPC Security Procedures",
+    "text": "18 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 3.7.2 Generate System Backups The System shall be capable of generating backups for all NDE data, procedures, and software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0079",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.7.3 Identify Automated Backup Procedures",
+    "text": "3.7.3 Identify Automated Backup Procedures The System shall be capable of implementing automated backup procedures.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0080",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.7.4 Restore from System Backups",
+    "text": "3.7.4 Restore from System Backups The System shall be capable of returning to nominal operations following a restoration from system backups.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0081",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.7.5 Integrity - Protect from Human Errors",
+    "text": "3.7.5 Integrity - Protect from Human Errors The System shall be capable of protecting the integrity of NDE data in the event of human errors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0082",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.7.6 Integrity - Protect from Transmission Errors",
+    "text": "3.7.6 Integrity - Protect from Transmission Errors The System shall be capable of protecting the integrity of NDE data in the event of computer to computer transmission errors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0083",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.7.7 Integrity - Protect from Software Bugs",
+    "text": "3.7.7 Integrity - Protect from Software Bugs The System shall be capable of protecting the integrity of NDE data from software bugs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0084",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.7.8 Integrity - Protect from Hardware Malfunction",
+    "text": "3.7.8 Integrity - Protect from Hardware Malfunction The System shall be capable of protecting the integrity of NDE data in the event of a hardware malfunction such as a disk crash.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0085",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.7.9 Integrity - Protect from Natural Disasters",
+    "text": "3.7.9 Integrity - Protect from Natural Disasters The System shall be capable of protecting the integrity of NDE data in the event of a natural disaster.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0086",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.8 Computer Resource Requirements",
+    "text": "3.8 Computer Resource Requirements 3.8.1 Computer Hardware Requirements 3.8.1.1 Hardware Reuse The System shall be constructed using existing hardware where it is possible, practical, and approved by the Government.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0087",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.8.2 Computer software requirements",
+    "text": "3.8.2 Computer software requirements 3.8.2.1 Software Reuse 19 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 The System shall be constructed using existing software where it is possible, practical, and approved by the Government.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0088",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.8.2.2 COTS and Open Source",
+    "text": "3.8.2.2 COTS and Open Source The System shall be constructed using COTS and Open Source software where it is possible, practical, and approved by the Government.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0089",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.8.2.3 Reusability",
+    "text": "3.8.2.3 Reusability The NDE System Elements shall be designed to be reused in other Satellite Data Processing applications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0090",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.8.2.4 Modularity",
+    "text": "3.8.2.4 Modularity The NDE System shall be designed so that Scientific Algorithms are invoked as objects.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0091",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.9 Operator-Related requirements",
+    "text": "3.9 Operator-Related requirements 3.9.1 Log and Track Events The System shall provide the capability for operators to log and track events (i.e., MMC Service Requests, MMC Service Request Responses).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0092",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.9.2 Provide an Operator Log",
+    "text": "3.9.2 Provide an Operator Log The System shall provide the capability for operators to update a summary log for the purposes of tracking the occurrence of significant events or activities.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0093",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.9.3 Sort/Search Operator Log",
+    "text": "3.9.3 Sort/Search Operator Log The System shall provide the capability for operators to sort and search on summary log events for the purposes of identifying, troubleshooting, and reporting on significant activities.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0094",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.9.4 Report on Events",
+    "text": "3.9.4 Report on Events The System shall be capable of reporting on summary log events.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0095",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.9.5 Restart Procedures",
+    "text": "3.9.5 Restart Procedures The System shall provide the capability for operators to quiesce and restart the System.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0096",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.9.6 Monitor Input Quality",
+    "text": "3.9.6 Monitor Input Quality The System shall implement operational quality monitoring procedures that will detect and report to operators and management the acceptability of xDR metadata according to configurable thresholds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0097",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.9.7 Monitor Output Quality",
+    "text": "3.9.7 Monitor Output Quality The System shall implement operational quality monitoring procedures that will detect and report to operators and management the acceptability of output product metadata according to configurable 20 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 thresholds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0098",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.9.8 Degraded Operations Notification",
+    "text": "3.9.8 Degraded Operations Notification The System shall be capable of changing system status to reflect the condition of NPOESS (i.e., Degraded Operations, Restricted Access).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0099",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.9.9 Archive System Elements",
+    "text": "3.9.9 Archive System Elements The System shall provide the capability for operators to forward NDE System Elements to CLASS for permanent archive.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0100",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10 Other Requirements",
+    "text": "3.10 Other Requirements 3.10.1 Availability Requirements 3.10.1.1 Ingest Availability The NDE Ingest capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0101",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.1.2 Product Generation Availability",
+    "text": "3.10.1.2 Product Generation Availability The NDE Product Generation capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0102",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.1.3 Distribution Availability",
+    "text": "3.10.1.3 Distribution Availability The NDE Distribution capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0103",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.1.4 Operations Monitoring Availability",
+    "text": "3.10.1.4 Operations Monitoring Availability The NDE Operations Monitoring capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0104",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.1.5 Interruptions to Development",
+    "text": "3.10.1.5 Interruptions to Development The Development and Maintenance Environment shall be available to at least 25 developers 85% of the time during normal business hours over any consecutive twelve month period.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0105",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.2 Performance Requirements",
+    "text": "3.10.2 Performance Requirements 3.10.2.1 IDPS Data Access Latency The System shall be capable of accessing data delivered by IDPS within no more than ten seconds of notification from IDPS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0106",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.2.2 SARSAT Telemetry",
+    "text": "3.10.2.2 SARSAT Telemetry The System shall deliver SARSAT Telemetry data from IDPS to US Mission Control Center 21 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 (USMCC) within 1 minute of their receipt.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0107",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.2.3 A-DCS Telemetry",
+    "text": "3.10.2.3 A-DCS Telemetry The System shall deliver A-DCS Telemetry data from IDPS to the US Global Processing Center within 1 minute of their receipt.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0108",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.2.4 A-DCS Data",
+    "text": "3.10.2.4 A-DCS Data The System shall deliver A-DCS Data Products from IDPS to the US Global Processing Center within 1 minute of their receipt.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0109",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.3 Capacity Requirements",
+    "text": "3.10.3 Capacity Requirements 3.10.3.1 NPP Era Product Volumes During the NPP mission, the System shall be capable of supporting product volumes of 4 Terrabytes per day of input and 8 Terabytes per day of output.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0110",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.3.2 NPOESS-C1 Era Product Volumes",
+    "text": "3.10.3.2 NPOESS-C1 Era Product Volumes During the NPOESS-C1 mission, the System shall be capable of supporting product volumes of 8 Terabytes per day of input and 16 Terrabytes per day of output.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0111",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.3.3 NPOESS-C2 Era Product Volumes",
+    "text": "3.10.3.3 NPOESS-C2 Era Product Volumes During the NPOESS-C2 mission, the System shall be capable of supporting product volumes of 8 Terabytes per day of input and 16 Terabytes per day of output.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0112",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": "3.10.4 Federal Enterprise Architecture",
+    "text": "3.10.4 Federal Enterprise Architecture The System shall be compliant with the OMB Federal Enterprise Architecture (FEA) according to the documents dated December 2006, and available from http://www.whitehouse.gov/omb/egov/a-2- EAModelsNEW2.html .",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0113",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "NDE Software Engineering Outcomes Matrix Performance Monitoring Desired Outcomes Required Service Standard Method SE1 The ESPC will have The contractor shall The IT Enterprise ~Analysis of an IT Architecture develop an IT Architecture designs compliant with Enterprise (EA) will be government Architecture (EA) compliant with standards and that that is consistent with the OMB Federal meets NESDIS “Table 1 Federal Enterprise requirements.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0114",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SE2 Lower the cost and Design Requirement Open ~Analysis of risks of operating A: Design an Architecture: designs the systems that will Operational During the first generate and EnvironmentThe year of the distribute NPOESS- contractor shall contract, prior to derived products to design and provide a coding, the customers reliable cost estimate contractor shall of an NDE product develop a set of processing system diagrams and (develop a set of supporting text diagrams and that describes supporting text) with NDE product an open architecture, processing in the such that its context of all capabilities can be NESDIS data executed by other processing satellite data missions.Reusabi processing lity: During the applications and can first year of the easily be operated on contract, prior to 35 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 other coding, platforms.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0115",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "the contractor shall Capabilities that must provide a set of be specified in this diagrams design include, but and supporting text are not limited to:- Database that describes an NDE management systems product (DBMS)- processing Work management system in which and the scheduling systems- maximum number of system Libraries - Object elements repositories- Object are accessible by the repository content greatest possible Shared data objects number (i.e., lookup tables, of product ancillary data) Shared processing procedural objects (i.e., utilities, called- applications.Reli modules, subroutines, ability: The etc.) NDE operational environment will be designed for a high degree of reliability- maintain full operational status 98% of the time over any 12 month period.Performa nce: The NDE operational environment will be designed for optimal resource utilizationSecurit y: The NDE operational environment will be designed for a high degrees of confidentiality, integrity, and availability SE3 Lower the cost and Design Requirement Open ~Analysis of 36 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 risks of developing, B: Design a Architecture: designs maintaining, and Development During the first enhancing the EnvironmentSpecify year of the system's data and provide a reliable contract, prior to processing and cost estimate of a coding, the scientific capabilities shared, scalable contractor shall infrastructure for use develop a set of by developers and diagrams and maintainers of data supporting text processing functions that describes and of scientific NDE algorithms that development replicates, to the capabilities in greatest extent the context of all possible, the system NESDIS data described as processing fulfillment of Design missions.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0116",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "As well, the During the first Development year of the Environment Design contract, prior to will specify a suite of coding, the proven development contractor shall life cycle tools to provide a set of enhance NESDIS diagrams and capabilities in supporting text performing that describes a developmental and developmental IT software maintenance infrastructure in tasks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0117",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Performance: The NDE development 37 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 environment will be designed for optimal resource utilization Maintainability: Thecontractor provides a set of recommendations for the most appropriate development tools demonstrating that they are:~ widely supported in the remote sensing software industry ~ the most likely to be known by future NESDIS support staff Reliability: The NDE development environment will be designed for a high degree of reliability - accessible to no less than 100 developers 95% of the time over any 12 month period Security: The NDE development environment will be designed for a high degrees of confidentiality, integrity, and availability Partitioning: The NDE 38 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 development environment will be designed to support segregated domains to support different levels of testing (e.g.; unit, string, etc.) SE4 Lower the cost and Design Ease of Use, ~Analysis of risks of transitioning Requirement C: Efficiency, System Test system elements into Design a System Manageability: Designs operations Test Environment During the first Specify and provide a year of the reliable cost estimate contract, prior to of a segregated test coding, the capability that contractor shall replicates, to the provide a set of greatest extent diagrams, possible, the system supporting text, described as and procedures fulfillment of Design that describe a Requirement A System Test (above).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0118",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "The System Environment to Test Environment be administered must support the and operated in following: such a way that Provide a capability all elements for products to be submitted to them generated and for testing and distributed to review can be customers throughout evaluated for the NPP mission.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0119",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SE5 Ability to isolate, The contractor shall Modularity: ~Analysis of alter, and test the develop the data During the designs 40 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 system functions processing elements project, prior to of the future system coding, the in such a way that contractor shall algorithms are provide a set of invoked as objects diagrams and with hidden supporting text information.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0120",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "that describes how algorithms are to be invoked as objects SE6 The The contractor shall Documentation is ~Analysis of contractor's provide documentation complete and high designs design shall needed for Information quality.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0121",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SE7 ESPC is built The contractor shall use CM, EA, and IT ~Analysis of according to Government Maturity Security conform designs government Models for Configuration with accepted standards and Control of documentation, Government Level Maturity Information System 4 Maturity Models.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0122",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SE8 Costs are The contractor shall Technical ~Analysis of reduced and design and build the NDE Reference Model is designs system Information System using compared to NDE transition is NOAA IT Best Practices collection of easier.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0123",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SE9 The use of The contractor shall use Design ~Analysis of existing existing hardware and documentation designs hardware and software where it is identifies existing software possible, practical, and hardware and reduces cost.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0124",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SE10 Vendor- The contractor shall use Design ~Analysis of supported Commercial-Off-the-Shelf documentation designs COTS and (COTS) and Open Source identifies COTS Open Source software packages where used.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0125",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SE11 Ability to The contractor shall Measurability: ~Analysis of make system identify standard measures During the project, designs management of automated system prior to coding, the decisions on component performance contractor shall the basis of that can be captured provide diagrams system- during run-time and and supporting text generated retrieved for analysis describing:~ metrics numerical data elements of execution performance (time, volume, number of invocations, etc.)~ how the performance metrics are to be stored and used for reporting SE12 Effectively Project Management Manageability: ~Status manage design Requirement: The The contractor:~ Reporting and contractor shall plan and Shall identify the development control the NDE project in widely accepted of the system's a manner that is consistent software data with a widely accepted engineering processing software engineering methodology to be capabilities methodology.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0126",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "used on the project~ Shall develop and maintains Work Breakdown Structures and Project Plans consistent with the Methodology ~ Shall create work products consistent 42 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 with those described by the methodology with those described by the methodology ~ Shall report project status in terms of the likelihood that methodology- defined deliverables will be provided on schedule.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0127",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SE13 Effectively The contractor shall Maintainability: ~Analysis of maintain the develop the data As early as Recommendatio system's data processing elements of the possible during ns processing future NDE system using the Design components the latest proven Project, the with a pool of technologies contractor shall readily (programming languages, provide a set of available CASE tools, object recommendations software repositories, data base for the most engineers.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0128",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "they are:~ widely supported in the remote sensing software industry ~ the most likely to be known by future NESDIS support staff SE14 Effectively The contractor shall Maintainability: ~Analysis of manage develop the data Prior to coding, the designs maintenance processing elements of the contractor shall and future NDE system using develop a set of enhancements tools that will support the recommendations of the system's ability to alter executable for the data components without development tools processing altering source code.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0129",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SM 1 The system System Management Software Software management Requirement A:The Management Management processes will contractor's system Capability: Capability:Evalu improve management capabilities Certified CMM ation by an continuously shall be evaluated in terms Level 2 during independent of Software Engineering proposal agency every Institute's (SEI) Capability evaluation, three years.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0130",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Maturity Model (CMM) Certified CMM Level 3 three years after contract award and thereafter SM 2 Work, both System Management Completeness: Completeness: automated and Requirement B:The Automated tasks NESDIS manual, is contractor shall schedule associated with inspection of performed tasks temporal events scheduler reports according to a will be initiated by Reliability: predetermined an automated NESDIS schedule.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0131",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "inspection of Completeness: Performance Manual tasks Logs necessary to achieve NESDIS objectives are planned Reliability: 99% of scheduled tasks will execute on time SM 3 NOAA System Management Completeness: All Quality: priorities and Requirement C:The predecessor and NESDIS processing contractor shall prioritize successor inspection of dependencies tasks relationships of design documents influence the system elements and performance level of effort are documented logs 45 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 and sequence Quality of tasks (Measurability): The relative importance of tasks to each other is represented numerically.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0132",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Quality: Necessary predecessor tasks provide input and/or control information to dependent tasks SM 4 Contractor System Management Quality : Project Quality: staff is Requirement D:The Plans identify NESDIS assigned to contractor shall allocate separate tasks and inspection of perform tasks resources to perform their associated project plans planned tasks schedule, resource, and effort estimate SM 5 The state of System Management Quality: The Quality: the system is Requirement E:The contractor is able to NESDIS analysis always known.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0133",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "contractor shall monitor report on the status of system performance of all scheduled performance logs tasks at all times Quality: NESDIS analysis of project management status reports SM 6 The contractor System Management Quality: The Quality: reports on the Requirement F:The contractor produces NESDIS analysis cost and contractor shall report reports on the of system schedule status system performance status of all performance logs of tasks scheduled tasks Quality: NESDIS analysis of project management status reports SM 7 The NDE System Management Data Currency: Data Currency: System can Requirement G:The The NDE system Analysis of recover from contractor shall develop stores all data System Test logs unexpected and implement automated necessary to for recovery and failures backup procedures for all commence normal restart scenarios NDE data and procedures operations of each of each of the 3 for each of the 3 of the 3 environments environments using 46 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 environments: Operations, data that was Data Integrity: Development, System current at the time a Analysis of Test system failure took System Test logs place of automated data Data Integrity: backup of each Backed-up versions of the 3 of NDE environments operational, Conformance to developmental, and Standards: System Test data Comparison of are identical to the written versions of the data descriptions of in use at the time of NDE's automated the backup backup Conformance to capabilities with Standards: NDE's NESDIS automated backup standards of data and procedures conforms to NESDIS standards User Need: The priority of system recovery procedures are based on user community (i.e., end users, developers, non- subscribers, etc.) needs as determined by management decision SM 8 The NDE System Management Data Currency: Data Currency: System can Requirement H:The Each of the Analysis of recover from contractor shall develop restarted NDE System Test logs unexpected and implement procedures systems commence for recovery and failures to restart each of the 3 normal operations restart scenarios NDE environments using data that was of each of the 3 (Operations, current at the time a environments Development, System system failure took Reliability: Test) using backed-up, place Analysis of current data.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0134",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Reliability: After System Test logs restart, automated of automated 47 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 procedures in each recovery of each of the 3 of the 3 environments environments perform their Conformance to functions as they Standards: did prior to system Comparison of failure the written Conformance to descriptions of Standards: NDE's NDE's automated automated recovery backup procedures conform capabilities with to NESDIS NESDIS standards standards User Need: The priority of system recovery procedures are based on user community (i.e., end users, developers, non- subscribers, etc.) needs as determined by management decision Recovery Time: Each of the NDE systems can be restarted to satisfy a Recovery Time Objectives (RTO) tbd by NESDIS Management SM 9 NDE data System Management Data Integrity: Data Integrity: assets are valid Requirement I:The Conformance to Analysis of contractor shall implement NESDIS, DOC, System Test logs secure procedures and and other relevant of scenarios that technologies to protect the government threatened data integrity of NDE's data in security standards validity the event of:~ human errors when data is entered, ~ errors that occur when data is transmitted from one 48 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 computer to another, ~ software bugs or viruses, ~ hardware malfunctions, such as disk crashes, and ~ natural disasters, such as fires and floods SM 10 NDE data System Management Confidentiality: Confidentiality: assets are Requirement J:The Conformance to Analysis of confidential contractor shall implement NESDIS, DOC, System Test logs procedures and and other relevant of scenarios that technologies to ensure that government threatened NDE NDE information is security standards confidentiality accessible only to those authorized to have access SM 11 NDE data see System Operations Availability: see Availability: see assets are Requirement G & H System System available (above): Management Operations Requirement H Requirement G & (above) H (above) SM 12 The System Operations ~ Completeness & ~ Completeness Operational Requirement A:The Accuracy: In Open & Accuracy: system contractor shall develop mode, all data is Analysis of operates in an and implement procedures available to all System Open Mode to make data available to customers and Performance logs all users in Open Mode.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0135",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "developers SM 13 The System Operations ~ Completeness & ~ Completeness Operational Requirement B:The Accuracy: In Data & Accuracy: system contractor shall develop Denial mode, data Analysis of operates in a and implement procedures is available only to System Data Denial to make data available authorized Performance logs mode only to authorized users in customers and Data Denial mode developers SM 14 The System Operations ~ Completeness & ~ Completeness Operational Requirement C:The Accuracy: In Data & Accuracy: system contractor shall develop Denial mode, Analysis of operates in a and implement procedures notifications are System Data Denial to notify all authorized sent to authorized Performance logs mode customers when the customers and system is in Data Denial developers mode SM 15 The System Operations ~ Quality: In ~ Completeness Operational Requirement D:The NPOESS Degraded & Accuracy: : system contractor shall develop Operations mode, Analysis of operates in a and implement procedures products are communication 49 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 Degraded to consult with the distributed only if logs between Operations government (e.g., will they will have no ESPC and mode NCEP models be adverse affect on NPOESS~ adversely affected?) in customer Completeness & order to determine observations Accuracy: : whether to alter Analysis of distribution of products System when NPOESS is in a Performance logs Degraded Operations mode.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0136",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SM 16 The System Operations ~ Completeness: In ~ Completeness: Operational Requirement E:The Open mode, all Analysis of system contractor shall develop data is available to communication operates in a and implement procedures all users ~ Quality: logs between Degraded to consult with the In NPOESS ESPC and Operations government and notify Degraded NPOESS, System mode affected customers when Operations mode, Performance NPOESS is in a Degraded customers are logs, and Trouble Operations mode.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0137",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "notified of Tickets operational impacts originating from of affected products affected customers SM 17 Operational System Operations Quality: ~ Analysis of products are Requirement F:The Recognition and Performance delivered to contractor shall develop reporting of all Logs~ Analysis customers and implement procedures Quality Flags of Trouble only if they to control operational received from IDPS Tickets of conform to product quality by Quality: Detection product predetermined identifying deficiencies of of xDR and problems~ standards of ingested data or metadata metadata attributes Analysis of quality received from the IDPS that are below Service Requests agreed NDE for product thresholds of quality acceptability improvement SM 18 Operational System Operations Standards: ~ Analysis of products are Requirement G:The Maintenance of Performance delivered to contractor shall develop information Logs~ Analysis customers and implement procedures concerning actions of Trouble only if they to control operational to be taken in the Tickets of conform to product quality by event of quality product predetermined supporting any quality deficiencies problems~ standards of control of NDE output Quality: Analysis of quality (e.g., products or Invocation of all Service Requests metadata) performed previously agreed for product within each of the NDE procedures and quality 50 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 product processing notifications to improvement applications.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0138",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SM 19 Customers The contractor shall Customer Customer (including develop and implement Satisfaction: Satisfaction: developers) procedures to support Customers are Analysis of are provided notification of users satisfied with their Customer with ability to obtain Satisfaction information information about Surveys.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0139",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SM 20 NESDIS The contractor shall Customer Customer requests develop and implement Satisfaction: Satisfaction: changes to procedures to submit Customers are Analysis of NPOESS Service Requests to satisfied with NDE Service Requests, products and NPOESS (both the MMC procedures to tracking logs, and services and the IPO CCB), to log request product Customer through the and track these Service changes Satisfaction NPOESS Requests, and to log and Surveys.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0140",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "responses SM 21 All The contractor shall Completeness: All Completeness: correspondenc develop and implement electronic and Inspection of e regarding the procedures to log and written correspondence ESPC is kept track all correspondence correspondence is by date, author, retained and and subject accessible for inspection.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0141",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SM 22 Requests for The contractor shall Customer Customer changes are develop and implement Satisfaction: Satisfaction: 51 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 saved procedures to log and Customers are Analysis of track Requests for NDE satisfied with NDE Service Requests Service, including product procedures to and Customer enhancement requests, and request product Satisfaction NDE responses changes Surveys.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0142",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SM 23 Information The contractor shall Completeness: ~ Analysis of about system develop and implement Statistics of System performance procedures to log execution Performance will be kept performance data performance (time, Logs and Reports volume, number of invocations, etc.) are logged and maintained for analysis (see Software Engineering Design Requirement D) SM 24 System The contractor shall Completeness: ~ Analysis of performance develop and implement Reports of system System reports are scheduled and on-demand performance (time, Performance produced procedures to report volume, number of Logs and Reports performance data invocations, etc.) are generated on demand and according to a schedule Table 5.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0143",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "DA 1 Data The contractor shall ~ Quality - Retention: develop and implement Minimal (tbd) Recently procedures to retain retrievals from generated NOAA-unique Products CLASS of NOAA- products are for 72 hours unique products available for that are less than 72 additional hours old processing DA 2 Data assets The contractor shall Data Integrity: Data Integrity: will be provide resources and Data resources Analysis of managed at the implement procedures to (including test, performance logs system level in add, update, and delete historical, and of system utilities all three shared data resources in a experimental data routinely environments controlled manner and metadata) are performed to according to agreed user maintained with a detect duplication (either developer, tester, minimum of and eliminate or customer) needs in each duplication.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0144",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Data Integrity: storage space Data resources (including test, historical, and 57 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 experimental data and metadata) are deleted after a reasonable (tbd) interval of disuse DA 3 Data The contractor shall ~ Completeness, Analysis of Retention: develop and implement Latency - All Service Requests Users, both procedures to manage and requested products for product customers and retain data if requested by are retained for up retention developers, a user to 72 hours can obtain the same operational product more than once within 72 hours.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0145",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "DA 4 Archive: All The contractor shall ~ Completeness - ~ Inspection of system develop and implement Evidence of CLASS receipts elements procedures to deliver to receipt by CLASS necessary for NOAA's Long Term NDE Archive (CLASS) all data operational and system elements product required by NDE for generation are processing tailored archived.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0146",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "These include, minimally: o Metadatao Ancillary data o Processes used to create products, including system configurations, software processes, and necessary parameterso TBD intermediate products per process DA 5 Archive: All The contractor shall ~ Completeness - ~ Inspection of system develop and implement Evidence of CLASS receipts elements procedures to store and receipt by CLASS necessary for manage all data and NDE product system elements required generation in by NDE developers for the testing.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0147",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "used to create products, including system configurations, software processes, and necessary parameterso TBD intermediate products per process DA 6 Archive: All The contractor shall ~ Completeness - ~ Inspection of operational develop and implement Evidence of CLASS receipts NOAA-unique procedures to deliver all receipt, by CLASS, products are NOAA-unique products of all NOAA- archived.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0148",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "generated by the NDE unique products system NOAA's Long generated by the Term Archive (CLASS) NDE system DA 7 Archive: A The contractor shall Completeness, ~ Ability to catalog of develop and implement Accuracy -The retrieve any NDE's procedures to provide contractor shall cataloged item archived catalog information for provide catalog from CLASS~ material is archived data information for Inspection of available archived data catalog DA 8 Archive: The contractor shall Reliability- The ~ Observation Archived data develop and implement contractor retrieves is used by procedures to retrieve archived data NDE product archived data Timeliness - The processing contractor retrieves archived data as quickly as allowed by CLASS performance capabilities DA 9 Archive: The contractor shall Timeliness, ~ Demonstration Archived data develop and implement Quality - The is used by procedures to process contractor shall NDE product archived data process archived processing data DA 10 Information The Contractor shall Completeness, Inspection of about NDE's develop and implement Accuracy - The metadata reports products and procedures to conform to Contractor reports NPOESS metadata standards on violations of observations metadata standards shall be (e.g., FGDC retained for Content Standard future use.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0149",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "DA 11 Users of The Contractor shall ~ Accuracy - The ~ Inspection of archived NDE develop and implement Contractor data quality logs~ products will procedures to provide identifies all Inspection of user be provided notification of data instances of notifications with anomalies of archive data anomalous data information to customers values~ Timeliness, about whether Customer Service - the data values Prior to archiving, are outside of the Contractor links agreed, a notification of standard anomalous data ranges.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0150",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "values to all instances of any product containing the detected anomaly DA 12 NDE can The Contractor shall ~ Conformance to Inspection of replace develop and implement Standards - The reports detailing products that it procedures to change Contractor shall be changes to has previously archived products through knowledgeable of archived data.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0151",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "archived with version control archiving instances of standards~ the products in Completeness - The which Contractor shall anomalies report all instances have been of archived product repaired.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0152",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "NDE Interface Outcomes Matrix XF 1 Receipt of data ~ The contractor shall Completeness, NESDIS and products provide a capability for Reliability, inpection of from NPOESS receiving data and Timeliness: 100% Performance logs Interface Data products from IDPS.~ The of the data sent by Processing contractor shall provide a the IDPS is Segment capability for determining received in real (IDPS)(Note: whether the data and time \"Data and products ingested by NDE products\" refers from IDPS are the same as to, at a the data and products that 60 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 minimum, were sent.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0153",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "products [including SARSAT & A- DCS], ancillary data, auxiliary data, and metadata,) XF 2 Data is made The contractor shall Completeness, NESDIS available to provide a capability for Reliability, inpection of customers and ensuring that NDE's Timeliness: 100% Performance logs developers(NO tailored products and of the products sent TE: NOAA-unique products are received in real \"Customers\" are made available to time are defined in authorized customers and Section 2 of the developers NDE Project Plan.) XF 3 Products are The contractor shall Reliability: 100% NESDIS made available provide a capability for of the products inpection of for customer ensuring that NDE's placed for retrieval Performance logs retrieval tailored products and can be extracted NOAA-unique products are placed in locations from which they can be retrieved by customers in real time XF 4 Products are The contractor shall Reliability: 100% NESDIS made available provide a capability for of the products inpection of for retrieval by ensuring that NDE's placed for retrieval Performance logs developers in tailored products and can be extracted NOAA and NOAA-unique products Cooperative are placed in locations Institutes from which they can be retrieved by developers XF 5 Transmission The contractor shall send Completeness, NESDIS of product to NDE's NOAA-unique Reliability, inpection of Comprehensive products to CLASS.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0154",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Timeliness: 100% Performance logs Large Array- of the data sent to data CLASS is received Stewardship in real time System (CLASS) XF 6 Transmission The contractor shall send Completeness, NESDIS 61 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 of system NDE elements (Source Reliability, inpection of components to Code, Utilities, Timeliness: 100% Performance logs Comprehensive Algorithms, Control of the system Large Array- Tables, etc.) to CLASS.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0155",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": ") XF 7 Receipt of The contractor shall Completeness, NESDIS products from receive xDRs and NOAA- Reliability, inpection of Comprehensive unique products from Timeliness: 100% Performance logs Large Array- CLASS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0156",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "of the data sent by data CLASS is received Stewardship in real time System (CLASS) XF 8 Receipt of The contractor shall Completeness, NESDIS system receive NDE elements Reliability, inpection of elements from from CLASS Timeliness: 100% Performance logs Comprehensive of the system 62 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 Large Array- elements sent by data CLASS are Stewardship received in real System time (CLASS) XF 9 Interface to the The contractor shall Completeness, NESDIS NPOESS provide an interface for Reliability, inpection of Mission NDE to the MMC Timeliness: Performance logs Management ~100% of the Center (MMC) inquiries to the MMC and replies to MMC requests are received by the MMC in real time~100% of the notifications and inquiries from the MMC are received by the MMC in real time XF 10 Interface with The contractor shall Completeness, NESDIS the IPO's provide an interface for Reliability, evaluation of Service NDE Service Requests to Timeliness: ~ regular status Request System the IPO 100% of the NDE reports Service Requests intended for the IPO's attention are delivered to the IPO~ 100% of the IPO's responses to the NDE Service Requests intended for the IPO's attention are received by the contractor XF 11 Interface with The contractor shall Completeness, NESDIS NPOESS' IDPS provide an interface for Reliability, evaluation of operations ESPC's operations to Timeliness: ~ regular status communicate with the 100% of the NDE reports IDPS operations communications intended for the IDPS operator's attention are delivered to IDPS 63 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 operations~ 100% of the IDPS operator's responses to the NDE communications are received by the contractor XF 12 Customers and The contractor shall ~ Availabity 24 X NOAA developers provide a capability for 7~ Ease of inspection receive receiving NDE Service Customer Use products in a Requests (SRs) from TBD~ Ease of desired format.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0157",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Operator Use TBD XF 13 Customers and The contractor shall ~ Ease of Customer Analysis of developers provide a capability to Use TBD~ Ease of automated Help obtain tools to respond to NDE service Operator Use TBD System Reports reformat requests with Service products on Responses.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0158",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "NDE Product Generation Outcomes Matrix Desired Required Service Performance Monitoring Outcomes Standard Method PG 1 The customer Product Format Accuracy & ~ NESDIS receives Requirement:The Completeness - Inspection of products in a contractor shall provide Reformated Products~ desired format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0159",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "and implement software to Products must have Customer reformat the HDF5 data identical content to Satisfaction records received from the the HDF5 versions Surveys Interface data Processing received from the Segment (IDPS) into IDPS customer-specified formats.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0160",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "PG 2 The customer HDF5 Data Conversion System ~ NESDIS obtains tools to Tools Requirement:The Compatability - Inspection of reformat contractor shall make Data Conversion Products~ products on his available, for use at tools must be Customer system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0161",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Accuracy & Completeness - The products reformatted with the NOAA- supplied data conversion tools must have identical content to the HDF5 versions received from the IDPS PG 3 Product Lossless Product Accuracy & ~ NESDIS Tailoring Compression Completeness - Inspection of Requirement A: Requirement:The De-compressed Products~ The products contractor shall provide product must have Customer are received by and implement software to identical content to Satisfaction customers in a compress both tailored and the pre-compressed Surveys compressed NOAA-unique NDE versions.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0162",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "65 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 PG 4 Product Lossy Product Accuracy & ~ NESDIS Tailoring Compression Completeness - Inspection of Requirement B: Requirement:The De-compressed Products~ The products contractor shall provide product must have Customer are received byand implement software to acceptably similar Satisfaction customers in a compress both tailored and content (tbd) to the Surveys compressed NOAA-unique NDE pre-compressed state.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0163",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "PG 5 Product Product Projection Accuracy & ~ NESDIS Tailoring Requirement:The Completeness - Inspection of Requirement C: contractor shall provide Products that have Products~ The customer and implement software to been repackaged Customer obtains allow customers to choose using projection Satisfaction different specified (tbd), alternative views (i.e., Surveys projection projection views (i.e., mercator, polar views of the platecarre, Mercator, polar projection, etc.) same product.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0164",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "stereographic) of both other than those of tailored and NOAA- the original product unique NDE received from the environmental satellite IDPS must contain data products the same information as the original, IDPS versions of the products.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0165",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Quality: Projection views provided must conform to standard projection specifications PG 6 Product Product Frequency Accuracy & ~ NESDIS Tailoring Requirement: The Completeness - Inspection of Requirement D: contractor shall provide Aggregated Products The customer and implement software to products must (Comparison of receives deliver both tailored and accurately the separate aggregated NOAA-unique NDE represent the components with products in environmental satellite separate elements the aggregated different data products at the from which the product) ~ 66 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 frequency frequency specified by product was Customer ranges.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0166",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "PG 7 Product Product Grid Spacing Accuracy & ~ NESDIS Tailoring Requirement: The Completeness - Inspection of Requirement E: contractor shall provide Re-gridded Products~ The customer and implement software to products must Customer has a choice of deliver both tailored and contain no less data Satisfaction the grid spacing NOAA-unique NDE than the IDPS- Surveys of product environmental satellite supplied products data products with from which they specified (tbd) grid were derived spacing .",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0167",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "contractor shall provide unique product will Customer and implement software to be described in Satisfaction augment the data records terms of explicit, Surveys received from the Interface expected test Data Processing Segment results prior to the (IDPS) to generate installation of the NOAA-unique NOAA-supplied environmental satellite algorithm on the data products through product generation application of NOAA- system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0168",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "The supplied algorithms and NOAA-unique utilization of NOAA- products must supplied data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0169",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "PG 9 NDE acquires Ancillary Acquisition ~ Completeness: ~Completeness: ancillary data Requirement:The 100% of the ~NESDIS from external contractor shall retrieve ancillary data inspection of sources control information required for Production logs necessary for product product generation ~ Qualility: generation from sources will be acquired~ NESDIS analysis such as NCEP, Reliability: The of product NAVOCEANO, ancillary data accuracy METOPS, and other products obtained external systems.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0170",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "can be effectively 67 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 applied in product generation algorithms PG 10 The ancillary Ancillary Data Quality ~ Completeness: ~Completeness: data delivered Requirement:The 100% of the ~NESDIS to NPOESS is contractor shall review ancillary data inspection of the same as the and certify Ancillary Data requested by Production logs~ ancillary data NPOESS will be Reliability: used by distributed to NESDIS NESDIS NPOESS~ comparison of Reliability: The IDPS products ancillary data and algorithms products provided with NPOESS can be effectively prodiucts and applied in product algorithms generation algorithms PG 12 Customers will Product Enhancement Customer Customer request product Requirement: The Satisfaction: 90% Satisfaction enhancements contractor shall provide of customers Surveys procedures for capturing surveyed report the requirements for that they were product enhancement pleased with the requests procedures for defining their product enhancement requirements 68 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 Table 9.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0171",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "NDE Communications & Distribution Outcomes Matrix Desired Required Service Performance Monitoring Outcomes Standard Method CD 1 Customers Product Delivery ~ Availability: ~ NOAA (e.g., NOAA Timeliness Products will be Inspection of operational Requirement:The made available to Daily, Weekly, users) obtain contractor shall develop customers within and Monthly NPOESS-based and implement procedures one minute of their Product products to make products available receipt from the Distribution Logs to customers.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0172",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "NESDIS product processing system CD 2 External The contractor shall ~ Throughput: >4 ~ development provide communication (tbc) GB/s Demonstration~ organizations pathways with sufficient Analysis of exchange very bandwidth to allow the System test logs large (TBD), exchange of large (TBD), recording the experimental experimental datasets and results of datatsets with products between the scenarios NOAA.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0173",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "throughput between ESPC and non-NOAA development partners~ Analysis of Performance Logs CD 3 Customers Product Delivery Cost ~ Cost ~ NOAA will obtain Requirement:The monitor/review NPOESS-based contractor shall develop contract cost as products and implement procedures described in the to distribute products to required trade customers at the optimal study every three cost for performance years desired.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0174",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "CD 4 The NDE Product Delivery ~ Security: The ~ NOAA's network can be Security Contractor shall inspection of accessed only Requirement:The provide to NESDIS security standards 69 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 with the contractor shall develop a trade study for imposed by the authorization of and implement procedures the choice of the contractor.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0175",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "CD 5 NDE adopts an Product Delivery Design ~ Availability: ~ Prior to architecture Requirement:The Over the course of selection, the that addresses contractor shall undertake each calendar year, contractor shall NPOESS-based a trade study and report on the NPOESS- propose a product the costs and benefits of derived product networking distribution to implementing feasible distribution infrastructure customers.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0176",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "study must encompass providing Points of Presence (POPs) at each of the following customer sites to receive products transmitted from the NOAA Central at the NSOF: \\ NESDIS, to Suitland's NSOF \\ SARSAT, to Suitland's NSOF \\ NWS to a customer-designated POP \\ OAR to a customer- designated POP \\ NMAO to a customer-designated POP \\ NOS to a customer- designated POP \\ NMFS to a customer-designated POP \\ NOAR to a customer-designated POP \\ Academic/Universities Suitand to customer- designated POP(s) \\ International/EUMETSAT to a customer-designated POP CD 6 Customers Product Delivery ~ Availability: ~ NOAA 70 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 obtain Performance Over the course of Inspection of NPOESS-based Requirement:The each calendar year, Daily, Weekly, products contractor shall develop the NPOESS- and Monthly and implement procedures derived product Product to make NPOESS-based distribution Distribution Logs products available to capability at NSOF customers.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0177",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "CD 7 USMCC SARSAT ~ Timeliness: ~Prior to receives Requirement:The SARSAT selection, the SARSAT contractor shall distribute Telemetry captured contractor shall telemetry SARSAT telemetry from by NPOESS propose a captured by IDPS to USMCC.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0178",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Inspection of Daily, Weekly, and Monthly SARSAT Product Distribution Logs CD 8 The US Global ADCS Requirement:The ~ Timeliness: ~Prior to Positioning contractor shall route ADCS signals selection, the Center receives ADCS Data from IDPS to captured by contractor shall ADCS data and the US Global Processing NPOESS satellites propose a telemetry Center.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0179",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "seconds of their ~NOAA receipt by NESDIS Inspection of Daily, Weekly, and Monthly ADCS Product Distribution Logs CD 9 The customer Product Processing Timeliness:No ~ NESDIS receives Timeliness more than five Inspection of products in a Requirement:The minutes will elapse Production Logs~ timely manner contractor shall deliver from the point-in- Customer NPOESS-derived products time when all of Satisfaction to customers as quickly as the required xDRs Surveys possible.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0180",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "NDE Inherited from ESPC Outcomes Matrices _Desired Required Service Performance Standard Monitoring Method Outcomes Recommended Contractor shall evaluate Recommended plan Weekly and monthly CM Plan current process and generated 4 months after status reports generate a recommend Task Order award plan, utilizing Software Engineering Institute’s (SEI) Capability Maturity Model (CMM) Level 2 CMM Implement CMM Implementation Weekly and monthly for processes based on according to status reports developmental Government approved Government approved systems plan schedule, nominally 12- 16 months (ESPC Technical Documentation Outcomes Matrix) Desired Performance Monitoring Required Service Outcomes Standard Method Complete The Contractor shall 99% of the time the Monthly and documentation provide support for the Contractor shall quarterly review with library for all identification, complete the assigned Contractor.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0181",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Generation of The Contractor shall All documentation shall Monthly and new documents.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0182",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "99% of the communications, all time the Contractor shall computer systems, system complete the assigned and application software tasks on or before documents mutually (GTM and Contractor) agreed upon milestones/due dates.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0183",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Maintain The Contractor shall Documentation shall be Monthly and multiple formatsmaintain IPD documents complete and meet quarterly review with of IPD in various standard specified NOAA Contractor.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0184",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Contractor shall work with several file formats including, but not limited to, WordPerfect Office, Microsoft Office, PDF, VISIO, and XML.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0185",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Support for the The Contractor shall Publications and Weekly and/or IPD documents publish and manage all documents shall meet monthly status provided on the the documents that are specified NOAA reports or briefings.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0186",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "99% of the IPD document web server time the Contractor shall complete the assigned tasks on or before mutually (GTM and Contractor) agreed upon milestones/due dates.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0187",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Configuration The Contractor shall All IPD documentation Monthly and management of manage and support the shall be included in the quarterly status report all IPD configuration configuration and monthly briefing.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0188",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "management of all IPD management process and documentation using the shall meet all NOAA IPD CM tool specified by specified standards.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0189",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "74 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 Management of The Contractor shall All libraries will be Monthly review and the various manage the physical IPD maintained to be in quarterly report.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0190",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Documentation The Contractor shall All briefings, GMT review during support for provide generate, modify, presentations, and inception, briefings and and publish required publications shall be in development, and presentations.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0191",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "99% of the time the Contractor shall complete the assigned tasks on or before mutually (GTM and Contractor) agreed upon milestones/due dates.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0192",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "75 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 (ESPC ADP Security Outcomes Matrix) Desired Performance Monitoring Required Service Outcomes Standard Method Ensure ADP The Contractor shall This draft plan shall be The Contractor shall Security Plans update the ADP Security completed within (30) provide a weekly are kept up to Plans with assistance of calendar days of status report (oral date.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0193",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "It shall be and/or e-mail) and frequently than semi- reviewed by the conduct a monthly annually.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0194",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Contractor shall finalize the move plan within fifteen (15) calendar days of final government review.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0195",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Ensure responses The Contractor shall The responses shall be The Contractor shall to data calls respond to data calls from completed in a stipulated provide a weekly from higher higher echelons on an as time frames in order to status report (oral echelons needed basis.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0196",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Ensure all The Contractor shall Familiarize all The Contractor shall security make sure all ADP employees with above- provide a weekly regulations and Security regulations and mentioned regulations.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0197",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "ESPC The Contractor shall An ESPC system, or Annual self- development, follow ESPC data, will never be assessment of ESPC test, and (DOC/NOAA/NESDIS) compromised and the systems.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0198",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "operational procedures and policies systems will be available systems will be for securing systems secure ESPC systems The Contractor shall Completeness: All Review of the ESPC will be able to be develop and deliver security documentation systems SSP, Self certified and (DOC/NOAA/NESDIS) has been completed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0199",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Delivery Deliverable NIST ID Title of Guideline Delivery Final Draft System Security SP Guide for Developing Proposal 120 Days prior Plan 800-18 Security Plans for to IOC Information Technology Systems, December 1998 Self Assessment SP Security Self- 30 Days after 120 Days prior 800-26 Assessment Guide for CDR to IOC Information Technology Systems, November 2001 Risk Assessment SP Risk Management SRR, PDR CDR 800-30 Guide for Information Technology Systems, July 2002 COOP SP Contingency 30 DAC 90 Days After 800-34 Planning Guide for draft comments Information provided by the Technology Systems, government June 2002 Requirement SP Guide for the As Specified Traceability 800-37 Security Certification in SOW Matrix, Test and Accreditation of Plans and Federal Information procedures, Systems, Test report, May 2004 POA&M Technical SP Recommended CDR Earliest of 60 Control 800-53 Security Controls for days after CDR Checklist Federal Information or 120 days Systems, prior to IOC 77 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 February 2005 Incident SP Computer Security PDR CDR Response 800-6 Incident Handling Guide, January 2004 78 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 Desired Performance Monitoring Required Service Outcomes Standard Method (ESPC Computer Operations Outcomes Matrix) CO1 All ingesting, The operators shall All systems shall Ingesting, receiving, check schedules and not be interrupted receiving, processing and wall clock for data for more than 2 processing and distribution of data latency and interface hours per distribution logs will be done in a with the appropriate occurrence.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0200",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "center CO2 Problems on all The operators shall All systems shall Ingesting, ingesting, diagnose and resolve not be interrupted receiving, receiving, problems with the aid for more than 2 processing and processing and of programmers or hours per distribution logs.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0201",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "CO3 Administrative The operators shall All tasks are Morning reports.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0202",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "of all requests for Tracking Tool Operations staff The operators shall assistance shall be will be presented shall load paper, respond to all requests completed to the perform light for printouts.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0203",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "All government maintenance and requests shall be monthly.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0204",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "CO4 Operations staff The operators shall 100% of all Reports shall respond in a respond to all requests requests for generated from timely manner for for information within information shall User Request requests for 2 hours of receiving be completed or Tracking Tool information on request.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0205",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "All requests reassigned to will be presented ESPC products and shall be responded to subject experts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0206",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "feedback entries shall be at the “satisfactory” or higher level.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0207",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "79 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 (ESPC User Services/Help Desk Outcomes Matrix) Desired Outcomes Required Service Performance Monitoring Method Standard One-stop user The Contractor shall 99% of the time the Established services/helpdesk develop the suite of Contractor shall milestones/due dates suite of tools.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0208",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "All ingesting, The operators shall All systems shall not Ingesting, receiving, receiving, processing check schedules and be interrupted for processing and and distribution of wall clock for data more than 2 hours distribution logs data will be done in a latency and interface per occurrence.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0209",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "with the appropriate center Problems on all The operators shall All systems shall not Ingesting, receiving, ingesting, receiving, diagnose and resolve be interrupted for processing and processing and problems with the more than 2 hours distribution logs.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0210",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Administrative tasks The operators shall All tasks are Morning reports.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0211",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Operations staff shall The operators shall 100% of all requests Reports generated from respond in a timely respond to all for information shall User Request Tracking manner for requests requests for be completed or Tool will be presented to for information on information within 2 reassigned to subject the government monthly.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0212",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "All requests satisfaction feedback shall be responded to entries shall be at the correctly and “satisfactory” or completely.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0213",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Operations staff shall The operators shall 100% of all requests Reports generated from load paper, perform respond to all for assistance shall User Request Tracking light maintenance and requests for be completed Tool will be presented to distribute printouts printouts.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0214",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "from network printers requests shall be 80 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 located in Mission responded to Control.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0215",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "All hardware The Contractor shall All critical systems Morning reports and equipment in provide first echelon equipment shall not production logs.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0216",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "equipment list shall maintenance support be interrupted for be maintained to of equipment, and more than 2 hours provide 24x7 support facilitate through per occurrence.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0217",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "shall be available.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0218",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "All user calls for The Contractor shall All calls will be Customer surveys and support or inquiry are provide help desk routed to appropriate morning reports.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0219",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Uses are notified on The Contractor shall Dissemination of Morning reports, logs, anomalies, extended notify, through appropriate and email receipt outages, or significant established email information will changes to data, list, users of occur within 10 products or services.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0220",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Government The Contractor shall Telephone Morning reports and management is kept notify appropriate notification shall meetings.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0221",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Electronic logs The Contractor shall Logs shall be Log review available for record all actions, disseminated by 7am government review.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0222",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Establishment, The Contractor shall Database shall be Daily reviews of open maintenance, and maintain a updated as help tickets by updating of help searchable help conditions warrant, government.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0223",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "ticket database for access (read only) use in tracking shall be granted to problems and government 81 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 resolutions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0224",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Creation of daily, The Contractor shall Logs and reports Review of logs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0225",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "weekly, monthly, and track key critical shall be made quarterly logs and systems and available with reports.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0226",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Remote monitoring of The Contractor shall All critical Reviews of log and return networks and monitor from one components shall be to service time.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0227",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "CPU usage Support of key The Contractor shall All critical systems Review of processing, operating systems for maintain operating shall not be distribution, and daily operational products systems used in interrupted for more logs.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0228",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "and support operational than 2 hours per production including occurrence but not limited to: Linux, AIX, Unix, Solaris, Windows, McIDAS All operational The Contractor shall Baseline software Review of baseline software are to latest update baseline shall be upgraded software database.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0229",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Products creation and The Contractor shall Products and Review of check sheets, dissemination are monitor creation of services shall not be logs, and processing and verified.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0230",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "(ESPC User Services/Help Desk/Customer Service Outcomes Matrix) Desired Outcomes Required Service Performance Monitoring Method 82 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 Standard US1 Customers shall The Contractor A draft staffing and The Contractor shall have one point of shall set up and operations plan shall provide a weekly entry for requests staff a help desk be completed within status report (oral for OSDPD during normal thirty (30) calendar and/or email) and products and business hours days of contract conduct a monthly services.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0231",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "It shall be status review.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0232",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "reviewed by the Government within fifteen (15) calendar days, and the Contractor shall finalize the staffing plan within fifteen (15) calendar days of final government review.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0233",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "US2 Help desk staff The Contractor 100% of all requests Reports generated shall respond in a shall respond to all for information shall from Customer timely manner for requests for be completed or Request Tracking requests for information within reassigned to subject Tool will be information on 5 days of receiving experts within 5 presented to the OSDPD products request.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0234",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "requests shall be 90% of customer Customer responded to satisfaction Customer satisfaction shall be correctly and feedback entries Satisfaction maintained at a completely.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0235",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "shall be at the Feedback summaries level of at least “satisfactory” or shall be submitted to 90%.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0236",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "US3 Help desk staff The Contractor The Contractor shall Monthly status shall route all shall develop and deliver a directory reports shall be complicated and maintain a of products, services delivered by the specialized requests directory of and associated Contractor to the to product experts designated experts “experts” to the Government.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0237",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "for each product government for and service, and approval within 60 shall have the days of contract ability to route and award.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0238",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "request tracking The Contractor shall 83 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 tool.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0239",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "US4 Customers: The Contractor A design for a web The Contractor shall - have available shall deliver a web- based customer present monthly systems for placing based customer service request tool status reports to the requests for service request and shall be presented to government.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0240",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "tool shall provide within 90 days of Review (PDR) shall - shall receive for work order contract award.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0241",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "automatically when assigning of tasks days of receipt of A Final Design their request is to specific the preliminary Review (FDR) shall received.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0242",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "personnel and design, and the be held within 120 - help desk staff tracking of Contractor shall days of Task Order and designated performance, and implement all award.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0243",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "metrics on all It is strongly A completed system previously placed recommended that shall be delivered to requests.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0244",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "government place throughout - designated NESDIS for government potential use or employees shall incorporation: have the ability to (1) The generate automated Comprehensive mailing lists, both Large Array-data email and street Stewardship address based, by System (CLASS) querying the (2) The NOAA system based on Virtual Data Center specific categories, Online Store including product (3) The DCS and service, Automated location, or other Processing System common fields.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0245",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "(DAPS ii) The Contractor 84 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 shall consider the results of the OSDPD Customer Service Consolidation Study in developing and implementing this system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0246",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "US5 Customers shall The Contractor The Contractor shall Monthly reports shall have access to a shall develop a deliver an outline of be submitted to the “central” customer series of customer a web page design, Government.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0247",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "service web page, service web pages, including product A web page “outline” organized by organized by and service shall be submitted for subject category subject category categories to be government approval and product and and product or covered, within 90 within 90 days of service name at a service name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0248",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "These pages shall award.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0249",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "A “shell” web page link to official The Contractor shall shall be submitted for product and service deliver a prototype government approval web pages as “shell” web page within 120 days of designated by the within 120 days of Task Order award.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0250",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Contractor shall web pages shall be The Contractor deliver a completed submitted to the shall identify web page, including government for deficiencies, or all links to all approval within 180 non-existent web product and services days of Task Order pages for the web pages, within award.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0251",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "government, and 180 days of Task shall develop Order award.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0252",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "US6 Help desk staff and The Contractor A draft customer Monthly reports shall designated shall develop, for satisfaction be submitted to the government government feedback form shall Government.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0253",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "The form shall Order award.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0254",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "product and service feedback, shall be receiving government suitability and presented for revisions quality.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0255",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "86 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 (ESPC Applications Support Outcomes Matrix) _Desired Required Service Performance Monitoring Method Outcomes Standard AS1 Problems with The Contractor - Production Operator logs application support shall assist in processing flow functions, that diagnosing and shall not be disrupt production resolving problems interrupted for more processing, will be with the application than 2 hours in a resolved as soon as support functions.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0256",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "- Operator monitoring of production processing shall not be interrupted for more than 2 hours in a day, and no more than 4 hours in a month.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0257",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "- Distribution of production data shall not be interrupted for more than 2 hours in a day, and no more than 4 hours in a month.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0258",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "AS2 Application support The Contractor Tasks to modify the - Status reports and functions can be shall assist in software are status meetings modified to fix maintaining the completed on time, - Analysis of designs problems, or to application support and the software - Analysis of implement new functions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0259",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "change is made AS3 ESPC will support The Contractor Automated testing Logs automated testing shall assist in and reprocessing of Feedback from and reprocessing of implementing data is performed GTMs and users data, when needed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0260",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "AS4 Users of ESPC The Contractor Users are given Analysis of the systems will shall assist users good direction on assistance and receive assistance with program program design and solutions being given with problems and design, are receiving the to users with the use of the programming help they need.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0261",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "(ESPC Systems and Network Administration Outcomes Matrix) Desired Outcomes Required Service Performance Monitoring Method Standard SA1 ESPC systems are The Contractor Quality: Tasks Quality: NESDIS functional and shall install and completed on time review of system available for use maintain system and systems perform performance log, software and third as expected system log party software Reliability: 99.9% Reliability: NESDIS listed in URL tasks are scheduled review of schedule <http://projects.osd and scheduled tasks tasks and syslog .noaa.gov/espc/doc are completed umentations.htm>.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0262",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "SA2 ESPC is able to The Contractor plan for new shall support systems, and for technical planning changes to existing for new systems, systems new interfaces to systems, new system requirements, and relocation of systems SA3 Problems with The Contractor production systems shall analyze will be resolved as problems with soon as possible productions systems, and propose solutions 88 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 or workarounds that will allow production processing on the systems to continue SA4 The performance The Contractor utilization of ESPC shall monitor and system resources provide reports on will be known the performance and utilization of ESPC system resources, and make recommendations for improvement SA5 ESPC systems will The Contractor An ESPC system, or be secure shall follow ESPC ESPC data, will (DOC/NOAA/NES never be DIS) procedures compromised and policies for securing ESPC systems SA6 ESPC systems will The Contractor be managed shall implement according to ESPC ESPC policies for policies system management, including: backup/recovery, storage management, data management, access control, and workload management Desired Outcomes Required Service Performance Monitoring Method Standard SA7 Reactive Software The Contractor During normal Use Daily Maintenance -All shall resolve working hours, Monitoring Reports unexpected problems in the within 1 hour of and recorded time of software problems receiving, problem discovery, Contractor and networking processing, the Contractor shall notification of problems will be monitoring, and notify the GTM of GTMs 89 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 resolved as quickly delivery of satellite the status of the GTM will verify that as possible data to users problem resolution the Contractor If problem is internal resolved the problem to application within 24 hours of software systems and discovery the problem is impacting product delivery or product quality then the problem shall be resolved within 24 hours of discovery SA8 User Support - The Contractor Contractor shall NESDIS use of daily Time to resolve shall respond to complete the agreed monitoring reports, problems or GTM within 24 upon actions as weekly reports, and respond to hours of receiving identified status meeting customer inquiries customer inquiries reports is as short as with steps to be possible to taken for resolution minimize impact on user community SA9 Assigned tasks are The Contractor 100% of the time the Use of task manager completed on shall complete Contractor shall system, regular schedule assigned complete the status meetings, and maintenance tasks assigned tasks on or weekly status reports on or before the before the due date mutually (GTM and Contractor) agreed upon due dates 90 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 (ESPC Data Distribution Access Outcomes Matrix) Desired Performance Monitoring Required Service Outcomes Standard Method DD1 Ability to maintain The Contractor shall Reliability: 99.9% NESDIS inspection ESPC TCP/IP Manage and networks uptime per of system logs protocols for the maintain ESPC week systems and TCP/IP protocols for internal data and the systems and clock networks internal data and clock networks DD2 Ability to maintain The Contractor shall Reliability: 99.9% NESDIS inspection network devices maintain network network devices and of system logs and servers devices and servers, servers uptime per which are redundant week with spare units or backup DD3 Ability to maintain The Contractor shall Reliability: 99% NESDIS inspection the ESPC external maintain the ESPC external networks of system logs data networks external data uptime per week networks, domestic and international with backup circuits for some and Internet fall back for others DD4 Contractor shall Syslog report Completeness: Completeness: automate report highlight of desired automated tasks shall NESDIS inspection gathering areas (probes, be initiated by an of scheduler reports functions intrusions, failures, automated scheduler Reliability: NESDIS etc) formatted Reliability: 99.9% of inspection of similar to open scheduled tasks will performance logs source parsing tools execute on time.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0263",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "DD6 Assigned tasks are The Contractor shall 100% of the time the Use of task manager completed on complete assigned Contractor shall system, regular 91 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 schedule maintenance tasks complete the status meetings, and on or before the assigned tasks on or weekly status reports mutually (GTM and before the due date Contractor) agreed upon due dates 92 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 (ESPC Product Systems Maintenance Desired Outcomes) Desired Monitoring Required Service Performance Outcomes Method PS1 Reactive Software The Contractor shall During normal Use Daily Maintenance.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0264",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "All resolve problems in working hours, Monitoring Reports unexpected the operational/ within 1 hour of and recorded time of product systems production problem discovery, Contractor (applications) processing, the Contractor shall notification of software problems monitoring, and notify the GTM of GTMs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0265",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "working hours, the Contractor shall notify the GTM of the status of the problem resolution.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0266",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "If problem is internal to application software systems and the problem is impacting product delivery or product quality then the problem shall be resolved within 2, 12 or 24 hours of discovery, depending on assigned Tier.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0267",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS2 Product The Contractor shall 98% of normal POES Processing logs completeness.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0268",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "ensure that all level input data and 99% (execution reports) All nominal 2 and level 3 of GOES input data and monitoring quality level 2 and products are shall be processed reports showing data level 3 products successfully successfully and in vs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0269",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "quality shall be nominal input Contractor shall delivered to users.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0270",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "93 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 PS3 Satellite Analysis Response to SAB The Contractor shall Monitoring of SAB Branch (SAB) issues shall be respond to SAB and problem report support shall be immediate.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0271",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Normal operations shall be restored within 2 hours.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0272",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS4 User Support - The Contractor shall Contractor shall be Use of daily Time to resolve respond to GTM expected to complete monitoring reports, problems or within 24 hours of the agreed upon weekly reports, and respond to receiving customer actions as identified.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0273",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "minimize impact on user community PS5 Assigned tasks are The Contractor shall 100% of the time the Use of task manager completed oncomplete assigned Contractor shall system, regular schedule maintenance tasks complete the status meetings, and on or before the assigned tasks on or weekly status mutually (GTM and before the due date reports.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0274",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Contractor) agreed upon due dates PS6 Product systems The Contractor shall 100% of the Review of project software meets prepare software to Contractor written reports and periodic operational and comply with software systems inspection of functional NESDIS standards.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0275",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "shall comply with software by GTM or standards.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0276",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS7 Software Software 100% of operational Review of CM Configuration maintenance shall software will be policies, procedures Management comply with CM maintained under and software by (CM) system are procedures.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0277",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS8 Product systems The Contractor shall 100% of the Review of system documentation prepare Contractor written documentation by meets operational documentation, documentation shall GTM or designated 94 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 and functional which is complete be complete, representative to standards.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0278",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Contractor shall store reflects the current Documentation shall 100% of state of the system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0279",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Non- compliant legacy documentation shall be identified to the COR and corrective action will be agreed upon.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0280",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS9 Product systems The Contractor shall 100% of the product Review of product shall include prepare metadata systems shall as a metadata by GTM or FGDC compliant which is complete minimum include designated metadata with and accurate, and static metadata, representative to remote sensing shall comply with which shall be ensure compliance extensions.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0281",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "(ESPC OSEI Desired Outcomes Matrix) Desired Outcomes Required Service Performance Monitoring Standard Operational The Contractor shall At least one OSEI Review of OSEI Significant Events create daily OSEI image will be created indexed website and Imagery (OSEI) imagery with each workday.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0282",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "The project reports and created, provided to metadata of Contractor shall periodic inspection of public and interesting respond immediately image quality by GTM government officials, environmental during business hours, or designated indexed and archived.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0283",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "95 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 (ESPC Shared Processing Outcomes Matrix) Desired Outcomes Required Service Performance Monitoring Method Standard Reactive Software The Contractor shall During normal Use Daily Monitoring Maintenance - All provide staff to working hours, within Reports and recorded unexpected software resolve problems in 1 hour of problem time of Contractor problems and the receiving, discovery, the notification of GTMs.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0284",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "networking problems processing, Contractor shall notify will be resolved as monitoring, and the GTM of the status quickly as possible.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0285",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "If problem is internal to application software GTM will verify that the Contractor resolved the systems and the problem is impacting product problem within 24 hours of discovery delivery or product quality then the problem shall be resolved within 24 hours of discovery.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0286",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Daily Processing -All The Contractor shall 100% of all good data Use daily processing good data received monitor shall be processed statistics should be processed performance, through IPD systems and distributed to produce statistics, users so that it meets and make agreed upon appropriate system timeliness adjustments to meet requirements timeliness requirements User Support - Time The Contractor shall Contractor shall be Use of daily monitoring to resolve problems or respond to GTM expected to complete reports, weekly reports, respond to customer within 24 hours of the agreed upon and status meeting inquiries is as short as receiving customer actions as identified.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0287",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Shared Processing The Contractor shall Within 1 hour during Use Daily Monitoring errors, or problems provide staff to normal working hours Reports (oral and will be resolved such monitor and within 3 hours of email) that the impact on the performance, non-normal working user community is produce statistics, hours of the problem avoided or and resolve discovery, the minimized.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0288",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "operational/producti Contractor shall notify on processing of SPP the GTM of the status data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0289",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Assigned tasks are The Contractor shall 100% of the time the Use of task manager completed on complete assigned Contractor shall system, regular status schedule maintenance tasks complete the assigned meetings, and weekly 96 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 on or before the tasks on or before the status reports.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0290",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "mutually (GTM and due date Contractor) agreed upon due dates (ESPC Satellite Analysis and Hazards Support Outcomes Matrix) Desired Outcome Required Service Performance Monitoring Method Standard Support for Satellite The Contractor shall Operational product Performance of the Analysis Branch in provide 24x7 generation will contractor will be accordance with SAB support to the conform to the reviewed monthly by Standard Operating Satellite Analysis discipline-specific the SAB GTM.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0291",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "tasks and office operational support support, and non- tasks will adhere to operational support schedules determined tasks by SAB Team Leads and the GTM 80% of the time (ESPC CIP Outcomes Matrix) Desired Outcomes Required Service Performance Monitoring Method Standard Deliver a Business The Contractor shall This draft plan shall be The Contractor shall Continuity Plan develop a BCP with completed within six provide a weekly status (BCP) utilizing the assistance of the (6) calendar months of report (oral and/or CIP at Wallops government utilizing Task Order award.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0292",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "It email) and conduct a Island, VA as a the CIP site in shall be reviewed by monthly Contractor backup site.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0293",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Contractor shall This plan shall finalize the move plan include, but not be within thirty (30) limited to cyclic calendar days of final maintenance of government review.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0294",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Update the Business The Contractor shall This updated BCP The Contractor shall Continuity Plan update the BCP with shall be completed provide a weekly status (BCP) to reflect any assistance of the within forth-five (45) report (oral and/or required changes at government not calendar days of email) and conduct a the direction of the more frequently than request by the monthly Contractor government.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0295",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "It shall status review.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  },
+  {
+    "id": "2007 - nde [pdf]__C0296",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "be reviewed by the government within fifteen (15) calendar days, and the Contractor shall finalize the move plan within fifteen (15) calendar days of final government review.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - nde [pdf]__C0297",
+    "document": "2007 - nde [pdf].txt",
+    "nearest_heading": null,
+    "text": "Exercise the In accordance with The CIP site in Checklists included in activation of the the BCP and with Wallops Island, VA the BCP and Wallops Island, VA the assistance of the shall be ready to Continuity of CIP site at the government, the assume mission critical Operations Plans direction of the Contractor shall ESPC functions within (COOP) shall be government.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  }
+]

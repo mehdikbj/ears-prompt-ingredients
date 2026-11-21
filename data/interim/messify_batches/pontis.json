@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PURE-106",
+    "text": "The user shall be able to switch between predefined structure lists."
+  },
+  {
+    "id": "PURE-107",
+    "text": "The user shall be able to create a new structure by copying all data of an existing structure."
+  },
+  {
+    "id": "PURE-108",
+    "text": "The user shall have the option to copy the notes from previous inspection when creating a new inspection."
+  },
+  {
+    "id": "PURE-109",
+    "text": "Privileged users shall be able to delete an existing inspection unless it is “locked down”."
+  },
+  {
+    "id": "PURE-110",
+    "text": "The system shall be capable of prompting users when the dependent fields for ratings are changed and offer the user option to recalculate the ratings."
+  },
+  {
+    "id": "PURE-111",
+    "text": "The user shall be able to modify the technical parameters governing the simulation, including the parameters of the improvement model and the simulation rules."
+  },
+  {
+    "id": "PURE-112",
+    "text": "The system shall be capable of performing single-field and cross-field validation on NBI data items in batch mode."
+  },
+  {
+    "id": "PURE-113",
+    "text": "During normal times of operation, Pontis shall achieve 98 percent up time."
+  }
+]

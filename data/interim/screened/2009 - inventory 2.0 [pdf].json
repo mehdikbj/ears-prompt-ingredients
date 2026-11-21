@@ -1,0 +1,731 @@
+[
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0001",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3. Detailed Functional Requirements",
+    "text": "Pre-conditions: Pre-conditions are conditions that must be true prior to beginning the use case and are assumed to be true throughout the use case.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0002",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.2. The Department Name must be unique across the inventory",
+    "text": "The Department Name must be unique across the inventory 1.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0003",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.3. The Department‟s Unique Tag must be unique across the inventory",
+    "text": "The Department‟s Unique Tag must be unique across the inventory 1.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0004",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.4. The POS Department Code must be at most 3 characters long",
+    "text": "The POS Department Code must be at most 3 characters long 1.5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0005",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.5. The Unique Tag must be at most 18 characters long",
+    "text": "The Unique Tag must be at most 18 characters long 1.6.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0006",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.5. The Unique Tag must be at most 18 characters long",
+    "text": "There must be at least one slot available in the Department matrix to hold the new Department 2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0007",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.2. The Department Name must be unique across the inventory",
+    "text": "The Department Name must be unique across the inventory 2.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0008",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.3. The Department‟s Unique Tag must be unique across the inventory",
+    "text": "The Department‟s Unique Tag must be unique across the inventory 2.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0009",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.4. The Unique Tag must be at most 18 characters long",
+    "text": "The Unique Tag must be at most 18 characters long 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0010",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3.2. The system must ask for confirmation before deleting a Department",
+    "text": "The system must ask for confirmation before deleting a Department 3.2.7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0011",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.2. The Category Name must be unique across the inventory",
+    "text": "The Category Name must be unique across the inventory 1.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0012",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.3. The Category‟s Unique Tag must be unique across the inventory",
+    "text": "The Category‟s Unique Tag must be unique across the inventory 1.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0013",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.4. The Unique Tag must be at most 18 characters long",
+    "text": "The Unique Tag must be at most 18 characters long 1.5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0014",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.4. The Unique Tag must be at most 18 characters long",
+    "text": "There must be at least one slot available in the Category matrix at the level the new Category will be created to hold the new Category 1.6.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0015",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.2. The Category Name must be unique across the inventory",
+    "text": "The Category Name must be unique across the inventory 2.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0016",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.3. The Category‟s Unique Tag must be unique across the inventory",
+    "text": "The Category‟s Unique Tag must be unique across the inventory 2.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0017",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.4. The Unique Tag must be at most 18 characters long",
+    "text": "The Unique Tag must be at most 18 characters long 2.5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0018",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3.2. The system must ask for confirmation before deleting a Category",
+    "text": "The system must ask for confirmation before deleting a Category 3.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0019",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4.2. User must select at least one Category to move",
+    "text": "User must select at least one Category to move 4.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0020",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4.2. User must select at least one Category to move",
+    "text": "User must select either an existing or new target Department or Category 4.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0021",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4.6. If a new target Category is selected",
+    "text": "If a new target Category is selected 4.6.1.User must enter 4.6.1.1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0022",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4.8. When a Category is moved it keeps its assigned Item Details",
+    "text": "When the option to merge the contents of the selected Categories is selected, the moved items must be updated in QuickBooks POS 3.3.7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0023",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3.2. The Item Attribute Name must be unique across the inventory",
+    "text": "The Item Attribute Name must be unique across the inventory 3.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0024",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4.2. The following fields are mandatory:",
+    "text": "If the Type is set to „Selection‟, then the selection list must contain at least one item 4.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0025",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4.4. The Item Detail Name must be unique across the inventory",
+    "text": "The Item Detail Name must be unique across the inventory 4.5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0026",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.5. User changes the item quantity",
+    "text": "The system displays a confirmation screen where a reason for the adjustment must be specified by the user 2.7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0027",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1. Modify Inventory Item",
+    "text": "Once set for the first time in the inventory, the item price can only be modified by a Manager, Director or Administrator, must maintain a history and include an explanation for the price change 1.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0028",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2. Adjust Item Quantity",
+    "text": "When an item is updated, the system must automatically detect that the item quantity has been modified and present the adjustment confirmation screen 2.2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0029",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.2.1.7.      Other (please explain)",
+    "text": "Other (please explain) 2.2.2.If the „Other‟ reason is selected, the user must enter an additional comment 2.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0030",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.2.1.7.      Other (please explain)",
+    "text": "If the quantity is increased, the user must enter a comment describing the reason for the change 2.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0031",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3. Split Inventory Item",
+    "text": "When building the split item list, at least two items must exist in the list, including the original item 3.2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0032",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "6.1. One or more can be selected to receive the email receipt",
+    "text": "The system must record every time a receipt is printed or emailed 8.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0033",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": null,
+    "text": "The original CRM acquisition data must be kept, not overridden by the values entered here 3.9.7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0034",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3.10. Sell Item",
+    "text": "The sale of the item is processed by QuickBooks POS and the inventory must be updated accordingly.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0035",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3.10.5. Alternative Flows:",
+    "text": "The system must be able to recognize that situation and bypass the inventory update.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0036",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3.10.6. Business Rules:",
+    "text": "After a sale in QuickBooks POS, the following item attributes must be updated in the inventory: 1.1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0037",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.2. Quantity on hand",
+    "text": "The sale price must not override the original item price in the inventory 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0038",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.2. Quantity on hand",
+    "text": "The item quantity on hand in the inventory must be decremented by the quantity sold 3.10.7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0039",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": null,
+    "text": "That means that in order to take advantage of the wish list functionality, the user must be registered as a Construction Junction website member.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0040",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": null,
+    "text": "The system must allow a threshold quantity to be set at any level (department or category) in the inventory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0041",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.2. Availability",
+    "text": "Availability For internal users: Donation/acquisition processing - The system must be available during normal Construction Junction operating hours.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0042",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.2. Availability",
+    "text": "Sales processing - The system must be available during normal Construction Junction operating hours.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0043",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.2. Availability",
+    "text": "Inventory management - The system must be available beyond normal operating hours to accommodate inventory management operations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0044",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.2. Availability",
+    "text": "For external users - The system must be available beyond normal operating hours to accommodate website use – Inventory listing, wish list management and online purchases.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0045",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.4. Security",
+    "text": "Security Access to the application by the Construction Junction staff must require user login.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0046",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.6.1. User Interface",
+    "text": "User Interface A web browser-based interface must be provided for all the Inventory Management functionality.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0047",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2. All required information fields should be marked with an asterisk (*).",
+    "text": "During data validation, all validation errors must be reported to the actor and displayed on the screen.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0048",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2. All required information fields should be marked with an asterisk (*).",
+    "text": "In case of a validation error, the actor must not have to re-enter the values that are valid 5.6.1.1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0049",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4. Each matrix cell displays a department name",
+    "text": "Each cell in the matrix must indicate in some visual form that it contains subcategories Confidential and Proprietary Page 38 of 62 November 9th, 2009 Inventory Management Software Requirements Specification Version 2.00 Figure 2 - Inventory Department View 12.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0050",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "15.2.3.1.     The category name is not a hyperlink",
+    "text": "Each cell in the matrix must indicate in some visual form that it contains subcategories 18.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0051",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4.2.3.1.     The category name is not a hyperlink",
+    "text": "Each cell in the matrix must indicate in some visual form that it contains subcategories 20.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0052",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2. The Department Name must be unique across the inventory",
+    "text": "The Department Name must be unique across the inventory 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0053",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3. The Department‟s Unique Tag must be unique across the inventory",
+    "text": "The Department‟s Unique Tag must be unique across the inventory 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0054",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4. The POS Department Code must be at most 3 characters long",
+    "text": "The POS Department Code must be at most 3 characters long 5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0055",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5. The Unique Tag must be at most 18 characters long",
+    "text": "The Unique Tag must be at most 18 characters long 6.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0056",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5. The Unique Tag must be at most 18 characters long",
+    "text": "There must be at least one slot available in the Department matrix to hold the new Department 7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0057",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "8. The system must ask for confirmation before deleting a Department",
+    "text": "The system must ask for confirmation before deleting a Department 5.6.1.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0058",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2. The Category Name must be unique across the inventory",
+    "text": "The Category Name must be unique across the inventory 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0059",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3. The Category‟s Unique Tag must be unique across the inventory",
+    "text": "The Category‟s Unique Tag must be unique across the inventory 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0060",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4. The Unique Tag must be at most 18 characters long",
+    "text": "The Unique Tag must be at most 18 characters long 5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0061",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4. The Unique Tag must be at most 18 characters long",
+    "text": "There must be at least one slot available in the Category matrix at the level the new Category will be created to hold the new Category 6.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0062",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "8. The system must ask for confirmation before deleting a category",
+    "text": "The system must ask for confirmation before deleting a category 9.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0063",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2. User must select at least one Category to move",
+    "text": "User must select at least one Category to move 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0064",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2. User must select at least one Category to move",
+    "text": "User must select either an existing target Department or Category, or new target Category 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0065",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "6.1. User must enter",
+    "text": "User must enter 6.1.1.Name 6.1.2.Unique Tag 6.1.3.Location of new category 7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0066",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2. The Item Attribute Name must be unique across the inventory",
+    "text": "The Item Attribute Name must be unique across the inventory 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0067",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "2.2. Type",
+    "text": "If the Type is set to „Selection‟, then the selection list must contain at least one item 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0068",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4. The Item Detail Name must be unique across the inventory",
+    "text": "The Item Detail Name must be unique across the inventory 5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0069",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.2. Condition",
+    "text": "When building the split item list, at least two items must exist in the list, including the original item 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0070",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.1. Constituent data between QuickBooks POS and Salesforce must be synchronized",
+    "text": "Constituent data between QuickBooks POS and Salesforce must be synchronized 1.2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0071",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.1. Constituent data between QuickBooks POS and Salesforce must be synchronized",
+    "text": "Updates to the inventory such as new items and changes to existing items must be synchronized to QuickBooks POS 1.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0072",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.1. Constituent data between QuickBooks POS and Salesforce must be synchronized",
+    "text": "Inventory items must be updated as a result of sales in QuickBooks POS 1.4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0073",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.1. Constituent data between QuickBooks POS and Salesforce must be synchronized",
+    "text": "Customer‟s sales history must be synchronized to QuickBooks POS and roll up in a similar fashion as donation statistics Confidential and Proprietary Page 58 of 62 November 9th, 2009 Inventory Management Software Requirements Specification Version 2.00 1.5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0074",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.6. Customers with bouncing email addresses must be identified in QuickBooks POS",
+    "text": "Customers with bouncing email addresses must be identified in QuickBooks POS 1.7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0075",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "1.7. Integration between QuickBooks POS and Salesforce must use Middleware",
+    "text": "Integration between QuickBooks POS and Salesforce must use Middleware 2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0076",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "3.   Vertical Response",
+    "text": "Vertical Response App must be installed in Salesforce and consider storage consumption 3.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0077",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "4.   Construction Junction website",
+    "text": "The system must be able to provide the contents of the categorized inventory for viewing on the website, allowing users to create wish lists and purchase items online 4.2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0078",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.8. Data Migration",
+    "text": "Data Migration Constituent and sales history data from Construction Junction‟s QuickBooks POS system must be migrated to Salesforce.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0079",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.10. Maintainability",
+    "text": "Maintainability The system must be written using industry best practices, and must be built using only Construction Junction approved products and technologies.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0080",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.10. Maintainability",
+    "text": "The system must also be written in such a way that it can be supported by planned Construction Junction staffing levels.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - inventory 2.0 [pdf]__C0081",
+    "document": "2009 - inventory 2.0 [pdf].txt",
+    "nearest_heading": "5.12. Legal, Copyright and Other Notices",
+    "text": "Legal, Copyright and Other Notices The following copyright notice must be displayed in all user interfaces: © 2009 - <current year> Construction Junction 5.13.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

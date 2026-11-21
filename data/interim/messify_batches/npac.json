@@ -1,0 +1,54 @@
+[
+  {
+    "id": "PURE-071",
+    "text": "NPAC SMS shall only allow access to encrypted passwords by authorized users."
+  },
+  {
+    "id": "PURE-072",
+    "text": "NPAC SMS shall allow Service Providers to add their NPA-NXX data with an effective date that is set to a past, present, or future date."
+  },
+  {
+    "id": "PURE-073",
+    "text": "NPAC SMS shall have documented procedures for data backup."
+  },
+  {
+    "id": "PURE-074",
+    "text": "NPAC SMS shall allow NPAC personnel to view all Subscription Versions associated with an NPA-NXX."
+  },
+  {
+    "id": "PURE-075",
+    "text": "NPAC SMS NMS shall notify the NPAC personnel immediately when security event thresholds are exceeded through the SNMP agent."
+  },
+  {
+    "id": "PURE-076",
+    "text": "NPAC SMS shall provide a mechanism to limit system entry for privileged NPAC SMS users on a specifiable per‑port basis."
+  },
+  {
+    "id": "PURE-077",
+    "text": "NPAC SMS shall have documented procedures for software backup."
+  },
+  {
+    "id": "PURE-078",
+    "text": "NPAC SMS shall default the long Business Day Duration tunable parameter to 12 hours."
+  },
+  {
+    "id": "PURE-079",
+    "text": "NPAC SMS shall allow the NPAC SMS Administrator to modify the LSMS Retry Interval tunable parameter."
+  },
+  {
+    "id": "PURE-080",
+    "text": "NPAC SMS shall default the short Conflict Resolution New Service Provider Restriction tunable parameter to 6 business hours."
+  },
+  {
+    "id": "PURE-081",
+    "text": "NPAC SMS shall store database extract files at the NPAC SMS FTP site for Local SMS file retrieval."
+  },
+  {
+    "id": "PURE-082",
+    "text": "NPAC SMS shall download NPA-NXX data and LRN data via the NPAC SMS to Local SMS Interface and/or the SOA to NPAC SMS interface if the indicator is ON."
+  },
+  {
+    "id": "PURE-083",
+    "text": "NPAC SMS shall sort the report listed in RR9-16, in the following order: (Previously R-141) New Service Provider SPID (primary sort) TN (secondary sort)"
+  }
+]

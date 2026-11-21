@@ -1,0 +1,91 @@
+arm,tier,rate,set
+A0_name_only,gpt-5.4,0.7333333333333333,union (primary)
+A0_name_only,gpt-5.4-mini,0.6333333333333333,union (primary)
+A0_name_only,gpt-5.4-nano,0.54,union (primary)
+F_C,gpt-5.4,0.6533333333333333,union (primary)
+F_C,gpt-5.4-mini,0.78,union (primary)
+F_C,gpt-5.4-nano,0.3933333333333333,union (primary)
+F_CR,gpt-5.4,0.76,union (primary)
+F_CR,gpt-5.4-mini,0.8,union (primary)
+F_CR,gpt-5.4-nano,0.4066666666666667,union (primary)
+F_E,gpt-5.4,0.8466666666666667,union (primary)
+F_E,gpt-5.4-mini,0.8333333333333334,union (primary)
+F_E,gpt-5.4-nano,0.78,union (primary)
+F_EC,gpt-5.4,0.8666666666666667,union (primary)
+F_EC,gpt-5.4-mini,0.84,union (primary)
+F_EC,gpt-5.4-nano,0.78,union (primary)
+F_ECR,gpt-5.4,0.8866666666666667,union (primary)
+F_ECR,gpt-5.4-mini,0.86,union (primary)
+F_ECR,gpt-5.4-nano,0.8533333333333334,union (primary)
+F_ER,gpt-5.4,0.9066666666666666,union (primary)
+F_ER,gpt-5.4-mini,0.8533333333333334,union (primary)
+F_ER,gpt-5.4-nano,0.8266666666666667,union (primary)
+F_R,gpt-5.4,0.7466666666666667,union (primary)
+F_R,gpt-5.4-mini,0.7933333333333333,union (primary)
+F_R,gpt-5.4-nano,0.46,union (primary)
+F_base,gpt-5.4,0.6,union (primary)
+F_base,gpt-5.4-mini,0.7266666666666667,union (primary)
+F_base,gpt-5.4-nano,0.47333333333333333,union (primary)
+J_json,gpt-5.4,0.54,union (primary)
+J_json,gpt-5.4-mini,0.7266666666666667,union (primary)
+J_json,gpt-5.4-nano,0.4266666666666667,union (primary)
+A0_name_only,gpt-5.4,0.5733333333333334,intersection
+A0_name_only,gpt-5.4-mini,0.48,intersection
+A0_name_only,gpt-5.4-nano,0.43333333333333335,intersection
+F_C,gpt-5.4,0.46,intersection
+F_C,gpt-5.4-mini,0.6066666666666667,intersection
+F_C,gpt-5.4-nano,0.25333333333333335,intersection
+F_CR,gpt-5.4,0.5466666666666666,intersection
+F_CR,gpt-5.4-mini,0.6266666666666667,intersection
+F_CR,gpt-5.4-nano,0.26,intersection
+F_E,gpt-5.4,0.6466666666666666,intersection
+F_E,gpt-5.4-mini,0.6733333333333333,intersection
+F_E,gpt-5.4-nano,0.6133333333333333,intersection
+F_EC,gpt-5.4,0.6733333333333333,intersection
+F_EC,gpt-5.4-mini,0.6733333333333333,intersection
+F_EC,gpt-5.4-nano,0.6066666666666667,intersection
+F_ECR,gpt-5.4,0.6733333333333333,intersection
+F_ECR,gpt-5.4-mini,0.6933333333333334,intersection
+F_ECR,gpt-5.4-nano,0.7,intersection
+F_ER,gpt-5.4,0.6933333333333334,intersection
+F_ER,gpt-5.4-mini,0.6533333333333333,intersection
+F_ER,gpt-5.4-nano,0.6733333333333333,intersection
+F_R,gpt-5.4,0.5533333333333333,intersection
+F_R,gpt-5.4-mini,0.62,intersection
+F_R,gpt-5.4-nano,0.2866666666666667,intersection
+F_base,gpt-5.4,0.3933333333333333,intersection
+F_base,gpt-5.4-mini,0.5533333333333333,intersection
+F_base,gpt-5.4-nano,0.32,intersection
+J_json,gpt-5.4,0.36666666666666664,intersection
+J_json,gpt-5.4-mini,0.5333333333333333,intersection
+J_json,gpt-5.4-nano,0.28,intersection
+A0_name_only,gpt-5.4,0.74,cue rule for optional feature
+A0_name_only,gpt-5.4-mini,0.6333333333333333,cue rule for optional feature
+A0_name_only,gpt-5.4-nano,0.54,cue rule for optional feature
+F_C,gpt-5.4,0.6466666666666666,cue rule for optional feature
+F_C,gpt-5.4-mini,0.7733333333333333,cue rule for optional feature
+F_C,gpt-5.4-nano,0.36,cue rule for optional feature
+F_CR,gpt-5.4,0.7533333333333333,cue rule for optional feature
+F_CR,gpt-5.4-mini,0.7933333333333333,cue rule for optional feature
+F_CR,gpt-5.4-nano,0.38,cue rule for optional feature
+F_E,gpt-5.4,0.8333333333333334,cue rule for optional feature
+F_E,gpt-5.4-mini,0.8333333333333334,cue rule for optional feature
+F_E,gpt-5.4-nano,0.78,cue rule for optional feature
+F_EC,gpt-5.4,0.86,cue rule for optional feature
+F_EC,gpt-5.4-mini,0.84,cue rule for optional feature
+F_EC,gpt-5.4-nano,0.78,cue rule for optional feature
+F_ECR,gpt-5.4,0.8866666666666667,cue rule for optional feature
+F_ECR,gpt-5.4-mini,0.86,cue rule for optional feature
+F_ECR,gpt-5.4-nano,0.8533333333333334,cue rule for optional feature
+F_ER,gpt-5.4,0.9066666666666666,cue rule for optional feature
+F_ER,gpt-5.4-mini,0.8533333333333334,cue rule for optional feature
+F_ER,gpt-5.4-nano,0.8266666666666667,cue rule for optional feature
+F_R,gpt-5.4,0.74,cue rule for optional feature
+F_R,gpt-5.4-mini,0.7933333333333333,cue rule for optional feature
+F_R,gpt-5.4-nano,0.43333333333333335,cue rule for optional feature
+F_base,gpt-5.4,0.5866666666666667,cue rule for optional feature
+F_base,gpt-5.4-mini,0.7133333333333334,cue rule for optional feature
+F_base,gpt-5.4-nano,0.43333333333333335,cue rule for optional feature
+J_json,gpt-5.4,0.52,cue rule for optional feature
+J_json,gpt-5.4-mini,0.7066666666666667,cue rule for optional feature
+J_json,gpt-5.4-nano,0.4066666666666667,cue rule for optional feature

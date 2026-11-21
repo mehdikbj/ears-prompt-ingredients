@@ -1,0 +1,21 @@
+Environment of the pre-registered automatic analysis (analyze_study2.py)
+
+Run (UTC): 2026-11-07T19:13:48+00:00
+Where: Claude's cloud workspace, on a copy of the committed files (not on the author's machine)
+Input commit: 4b4aa58 ("Study 2: full run outputs, extraction and checks")
+Command: python3 -B study2/scripts/analyze_study2.py   (run from the repository root of the copy)
+
+Input files (SHA-256; identical to their versions in commit 4b4aa58):
+  2f32af2a5abf23341c45a2ecd8f00734399a4bf1071a72d83c1d9b64236b87dc  study2/results/checks_study2.jsonl
+  cafdfcdefeb7914ab770b4121a01c0a2c2d2d739049f7d9c38f1431066017c7d  study2/results/raw_inference_study2.jsonl
+  a04cd9f5d8bb1f26aaea0de1e7e57d04c66eb171b70eb103124d2b599f9c31a0  study2/results/extracted_study2.jsonl
+  f8a23ee660459f2a0b63de0459e63f936e742f8614012195864d6de3461367bb  study2/scripts/analyze_study2.py
+  9b9aadca5e267df144c85647c93e88a4c8ee82cc6b42126b962e80799bde1753  study2/scripts/s2common.py
+  b9d0a3812e54d026e2e8021b942294101371f74cb5fb727182e247ed5c4eb86c  study2/config/frozen_settings.json
+  bdefa1e82b237b74d49d498fcdc3f190f25029720411835ed07ad5aeb5fa206b  data/pure_150.json
+
+Python 3.13.18 (plan tested with 3.13.17)
+pandas 3.0.5, numpy 2.5.3, scipy 1.18.1, statsmodels 0.15.0, patsy 1.0.3, scikit-learn 1.9.1
+(all equal to the pins in study2/requirements-study2.txt)
+
+No deviation from ANALYSIS_PLAN.md. Pre-registered, not provisional.

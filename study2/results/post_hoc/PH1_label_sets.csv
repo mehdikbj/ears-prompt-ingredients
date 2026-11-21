@@ -1,0 +1,5 @@
+set,n_items,empty,constant_ubiquitous_fit,size_0,size_1,size_2,size_3,size_4,size_5,size_6,admissible_ubiquitous,admissible_event-driven,admissible_unwanted-behaviour,admissible_state-driven,admissible_optional-feature,admissible_complex
+union,150,0,0.7066666666666667,0,93,37,15,5,0,0,106,55,29,17,8,17
+intersection,150,25,0.5266666666666666,25,124,1,0,0,0,0,79,25,11,8,2,1
+R3 (A),150,0,0.62,0,137,10,3,0,0,0,93,33,19,15,3,3
+R1 (B),150,0,0.6133333333333333,0,123,12,15,0,0,0,92,47,21,10,7,15

@@ -1,0 +1,4 @@
+End your response with a line reading exactly:
+FINAL JSON:
+followed on the next line by your answer as raw JSON only, matching exactly this schema, with no text after it:
+{"pattern": "ubiquitous | event-driven | unwanted-behavior | state-driven | optional-feature", "requirement": "<the single EARS-formatted sentence>"}

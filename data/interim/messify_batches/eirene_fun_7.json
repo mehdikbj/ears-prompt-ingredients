@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PURE-009",
+    "text": "The network shall support data rates of at least 2.4 kbit/s."
+  },
+  {
+    "id": "PURE-010",
+    "text": "At any time during the call, the lead driver shall be able to remove a member of the group."
+  },
+  {
+    "id": "PURE-011",
+    "text": "It shall be possible for the user to re-join the call which is on hold at any time."
+  },
+  {
+    "id": "PURE-012",
+    "text": "A connection of Railway emergency priority (see section 10.2) shall be established to a pre-determined set of receiving mobiles and controller(s)."
+  },
+  {
+    "id": "PURE-013",
+    "text": "The activation of the driver safety device shall automatically trigger the Cab radio to send a data message."
+  },
+  {
+    "id": "PURE-014",
+    "text": "A short audible and visual indication of the incoming call shall be provided."
+  },
+  {
+    "id": "PURE-015",
+    "text": "A visual and audible alarm shall be given when the remaining capacity of the battery is such as to enable only 10 minutes of full duplex call time."
+  },
+  {
+    "id": "PURE-016",
+    "text": "Where EIRENE facilities are not available within the currently selected network, the user shall be given a visible indication."
+  }
+]

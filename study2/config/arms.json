@@ -1,0 +1,89 @@
+{
+  "_comment": "Frozen 2026-11-08. Study 2b arms: examples (E) x rules (R) x reasoning (none / written / native) on the Study 2 base. 'none' and 'native' arms use byte-identical prompts (the Study 2 arm F_base, F_E, F_R or F_ER); 'native' differs only in the API reasoning_effort. 'written' adds one block (prompts/components/cot_written.txt) before the output instruction. Section order: header, patterns, [examples], [rules], [written reasoning], output.",
+  "arms": [
+    {
+      "arm": "B_base_none",
+      "E": 0,
+      "R": 0,
+      "reasoning": "none",
+      "study2_prompt": "F_base"
+    },
+    {
+      "arm": "B_E_none",
+      "E": 1,
+      "R": 0,
+      "reasoning": "none",
+      "study2_prompt": "F_E"
+    },
+    {
+      "arm": "B_R_none",
+      "E": 0,
+      "R": 1,
+      "reasoning": "none",
+      "study2_prompt": "F_R"
+    },
+    {
+      "arm": "B_ER_none",
+      "E": 1,
+      "R": 1,
+      "reasoning": "none",
+      "study2_prompt": "F_ER"
+    },
+    {
+      "arm": "B_base_written",
+      "E": 0,
+      "R": 0,
+      "reasoning": "written",
+      "study2_prompt": null
+    },
+    {
+      "arm": "B_E_written",
+      "E": 1,
+      "R": 0,
+      "reasoning": "written",
+      "study2_prompt": null
+    },
+    {
+      "arm": "B_R_written",
+      "E": 0,
+      "R": 1,
+      "reasoning": "written",
+      "study2_prompt": null
+    },
+    {
+      "arm": "B_ER_written",
+      "E": 1,
+      "R": 1,
+      "reasoning": "written",
+      "study2_prompt": null
+    },
+    {
+      "arm": "B_base_native",
+      "E": 0,
+      "R": 0,
+      "reasoning": "native",
+      "study2_prompt": "F_base"
+    },
+    {
+      "arm": "B_E_native",
+      "E": 1,
+      "R": 0,
+      "reasoning": "native",
+      "study2_prompt": "F_E"
+    },
+    {
+      "arm": "B_R_native",
+      "E": 0,
+      "R": 1,
+      "reasoning": "native",
+      "study2_prompt": "F_R"
+    },
+    {
+      "arm": "B_ER_native",
+      "E": 1,
+      "R": 1,
+      "reasoning": "native",
+      "study2_prompt": "F_ER"
+    }
+  ]
+}

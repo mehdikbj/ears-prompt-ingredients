@@ -1,0 +1,1775 @@
+[
+  {
+    "id": "2004 - rlcs [pdf]__C0001",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "RFP DOT-2040 Section VI.D State of California Department of Transportation District 11 I-15 Reversible Lane Control System (I-15 RLCS) Application Software Requirements Specification *** to be finalized by contractor *** April 21, 2004 Department of Transportation District 11 I-15 RLCS Software Requirements Specification Modification History After the baseline version of this document is approved, any changes made to the document must be approved in accordance with the provisions of the established Change Management Plan.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0002",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "1.2.1. Objectives",
+    "text": "Objectives The RLCS Application must support the objectives listed in Section 1.2 System Goals, in the System Requirements Specification.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0003",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "g) Reliability requirements – The RLCS Application must be available 24 hours per day, 7 days per week, 365 days per year.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0004",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "In order to achieve this, the nature of the risk must be understood and continually kept in mind by control system developers and testers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0005",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.1.1. Hardware Interfaces",
+    "text": "It is unknown at this time which particular controller will be used to control the field devices, but the software must interface with whichever controller is chosen to interface with the field devices.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0006",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.1.1.1 Field Device I/O Drivers",
+    "text": "3.1.1.1 Field Device I/O Drivers The RLCS software shall send to and receive data from the field device I/O cards through I/O driver software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0007",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.1.2. External System Interfaces",
+    "text": "External System Interfaces All external systems shall retrieve RLCS status from a server outside the RLCS network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0008",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2. Functional requirements",
+    "text": "Functional requirements This section describes the fundamental actions that must occur to accept inputs and produce outputs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0009",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2. Functional requirements",
+    "text": "It includes explanations of validity checks on inputs, [vendor must complete the validity check information] sequences of operations, and responses to abnormal situations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0010",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1. Graphical User Interface (GUI)",
+    "text": "Graphical User Interface (GUI) The system shall have a Graphical User Interface (GUI) that allows the operator to view system status, issue commands to change device status, configure the system, export log data, and generate reports.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0011",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.1.   The RLCS software shall have a logon screen for the GUI.",
+    "text": "The RLCS software shall have a logon screen for the GUI.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0012",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.1.1. The logon screen shall request user name and corresponding password.",
+    "text": "The logon screen shall request user name and corresponding password.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0013",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.1.1. The logon screen shall request user name and corresponding password.",
+    "text": "The logon screen shall activate command control for the user if the user requests it and has authorization.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0014",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.1.3. Command control shall be from only specified workstations.",
+    "text": "Command control shall be from only specified workstations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0015",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.1.3. Command control shall be from only specified workstations.",
+    "text": "If command control is enabled by another user, and the logging in user is of higher security, the logging in user shall be requested to accept or deny command control.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0016",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.2.    Time Stamp, User, and Workstation ID Window",
+    "text": "Time Stamp, User, and Workstation ID Window The GUI shall indicate the current date and time, user’s name, and workstation location name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0017",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.2.    Time Stamp, User, and Workstation ID Window",
+    "text": "The GUI shall also show other users currently logged in the other units within the RLCS network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0018",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.3.    Control/Monitor Command Entry Screen",
+    "text": "The GUI shall provide an option that allows the system user to issue commands that monitor and control opening and closing events.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0019",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.3.    Control/Monitor Command Entry Screen",
+    "text": "Based on the user’s security level, the control option shall provide the user with the appropriate level of control.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0020",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The control option shall provide the user with the capability to set the operational status of failed devices.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0021",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.3.4. The RLCS software shall display information about active overrides: Which",
+    "text": "The RLCS software shall display information about active overrides: Which are active, and which devices have no currently active 'rules protection' against erroneous opening/closing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0022",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.3.4. The RLCS software shall display information about active overrides: Which",
+    "text": "The GUI shall provide a display of the I-15 Reversible Lane Control System facility geographic area, including a layout of the mainline I-15, SR-163 freeway area in the same geographic area as the I-15 Reversible Lane.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0023",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.4.4. Current facility boundaries extending one mile in either direction.",
+    "text": "For alarm status, the GUI shall also issue an audible alarm, and the icon shall be different from the okay status for that device.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0024",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.4.4. Current facility boundaries extending one mile in either direction.",
+    "text": "The visual alarm shall include a change of color for the affected device.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0025",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.4.4. Current facility boundaries extending one mile in either direction.",
+    "text": "There shall be an option to turn off the audible alarm permanently or temporarily for a given period.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0026",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.4.4. Current facility boundaries extending one mile in either direction.",
+    "text": "The alarm icon shall change to the normal status icon automatically when the alarm condition is removed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0027",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.4.4. Current facility boundaries extending one mile in either direction.",
+    "text": "Alarm conditions shall be configurable on the screen.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0028",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "When a device status has been overridden, on the screen it shall appear with different color from the normal and alarm status colors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0029",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Status information shall continue to display when no user is logged on to the workstation and shall continually be updated every 2 seconds.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0030",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.5.    System Configuration Screen",
+    "text": "The GUI shall provide an option for “Configuration” that is only accessible by the RLCS Software user with System Administrative privileges.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0031",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.5.    System Configuration Screen",
+    "text": "It shall display and allow modification of all database tables with the exception of log tables.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0032",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.5.    System Configuration Screen",
+    "text": "April 21, 2004 Section VID page 20 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification When the system administrator modifies the database tables, the GUI shall analyze the data before storing in the database and notify the system administrator of any conflicting or redundant entries.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0033",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The configuration option shall allow a security level and password to be assigned to each defined staff member.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0034",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "User security levels shall be assigned at the command level, device, mode, workstation, and system function.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0035",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The configuration option shall also allow user accounts l to be changed remotely in the field units.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0036",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.5.5. When an operator is making changes on the system, the GUI",
+    "text": "When an operator is making changes on the system, the GUI configuration screen shall display to the user which device, controller, or workstation in the RLCS network will be affected by the changes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0037",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.5.5. When an operator is making changes on the system, the GUI",
+    "text": "3.2.1.5.7 The option to configure device rules shall require an additional login password for that option.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0038",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.5.5. When an operator is making changes on the system, the GUI",
+    "text": "3.2.1.5.8 The GUI shall allow devices to be added and removed from the display without requiring programming effort.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0039",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.5.5. When an operator is making changes on the system, the GUI",
+    "text": "3.2.1.5.9 The GUI shall allow the facility map to be modified without requiring programming effort.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0040",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.6.    Display/Export System Information Logs",
+    "text": "Display/Export System Information Logs The system shall display information logs and provide the capability to export the logs in common ASCII text for importing to commercial database, spreadsheet, or reporting programs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0041",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.6.3.1.       The Problem Work Order shall be a separate display that allows",
+    "text": "The Problem Work Order shall be a separate display that allows the user to enter information about a system problem.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0042",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.6.3.2.      The Problem Work Order data shall be editable and exportable to",
+    "text": "The Problem Work Order data shall be editable and exportable to ASCII delimited files by the user.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0043",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.6.5. Operator Daily Diary Log",
+    "text": "The “Daily Diary” shall be a separate display that allows the user to enter free form text comments.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0044",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.7.   Single Device Status Screen",
+    "text": "Single Device Status Screen The GUI shall provide the ability to display the status of one device at the detail level, showing all sensor data for that device.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0045",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.8.    Device Category Status Screen",
+    "text": "Device Category Status Screen The GUI shall provide the ability to display the current status of a category of devices at the detail level, showing all sensor data for all devices of the same category.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0046",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.9.   Report Screen",
+    "text": "Report Screen The user shall be able to retrieve historic reports from the COTS reporting system based on date range and report name.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0047",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.10. Emergency Notification Information Screen",
+    "text": "Emergency Notification Information Screen The system shall display the appropriate emergency contact information in the event of an alarm condition.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0048",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.11. Command Confirmation/Abort/Override Screen",
+    "text": "Command Confirmation/Abort/Override Screen The GUI shall display a separate window requesting confirmation of the command upon receiving a command either from the user at the keyboard, or from a scheduled sequence of commands.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0049",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.12. Alarm Acknowledgment/Silencing Screen",
+    "text": "Alarm Acknowledgment/Silencing Screen The GUI shall allow the operator to acknowledge an alarm and have the option to silence the audible portion of the alarm for a configurable number of seconds or permanently for that device only.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0050",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.12. Alarm Acknowledgment/Silencing Screen",
+    "text": "The GUI shall include diagnostic screen providing the user with the capability to diagnose failed devices at the sensor level.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0051",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.14. Change System Mode",
+    "text": "Change System Mode the GUI shall provide a screen for authorized users to change system mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0052",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.15. Help Screen",
+    "text": "Help Screen The GUI shall provide a screen for describing system features, functions, database tables, and fields.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0053",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2. Process Monitoring and Control",
+    "text": "Input Entities (from list of entities and attributes in 3.4 Logical Database Requirements): Alarm Type, Command Level, Device, Device Alarm Criteria, Device Command, Device Rules, Device Status, Diagnostic Command, Location, System Control Parameters, System Mode, System Operation Status, System Operational Command Output Entities: Alarm Type, Command Level, Device, Device Command, Device Command Log, Diagnostic Command, Location, Operator Daily Diary Log, System Operation Command Log, System Operation Command Log, System Operation Status, System Operational Command 3.2.2.1 The RLCS shall monitor all field device sensors, and shall process operator requests for changing field device status.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0054",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.2.2 Any operator or system command, which changes the state of field control devices, must be checked for integrity at multiple levels in the RLCS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0055",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.2.3 The RLCS software shall monitor, display, and update the database with the status of all system field elements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0056",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Any change in device state shall be reported on the screen not later than 2 seconds from the time it occurs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0057",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "In addition to monitoring field devices the system shall also monitor field controllers and connected on the RLCS network for control system integrity.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0058",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The system shall report any users logged in RLCS network computers any time and all commands issued in the field units.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0059",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.2.4 During ‘degraded’ mode, the system shall monitor device sensors at the frequency rate stored in the database to take effect only during ‘degraded’ mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0060",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "In general, the system shall monitor the status of all field devices at the frequency specified in the System Control Parameters for that mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0061",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.2.4.1 The system shall control all system field elements to device sensor level for those device sensors that may be controlled.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0062",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.2.4.2 Each device control command shall check the current status of all closure devices in the system and shall abort if any closure control device status is unknown.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0063",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.4.3 Each command (at the device sensor command, device command(macro), or",
+    "text": "3.2.2.4.3 Each command (at the device sensor command, device command(macro), or system operational command (super macro) level) shall only be executed when a valid or good status exists for all device sensors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0064",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.4.3 Each command (at the device sensor command, device command(macro), or",
+    "text": "An authorized user shall be able to log in and issue device status requests and control commands from specified computers in the network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0065",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.4.3 Each command (at the device sensor command, device command(macro), or",
+    "text": "(This is determined April 21, 2004 Section VID page 24 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification based on the user’s access level and authorized workstations.) 3.2.2.4.4 The current status for all devices shall be maintained at each controller unit.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0066",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.4.5 Alarms",
+    "text": "3.2.2.4.5 Alarms Check Device Status for Alarm Condition Each status received from device sensors shall be checked against alarm conditions for that device sensor and the status will be updated to indicate an alarm.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0067",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.4.5 Alarms",
+    "text": "3.2.2.4.6 Critical alarms shall be generated when one or more of these conditions are met.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0068",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "11) Watch Dog timer failure 3.2.2.4.7 Warning alarms shall be generated when one or more of these conditions are met.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0069",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.2.4.8 If a critical alarm occurs during opening or closing operation, the system shall present the operator with possible actions that can be taken in order to complete the operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0070",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "If overriding a device status is needed in order to proceed, the system shall determine if the operator has high enough security and provide advise on how to proceed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0071",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.4.9 Process GUI Commands",
+    "text": "3.2.2.4.9 Process GUI Commands 3.2.2.4.9.1 In order for a command to be processed from any workstation or controller, the MCU field device shall be in the “Auto” mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0072",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.4.9 Process GUI Commands",
+    "text": "3.2.2.4.9.2 The system operator shall be able to override any device and continue with a system operational command sequence.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0073",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.2.4.9.3 The process of overriding a device status shall not affect the status of any other device.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0074",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.4.9.4 Business Rules / Interlocks / Safety Screening",
+    "text": "3.2.2.4.9.4 Business Rules / Interlocks / Safety Screening Each control command that is processed must be validated against the secured safety rules (stored in non-volatile memory) for the command.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0075",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.5 Track and log all Failed Requests for Device Status and Control",
+    "text": "3.2.2.5 Track and log all Failed Requests for Device Status and Control 3.2.2.5.1 If a status from any device is not received upon request, the system shall automatically request the status again.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0076",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.5 Track and log all Failed Requests for Device Status and Control",
+    "text": "3.2.2.5.2 Failure to receive a valid status after a configurable number of retries shall be considered a device failure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0077",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.6 Identify units and Initialize all Devices",
+    "text": "3.2.2.6 Identify units and Initialize all Devices 3.2.2.6.1 When each workstation and control unit (workstation or intelligent controller at the FCU or DCU) comes online, the system shall identify it and all its associated device sensors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0078",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.6.1 When each workstation and control unit (workstation or intelligent controller at",
+    "text": "3.2.2.6.2 The RLCS software shall initialize each control unit and device sensor as it is identified.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0079",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.6.2.1 RLCS Software Startup PROCESS: The RLCS software in the field",
+    "text": "3.2.2.6.2.1 RLCS Software Startup PROCESS: The RLCS software in the field shall first identify the its unit when it starts, by reading the cabinet id.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0080",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.6.2.1 RLCS Software Startup PROCESS: The RLCS software in the field",
+    "text": "If everything is OK the start up process shall not exceed 30 seconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0081",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.6.2.1 RLCS Software Startup PROCESS: The RLCS software in the field",
+    "text": "The RLCS software shall then monitor all the devices and send the current status to the FCU or TSU every 2 seconds (or at the rate specified in the System Control Parameters for the current mode).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0082",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.6.2.1 RLCS Software Startup PROCESS: The RLCS software in the field",
+    "text": "April 21, 2004 Section VID page 26 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification 3.2.2.7 The RLCS software shall be designed to allow for future changes to the roadway without requiring programming effort.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0083",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Updating non-volatile memory-based tables shall be sufficient to accommodate future changes to the roadway.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0084",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.8 Collect Log Data",
+    "text": "3.2.2.8 Collect Log Data The system shall generate log files as follows for reports: 3.2.2.8.1 Device Command Log: Contains device commands issued with time stamp, operator ID, unit where the command was issued at and shall include failed or aborted commands.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0085",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.8.1 Device Command Log: Contains device commands issued with time",
+    "text": "Device command log shall not be editable by users.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0086",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.8.1.1 System Operation Command Log: Contains system operational",
+    "text": "3.2.2.8.1.1 System Operation Command Log: Contains system operational commands issued with time stamp, operator ID, unit where the command was issued at and shall include failed or aborted commands.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0087",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.2.8.1.1 System Operation Command Log: Contains system operational",
+    "text": "System Operation command shall not be editable by users 3.2.2.8.1.2 The Problem Work Order Log will be generated automatically with failure information at the time of failure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0088",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Output Entities: Device Command Macro, System Operational Command 3.2.3.1 The RLCS shall execute stored operational control command sequences based on the current system mode of operation and the schedule for each sequence.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0089",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.3.1 The RLCS shall execute stored operational control command sequences",
+    "text": "The operational control command sequences to be stored and executed with the initial configuration of the system are listed in Appendix F 3.2.3.2 The RLCS shall present scheduled command operations to the operator at the GUI for confirmation prior to executing the command.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0090",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.3.1 The RLCS shall execute stored operational control command sequences",
+    "text": "3.2.3.3 At any point in an opening or closing sequence, the sequence shall be halted if: 3.2.3.3.1 A device fails to report completion of the current sequence step within the response time window allotted for the step, or 3.2.3.3.2 The status of a closure device, which was previously opened at the current entrance, changes to ‘unknown’ or ‘closed’, without an operator-initiated command.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0091",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.3.4 At any point in an opening sequence, the sequence shall be halted if the status of a closure device for the opposite direction of travel changes to ‘unknown’ or ‘open’.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0092",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.3.5 To resume an opening or closing sequence after a halt has occurred, the operator shall be able to issue a command to resume if the offending device status can be corrected within a configurable time period as defined in the database and in non- volatile memory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0093",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "April 21, 2004 Section VID page 28 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification 3.2.4 Data Processing and Security The RLCS shall store, process, and retrieve all data necessary to operate the application software as well as generate current and historical reports of system operations, and export system status data to an external server data store.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0094",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4 Data Processing and Security",
+    "text": "The RLCS shall also store, process, and retrieve all data necessary to secure the system from unauthorized use.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0095",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4 Data Processing and Security",
+    "text": "A commercial off-the-shelf database management system shall be used for this function.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0096",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4 Data Processing and Security",
+    "text": "Input Entities (from list of entities and attributes in 3.4 Logical Database Requirements): All entities Output Entities: All entities 3.2.4.1 The RLCS application software shall update and read database tables to support system operations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0097",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.4.2 The RLCS application software shall Update and read password and device rule data in encrypted format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0098",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4.3 Update and read Security information",
+    "text": "Commands shall be classified in these categories (1) Device control commands.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0099",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.4.5 The system shall will employ a one-way hash function as an aid to maintaining the integrity of the data and software in the field.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0100",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The hash value returned by the function shall will be at least 128 bits in length.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0101",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.4.5.1 At each time, one or more of the above item types, listed under ‘Control Unit Non-Volatile Memory’, is created or modified, a UTC date/time stamp shall will be updated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0102",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The update of the time stamp shall will be the last step in the process which builds the time stamped code/data section.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0103",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.2.4.5.2 The system shall will also, for each control unit in the system, produce a table of the returned ‘one-way hash function’ (Message Digest) values, of each of the ‘Control Unit Non-Volatile Memory’ items.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0104",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The returned ‘Message Digest’ values shall will be stored as hexadecimal characters.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0105",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The appropriate ‘Message Digest’ table shall will be maintained in non-volatile memory in each system control unit.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0106",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4.5.3 The system will provide for periodic verification that current, recomputed",
+    "text": "The periodic evaluation shall will occur at least once a day.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0107",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4.5.3 The system will provide for periodic verification that current, recomputed",
+    "text": "The ‘Message Digest’ value verification results shall will be recorded in the system log.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0108",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4.5.3 The system will provide for periodic verification that current, recomputed",
+    "text": "A verification failure shall will cause an alarm condition for the affected control unit.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0109",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4.5.3 The system will provide for periodic verification that current, recomputed",
+    "text": "If the failure occurs in checking the non-volatile memory items, the system shall will prevent the affected unit from being used in control sequences.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0110",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4.5.3 The system will provide for periodic verification that current, recomputed",
+    "text": "3.2.4.5.4 The system shall will provide for ‘Message Digest’ verification requests for a given unit by operator command.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0111",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4.5.3 The system will provide for periodic verification that current, recomputed",
+    "text": "3.2.4.5.5 For system login purposes, the hash function shall will also be used to encrypt user passwords.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0112",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.4.5.3 The system will provide for periodic verification that current, recomputed",
+    "text": "[Harrison to ask Don Day why these are requirements.] 3.2.4.5.6 To change device command rules on the production system, the System Administrator must upload a new database version after testing the rule changes in the Simulator environment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0113",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.5 Reporting",
+    "text": "A commercial off-the-shelf reporting tool shall be used for this function.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0114",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.5.7.1 The system shall generate problem reports based on alarms and",
+    "text": "3.2.5.7.1 The system shall generate problem reports based on alarms and system status reports 3.2.5.8 Create “Current User Report” from “Personnel Status” entity.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0115",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.5.12 Create “Inventory Report” from “Device”, “Device Status”, “Device Category”, and",
+    "text": "April 21, 2004 Section VID page 32 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification 3.3 Performance 3.3.1 External Interfaces Priority: Must have 3.3.1.1 The external server data store containing RLCS status for use by external systems shall be updated once per minute.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0116",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.1 External Interfaces",
+    "text": "3.3.1.2 The field device status information logging to the database shall be 2 seconds, but can be configurable within the database to more than 2 seconds by the user.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0117",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.1 External Interfaces",
+    "text": "3.3.1.3 The field device status information display update frequency shall be 2 seconds, but can be configurable within the database to more than 2 seconds by the user.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0118",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.1 External Interfaces",
+    "text": "3.3.1.4 The RLCS shall receive device status information from devices sensors within 2 seconds of the status information being issued by the device sensor.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0119",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.3.1.5 Field devices shall receive respond to commands from the RLCS within 12 seconds of the command confirmation being issued by the operator using a keyboard (or other input device).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0120",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.2 User Interface (GUI)",
+    "text": "3.3.2 User Interface (GUI) Priority: Must have 3.3.2.1 The RLCS shall support multiple users logged on, up to the limit of the number of users defined in the database.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0121",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.2 User Interface (GUI)",
+    "text": "3.3.2.2 Not including device and network response times, requests from the GUI for status updates shall not exceed 2 seconds to update the GUI display.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0122",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.2 User Interface (GUI)",
+    "text": "Not including device and network response time, requests from the GUI for device status changes (control commands) shall not exceed 2 seconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0123",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.2 User Interface (GUI)",
+    "text": "3.3.2.3 The facility map on the screen shall refresh every 2 seconds but can be configurable within the database to more than 2 seconds by the user.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0124",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "3.3.2.4 The RLCS notification to the operator workstation of any critical alarms shall occur within 2 seconds of alarm detection, and shall occur whether or not an operator is logged on to the system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0125",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.3   Process Monitoring and Control",
+    "text": "3.3.3 Process Monitoring and Control Priority: Must have 3.3.3.1 The field units (controllers) shall continually monitor device status, controller status and the control system integrity and send the status to the central April 21, 2004 Section VID page 33 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification computer in the TMC every 2 seconds or less.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0126",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.3.2   The RLCS shall detect alarm conditions within 2 seconds of occurrence.",
+    "text": "3.3.3.2 The RLCS shall detect alarm conditions within 2 seconds of occurrence.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0127",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.4 Sequencing",
+    "text": "3.3.4 Sequencing Priority: Must have 3.3.4.1 At a minimum of every 60 seconds, the system shall check the current date and time against a list of scheduled events for the current mode to determine if any event should be executed.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0128",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.4 Sequencing",
+    "text": "3.3.4.2 The RLCS shall support at a minimum the 4 daily ‘normal’ mode open and close scheduled operations plus at least the same number of ‘emergency’ and ‘maintenance’ mode scheduled events.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0129",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.5 Data Processing and Security",
+    "text": "3.3.5 Data Processing and Security Priority: Must have The database retrieval and update response time shall not impact any other performance requirements such as the GUI response time or monitoring and control responses.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0130",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.5 Data Processing and Security",
+    "text": "If the GUI is required to reflect change in status within 2 seconds, then the database update time must be less than 2 seconds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0131",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.6 Reporting",
+    "text": "3.3.6 Reporting Priority: Must have 3.3.6.1 The operator shall be able to store and retrieve previously created report results from the RLCS for a minimum period of 60 days, but configurable for up to one year.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0132",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.6 Reporting",
+    "text": "3.3.6.2 The raw data used to create reports shall be kept in the RLCS for a minimum period of 13 months prior to backing up to tapes or other secondary storage media.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0133",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.6 Reporting",
+    "text": "3.3.6.3 Report processing shall not impact any other performance requirements such as the GUI response time or monitoring and control responses 3.3.6.4 Report response time shall be determined by the database resources allocated to the reporting function.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0134",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.7 Communications",
+    "text": "3.3.7 Communications Priority: Must have 3.3.7.1 RLCS system components will communicate via the private communications networks established by Department of Transportation District 11 prior to the development of the RLCS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0135",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.7.1   RLCS system components will communicate via the private communications",
+    "text": "Any operator or system command, which changes the state of field control devices, must be checked for integrity at multiple levels in April 21, 2004 Section VID page 34 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification the system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0136",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.7.1   RLCS system components will communicate via the private communications",
+    "text": "Valid checksum algorithms must be employed to check the integrity of messages between units.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0137",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.3.7.2      The RLCS must support the following data transfer performance goals:",
+    "text": "3.3.7.2 The RLCS must support the following data transfer performance goals: The number of kbits transmitted for a single polling event of all device sensors is estimated to be: # of sensors x bytes/status command x 8bits/byte x 1k/1000= 205 x 200 x 8 x 1/1000= 328 kbits The transmission rate required to transfer this data in 2 seconds is: 328 kbits/2 sec.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0138",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "40    Workstations              Workstation ID, Name, Location, Make, Model",
+    "text": "April 21, 2004 Section VID page 37 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification 3.5 Design Constraints 3.5.1 Commercial Off-the-Shelf Software 3.5.1.1 The data processing and security, and reporting functions of the RLCS application software shall be implemented with commercial off-the-shelf software.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0139",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.5.2 Security",
+    "text": "3.5.2 Security The RLCS shall incorporate a database to store, process, and retrieve all data necessary to secure the system from unauthorized use.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0140",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.5.2 Security",
+    "text": "The processing code at the FCU and DCU controllers shall be resident in non-volatile memory .",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0141",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.5.2 Security",
+    "text": "3.5.2.1 The RLCS shall incorporate a database to store, process, and retrieve all data necessary to secure the system from unauthorized use.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0142",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.5.2 Security",
+    "text": "3.5.2.2 The application software processing code and application software data such as login information at the FCU and DCU controllers shall be resident in non-volatile memory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0143",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.5.2 Security",
+    "text": "3.5.2.3 The MD5 algorithm shall be used to secure application data and software in the controllers and the application server.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0144",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6 RLCS Application Software Attributes",
+    "text": "3.6 RLCS Application Software Attributes 3.6.1 Reliability 3.6.1.1 The RLCS must demonstrate the ability to function continuously without needing to be reset or rebooted due to an RLCS error for at least 30 consecutive days.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0145",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.1 Reliability",
+    "text": "3.6.1.2 Valid checksum algorithms must be employed to check the integrity of messages between units.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0146",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.1.3 The RLCS must be built with redundant capabilities to ensure uninterrupted",
+    "text": "3.6.1.3 The RLCS must be built with redundant capabilities to ensure uninterrupted operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0147",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.1.3 The RLCS must be built with redundant capabilities to ensure uninterrupted",
+    "text": "The RLCS will function in a degraded mode in the following manner: April 21, 2004 Section VID page 38 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification 3.6.1.3.1 If the TMC workstations or network server fails, resulting in loss of field status at the TMC, alternate control shall be at FCU South or FCU North.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0148",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.1.3 The RLCS must be built with redundant capabilities to ensure uninterrupted",
+    "text": "The operator shall be able to dial in from a back up computer to either FCU North or FCU south and open and close the reversible lanes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0149",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.1.3.2 If FCU North or South fails: (FCU Controller failures or FCU-TSU",
+    "text": "The operator shall be able to connect a lap top computer at the DCUs and operate the devices or perform manual operation from the MCU.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0150",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.1.3.2 If FCU North or South fails: (FCU Controller failures or FCU-TSU",
+    "text": "The operator shall also be able to connect a lap top on the CMS cabinet and control the signs or perform manual operation of the signs from the cabinet.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0151",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The devices can be manually controlled/operated from their cabinets (e.g.: Gates) 3.6.1.4 The current configuration information for each processing unit in the field shall be duplicated in a database at the TMC level.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0152",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.2 Availability",
+    "text": "3.6.2 Availability Priority: Must have The RLCS must be available 24/7, 365 days per year.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0153",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.2 Availability",
+    "text": "The normal operating mode is Monday through Friday, between 5:00am and 8:00pm, but the system must be functional in order to stay in its closed state after hours.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0154",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.2 Availability",
+    "text": "If there is a failure, recovery time must be no greater than 10 minutes, and total yearly uptime must be at least 99.99% (.01% downtime, or approximately 50 minutes per year).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0155",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.3 Maintainability",
+    "text": "3.6.3 Maintainability Priority: Must have 3.6.3.1 The RLCS shall support remote system administration and maintenance of the system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0156",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.3.1 The RLCS shall support remote system administration and maintenance of the",
+    "text": "3.6.3.2 The RLCS shall utilize an open architecture that is modular and scaleable.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0157",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.6.3.1 The RLCS shall support remote system administration and maintenance of the",
+    "text": "The system will be scaled up to a maximum of two additional DCU controllers, each with the number of devices currently at DCU Location 1, plus four additional CMS, and April 21, 2004 Section VID page 39 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification twenty additional contact closures) 3.6.3.3 Wherever possible open systems standards for hardware, software, software development tools, and communications shall be used.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0158",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "This section also lays down operational rules, which the software must implement and adhere to.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0159",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. Wrong Way Longitudinal Pop-ups",
+    "text": "Each command, which operates a single closure device, shall have a specific ‘response time window’ defined for successful command completion.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0160",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. Wrong Way Longitudinal Pop-ups",
+    "text": "In addition, each compound command, which includes more than one ‘single device’ command, shall have a specific ‘response time window’ defined for successful command completion of the compound command.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0161",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. Wrong Way Longitudinal Pop-ups",
+    "text": "The control system must not attempt to open any entrance closure device, if the status of any opposite direction entrance closure device is ‘unknown’ or open’.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0162",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. Wrong Way Longitudinal Pop-ups",
+    "text": "Steps within a command, or command group, shall be executed sequentially, whether the individual commands in a group, will be executed by one (1) control unit, or by more than one control unit.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0163",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. Wrong Way Longitudinal Pop-ups",
+    "text": "F.2 Roadway Closure Device Status The current status of all entrance closure devices in the system must be maintained at each control unit.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0164",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The state of the closure devices shall be updated in all control units.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0165",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The update frequency shall be higher during the opening and closing periods.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0166",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Closure device sensors shall be monitored continuously by their local control unit.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0167",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "F.3 Opening Sequences Opening sequences must open Entrance devices in the following order: 1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0168",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. CMS",
+    "text": "At any point in an opening sequence, the sequence shall be halted if: • A device fails to report completion of the current sequence step within the response time window allotted for the step, or • The status of a closure device for the opposite direction of travel changes to ‘unknown’ or ‘open’, or • The status of a closure device, which was previously opened at the current entrance, changes to ‘unknown’ or ‘closed’.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0169",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. CMS",
+    "text": "F.4 Closing Sequences Closing sequences must close Entrance devices in the following order: 1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0170",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "1. CMS",
+    "text": "The system shall provide for a specific delay between the message change on each sign and the message change on the next downstream sign.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0171",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "1. CMS",
+    "text": "The delay for each sign pair shall equal the time to travel between the two signs at a system specified speed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0172",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "2. Entrance Longitudinal Pop-ups",
+    "text": "Entrance Longitudinal Pop-ups Entrance Longitudinal Pop-ups must be closed in the direction of adjacent freeway traffic ( beginning at the shoulder edge and proceeding toward the entrance ramp nose).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0173",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. Barrier Gate",
+    "text": "Barrier Gate At any point in a closing sequence, the sequence shall be halted if either: 1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0174",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. Barrier Gate",
+    "text": "F.5 ‘Halted’ Opening and Closing Sequences A ‘halted’ opening or closing sequence shall cause the system to enter a ‘hold’ state for a system specified time.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0175",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "6. Barrier Gate",
+    "text": "If the offending device status can be corrected within the specified time period, the operator shall be able to enter a ‘resume’ command in order for the system to attempt to complete the original opening/closing sequence.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0176",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "F.7 Safety Screening of Commands Safety screening shall be done to determine if execution of a proposed command, if successful, would produce a valid reversible lanes configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0177",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "In the following section, the term ‘device command’ shall be understood to include any simple command, command group, or macro, which may, if executed, change the state of one or more entrance devices.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0178",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "In the case of device command groups (macros, compound commands, etc.) any screening requirement shall be applied to the command group, and to each device command within the group, prior to execution.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0179",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Each instance of safety screening shall utilize system configuration data that is no more than 3 seconds old.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0180",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Safety screening of device commands shall be multi-layered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0181",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Safety screening shall be applied to all device commands at the originating control unit, and at all subordinate control units to which the device command or any of its subordinate device commands may be forwarded.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0182",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Safety screening shall always be applied to any device command, or command step, by any control unit which directly operates the target entrance closure device(s), just prior to actual command execution.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0183",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "April 21, 2004 Section VID page 60 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification An opening or closing sequence shall be halted, with an appropriate error response to the system operator, if, at any sequence step, command safety screening fails.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0184",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "F.8 Control System Integrity Control Unit Non-Volatile Memory In each FCU and DCU in the system, the following items shall be replicated from the central database server and maintained in non-volatile, non-removable memory: Login Tables Closure Device Timing Parameters Air Calibration Factors Reversible Lanes Configuration Table(s) Reversible Lanes Operating Logic, Control Sequences, and Rule Sets F.9 Control System Integrity Verification The system shall will employ a one-way hash function as an aid to encrypting and maintaining the integrity of the data and software in the field.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0185",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "This algorithm shall reside in all the controllers and the application server.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0186",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "At each time, one or more of the above item types, listed under ‘Control Unit Non-Volatile Memory’, is created or modified, a UTC date/time stamp shall will be appended to the code (or table).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0187",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The appending of the time stamp shall will be the last step in the process which builds the time stamped code/data section.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0188",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The system shall will also, for each control unit in the system, produce a table of the returned ‘one-way hash function’ (Message Digest) values, of each of the ‘Control Unit Non-Volatile Memory’ items.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0189",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The system shall will provide for ‘Message Digest’ verification requests for a given unit by operator command.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0190",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "For system login purposes, the hash function shall will also be used to encrypt user passwords.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0191",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "Whether or not the system will require password aging shall will be controllable by the System Administrator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0192",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "The minimum length values shall will be controllable by the system administrator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0193",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "April 21, 2004 Section VID page 61 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification F.10 Access and Safety Characteristics of the I-15 Reversible Roadway The software must implement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0194",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "5. Uncertain status –",
+    "text": "Physical Access/Control Table Access Point Control Ability TMC All RLCS Closure Devices FCU South All RLCS Closure Devices DCU 1 NB 15 Entrance Wrong Way Devices and Gate DCU 2 NB 163 Entrance Devices and Gate DCU 3 NB 163 Wrong Way Devices FCU North All RLCS Closure Devices DCU 4 SB 15 Wrong Way Devices DCU 5 SB 15 Entrance Devices and Gate CMS 1-12 Individual CMS Control April 21, 2004 Section VID page 62 of 66 Department of Transportation District 11 I-15 RLCS Software Requirements Specification F.11 Normal Operations (Operator is logged on) The system must allow the following scheduled operations at a minimum during ‘normal’ operational mode: Sequence #1: Goal State: Open South Bound (AM) / Initial State: Closed (PM) AM Opening South Bound at 5:20 AM.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0195",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "CMS 5-8 SR 163 northbound RLCS Controlled",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0196",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": "3.2.1.3.4. The RLCS software shall display information about active overrides: Which",
+    "text": "facility geographic area, including a layout of the mainline I-15, SR-163 freeway area",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2004 - rlcs [pdf]__C0197",
+    "document": "2004 - rlcs [pdf].txt",
+    "nearest_heading": null,
+    "text": "RLCS facility entrances allow vehicles to enter from the adjacent main lanes of I-15 or SR-163. Each",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

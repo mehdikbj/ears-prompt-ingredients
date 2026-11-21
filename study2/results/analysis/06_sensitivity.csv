@@ -1,0 +1,61 @@
+test,estimate,stat,df,p,scale,p_holm,analysis,outcome,ci_lo,ci_hi,contrast
+main effect: examples,0.6571795967575401,51.26039854722081,1.0,8.089111036773836e-13,log-odds,4.853466622064302e-12,logit link,"pattern fit, union (primary)",,,
+main effect: rules,0.38688318378183106,19.187596730350137,1.0,1.184807280877399e-05,log-odds,5.924036404386995e-05,logit link,"pattern fit, union (primary)",,,
+main effect: reasoning (2 df),,17.763612103768352,2.0,0.00013889309077466674,,0.00041667927232400025,logit link,"pattern fit, union (primary)",,,
+examples x tier,,14.756736725429315,2.0,0.0006246192069955487,,0.0012492384139910974,logit link,"pattern fit, union (primary)",,,
+rules x tier,,4.63739885213779,2.0,0.09840148081847766,,0.09840148081847766,logit link,"pattern fit, union (primary)",,,
+reasoning x tier,,24.28673174417262,4.0,6.996966708517663e-05,,0.0002798786683407065,logit link,"pattern fit, union (primary)",,,
+main effect: examples,0.10962962962962966,,,9.534653497002263e-07,probability,5.720792098201358e-06,"clusters = source document, bias-reduced, t/F","pattern fit, union (primary)",0.0778932613390991,0.14136599792016022,
+main effect: rules,0.06074074074074075,,,0.0006634275887757836,probability,0.0029303954920162174,"clusters = source document, bias-reduced, t/F","pattern fit, union (primary)",0.029660835929219385,0.0918206455522621,
+main effect: reasoning (2 df),,23.151766169582213,2.0,0.0005860790984032434,,0.0029303954920162174,"clusters = source document, bias-reduced, t/F","pattern fit, union (primary)",,,
+examples x tier,,14.633327617336056,2.0,0.004726071598932045,,0.00945214319786409,"clusters = source document, bias-reduced, t/F","pattern fit, union (primary)",,,
+rules x tier,,4.7078669541052465,2.0,0.12355646564955661,,0.12355646564955661,"clusters = source document, bias-reduced, t/F","pattern fit, union (primary)",,,
+reasoning x tier,,25.765256923341333,4.0,0.0021208979255438734,,0.00636269377663162,"clusters = source document, bias-reduced, t/F","pattern fit, union (primary)",,,
+,0.030555555555555534,,,0.025668249016470232,,0.025668249016470232,"clusters = source document, bias-reduced, t/F","pattern fit, union (primary)",0.004162018468094629,0.05694909264301644,written - none
+,0.061666666666666564,,,0.00014501161333775107,,0.00029002322667550214,"clusters = source document, bias-reduced, t/F","pattern fit, union (primary)",0.034646794136338005,0.08868653919699512,native - none
+main effect: examples,0.11186186186186185,,,1.440759349538691e-17,probability,8.644556097232147e-17,"excluding PURE-014, PURE-126","pattern fit, union (primary)",0.08616400204937533,0.13755972167434838,
+main effect: rules,0.060810810810810814,,,9.52471115591263e-06,probability,4.762355577956315e-05,"excluding PURE-014, PURE-126","pattern fit, union (primary)",0.03389177272472309,0.08772984889689854,
+main effect: reasoning (2 df),,21.878578352828605,2.0,1.7747086853986932e-05,,7.098834741594773e-05,"excluding PURE-014, PURE-126","pattern fit, union (primary)",,,
+examples x tier,,18.082664376982493,2.0,0.00011841298291929392,,0.00023682596583858784,"excluding PURE-014, PURE-126","pattern fit, union (primary)",,,
+rules x tier,,2.7794574641345933,2.0,0.2491428799397358,,0.2491428799397358,"excluding PURE-014, PURE-126","pattern fit, union (primary)",,,
+reasoning x tier,,26.66689052784467,4.0,2.321180371596582e-05,,7.098834741594773e-05,"excluding PURE-014, PURE-126","pattern fit, union (primary)",,,
+,0.0315315315315315,,,0.016431255863874266,,0.016431255863874266,"excluding PURE-014, PURE-126","pattern fit, union (primary)",0.0057721181683673545,0.05729094489469565,written - none
+,0.0625,,,3.7278807212537687e-06,,7.455761442507537e-06,"excluding PURE-014, PURE-126","pattern fit, union (primary)",0.03601926207277524,0.08898073792722476,native - none
+main effect: examples,4.4347796096298815,0.0018805653680047138,1.0,0.9654101900619969,log-odds,1.0,logit link,checker compliance (secondary),,,
+main effect: rules,2.059169205229291,-0.00013437423661955558,1.0,1.0,log-odds,1.0,logit link,checker compliance (secondary),,,
+main effect: reasoning (2 df),,-0.14108483862946636,2.0,1.0,,1.0,logit link,checker compliance (secondary),,,
+examples x tier,,0.0002322024592611147,2.0,0.9998839055098564,,1.0,logit link,checker compliance (secondary),,,
+rules x tier,,0.00014297996286514455,2.0,0.9999285125739152,,1.0,logit link,checker compliance (secondary),,,
+reasoning x tier,,2.4674287123199536,4.0,0.6504775290493701,,1.0,logit link,checker compliance (secondary),,,
+main effect: examples,0.01962962962962964,,,0.006841996216656184,probability,0.027367984866624735,"clusters = source document, bias-reduced, t/F",checker compliance (secondary),0.006123126444279757,0.03313613281497952,
+main effect: rules,0.035185185185185174,,,0.01017118845118321,probability,0.028679278828213486,"clusters = source document, bias-reduced, t/F",checker compliance (secondary),0.009433705070749896,0.060936665299620454,
+main effect: reasoning (2 df),,17.963912635058925,2.0,0.0019708344269881964,,0.009854172134940982,"clusters = source document, bias-reduced, t/F",checker compliance (secondary),,,
+examples x tier,,12.176390147022975,2.0,0.009559759609404495,,0.028679278828213486,"clusters = source document, bias-reduced, t/F",checker compliance (secondary),,,
+rules x tier,,19.86097491371446,2.0,0.0012408703599109314,,0.007445222159465588,"clusters = source document, bias-reduced, t/F",checker compliance (secondary),,,
+reasoning x tier,,2.5782897136837706,4.0,0.6377702687904006,,0.6377702687904006,"clusters = source document, bias-reduced, t/F",checker compliance (secondary),,,
+,-0.004999999999999986,,,0.48205823995460895,,0.48205823995460895,"clusters = source document, bias-reduced, t/F",checker compliance (secondary),-0.019633256308246784,0.00963325630824681,written - none
+,0.016666666666666687,,,0.004206985944395669,,0.008413971888791338,"clusters = source document, bias-reduced, t/F",checker compliance (secondary),0.005974983458019365,0.02735834987531401,native - none
+main effect: examples,0.018393393393393423,,,0.0035694902478073643,probability,0.014277960991229457,"excluding PURE-014, PURE-126",checker compliance (secondary),0.00602127939593919,0.030765507390847657,
+main effect: rules,0.03415915915915915,,,0.0020469551051812227,probability,0.010234775525906114,"excluding PURE-014, PURE-126",checker compliance (secondary),0.012445014856332537,0.05587330346198577,
+main effect: reasoning (2 df),,10.895539115999929,2.0,0.004305898043911303,,0.014277960991229457,"excluding PURE-014, PURE-126",checker compliance (secondary),,,
+examples x tier,,6.593519882179683,2.0,0.03700286484508289,,0.07400572969016578,"excluding PURE-014, PURE-126",checker compliance (secondary),,,
+rules x tier,,15.191955157773238,2.0,0.0005024685139065561,,0.003014811083439337,"excluding PURE-014, PURE-126",checker compliance (secondary),,,
+reasoning x tier,,2.465915977905022,4.0,0.6507492875014951,,0.6507492875014951,"excluding PURE-014, PURE-126",checker compliance (secondary),,,
+,-0.004504504504504523,,,0.5974986624336247,,0.5974986624336247,"excluding PURE-014, PURE-126",checker compliance (secondary),-0.02122574049476634,0.012216731485757292,written - none
+,0.01576576576576575,,,0.03517147808390276,,0.07034295616780552,"excluding PURE-014, PURE-126",checker compliance (secondary),0.0010956106467491945,0.030435920884782308,native - none
+main effect: examples,0.11259259259259259,,,1.29365539558312e-16,probability,7.76193237349872e-16,admissible set: intersection,pattern fit,0.08592142468716679,0.1392637604980184,
+main effect: rules,0.05259259259259263,,,3.0455883470986434e-05,probability,0.00012182353388394574,admissible set: intersection,pattern fit,0.0278729938489142,0.07731219133627105,
+main effect: reasoning (2 df),,19.552584687634074,2.0,5.6781934135896115e-05,,0.0001342676132438626,admissible set: intersection,pattern fit,,,
+examples x tier,,23.987740158433887,2.0,6.181991561807007e-06,,3.090995780903503e-05,admissible set: intersection,pattern fit,,,
+rules x tier,,3.0896761923489486,2.0,0.21334641002680305,,0.21334641002680305,admissible set: intersection,pattern fit,,,
+reasoning x tier,,25.252577710949055,4.0,4.475587108128753e-05,,0.0001342676132438626,admissible set: intersection,pattern fit,,,
+,0.03888888888888889,,,0.0032394367267312833,,0.0032394367267312833,admissible set: intersection,pattern fit,0.012998661614630442,0.06477911616314734,written - none
+,0.06499999999999999,,,1.9786297731763997e-05,,3.9572595463527993e-05,admissible set: intersection,pattern fit,0.03514497796449079,0.09485502203550919,native - none
+main effect: examples,0.1162962962962963,,,1.70441810457882e-17,probability,1.022650862747292e-16,admissible set: cue rule for optional feature,pattern fit,0.08951864784280669,0.1430739447497859,
+main effect: rules,0.0614814814814815,,,7.0913449475676e-06,probability,2.83653797902704e-05,admissible set: cue rule for optional feature,pattern fit,0.034648787244445034,0.08831417571851796,
+main effect: reasoning (2 df),,24.56028987784137,2.0,4.643022797212919e-06,,2.3215113986064596e-05,admissible set: cue rule for optional feature,pattern fit,,,
+examples x tier,,19.10827307304898,2.0,7.09073447626384e-05,,0.0002127220342879152,admissible set: cue rule for optional feature,pattern fit,,,
+rules x tier,,2.5390048667766547,2.0,0.28097138898574286,,0.28097138898574286,admissible set: cue rule for optional feature,pattern fit,,,
+reasoning x tier,,23.65677604622751,4.0,9.357685379258382e-05,,0.0002127220342879152,admissible set: cue rule for optional feature,pattern fit,,,
+,0.03222222222222222,,,0.015087894606471655,,0.015087894606471655,admissible set: cue rule for optional feature,pattern fit,0.006235087956876554,0.05820935648756789,written - none
+,0.06777777777777777,,,9.366940832216299e-07,,1.8733881664432597e-06,admissible set: cue rule for optional feature,pattern fit,0.04069149795325201,0.09486405760230353,native - none

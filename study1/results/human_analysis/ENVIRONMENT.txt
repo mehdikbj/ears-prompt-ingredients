@@ -1,0 +1,14 @@
+Environment of the planned human-rating analysis of Study 1 (analyze_human_study2.py)
+
+Run (UTC): 2026-11-07T21:52:51+00:00
+Command: python -B study2/scripts/analyze_human_study2.py   (frozen folder names: study2/ = study1/)
+
+Input files (SHA-256):
+  ad96188284f5fb4fdc61b0e7bfde99a494b4d72ca44b7e01a3f47db82f3f03ef  study2/results/human_eval_key_study2.jsonl
+  f61cf1b8466268d9cd707e6da9663a4889307940bddea3f11146dbec1a87abaf  study2/results/human_ratings/04_study2_rating_sheet_R1.csv
+  312cafa93ef52057a68792ed07e9977751e67b4e8b3b65955211c28e14f7df71  study2/results/human_ratings/04_study2_rating_sheet_R3.csv
+  870cc27fb65237638af0bbf65ae2ead870de1313b30b84d9feba5a23fbb95964  study2/scripts/analyze_human_study2.py
+  5636a361cbff9db120b8d198ba84230aa760eb98ba0a043ff3f52a2aa25f84d0  study2/scripts/human_subsample_study2.py (before the rater names were replaced by codes)
+  b9d0a3812e54d026e2e8021b942294101371f74cb5fb727182e247ed5c4eb86c  study2/config/frozen_settings.json
+
+Python 3.13.18; pandas 3.0.5, numpy 2.5.3, scipy 1.18.1, statsmodels 0.15.0, patsy 1.0.3, scikit-learn 1.9.1, krippendorff 0.9.0

@@ -1,0 +1,1649 @@
+[
+  {
+    "id": "2005 - phin__X0001",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "The following requirements describe baseline functionality for any system(s) implemented to support Outbreak Management:",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0002",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "2.1 System Architecture: Broad system-level needs, such as flexible configuration, should be addressed by systems supporting OM.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0003",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "2.2 Data Requirements: Systems supporting OM need a variety of data to support investigations, including data regarding demographics, cases, exposures, investigations, agents, contacts, specimen/sample collection, laboratory tests, travel and conveyance, and restriction monitoring.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0004",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "2.3 System Functions and Behaviors: Systems supporting OM should support case investigation, maintain detailed and comprehensive linkages, trace contacts, and quarantine and isolation monitoring activities.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0005",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "2.4 Analysis, Visualization, and Report Generation: Systems supporting OM should enable investigators to produce both aggregated and individual reports about affected entities and events.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0006",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "2.5 System Integration and Data Exchange: OM information must be exchangeable, based on established standards, between systems involved in the investigation, identification, confirmation, and reporting of a health event.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0007",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "2.6 Vocabulary Standards: Standard vocabulary lists and data structures have been defined by standards organizations. Where they exist, systems supporting OM should use them. As additional standards are defined, they should be accepted and implemented",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0008",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "2.7 Operations: Personnel, roles, activities, and responsibilities necessary to support all aspects of OM should be clearly defined.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0009",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "2.8 System Security and Availability: Security of OM data includes the protection of data from corruption and access by unauthorized individuals, as well as the protection of the actual systems supporting OM from sabotage or other failure. A plan must be established for continuing activities when systems supporting OM are unavailable.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0010",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+    "text": "2.9 Privacy: Patients, organizations, and personnel must be protected from fraudulent and unauthorized use of their information.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0011",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE",
+    "text": "Systems designed to support OM must offer configuration flexibility so that new data fields, entities, entity types and relationship types may be added to capture information unique to each particular health event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0012",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE",
+    "text": "Systems supporting OM must support structured data entry for common forms and fields to ensure data integrity, validity, and standardization.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0013",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE",
+    "text": "A standardized data structure ensures that data mapping of common elements will only be necessary one time, rather than for each event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0014",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE",
+    "text": "Systems supporting OM should support multiple deployment options (e.g., client server, disconnected, and potentially web based).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0015",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE",
+    "text": "Systems supporting OM should provide the ability for computers in disconnected mode to reconnect to a server to share OM data among other computers that operate in disconnected mode.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0016",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE",
+    "text": "OM data should be synchronized so that all instances of OM applications working from the same server are able to share and use the same data.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0017",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE",
+    "text": "Systems supporting OM should be able to electronically record and store data from remote devices that may be uploaded to an aggregating system.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0018",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE",
+    "text": "Systems supporting OM should be capable of using configurable, domain-specific vocabulary.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0019",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS",
+    "text": "The following high-level data requirements are necessary to ensure that the data being collected, analyzed, and reported to support OM are clearly defined.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0020",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "An entity is any being or object involved in a health event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0021",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Entities may be classified as a person, organization, location, animal, object, conveyance, event, or other organism.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0022",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Each type of entity requires specific data to be collected.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0023",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Systems supporting OM must have the capability to capture demographic data about persons involved in an OM investigation, including: Subject ID, name, address, date of birth, gender, phone number, race, ethnicity, and country of citizenship.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0024",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Other descriptive details may be captured, such as occupation and work history.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0025",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Systems supporting OM must have the capability to capture data about organizations (e.g., a local health department, a university, a professional association) involved in an OM investigation, including: organization name, location, and contact information.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0026",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Systems supporting OM must have the capability to capture data about locations involved in an OM investigation, including: name (if applicable), type (e.g., floor, building, room, store), street address, city, state, zip code, country, GPS coordinates, and other specific details (e.g., a specific building on a campus, a business branch location, a local chapter’s meeting hall)",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - phin__X0027",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Systems supporting OM must have the capability to capture data about any animals involved in an OM investigation, including: type (dog, monkey, etc), age, gender, owner’s name and address, color, weight, and species.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0028",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "A Subject ID should also be collected for animals in an OM investigation.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0029",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "It may be a challenge to ensure unambiguous identification because demographic details of an animal are not easily identified; therefore, animals involved in investigations may need to be tagged.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0030",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Systems supporting OM must have the capability to capture data for any object involved in an OM investigation, such as a letter, invoice, food item, or any object that cannot be classified as a “person, organization, place, or animal.” Collected data may include: name of the object, type, physical descriptors, address, identification number (e.g.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0031",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "serial number, package slip number), and relevant dates and times (e.g., invoice date, shipping date, packaging date).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0032",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Systems supporting OM must have the capability to capture data about any conveyance involved in an OM investigation, including: type of conveyance, route taken (e.g., flight number), etc.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0033",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Systems supporting OM must have the capability to capture data about any public or private gathering of people (e.g., church social, ball game) involved in an OM investigation, including: time, location, nature of the event, etc.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0034",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Systems supporting OM must have the capability to capture data about any living things other than persons or animals that are involved in an OM investigation, including: type of living thing, and other customizable data collection questions.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0035",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+    "text": "Systems supporting OM must have the capability to capture an entity’s travel history to support investigations of entities infected, exposed or potentially exposed.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0036",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Health Event Data",
+    "text": "When a health event is investigated, it must be assigned an event identifier (i.e., Event ID) that is unique within the jurisdiction.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0037",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Health Event Data",
+    "text": "Data describing the health event should be captured, including the reason for the investigation, the category of event (e.g.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0038",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Health Event Data",
+    "text": "environmental, infectious), the date the event began, the suspected agent (if known) or investigation focus, the geographic area impacted by the event, as well as the event status (e.g., open, closed).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0039",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Health Event Data",
+    "text": "Systems supporting OM should have the ability to record the case definition for a health event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0040",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Health Event Data",
+    "text": "Systems supporting OM should have the ability to capture changes to the case definition that occur as the health event evolves.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0041",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data",
+    "text": "Travel history provides specific information to indicate when, where, and how subjects involved in an event traveled to a location (or to multiple locations), and conveyance data describes the vehicle in which the travel occurred.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0042",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data",
+    "text": "Examples of travel history include a person’s local travel as a part of their daily activities as well as the shipment of animals or plants from one country to another.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0043",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data",
+    "text": "Travel history data should include information such as the method of transportation (e.g.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0044",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data",
+    "text": "bus, plane, boat, car), flight number, departure and arrival dates and times, and the origination and destination locations (city, state, and country).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0045",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data",
+    "text": "Information about each leg of a trip, as well as the parent information about the trip, should be captured.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0046",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data",
+    "text": "For example, if a person who lives in Georgia travels to Seattle and becomes exposed to monkey pox, then visits a friend in Santa Fe, travel history and conveyance data should be noted accordingly for each place the exposed person traveled.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0047",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data",
+    "text": "Travel history data to be collected for an animal or object should include shipping invoices, animal shelter delivery and adoption receipts, and delivery schedules (including delivery vehicle and driver information).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0048",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data",
+    "text": "Detailed conveyance data must be collected when relevant to the investigation, including the carrier identifier, the type of conveyance (such as airplane, bus, or train, among countless others), as well as the make, model, year, and identification number (e.g., VIN) of each vehicle with which the entity was in contact (if this information is relevant to the investigation).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - phin__X0049",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Case and exposure data provide more detailed information beyond demographic data.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0050",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Cases can be persons or animals, and exposure contacts can be persons, animals, other organisms, or exposure settings, such as travel conveyance, location, organization, object, or event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0051",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Because attributes of both case and exposure data may describe the same entity, systems supporting OM must have the ability to avoid capturing redundant entity demographic information.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0052",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Public Health Case Data",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  },
+  {
+    "id": "2005 - phin__X0053",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Case data about the entity should include: a case identifier (i.e., Case ID) that is unique within the jurisdiction being reported, the suspected agent, case diagnosis, health status (e.g., no symptoms, acute illness), case status (e.g., confirmed, probable, suspect), investigation dates, clinical history, symptom onset date and time, epidemiological links to other cases, and priority (e.g., high, medium, low).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - phin__X0054",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "There must be a means to update the case diagnosis either manually or automatically if the case definition changes during an event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0055",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Epidemiological (epi) data must be collected to assist in the case investigation of events.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0056",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Standard epi data to be collected includes: onset date and time of symptoms, type of symptoms, risk factors, medical history data, laboratory data, procedure data, and questionnaire responses.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0057",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Systems supporting OM must allow for dynamic, event-specific case investigation data to be captured.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0058",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "In the context of a case, all entities exposed to a case must be recorded and linked to the case.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0059",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Demographic information should be collected about the investigator, including their name, address, and contact information, so that the investigator may be contacted to answer questions or to provide additional information.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0060",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Both the jurisdiction investigating the event and the jurisdiction reporting the cases and associated investigations must be captured.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0061",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "For example, if a person becomes ill during travel in one jurisdiction but is the resident of another, the illness will be reported by the state (jurisdiction) of residence and investigated by the jurisdiction visited.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0062",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Systems supporting OM should have the ability to classify entities associated with the investigation as investigation controls.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0063",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "For example, controls share demographic characteristics with the subject of the case, but are not infected with the agent that is the focus of the investigation.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0064",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Exposure Contact Data",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  },
+  {
+    "id": "2005 - phin__X0065",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Exposure investigation data to be captured must include information related to exposure levels, type of exposure (e.g., intimate, social, household, common conveyance), place of exposure, length of time the entity was exposed, frequency of exposure, and the entity’s proximity to the source of exposure.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0066",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Detailed data must be collected about the source of exposure as well as the exposed entity to support contact exposure tracing.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0067",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Exposure data related to both the potential source and the potential spread include the entity’s type, Subject ID, Contact ID, contact’s name and address, exposure dates and times, health status, and priority code.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0068",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Epi data must be collected to assist in the exposure investigation of health events.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0069",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Standard epi data to be collected for exposure investigation parallels the data to be collected for case investigation and includes: onset date and time of symptoms, type of symptoms, risk factors, laboratory data, procedure data, and questionnaire responses.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0070",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+    "text": "Systems supporting OM must support capturing dynamic, event-specific data that describes contact between two subjects.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0071",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Monitoring and Follow-up Data",
+    "text": "Monitoring and follow-up data is used to track the progress and treatment of subjects who were exposed or potentially exposed to a health event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0072",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Monitoring and Follow-up Data",
+    "text": "For more information about monitoring and follow-up data, please reference “PHIN Countermeasure/Response Administration Functional Requirements and Process Flows”, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0073",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Monitoring and Follow-up Data",
+    "text": "Systems supporting OM should support the monitoring and follow-up activities required when tracking the status of cases and exposed individuals.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0074",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Monitoring and Follow-up Data",
+    "text": "Monitoring data should be collected about cases and exposed individuals who are isolated or quarantined because of a health event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0075",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Monitoring and Follow-up Data",
+    "text": "Follow-up data should be collected from subjects or their proxies to track symptoms and compliance with recommended treatment plans or prophylaxis.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0076",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Monitoring and Follow-up Data",
+    "text": "Follow-up data may be received from take response exams of persons who received a countermeasure that requires such an exam (i.e., smallpox vaccination).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0077",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Specimen/sample collection and laboratory response data supports the collection of clinical specimens, food samples, environmental samples, and other types of samples that will be tested for biological, chemical, and radiological agents.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0078",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "These specimens/samples can be collected from places, persons, animals, or environmental sources such as air, water, food, or soil.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0079",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Specimens/samples collected for laboratory testing must be assigned an identifier (i.e., Specimen ID) that is unique within the jurisdiction.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0080",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "The subject of a specimen/sample collected for laboratory testing must be linked to the specimen/sample by an identifier (i.e., Subject ID) that is unique within the jurisdiction.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0081",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Systems supporting OM must be able to store data about the specimens/samples that are collected for laboratory testing.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0082",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Examples of this data are: Specimen ID, Subject ID, purpose for test, collection date and time, subject type (e.g., human, plant, animal, food), specimen category, specimen type, suspected agent, risk indicator (e.g., infectious, radioactive, corrosive), person performing specimen/sample collection (including contact information), location of collection, and volume and quantity details.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0083",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Clinical specimen data should include information about the specimen source/site from which the specimen was taken, symptom date of onset, and whether the sample is acute or convalescent.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0084",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Environmental sample data should include information about the collection method, location (geocoded if possible) from which the sample was taken, source (e.g., rain or well for water, radiation release, asbestos, chair or desk in a specified location), nature of the sample (e.g., soil, water, air), quality control data, collection begin and end date and time for air samples, and original volume and volume of concentrate tested for water samples.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - phin__X0085",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Food sample data should include information about the lot number, batch number, manufacturer name, shipping invoice, temperature, sample type (e.g., dairy – milk, red meat, spice), and product storage condition.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0086",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Bar-coding should be supported for the capture of detailed specimen/sample data to improve the quality and efficiency of data collection.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0087",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Chain of custody information for all specimens/samples should be captured.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0088",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Chain of custody information for forensic and select agent samples must be captured, including the person who collected the sample, the location of collection, all people who came into contact with the sample during the preparation for shipment to the laboratory, and the acceptance of the package by the shipper.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0089",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Systems supporting OM must be able to create a laboratory test request for a specimen/sample or group of specimens/samples.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0090",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "More information about creating laboratory test requests is found in section 2.5 System Integration and Data Exchange of this document.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0091",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Information about batch shipments of specimens/samples that are transferred to test laboratories or other facilities must be collected, including the shipper (e.g., UPS, FedEx), shipment tracking number, and the sending organization’s contact information.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0092",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Systems supporting OM should be able to support the inclusion of labeling, packaging and shipping instructions (e.g., container type, storage condition, preservative), and the shipping manifest with batch shipments of specimens/samples.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0093",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Systems supporting OM must be able to store laboratory result(s) and link the result(s) to the original laboratory test request.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0094",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "More information about receiving and linking laboratory test requests is found in section 2.5 System Integration and Data Exchange of this document.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0095",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Systems supporting OM must store data about laboratory results.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0096",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "Examples of this data include the Specimen ID, Subject ID, test date and time, test type (LOINC), data for each organization involved in the testing of the specimen/sample (e.g., testing or reference laboratory name, location, contact information), laboratory results and result values (SNOMED), other data such as unit of measure for result value, overall interpretation, and any relevant notes.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - phin__X0097",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "If the specimen/sample collection record exists, the laboratory result must be linked to the specimen collection record by the Specimen ID.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0098",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "If the specimen/sample collection record does not exist, the laboratory result must be linked to the subject by the Subject ID.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0099",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+    "text": "All levels of granularity of results (e.g., specimen/sample level, assay level) must be supported.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0100",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Prophylaxis and Treatment Data",
+    "text": "Systems supporting OM should capture or be linked to data regarding the prophylaxis or treatment to cases, exposed individuals, or at risk persons, including the person who ordered the prophylaxis or treatment, and the name, date, type, duration, and dosage of the treatment or prophylaxis given.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0101",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Prophylaxis and Treatment Data",
+    "text": "For specific data requirements regarding the administration of prophylaxis and treatment, please reference PHIN Preparedness Countermeasure/Response Administration Functional Requirements and Process Flows, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0102",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Prophylaxis and Treatment Data",
+    "text": "Contraindication information should be collected to indicate why vaccinations, treatments, or antidotes may not have been administered or why the patient may not have complied with prescribed interventions.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0103",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Adverse Event Data",
+    "text": "If an affected person suffers a negative reaction to a vaccine or prophylaxis that was administered, adverse event data may be collected and used to determine the need for additional interventions or to determine if there is a problem with the pharmaceutical, batch, or the administering facility or person.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0104",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Adverse Event Data",
+    "text": "For specific data requirements regarding adverse event data, please reference PHIN Preparedness Countermeasure/Response Administration Functional Requirements and Process Flows, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0105",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Activity Logging Data",
+    "text": "Systems supporting OM should capture information such as the date and time of an activity, activity type, who initiated the activity, and contact information to generate activity logs for management purposes.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0106",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Activity Logging Data",
+    "text": "Activity logs, which are tools for investigators to track their actions during a case, should be supported.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0107",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Activity Logging Data",
+    "text": "For example, investigators may log calls made to monitor symptoms or calls made to schedule follow-up visits.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0108",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Activity Logging Data",
+    "text": "Activity logs may also provide information needed to support communication with various jurisdictions in the event that the investigation crosses jurisdictional boundaries.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0109",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Activity Logging Data",
+    "text": "For example, if a person becomes ill during travel in one jurisdiction but is the resident of another, the illness will be reported by the state (jurisdiction) of residence, rather than by the jurisdiction visited.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0110",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation",
+    "text": "Electronic questionnaires must be developed and validated.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0111",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation",
+    "text": "They will be designed by investigators to collect common data elements (e.g., patient demographics, test results, exposure contacts), agent-specific data elements (e.g., specific laboratory test), and other customized data elements.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0112",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation",
+    "text": "Electronic questionnaires should provide the capability to accept digital signatures.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0113",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation",
+    "text": "Systems supporting OM must provide the ability to control the configuration of and revisions to investigation-specific questionnaires.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0114",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation",
+    "text": "Systems supporting OM must provide the ability to publish investigation-specific questionnaires and implementation guides.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0115",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation",
+    "text": "Case investigation should be supported by reusable questionnaire libraries that use common terminology (where available) to maximize the efficiency of data exchange.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0116",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation",
+    "text": "Systems supporting OM should provide a manual or automatic means of updating the status of case records as the case definition changes.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0117",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation",
+    "text": "Systems supporting OM should track the changes made to the status of case records as a result of changes in the case definition.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0118",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+    "text": "Linkages allow investigators to create meaningful analysis, characterize the event, and identify at-risk populations.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0119",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+    "text": "Systems supporting OM must support dynamically defined associations between entities for the purpose of defining relationships.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0120",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+    "text": "For example, person-to-person (e.g., family relationship, exposure relationship), person-to-place (e.g., household, common place), animal-to-person, object-to-place, person-to-travel.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0121",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+    "text": "Entity-to-epi data links must match the entity to their symptoms, survey questions, specimens/samples collected, laboratory results, and prophylaxis and treatment data.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0122",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+    "text": "Each new case must be able to link an assigned Entity ID to an Event ID within the scope of the investigation.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0123",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+    "text": "Systems supporting OM require the ability to capture information about possible cases and potential contacts from the identification process through the treatment and follow-up process, as supported by linkages among entities, events, and actions.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0124",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+    "text": "Laboratory results must be linked to corresponding specimens/samples including multiple results from one specimen/sample), and subjects when the participating laboratory returns the results.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0125",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+    "text": "These linkages must unambiguously associate multiple laboratory results to case and contact identifiers.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0126",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+    "text": "If the specimen/sample was created from another specimen/sample (e.g., aliquots, and new specimen types created from a source sample), laboratory results for the child specimens/samples must be linked to the corresponding parent specimen/sample.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0127",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Contact Exposure Tracing",
+    "text": "Each investigation subject may be associated with exposure contacts, including unambiguous links to contacts in other jurisdictions.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0128",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Contact Exposure Tracing",
+    "text": "Contacts of exposed entities (e.g., people, animals, places) may be traced, investigated, and monitored.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0129",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Contact Exposure Tracing",
+    "text": "Systems supporting OM should be able to create new contacts from existing case records, and should also identify the contact type.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0130",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Contact Exposure Tracing",
+    "text": "Systems supporting OM must support contact exposure tracing by allowing one contact to be linked to multiple cases, and allowing multiple contacts to be linked to a single case.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0131",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Contact Exposure Tracing",
+    "text": "Systems supporting OM should be able to produce contact work lists for each investigator to use, and should allow sorting by priority or geography.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0132",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Systems supporting OM should allow for analytical searches based upon multiple criteria.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0133",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Systems supporting OM should have the ability to produce charts, maps, and graphs that illustrate OM data, such as epi-curves and the effect of vaccination or prophylaxis on the number of new cases (demonstrating the effectiveness in containing the health event) or maps that illustrate the number of cases by zip code.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0134",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Systems supporting OM should generate electronic data dictionaries for dynamic data (or other user-defined data descriptions to assist with effective data exchange), line lists, activity logs, aggregate data, and call-back lists to assist the emergency response group and investigators in responding to and containing a health event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0135",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Reports generated by systems supporting OM should clearly indicate the number of cases, the number of contacts per case, the number of cases with no known epi-link at the time of diagnosis, the laboratory results, and the number of vaccinations and/or treatments administered.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0136",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Systems supporting OM should have the ability to produce pre-formatted queries and reports to allow faster and more accurate reporting, while still allowing the flexibility of ad-hoc reporting.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0137",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Systems supporting OM should have the ability to produce individual reports for each emergency team member or investigator.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0138",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Systems supporting OM should have the ability to compare characteristics of exposed and non-exposed (i.e., controls) persons.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0139",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Systems supporting OM should have the ability to produce lists of action items (e.g., to do lists).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0140",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Systems supporting OM must have the ability to print questionnaires for multiple uses, including taking to the field, use during phone interviews, etc.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0141",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Systems supporting OM must be able to aggregate data.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0142",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Examples of aggregated data to be supported are: number of cases, number of contacts per case, and number of vaccinations and/or treatments administered.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0143",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Health event data should be aggregated into a centralized data store (i.e., data warehouse) designed specifically to support analysis of events over time.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0144",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+    "text": "Data should be accessible for use with commonly available analytical tools (e.g., SAS, SPSS, EPI-INFO, MS Access, MS Excel, Crystal Reports).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0145",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "SYSTEM INTEGRATION AND DATA EXCHANGE Systems integration requirements specific to systems supporting OM are included in the section below and describe the types of data that OM should be able to send and receive.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0146",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "This section is limited to describing the types of data exchange that OM must support; not the requirements for transporting the data.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0147",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Bi-directional, secure exchange of data with partner organizations supports public health investigations across all levels of public health.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0148",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Message construction and parsing, and secure data transport requirements that span PHIN functional areas are separately defined and should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0149",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Contact information for key response partner organizations should be stored in a local instance of a public health directory for associating to a health event, as described in section 2.2.2 Health event Data of this document.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0150",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM must be able to accept data from other partner systems supporting OM.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0151",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM must be able to create and send messages for laboratory test requests.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0152",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "This requirement is identified as a key performance measure for assessing preparedness as described in PHIN Preparedness Key Performance Measures, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0153",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM should be able to receive, parse and process messages for laboratory test request responses, in accordance with PHIN Laboratory Test Order Response Message Implementation Guide, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0154",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM must be able to receive, parse and process messages for laboratory results.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0156",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Laboratory results should be linked to laboratory test requests, which are linked to subjects.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0157",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM should be able to exchange messages for laboratory results with systems supporting surveillance, early event detection (EED), and other preparedness areas.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0158",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM must be able to exchange messages for confirmed, probable and suspect cases, and the other case classifications that are noted in the PHIN message implementation guide, with systems supporting surveillance, early event detection (EED), and other preparedness areas.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0160",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM must exchange messages for investigations and for exposure contacts.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0162",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM must be able to receive, parse and process messages for countermeasures that have been administered.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0164",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Countermeasures that have been administered must be linked to the entity that was administered the countermeasures.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0165",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM must be able to create and send messages for countermeasure administration requests.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0167",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM must be able to exchange aggregated data.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0169",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM should be able to provide the aggregate data necessary for health event monitoring to systems that support response tracking, such as the number of suspect cases, number of persons under isolation or quarantine, and the number of patients receiving countermeasures.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0170",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Mapping interfaces and data dictionaries must be clearly defined and included in data exchanges to indicate and describe both standard and customized fields because systems supporting OM are configurable to meet the individual needs of each event and therefore collect data specific to each event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0171",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Message components should be grouped by observation type (e.g., laboratory, symptom, exposure, risk, treatment) by systems supporting OM.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0172",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Systems supporting OM should support multiple file formats for import and export, such as databases, spreadsheets, messages, and text files, among others",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0173",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "Data exchange should support analysis and information sharing of possible health events at all levels of public health (e.g., national, state, local).",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0174",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > VOCABULARY STANDARDS",
+    "text": "It is recommended that standards be used across systems supporting OM; however, it is required that vocabulary standards be used when exchanging data.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0175",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > VOCABULARY STANDARDS",
+    "text": "Vocabulary requirements that span PHIN functional areas should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0176",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+    "text": "Operational requirements, such as system backup policies and procedures, continuity of operations, system monitoring, and employee training ensure that public health partners can effectively support activities in OM and other PHIN functional areas.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0177",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+    "text": "Operational requirements specific to OM are defined below.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0178",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+    "text": "Operational requirements that span PHIN functional areas are separately defined and should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0179",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+    "text": "Policies and procedures for communicating information to appropriate stakeholders (e.g., state and federal emergency management organizations, FEMA, hazmat teams, public works facilities, intelligence organizations, the media, and the public) should be clearly defined.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0180",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+    "text": "Polices regarding data synchronization should be defined to support multiple deployment options as discussed in section 2.1 System Architecture of this document.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0181",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+    "text": "Configuration management protocols and personnel should be identified to support multiple deployment options.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0182",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+    "text": "Protocols and personnel should be identified to support the set-up and configuration of laptops and other field devices used in OM investigations.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0183",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+    "text": "Processes and personnel should be identified to support agent-specific deployment packages, including syndromic grouping libraries and vocabulary sub-sets, which will be used to efficiently collect data specific to the particular health event being investigated.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0184",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+    "text": "Policies and procedures should be in place for determining when follow up and isolation and quarantine monitoring should be done as a part of a focused countermeasure administration and response effort, rather than as a function of contact exposure tracing.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0185",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM SECURITY AND AVAILABILITY",
+    "text": "Systems and data supporting OM must be protected from sabotage, corruption and unauthorized access, and must be available subsequent to a catastrophic event.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2005 - phin__X0186",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM SECURITY AND AVAILABILITY",
+    "text": "Security and Availability requirements that span PHIN functional areas should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0187",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > PRIVACY",
+    "text": "Privacy requirements ensure that sensitive information is not accessibly to unauthorized uses.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0188",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > PRIVACY",
+    "text": "Privacy requirements are broadly defined because they span all PHIN functional areas.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin__X0189",
+    "document": "2005 - phin",
+    "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > PRIVACY",
+    "text": "These requirements should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

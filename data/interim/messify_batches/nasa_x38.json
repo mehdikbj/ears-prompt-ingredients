@@ -1,0 +1,42 @@
+[
+  {
+    "id": "PURE-053",
+    "text": "The scheduler shall support up to 3 rate groups per vehicle mode."
+  },
+  {
+    "id": "PURE-054",
+    "text": "The scheduler shall take no longer than 1 millisecond to execute scheduler and Time Services FTSS overhead tasks in each rate group."
+  },
+  {
+    "id": "PURE-055",
+    "text": "Communication services shall restrict the use of \"immediate\" message passing services between virtual groups (from FCP to ICP) to tasks running in the highest rate group on the FCP."
+  },
+  {
+    "id": "PURE-056",
+    "text": "The FTSS shall configure each FCP to continue processing if any of the Power-up or Initial BIT tests fail."
+  },
+  {
+    "id": "PURE-057",
+    "text": "RAM scrub shall report detected errors to the application, congruently on all channels, via an API service for inclusion in the telemetry stream."
+  },
+  {
+    "id": "PURE-058",
+    "text": "The FTSS API shall specify a memory map that provides the boundaries for congruent aligned memory, congruent initialized memory, and non-congruent memory."
+  },
+  {
+    "id": "PURE-059",
+    "text": "In all error cases, Support Services shall attempt to choose an error-free FCC-MPCC path, switching back and forth between channels if necessary."
+  },
+  {
+    "id": "PURE-060",
+    "text": "In addition, the FTSS software shall provide up to 600 bits of start-up data that indicates the state of the FTPP system during start-up."
+  },
+  {
+    "id": "PURE-061",
+    "text": "The FTPP system shall be capable of powering up and operating with any combination of 3 of the 5 FCR's active."
+  },
+  {
+    "id": "PURE-062",
+    "text": "The maximum time-out value shall be 327.68 microseconds (256 counts of the least significant bit of the fault tolerant clock which is 1.28 microseconds)."
+  }
+]

@@ -1,0 +1,6 @@
+best,n_items,complex,event-driven,non-compliant,optional-feature,state-driven,ubiquitous,unwanted-behaviour
+complex,1,0,2,1,0,12,0,21
+event-driven,22,5,636,48,26,11,44,22
+state-driven,2,0,7,9,1,46,9,0
+ubiquitous,69,0,193,113,232,64,1844,38
+unwanted-behaviour,6,0,14,10,0,0,1,191

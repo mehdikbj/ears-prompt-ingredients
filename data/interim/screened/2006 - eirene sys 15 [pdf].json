@@ -1,0 +1,2918 @@
+[
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0001",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "An EIRENE network may also include optional features and these shall then be implemented as specified in the EIRENE FRS and SRS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0002",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "An EIRENE system may also include optional features and these shall then be implemented as specified in the EIRENE FRS and SRS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0003",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 1.3 Applicability 1.3.1 The EIRENE System Requirements Specification defines the set of requirements which a railway radio system shall comply with in order to ensure interoperability between national railways.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0004",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "1        Introduction",
+    "text": "Section 10 details the handling of other information, such as priority, closed user groups and encryption algorithms, which must be applied consistently in all networks.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0005",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "3.2     Coverage",
+    "text": "(The target coverage power level is dependent on the statistical fluctuations caused by the actual propagation conditions.) (I) 3.2.2 The following minimum values shall apply: (M) − coverage probability of 95% based on a coverage level of 38.5 dBµV/m (-98 dBm) for voice and non-safety critical data; − coverage probability of 95% based on a coverage level of 41.5 dBµV/m (-95 dBm) on lines with ETCS levels 2/3 for speeds lower than or equal to 220km/h.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0006",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "3.2.3   The following minimum values are recommended: (I)",
+    "text": "3.2.4 The EIRENE mobile installation shall be designed to operate in a network meeting the criteria in 3.2.2 and 3.2.3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0007",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "3.2.3   The following minimum values are recommended: (I)",
+    "text": "(M) Note 1: The specified coverage probability means that with a probability value of at least 95% in each location interval (length: 100m) the measured coverage level shall be greater than or equal to the figures stated above.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0008",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "3.4      Call setup time requirement",
+    "text": "(I) 3.4.2 Call setup times as defined in the EIRENE FRS shall be achieved with authentication and ciphering procedures enabled.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0009",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "3.4      Call setup time requirement",
+    "text": "3.4.3 In order to achieve these times the passage of the call through any networks external to GSM (eg from the GSM MSC to a controller linked by an ISDN connection) must take less than 250ms.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0010",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) Page 40 PSA167D006-15 3 Network configuration 3.5 Frequency band and channel arrangements 3.5.1 The network shall operate in a sub-band, or combination of sub-bands, of the R-GSM band as defined in [EN 301 515, Index [35]].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0011",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "3.5     Frequency band and channel arrangements",
+    "text": "For carriers in the UIC frequency band the following convention shall be used, where Fl(n) is the frequency value of the carrier ARFCN n in the lower band, and Fu(n) the corresponding frequency value in the upper band: (M) − Fl(n) = 890 + 0.2*(n-1024) 955 ≤ n ≤ 973 − Fu(n) = Fl(n) + 45 Frequencies are in MHz.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0012",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "301 515, Index [4] & [5]]. (I)",
+    "text": "(I) 3.7.2 The network shall terminate the ongoing VGCS/VBS call if it receives the 3-digit sequence “***” transmitted via DTMF signals.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0013",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "301 515, Index [4] & [5]]. (I)",
+    "text": "(M) 3.7.3 In order to minimise the discomfort caused by the DTMF tone added in the voice channel, the duration of the tone generated by the fixed line dispatcher shall be 70ms ± 5ms, and there shall be a minimum gap of 65ms between each tone.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0014",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "301 515, Index [4] & [5]]. (I)",
+    "text": "(M) 3.8 Muting and unmuting for VGCS calls 3.8.1 The muting and unmuting for VGCS shall be in line with [EN 301 515, Index [4]].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0015",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "3.8     Muting and unmuting for VGCS calls",
+    "text": "(M) PSA167D006-15 Page 41 3.8.2 The network shall send the SET-PARAMETER message with the attribute “D-ATT = T”1 [EN 301 515, Index [6]] to the mobile station of the talking subscriber if it receives the 3- digit sequence “## # ” transmitted via DTMF or the group call SETUP message2 from a controller terminal.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0016",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "3.8     Muting and unmuting for VGCS calls",
+    "text": "However, receiving the 3-digit sequence “# ## ” or the group call SETUP message related to an additional controller while any other controller is talking shall not result in sending another SET-PARAMETER message with the attribute “D- ATT = T”.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0017",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(O) 3.8.4 The network shall send the SET-PARAMETER message with the attribute “D-ATT = F”3 [EN 301 515, Index [6]] to the mobile of the talking subscriber only if it has received the 3-digit sequence “# **” transmitted via DTMF from all the talking controllers4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0018",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 3.8.5 The duration of each tone (see 3.8.2 and 3.8.4) added in the voice channel, shall be 70ms ± 5ms, and there shall be a minimum gap of 65ms between each tone.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0019",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "4.1.5 All SIM cards used in EIRENE mobiles shall comply with the requirements of the MORANE FFFIS for GSM-R SIM Cards [MORANE SIM].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0020",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.2 Radio interface aspects 4.2.1 All mobiles shall be capable of operation in the following frequency bands: (M) Band Frequencies (MHz) Railway GSM (R-GSM) 876-915/921-960 Table 4-1: Frequency bands Note: the R-GSM band includes the Public GSM (P-GSM) and Extended GSM (E-GSM) bands.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0021",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "4.2.2 The mobile radio antenna installation on vehicles shall be designed so as to ensure that mobiles operate correctly in networks which conform to the design criteria defined in section 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0022",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.2.3 Mobile radios shall be of the following power classes: (M) Page 44 PSA167D006-15 4 Mobile equipment core specification Radio type Power class Power (W) Cab radio 2 8 General purpose radio 4* 2* Operational radio 4* 2* * Vehicle-based versions of the General purpose and Operational radios may be used to provide 8W mobile radios.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0023",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "81. Speech followed by data                     O               O                O",
+    "text": "Speech followed by data O O O T - Transparent; NT - Non-transparent Table 4-4: GSM bearer services to be supported PSA167D006-15 Page 47 4.3.3 The following supplementary services, identified in section 2, are to be supported for each type of mobile radio: Supplementary service Cab radio General Operational purpose radio radio Calling Line Identification Presentation (CLIP) M M M Calling Line Identification Restriction (CLIR) O O O Connected Line Identification Presentation M M M (CoLP) Connected Line Identification Restriction (CoLR) O O O Call Forwarding Unconditional (CFU) M O O Call Forwarding on Mobile Subscriber Busy O O O (CFB) Call Forwarding on No Reply (CFNRy) O O O Call forwarding on Mobile Subscriber Not O O O Reachable (CFNRc) Call waiting (CW) M M M Call hold (HOLD) M O O Multi Party Service (MPTY) M O O Closed User Group (CUG) M O M Advice of Charge (Information) (AoCI) O O O Advice of Charge (Charging) (AoCC) O O O Barring of All Outgoing Calls (BAOC) O O O Barring of Outgoing International Calls (BOIC) O O O BOIC except those to Home PLMN Country M O M (BOIC-exHC) Barring of All Incoming Calls (BAIC) O O O Barring of Incoming Calls when Roaming M O M Outside the Home PLMN Country (BIC-Roam) Unstructured Supplementary Service Data M M M (USSD) Sub-addressing* M O O Enhanced Multi-Level Precedence and Pre- M M M emption (eMLPP) Explicit Call Transfer (ECT) O O O Completion of Calls to Busy Subscribers (CCBS) O O O User-to-User Signalling 1 (UUS1) M M M * Sub-addressing is not a GSM supplementary service but for convenience is listed in the above table Table 4-5: GSM supplementary services to be supported Page 48 PSA167D006-15 4 Mobile equipment core specification 4.3.4 The following EIRENE features are to be supported for each type of mobile radio: Cab radio General purpose Operational radio radio Functional addressing (section 11) M M M Direct mode (section 15) O N/A O Shunting mode (section 14) M N/A O Multiple driver communications M N/A N/A (section 5) Railway emergency calls M O M (section 13) Table 4-6: EIRENE features to be supported 4.3.5 If a Railway emergency call set up from an EIRENE radio is unsuccessful, the radio shall automatically re-attempt the call setup until the call setup is successful, a retry timer expires (duration 30 seconds, as specified in the [EIRENE FRS]) or the user abandons the call.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0024",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Note: For this, the higher layers of an EIRENE radio shall automatically repeat setup requests to the layer 3 GCC or BCC entity as soon as an indication is given from the layer 3 GCC or BCC entity on an abort of the establishment procedure without the service being explicitly rejected by the network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0025",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.4 Core MMI requirements 4.4.1 A service availability indication shall be provided to radio users, as defined in [EN 301 515, Index [26]].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0026",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4.4     Core MMI requirements",
+    "text": "(M) 4.4.2 The user shall be prevented from entering direct mode if the GSM service is available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0027",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4.4     Core MMI requirements",
+    "text": "(M) 4.4.3 If the attempt to establish a Railway emergency call is not successful after 2 seconds, an indication shall be provided to the user of the status of the establishment request procedure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0028",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4.5.1    This subsection defines the core environmental and physical requirements for all",
+    "text": "(I) 4.5.2 All EIRENE mobile equipment shall comply with all environmental, EMC and physical specifications defined in the GSM standard, especially with reference to [GSM 05.90 and EN 301 515, Index [2] & [35]].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0029",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4.5.1    This subsection defines the core environmental and physical requirements for all",
+    "text": "(M) 4.5.3 All EIRENE mobile equipment shall conform to [EN 60950] (Safety of Information Technology Equipment), including Electrical Business Equipment, 1993, plus amendments A1 and A2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0030",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4.5.5    Any environmental and physical requirements stated may be superseded by national",
+    "text": "Stricter national standards shall not prevent the use of other EIRENE mobiles in that country.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0031",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4.5.5    Any environmental and physical requirements stated may be superseded by national",
+    "text": "(I) 4.5.7 All design, manufacturing, testing and installation of EIRENE mobile radio equipment shall comply with the quality procedures defined in [ISO 9001].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0032",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4.5.5    Any environmental and physical requirements stated may be superseded by national",
+    "text": "(M) Climatic conditions 4.5.8 EIRENE mobile equipment shall be capable of operating over a standard range of temperatures from -20°C to +55°C.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0033",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.5.9 EIRENE mobile equipment shall be capable of being stored (ie without being operational) at temperatures down to -40°C without any permanent damage.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0034",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Page 50 PSA167D006-15 4 Mobile equipment core specification 4.5.10 The equipment shall be capable of coping with temperature variations of up to +/- 1°C/minute.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0035",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4        Mobile equipment core specification",
+    "text": "(M) 4.5.11 EIRENE mobile equipment shall be capable of operating between altitudes of -100m and 1800m, referenced to sea level.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0036",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4        Mobile equipment core specification",
+    "text": "(M) 4.5.12 The equipment shall be able to cope with relative humidities of 100% for short periods, although the yearly average is expected to be 75%.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0037",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4        Mobile equipment core specification",
+    "text": "The equipment shall also cope with 95% humidity for 30 days in the year.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0038",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "4        Mobile equipment core specification",
+    "text": "(M) 4.5.13 Operationally caused infrequent and slight moisture condensation shall not lead to any malfunction or failure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0039",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.5.14 All equipment shall not degrade photochemically when exposed to solar radiation of up to 1200 W/m2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0040",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.5.15 In normal operation of a mobile radio unit, it shall be expected that a combination of the above environmental conditions will be experienced.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0041",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Mechanical conditions 4.5.16 All EIRENE mobile equipment shall be protected against shock and vibration in compliance with standards defined in [prEN 50125] using tests defined in [prEN 50155].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0042",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.5.17 All handheld mobile equipment shall be capable of withstanding the following shocks: (M) − non-repetitive shocks of up to 3g for up to 100ms under normal conditions; − free fall from 0.5m.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0043",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "4.5.18 EIRENE mobile equipment shall be capable of being subjected to both sinusoidal and random vibration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0044",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.5.19 Handheld mobile equipment shall be capable of withstanding the following levels of continuous sinusoidal vibration: (M) − frequency range: 5-200 Hz; − peak-to-peak amplitude: 7.5 mm; − peak acceleration: 1.5g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0045",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "4.5.20 The random vibrations to be withstood by mobile equipment shall be 0.25g in all three axes of freedom.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0046",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Electrical 4.5.21 For determining battery requirements, the transmit/receive duty cycles used shall be as shown in table 4-7 for each call type.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0047",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) PSA167D006-15 Page 51 Call type Transmit Receive Point-to-point call 100% 100% Group call 30% 100% Broadcast call (originated) 100% 100%* Broadcast call (receive) 0% 100% * Because it is necessary to receive a broadcast call while transmitting, the speaker’s link to the network is via a standard point-to-point call Table 4-7: Transmit/receive duty cycles for different call types 4.5.22 Battery requirements shall be provided without the use of discontinuous reception or transmission (DTX/DRX).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0048",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.5.23 Battery requirements shall be met based on full power during transmission and assuming hourly periodic location updating.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0049",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 4.5.26 All EIRENE mobile equipment shall be immune to external EMC as defined in [ENV 50121 part 4].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0050",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "50121 part 4]. (M)",
+    "text": "4.5.27 The transmission of EM radiation from all EIRENE mobile equipment shall comply with the radio frequency transmission masks defined in [EN 301 515, Index [35]] for the range of GSM frequencies defined in section 1 of this document.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0051",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "50121 part 4]. (M)",
+    "text": "(M) 4.5.28 Where the emission levels defined by [EN 301 515, Index [35]] exceed those stated in [ENV 50121 part 4], the GSM specification shall take precedence.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0052",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "50121 part 4], the GSM specification shall take precedence. (M)",
+    "text": "(M) 4.5.29 Mobile equipment shall comply with the generic standard for EMC in the industrial environment as defined in [ENV 50081 part 2], except for emissions at GSM frequencies as noted above.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0053",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "50121 part 4], the GSM specification shall take precedence. (M)",
+    "text": "(M) Page 52 PSA167D006-15 4 Mobile equipment core specification 4.5.30 The emission and immunity standards for the general railway environment and ancillary services as defined in [ENV 50121 parts 1, 2, 3-1, 3-2 and 5] shall be considered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0054",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Testing procedures 4.5.33 The environmental and physical tolerance of the EIRENE mobile radio units shall be tested at a facility in accordance with [EN 45001].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0055",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.5.34 All EMC emission and immunity tests shall be performed in accordance with guidelines defined in the [EN 61000-4] series and in [EN 50140].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0056",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.5.35 Environmental testing procedures shall follow guidelines defined in [IEC 68 part 1].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0057",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 4.5.36 Specific environmental test procedures to be followed for EIRENE mobile equipment shall include the following tests as defined in the [IEC 68] series: (M) A Cold; B Dry heat; D Damp heat (cyclic); E Impact; F Vibration; G Acceleration; K Corrosive atmospheres; M Air pressure; N Change of temperature; P Fire hazard.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0058",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 5.3 Driver call-related functions Call controller 5.3.1 Upon an appropriate MMI action, the radio shall initiate a call to the appropriate controller with ‘Railway operation’ priority (see section 10.2).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0059",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.3      Driver call-related functions",
+    "text": "(M) 5.3.2 The calling driver’s functional number shall be passed to the network using UUS1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0060",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.3      Driver call-related functions",
+    "text": "(M) Call other drivers in the area 5.3.3 On receipt of a ‘Call other drivers in area’ request, the radio shall initiate a group call using the ‘all trains’ group identification (see section 9) with eMLPP priority level 2 (see section 10.2).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0061",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.3      Driver call-related functions",
+    "text": "(M) 5.3.4 The calling driver’s functional number shall be passed to the network using UUS1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0062",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Send Railway emergency call 5.3.5 Activation of the ‘Railway emergency call’ function shall cause the radio to initiate a Railway emergency call as defined in section 13.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0063",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.3.6 The calling driver’s functional number shall be passed to the network using UUS1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0064",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Where these vehicles are not connected by on-train wiring, it shall be possible for a permanent radio connection to be established between each of the active cabs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0065",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) Page 56 PSA167D006-15 5 Cab radio 5.3.8 Where there is more than one active cab, the radio connection shall be provided using the GSM Multi-Party service.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0066",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5          Cab radio",
+    "text": "The multi-party call shall have ‘Railway operation’ priority (see section 10.2) and whilst on-going a ‘multi-drivers’ indication shall be displayed permanently at all Cab radios.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0067",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5          Cab radio",
+    "text": "(M) Start Lead driver initiates one-to- one call to assisting driver Lead driver places one-to- one call on hold Lead driver Lead driver initiates next places multi- one-to-one call party call on hold Yes Lead driver requests multi- Add another party call user No End Figure 5-2: Multi-party call initiation Call train staff 5.3.10 Upon activation of the function ‘Call train staff’, the radio shall determine the appropriate functional number based on the staff member selected and the train number (see section 9).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0068",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "A GSM point-to-point voice call at ‘Railway operation’ priority (see section 10.2) shall then be initiated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0069",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) PSA167D006-15 Page 57 Call other authorised users 5.3.11 The Cab radio shall be capable of being used as a standard GSM telephone, such that the driver is able to call any valid number subject to closed user group, call barring or other restrictions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0070",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Receive short (SMS) text messages 5.3.12 The Cab radio shall be able to receive, display and store incoming short (SMS) text messages (see section 12).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0071",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Enter/leave shunting mode 5.3.13 The Cab radio shall support shunting mode communications as defined in section 14.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0072",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(O) 5.4 MMI functions Switch radio on and off 5.4.1 When switched on, the radio shall initiate automatic self-testing using the GSM IMSI attach procedure (including the automatic selection of the default loudspeaker volume – see table 5-1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0073",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.4       MMI functions",
+    "text": "(M) 5.4.2 Upon switch on, the Cab radio shall be registered with a mobile network (see section 10.5).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0074",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.4       MMI functions",
+    "text": "(M) 5.4.3 If registration is not successful an audible and visual indication shall be provided.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0075",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.4       MMI functions",
+    "text": "(M) 5.4.4 Upon registration, the mobile shall be accessible by calling the MSISDN or the Engine or Coach number with which it is associated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0076",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.4       MMI functions",
+    "text": "This shall require the home network database to maintain this correlation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0077",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "8.5 W      39 dBm                                                          5",
+    "text": "(I) Register and deregister train number 5.4.7 Upon activation of the registration function, a USSD message (see section 11) shall be sent by the Cab radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0078",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "8.5 W      39 dBm                                                          5",
+    "text": "(M) 5.4.8 Upon activation of the deregistration function, a USSD message (see section 11) shall be sent by the Cab radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0079",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.4.9 Upon detection (automatically or based on a list stored in the Cab radio) of the additional on-train functions for equipment physically connected to the Cab radio, a USSD message (see section 11) shall be sent by the Cab radio after activation of the registration or deregistration function.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0080",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Register and deregister stock number 5.4.10 This procedure shall take place at the installation of the Cab radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0081",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "It shall be initiated by an external device or by a member of a maintenance team.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0082",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.4.11 On-train functions for equipment physically connected to the Cab radio shall be registered or deregistered automatically based on a USSD message (see section 11) sent by the Cab radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0083",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.5 Handling of calls 5.5.1 The sequence of actions required for a mobile originated call to another user shall be as follows: (M) PSA167D006-15 Page 59 − Initiating a call: System is provided with the necessary information to set up call (eg number, bearer type, priority); − Indication: Provide an audible and visual indication; − Call arbitration: Management of call requests on the basis of call priority; − Conversation: Where the parties involved in the call can communicate; − Call termination: Where one of the parties involved in the call terminates the call.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0084",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "5.5.2 The sequence of actions for a mobile terminated call to a driver shall be as follows: (M) − Call arbitration: Management of call requests on the basis of call priority; − Indication: Provide an audible and visual indication of incoming call; − Answering the call: Acceptance of incoming call by user (not required for auto answer); − Indication: Provide an audible and visual indication; − Conversation: Where the parties involved in the call can communicate; − Call termination: Where one of the parties involved in the call terminates the call.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0085",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "5.5.3 The Cab radio system shall provide a means for the driver to terminate established calls which he is authorised to terminate.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0086",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Initiating a call 5.5.4 It shall be possible to initiate outgoing voice calls in one of four ways depending on the intended recipient(s) of the call: (M) − Emergency access: Capable of rapid activation in an emergency with a minimum of action being required by the driver (ie single red button); − Priority access: Requiring the minimum of driver actions to initiate a call (eg a single key stroke); − Stored number: Through the selection of a stored number or name (eg menu type access); − Dial access: Facility for the driver to enter or select telephone or functional numbers manually.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0087",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Emergency access Page 60 PSA167D006-15 5 Cab radio 5.5.5 Emergency access shall be provided to initiate the following call: (M) Destination Call type eMLPP priority Additional designation information Emergency call number Group call 0 Functional number Table 5-2: Call types requiring MMI emergency access Priority access 5.5.6 Priority access shall be provided to initiate the following: (M) Destination Call type eMLPP priority Additional designation information Primary controller (*) Point-to-point 3 Functional number Secondary controller (*) Point-to-point 3 Functional number Power supply controller Point-to-point 3 Functional number (*) Other drivers in area Group call 2 Functional number Other drivers on same Point-to-point 3 Functional number train (Multi Party) Chief conductor Point-to-point 3 Functional number (*) For these destinations, see the requirement below.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0088",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Table 5-3: Call types requiring MMI priority access 5.5.7 On activation of the “call other drivers on the same train” function, the MMI shall provide additional guidance to the user in the establishment and management of a Multi-Party call.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0089",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) Stored numbers 5.5.9 The driver shall be able to initiate a call by selecting a name/number from stored number information in the radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0090",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.5.10 Facilities shall be provided to support a list of stored names/numbers of up to a minimum of 100 entries.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0091",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) PSA167D006-15 Page 61 5.5.11 Stored number access shall be provided to initiate the following calls: (M) Destination Call type eMLPP priority Additional designation information Calls to stored numbers Point-to-point/ 4 Functional number VGCS/VBS Table 5-4: Call types requiring MMI stored number access 5.5.12 Unless otherwise indicated at time of entry, calls from the stored numbers list shall be initiated as voice calls.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0092",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "VGCS/VBS",
+    "text": "It shall be possible to store a priority in association with a stored number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0093",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "VGCS/VBS",
+    "text": "(M) Dial access 5.5.14 The driver shall be able to initiate a call by dialling any valid telephone number or functional number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0094",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.5.15 Dial access shall be provided to initiate the following calls: (M) Destination Call type eMLPP priority Additional designation information Calls to other users Point-to-point/ 4 Functional number VGCS/VBS Table 5-5: Call types requiring MMI dial access 5.5.16 Abbreviated dialling facilities shall be supported.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0095",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.5.16    Abbreviated dialling facilities shall be supported. (M)",
+    "text": "(M) 5.5.17 Dialled calls from the MMI shall be point-to-point voice calls unless otherwise entered from the MMI at the time of initiation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0096",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.5.16    Abbreviated dialling facilities shall be supported. (M)",
+    "text": "(M) 5.5.18 By default, dialled calls shall have a priority of railway information calls (eMLPP priority designation 4).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0097",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.5.16    Abbreviated dialling facilities shall be supported. (M)",
+    "text": "(M) Receiving a call 5.5.19 It shall be possible to receive and manage the following incoming calls: (M) − emergency calls; − group calls; − broadcast calls; − point-to-point calls; Page 62 PSA167D006-15 5 Cab radio − multi-party calls.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0098",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5        Cab radio",
+    "text": "Call arbitration 5.5.20 The Cab radio shall arbitrate between calls when: − an incoming call is received whilst the Cab radio is in an on-going call; (M) − a Cab radio user attempts to initiate a call whilst the Cab radio is in an on-going call.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0099",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.5.20   The Cab radio shall arbitrate between calls when:",
+    "text": "(M) 5.5.21 The Cab radio shall apply the arbitration rules outlined in Table 5A-1 in Appendix 5A.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0100",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.5.20   The Cab radio shall arbitrate between calls when:",
+    "text": "(M) Conversation 5.5.22 Once a call has been established the connected parties shall be able to communicate.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0101",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.5.20   The Cab radio shall arbitrate between calls when:",
+    "text": "(M) 5.5.23 Replacing the handset shall result in the outcomes listed in Tables 5A-2 and 5A-3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0102",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.5.20   The Cab radio shall arbitrate between calls when:",
+    "text": "(M) Call termination 5.5.24 Calls shall be able to be terminated by either party subject to the requirements shown in tables 5A-2 and 5A-3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0103",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.6 Other Cab radio functions Handle incoming/outgoing calls to/from appropriate on-train users or devices 5.6.1 Incoming calls to the Cab radio shall be routed to the correct on-train user or device using information contained in the sub-addressing field.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0104",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.6      Other Cab radio functions",
+    "text": "(M) PSA167D006-15 Page 63 Manual network selection 5.6.1i Using the GSM “Manual” network selection procedure, the Cab radio application shall allow the driver to access a prioritised list of authorised networks (to be displayed as stated in section 10.5) and shall allow the driver to select a desired network from this list.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0105",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "This function shall not be available if there is an ongoing voice call involving the Cab radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0106",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(O) 5.6.4 If directed network selection is implemented, the directed network selection procedure shall be initiated by an external trigger mechanism, which instructs the Cab radio application to select the required network unless a voice call is ongoing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0107",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.6.4i If directed network selection is implemented and voice calls are ongoing at the time when the external device attempts to trigger a network change, an audible and visual indication shall be given to the driver and network change shall be deferred until the call is terminated or until coverage of the current network is lost.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0108",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.6.5 If directed network selection is implemented, the Cab radio application shall use the GSM “Manual” network selection procedure (through the AT interface [EN 301 515, Index [19]]) to instruct the MT to register with the required network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0109",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(O) 5.6.5ii If automatic network selection is implemented, the driver shall be capable of deactivating and/or re-activating this function using simple MMI actions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0110",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.6.5iii Whilst automatic network selection is enabled, the MMI shall display an indication.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0111",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Service availability 5.6.6 In idle mode, if the GSM Service Indicator (see [EN 301 515, Index [26]]) is lost, the mobile shall give an audible and visual indication.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0112",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Page 64 PSA167D006-15 5 Cab radio 5.7 Environmental and physical 5.7.1 Train-mounted equipment including the Cab radio terminal equipment, MMI and antenna shall comply with all specifications in section 4 and all of those defined in this section, with those defined in this section taking priority.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0113",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.7.1    Train-mounted equipment including the Cab radio terminal equipment, MMI and",
+    "text": "([UIC 651] is a useful reference concerning the layout of cab equipment.) (I) Climatic conditions 5.7.3 The Cab radio shall be capable of operating within a temperature range of -20°C to +70°C.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0114",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.7.1    Train-mounted equipment including the Cab radio terminal equipment, MMI and",
+    "text": "(M) 5.7.4 The aerial and any other equipment mounted external to the train shall be capable of withstanding extremes of temperature from -40°C to +70°C.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0115",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.7.5 The aerial and any other equipment mounted external to the train shall function correctly during rapid temperature fluctuations of up to 3°C/second.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0116",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.7.6 Any equipment mounted external to the train cab shall withstand the following additional physical conditions: (M) − in-tunnel pressure pulses of 6 kPa (peak to peak) for up to 3 seconds; − pressure gradients of up to 100 kPa/s.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0117",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(O) 5.7.9 The “Subscriber Identity Module” (SIM card) shall be physically integrated with the radio set and shall not be able to be removed except by maintenance staff.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0118",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(O) Mechanical conditions 5.7.11 Any equipment mounted inside the train cab shall be capable of withstanding the following maximum levels of sinusoidal vibration: (M) − frequency range: 5-200 Hz; PSA167D006-15 Page 65 − peak-to-peak amplitude: 7mm; − acceleration: 1.5g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0119",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "5.7.12 Any equipment mounted external to the train cab shall withstand the following maximum levels of sinusoidal vibration: (M) − frequency range: 5-1000 Hz; − peak-to-peak amplitude: 5mm; − acceleration: 2.5g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0120",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Electrical 5.7.13 The Cab radio shall comply with draft European standard [prEN 50124 part 1] concerning insulation co-ordination with reference to clearances and creepages.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0121",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "5.7.15 The Cab radio equipment shall be capable of withstanding the following changes to the main and backup power supplies without interrupting normal operation: (M) − voltage fluctuations up to ±15% of nominal supply voltage; − 20% over voltage for up to 10s; − other transient effects according to [IEC 571 parts 1-3].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0122",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "5.7.16 The Cab radio shall withstand the effects of power supply transients as defined in [prEN 50155].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0123",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.7.17 The driver and other in-cab equipment shall be protected against all electrical hazards arising from EIRENE mobile equipment as defined in [EN 50153].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0124",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 5.7.19 EMC emission from the Cab radio shall comply with [ENV 50121 parts 1, 2, 3-2 and 4].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0125",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 5.7.20 Emissions from the train mounted antenna associated with the Cab radio shall be limited to those specified by [EN 301 515, Index [35]].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0126",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Page 66 PSA167D006-15 5 Cab radio 5.7.21 Any emissions radiating into the driver’s cab and other on-board equipment from the exterior aerial shall meet the requirements defined in [ENV 50121 parts 1, 2, 3-1, 3-2 and 4] to the highest possible degree.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0127",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5            Cab radio",
+    "text": "(M) Testing procedures 5.7.22 The Cab radio shall pass electrical tests as defined in [IEC 571 parts 1, 2 and 3].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0128",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5.10     ERTMS/ETCS interface",
+    "text": "(I) 5.10.2 If ERTMS/ETCS communications are required, an interface as defined in the FFFIS for EURORADIO [MORANE EURO FFFIS] shall be implemented.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0129",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "In the case of emergency calls, the information of the action shall be reported by the confirmation message.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0130",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "6.2     System components",
+    "text": "(I) Note: this figure only shows mandatory applications – for a full list see table 4-6 Figure 6-1: Logical General purpose radio architecture and interfaces 6.2.2 A standard data interface shall be provided to allow a computer to be connected to the radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0131",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "6.2     System components",
+    "text": "(M) 6.2.3 The General purpose radio shall operate as a standard GSM terminal, supplying mobile services as defined in section 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0132",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 6.3 General purpose radio functions Switch radio on 6.3.1 Automatic self-testing of the radio shall use the GSM IMSI attach procedure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0133",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "6.3     General purpose radio functions",
+    "text": "(M) 6.3.2 Upon switch on, once the radio is connected to a mobile network, it shall be able to receive all calls made using the MSISDN or appropriate group call number.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0134",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "6.3     General purpose radio functions",
+    "text": "(M) PSA167D006-15 Page 77 Register and deregister functional number 6.3.3 It shall be possible to register and deregister a functional number by the user entering his functional number, which is transmitted to the ground along with the subscriber’s IMSI, using USSD (see section 11).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0135",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 6.4 Environmental and physical 6.4.1 The full environmental and physical specification of the General purpose shall be as close as possible to that of a Commercial-Off-The-Shelf (COTS) GSM mobile whilst adhering to the specifications provided in section 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0136",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "6.4      Environmental and physical",
+    "text": "(M) Climatic conditions 6.4.2 The General purpose radio shall comply with the core climatic conditions defined in section 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0137",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) Electrical 6.4.5 General purpose radios shall be equipped with rechargeable batteries capable of providing a minimum of eight hours operation over the temperature range +18°C to +25°C from a single charge, based on the following cycle (see section 4.5.21): (M) − point-to-point calls 20%; − group calls 5%; − standby 75%.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0138",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "6.4.5    General purpose radios shall be equipped with rechargeable batteries capable of",
+    "text": "6.4.6 Changing the battery shall not result in the loss of data stored in the radio.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0139",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "6.4.5    General purpose radios shall be equipped with rechargeable batteries capable of",
+    "text": "(M) 6.4.7 The General purpose radio shall be suitable for use with a car adapter kit.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0140",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7.2     System components",
+    "text": "(I) Note: the provision of direct mode is optional Note: this figure only shows mandatory applications – for a full list see table 4-6 Figure 7-1: Logical Operational radio architecture and interfaces 7.2.2 A standard data interface shall be provided to allow a computer to be connected to the radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0141",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7.2     System components",
+    "text": "(M) 7.2.3 The Operational radio shall operate as a standard GSM terminal, supplying mobile services as defined in section 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0142",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 7.3 Operational radio functions Switch radio on 7.3.1 Automatic self-testing of the radio shall use the GSM IMSI attach procedure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0143",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7.3     Operational radio functions",
+    "text": "(M) 7.3.2 Upon switch on, once the radio is connected to a mobile network, it shall be able to receive all calls made using the MSISDN or appropriate group call number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0144",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7.3     Operational radio functions",
+    "text": "(M) PSA167D006-15 Page 81 Register and deregister functional number 7.3.3 It shall be possible to register and deregister a functional number by the user entering his functional number, which is transmitted to the ground along with the subscriber’s IMSI, using USSD (see section 11).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0145",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Call controller 7.3.4 Upon receipt of the call establishment request, the radio shall retrieve the stored number for the appropriate controller from the SIM or other storage location.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0146",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 7.3.5 Once an appropriate number has been obtained, the radio shall initiate a call to this number with ‘Railway operation’ priority (see section 10.2).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0147",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Any functional number associated with the user shall be passed to the network using UUS1 (see section 11.5).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0148",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Send/receive Railway emergency call 7.3.6 Activation of the ‘Railway emergency call’ function shall cause the radio to initiate a Railway emergency call as defined in section 13.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0149",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 7.3.7 The calling user’s functional number, if there is one, shall be passed to the network using UUS1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0150",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7.4.1    The requirements for shunting operations are detailed in section 14. (I)",
+    "text": "(I) 7.5 Environmental and physical 7.5.1 The Operational radio shall comply with the basic standards defined for all EIRENE mobile equipment in section 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0151",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7.5      Environmental and physical",
+    "text": "(M) Page 82 PSA167D006-15 7 Operational radio Climatic conditions 7.5.2 The Operational radio shall cope with rapid temperature fluctuations of up to 3°C/second.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0152",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7        Operational radio",
+    "text": "(M) 7.5.3 The Operational radio shall be capable of withstanding exposure to extreme environmental conditions [IEC 721 part 1].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0153",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7.5.3    The Operational radio shall be capable of withstanding exposure to extreme",
+    "text": "(M) Physical conditions 7.5.4 The Operational radio shall conform to IP 54 [IEC 529/EN 60529] as a minimum.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0154",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7.5.3    The Operational radio shall be capable of withstanding exposure to extreme",
+    "text": "(M) 7.5.5 SIM cards shall be fixed into the radio such that they can only be removed by the use of a tool.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0155",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "7.5.3    The Operational radio shall be capable of withstanding exposure to extreme",
+    "text": "(M) Mechanical conditions 7.5.6 The Operational radio shall be capable of withstanding the following shocks: (M) − semi-sinusoidal shocks of up to 5g for up to 100ms under normal conditions; − shocks of up to 10g for up to 5ms under exceptional conditions; − free fall from 1.0m.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0156",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Electrical 7.5.7 The Operational radio user shall be protected against all electrical hazards arising from the mobile equipment as defined in [EN 50153].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0157",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 7.5.8 Operational radios shall be equipped with rechargeable batteries capable of providing a minimum of eight hours operation over the temperature range -10°C to +55°C from a single charge, based on the following cycle (see section 4.5.21): (M) − point-to-point calls 20%; − group calls 60%; − standby 20%.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0158",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "7.5.9 Changing the battery shall not result in the loss of data stored in the radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0159",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 7.5.10 The Operational radio shall be suitable for use with a car adapter kit.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0160",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "301 515, Index [4] & [5]]. (I)",
+    "text": "(I) 8.2.2 To terminate a VGCS/VBS call by DTMF signalling, the 3-digit sequence “***” shall be used.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0161",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "301 515, Index [4] & [5]]. (I)",
+    "text": "(M) 8.2.3 In order to minimise the discomfort caused by the DTMF tone added in the voice channel, the duration of the tone generated by the fixed line dispatcher shall be 70ms ± 5ms, and there shall be a minimum gap of 65ms between each tone.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0162",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "301 515, Index [4] & [5]]. (I)",
+    "text": "(M) 8.3 Muting and unmuting for VGCS calls 8.3.1 Muting and unmuting shall be in line with [EN 301 515, Index [4]].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0163",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "8.3     Muting and unmuting for VGCS calls",
+    "text": "(M) 8.3.2 A group call controller who wishes to start talking (except in the case of an originator, a joiner or a re-joiner speaking for the first time5) shall indicate his wish, for example by pressing the PTT button, whereupon the 3-digit DTMF sequence “# # #” shall be transferred.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0164",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "8.3     Muting and unmuting for VGCS calls",
+    "text": "(O) 8.3.4 Any group call controller who wishes to stop talking shall indicate his wish, for example by releasing the PTT button, whereupon the 3-digit DTMF sequence “#**” shall be transferred.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0165",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 8.3.5 The duration of each tone (see 8.3.2 and 8.3.4) added in the voice channel, shall be 70ms ± 5ms, and there shall be a minimum gap of 65ms between each tone.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0166",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.1.2   This section addresses the following: (I)",
+    "text": "Equipment design must therefore be such as to give maximum flexibility in numbering arrangements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0167",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.1.5   Procedures for handling the relationship between EIRENE Numbers and MSISDN",
+    "text": "(O) 9.2 Numbering plan requirements Use of Train Number 9.2.1 Within each GSM-R network, each Train Number shall be unique for the period of the journey.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0168",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.2     Numbering plan requirements",
+    "text": "(M) 9.2.2 Every On-Train Function shall be identified by a standard code and shall conform to the list of functions given in Appendix 9A of this section.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0169",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.2     Numbering plan requirements",
+    "text": "(M) PSA167D006-15 Page 87 9.2.3 All Train Function Numbers and their associated MSISDN numbers shall be stored in the same routing database, which is the database of the GSM-R network in which the train is currently operating.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0170",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Use of Engine Number 9.2.4 Every On-Engine Function shall be identified by a standard code and shall conform to the list of functions given in Appendix 9A of this section.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0171",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 9.2.5 The Engine Function Number(s) and associated MSISDN numbers shall at any time be stored as an entry in the routing database of the home GSM-R network6 of the engine.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0172",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Use of Coach Number 9.2.6 The Coach Function Number(s) and associated MSISDN number(s) shall at any time be stored as an entry in the routing database of the home GSM-R network of the coach.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0173",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) Use of Shunting Team, Maintenance Team or Train Controller Number 9.2.7 Every Function shall be identified by a standard code and shall conform to the list of functions given in Appendix 9A of this section.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0174",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 9.2.8 The functional numbers of the Shunting Team Members, Maintenance Team Members and Train Controller (and any associated MSISDN numbers) shall be stored as entries in the routing database of the home GSM-R network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0175",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.2.8     The functional numbers of the Shunting Team Members, Maintenance Team Members",
+    "text": "(M) Use of MSISDN number 9.2.9 Implementation of the EIRENE numbering plan shall not prohibit any authorised caller from using the MSISDN number where known, thus enabling mobiles to be assigned to particular personnel where this is appropriate.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0176",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.2.9     Implementation of the EIRENE numbering plan shall not prohibit any authorised",
+    "text": "(M) Use of group call Service Areas 9.2.10 Service areas shall be defined within each railway network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0177",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.2.10    Service areas shall be defined within each railway network. (M)",
+    "text": "(M) 9.2.11 The numbering of Service Areas for group calls and broadcast calls shall be made in accordance with GSM Technical Specifications [EN 301 515, Index [21] & [4]] and [EN 301 515, Index [22] & [5]] respectively.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0178",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.3.3   Each national railway should obtain a public numbering allocation for MSISDN",
+    "text": "(O) 9.3.4 The EIRENE numbering plan shall be standardised to allow interoperability and shall be implemented as a private numbering plan within the GSM-R network.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0179",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.3.6   If alphanumerical numbering is required within a railway network, then these",
+    "text": "(I) 9.4 Types of numbers 9.4.1 Within the GSM-R network, the user shall be able to dial the following types of numbers: (M) − National EIRENE Number (NEN): this number is used to route a call from the calling party to a called party registered within the same GSM-R network; − International EIRENE Number (IEN): this number is used to route a call from the calling party to a called party registered within another GSM-R network; − MSISDN numbers: the number used by a subscriber of a public fixed (or mobile) network for calling a mobile station of a GSM PLMN; − Short Dialling Code (SDC): this number is used to allow ’speed dialling’ functionality.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0180",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "PSA167D006-15 Page 89 9.4.2 In addition, Breakout Codes (BCs) shall be used to allow users within the GSM-R network to access external numbers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0181",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 9.4.3 Access from the GSM-R network to external networks shall be as detailed in section 9.10.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0182",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.5      Use of National EIRENE Numbers",
+    "text": "(I) 9.5.2 Every railway network shall consider a number as a National EIRENE Number (NEN) unless the number is preceded by an International Code, identifying another GSM-R network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0183",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.5      Use of National EIRENE Numbers",
+    "text": "(M) Structure of National EIRENE Number 9.5.3 The National EIRENE Number shall consist of three distinct parts, as shown in figure 9-1: (M) Figure 9-1: National EIRENE Number structure 1) Call Type: The Call Type (CT) prefix is used to distinguish between the different types of User Numbers that are allowed within the national EIRENE numbering plan.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0184",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 2) User Identifier Number: The User Identifier Number (UIN) shall be one of the following numbers (as identified by the CT): (M) - Train Number (TN): a number given to a train by operational staff for a particular journey.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0185",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "This number shall be unique for the duration of the journey.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0186",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9         Numbering plan",
+    "text": "In order to call a particular locomotive, it shall be possible to call a number associated with the tractive unit's stock number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0187",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9         Numbering plan",
+    "text": "The actual number of the unit, which shall be used as the EN, is based on the complete identification number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0188",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "In order to call a particular coach it shall be possible to call a number associated with the vehicle marking.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0189",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "The actual number of the coach is denoted by seven digits (positions 5 to 11 of the complete vehicle marking), which shall be used as the CN7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0190",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "National EIRENE Numbering Plan 9.5.4 The contents of the fields of a National EIRENE Number shall be as defined below: (M) 1) Call Type (CT) This prefix defines how to interpret the User Number that follows.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0191",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "It shall consist of one or two digits as defined in table 9-1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0192",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "0         Reserved for access to public or to other GSM-R networks (see",
+    "text": "The following formats are defined: − Train Function Numbers (TFN) shall take one of the forms as defined in table 9-2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0193",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "0         Reserved for access to public or to other GSM-R networks (see",
+    "text": "Leading zeros shall be used in those situations where the train number is less than five digits.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0194",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 92 PSA167D006-15 9 Numbering plan Train Number Use 0000XFF train number with one significant digit 000YXFF train number with two significant digits 00YXXFF train number with three significant digits 0YXXXFF train number with four significant digits YXXXXFF train number with five significant digits XXXXXXFF train number with six significant digits XXXXXXXFF train number with seven significant digits XXXXXXXXFF train number with eight significant digits FF - Function Code as defined in Appendix A table 9A-1 Y not equal to 0 Table 9-2: UN - Train Function Number field format − Engine Function Numbers (EFN) shall take the format as defined in table 9-3.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0195",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Engine Number Use XXXXXXXXFF XXXXXXXX : number of powered unit allocated by each Railway FF : Function Code as defined in Appendix A table 9A-1 Table 9-3: UN - Engine Function Number field format − Coach Function Numbers (CFN) shall take the format as defined in table 9-4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0196",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "The UIN field format for calls to shunting teams and maintenance teams shall consist of a Location Number (LN), which identifies the location where the called party is registered, followed by a Function Code (FC).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0197",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Location Number shall consist of 5 digits and shall be assigned on a national basis.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0198",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Function Code shall consist of 4 digits.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0199",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "PSA167D006-15 Page 93 Team Type Description 1–3 Reserved for international use 4 Reserved for national use 5 Shunting Team 6–9 Reserved for national use 0 Reserved for international use Table 9-5: UIN – Team Type field format The composition of the Function Code field for calls to shunting teams and maintenance teams shall be as defined in table 9-6.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0200",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "The UIN field for calls to train controllers shall be a Location Number (LN) which identifies the location where the called party is registered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0201",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "The FC field for calls to train controllers shall consist of two digits and be as defined in table 9-7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0202",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9       Numbering plan",
+    "text": "The UN of the MSN shall consist of the Subscriber Number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0203",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9       Numbering plan",
+    "text": "The UIN field format for group calls shall be a Service Area (SA) indicator, which identifies the area in which the group call is to be active.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0204",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9       Numbering plan",
+    "text": "Each Service Area shall be allocated on a national basis.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0205",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9       Numbering plan",
+    "text": "In network boundary areas, the Service Area shall be allocated on a bilateral basis.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0206",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9       Numbering plan",
+    "text": "(See also subsection 9.9.) The FC field format for group calls shall consist of three digits and be as defined in table 9-8.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0207",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.6.1   International EIRENE Numbers are used for calls between GSM-R networks.",
+    "text": "(I) 9.6.2 GSM-R networks shall recognise International EIRENE Numbers starting with the IC of the GSM-R network in which the calling party is currently operating as National EIRENE Numbers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0208",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.6.2   GSM-R networks shall recognise International EIRENE Numbers starting with the IC",
+    "text": "(M) Structure of International EIRENE Number 9.6.3 The International EIRENE Number shall consist of three distinct parts, as shown in figure 9-2: (M) Figure 9-2: International EIRENE Number structure − International Code (IC), which shall be used to route calls to the appropriate GSM-R network; − National EIRENE Number (NEN), which consists of the combination of Call Type and User Number and which is used to identify the called party.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0209",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "International EIRENE Numbering plan 9.6.4 The fields of an International Functional Number shall be defined as follows: (M) 1) International Code (IC) The International Code field shall consist of three digits and shall be based on the [ITU-T E.164] country code (XCC or CCC), allocated by the UIC on a network- by-network basis.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0210",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "2) National EIRENE Number (NEN) The format of the National EIRENE Number field shall be as defined in subsection 9.5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0211",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "PSA167D006-15 Page 97 9.7 Use of MSISDN numbers 9.7.1 At least one MSISDN number shall be allocated to each mobile station.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0212",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.7      Use of MSISDN numbers",
+    "text": "(M) 9.7.2 The structure of the MSISDN numbers shall comply with GSM Technical Specification [GSM 03.03].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0213",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.7      Use of MSISDN numbers",
+    "text": "(M) Figure 9-3: Number structure of MSISDN number 9.7.3 Within each GSM-R network, the following relationships between the MSISDN Subscriber Number and the National EIRENE Number can be identified: − the MSISDN Subscriber Number shall be equal to the National EIRENE Number for Call Type = 8; (M) − the MSISDN number may be equal to the National EIRENE Number for any other Call Type.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0214",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.7.3    Within each GSM-R network, the following relationships between the MSISDN",
+    "text": "(O) 9.7.4 It shall be possible for authorised subscribers of fixed and mobile networks to call mobiles using the appropriate MSISDN number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0215",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.7.3    Within each GSM-R network, the following relationships between the MSISDN",
+    "text": "(M) 9.8 Use of Short Dialling Codes 9.8.1 For certain functions, standardised short codes shall be implemented for mobile originated calls.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0216",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.8.1    For certain functions, standardised short codes shall be implemented for mobile",
+    "text": "(M) 9.8.2 Each short dialling code shall consist of four digits.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0217",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.8.2    Each short dialling code shall consist of four digits. (M)",
+    "text": "(M) 9.8.3 Short dialling codes shall start with the first digit equal to 1 (ie CT=1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0218",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.8.2    Each short dialling code shall consist of four digits. (M)",
+    "text": "These codes shall be as given in table 9-10.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0219",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "1700              Driver Safety Device",
+    "text": "Where no additional information is available the default value shall be 00.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0220",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "1700              Driver Safety Device",
+    "text": "Table 9-10: Internationally defined short codes 9.8.5 In addition, the network shall support the special short codes as defined in table 9-11.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0221",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.9.1   Standardisation of UIC group addresses is required to provide interoperability",
+    "text": "(M) 9.9.3 The Service Area shall be defined on a national basis.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0222",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.9.3      The Service Area shall be defined on a national basis. (M)",
+    "text": "(M) 9.9.4 In network boundary areas, the Service Area shall be allocated on a bilateral basis.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0223",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.9.3      The Service Area shall be defined on a national basis. (M)",
+    "text": "(M) 9.9.5 Function Codes shall be defined within the framework given in table 9-8 on an international basis.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0224",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9.9.3      The Service Area shall be defined on a national basis. (M)",
+    "text": "(M) 9.10 Access to external networks 9.10.1 Access to other GSM-R networks shall be possible by using a Breakout Code (BC) as part of the dialled number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0225",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "9          Numbering plan",
+    "text": "(I) 9.10.1v Access to private networks shall be performed by using a BC, defined in table 9-12c.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0226",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "902 – 909     Reserved for national breakout codes",
+    "text": "9.10.2 The GSM-R network shall allow users direct access to public networks, subject to call barring restrictions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0227",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "902 – 909     Reserved for national breakout codes",
+    "text": "(M) 9.10.3 Where access to public networks is allowed, this shall be performed by using an Access Code (AC), defined in table 9-13, followed by the international or national number of the called subscriber as defined in [ITU-T 164].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0228",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 9A.2 The Function Codes used in association with the Train Function Number (CT=2), Engine Function Number (CT=3) and Coach Function Number (CT=4) shall conform to table 9A-1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0229",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "80 – 99               Reserved for national use",
+    "text": "Table 9A-1: Function Code field for CT=2, 3 and 4 PSA167D006-15 Page 103 9A.3 The Function Codes used in association with Maintenance Services Team Numbers (CT=6) shall conform to table 9A-2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0230",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "15    network operator staff.",
+    "text": "(O) Page 108 PSA167D006-15 10 Subscriber management 10.3.3 For consistent working on public networks and in international roaming, the use of access classes in a railway network shall comply with the GSM specification.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0231",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "10.4      Closed user groups",
+    "text": "(I) 10.4.2 Any implementation of CUGs must take account of requirements for interoperability.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0232",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "10.4      Closed user groups",
+    "text": "(M) 10.5 Network selection 10.5.1 SIM cards shall contain a list of authorised networks so that networks shall be displayed (or automatically selected if automatic network selection has been enabled) in the following order of priority (see [MORANE SIM] for more details): (M) − home EIRENE network; − ‘foreign’ EIRENE networks; − non-EIRENE networks (with order of priority predetermined by virtue of international subscriptions and roaming agreements).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0233",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "10.5      Network selection",
+    "text": "10.5.1i In order to shorten the duration of the network selection procedure, Mobile Stations designed for use in EIRENE networks shall give preference to the GSM frequency band allocated for railway use (see 3.5.2).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0234",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 10.6 Cell broadcast message identifiers 10.6.1 Railway mobiles shall be provided with cell broadcast message identifiers in order to accept SMS-CB messages.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0235",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "10.7.1    Encryption. Licensing of A5/x encryption algorithms is managed by the GSM",
+    "text": "(I) 10.7.1i In case of encryption, standardised ciphering algorithms shall be used.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0236",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "10.7.2    Deleted.",
+    "text": "10.7.3 Mobiles shall be capable of operation using algorithms for all countries in which they need to roam.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0237",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.2.1   The ground-train addressing can be divided into two areas: (I)",
+    "text": "(I) 11.2.3 The numbering plan to be used with functional addressing shall be in accordance with the numbering plan given in section 9.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0238",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.3     Functional numbering",
+    "text": "(I) PSA167D006-15 Page 111 11.3.2 Mobile access to the functional numbering scheme for registration, deregistration and re-registration shall apply the USSD messages and protocols over the air interface as specified in the GSM Follow-me service.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0239",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) Functional number management 11.3.5 For communication over the (Um) air interface, the USSD messages and protocols as specified in the GSM Follow-me service shall be used to manage the following types of functional numbers: (M) − Train number; − Engine number; − Coach number; − Shunting team number; − Maintenance team number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0240",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "11.3.6 It shall be possible to limit user access to functional number registration and deregistration facilities based on each of the types of functional number identified in 11.3.5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0241",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.3.5. (M)",
+    "text": "(M) 11.3.7 Mobile stations shall use the following sequences for the control of the functional number management: (M) Procedure Sequence Interrogation *#214*SI***# Registration **214*SI***# Deregistration ##214*SI***# Re-registration **214*SI***# followed by ##214*SI***# Definition in section 11.3.14 Forced De-registration ##214*SI*88*MSISDN*# Where SI Supplementary Information represents the International Functional Number (also called the International EIRENE Number), as defined in section 9.6.3.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0242",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 112 PSA167D006-15 11 Functional numbering and location dependent addressing 11.3.8 The network operator shall implement the required functionality to validate the information exchanged between the mobile and network on registration and deregistration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0243",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.3.8    The network operator shall implement the required functionality to validate the",
+    "text": "(M) 11.3.8i Functionality shall be provided by the system for the operator management of Functional Numbers, including the removal of the relationship between Functional Numbers and MSISDN Numbers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0244",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.3.8    The network operator shall implement the required functionality to validate the",
+    "text": "(I) 11.3.8iii The system shall require manual confirmation prior to the removal of the relationship between Engine Number and MSISDN Number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0245",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.3.8    The network operator shall implement the required functionality to validate the",
+    "text": "(M) Registration 11.3.9 The result of the registration procedure shall be sent back to the mobile.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0246",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "In the event of a failure, an indication of the cause shall be provided.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0247",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Information on the outcome shall be provided to the mobile according to [EN 301 515, Index [17]] and [EN 301 515, Index [34]].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0248",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 11.3.9i In the event of a registration procedure failing owing to the functional number already being registered to another mobile, the Cab radio shall be capable of providing the user with the ability to perform automatically the forced de-registration of the previously registered mobile and the registration of this functional number to the user’s mobile.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0249",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "This shall result in the following sequence of actions being performed by the user’s Cab radio (see 11.3.7 for details of message structure): (M) 1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0250",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "6. Receive the answer (from network to mobile).",
+    "text": "(O) 11.3.9iii In the cases described in 11.3.9i and 11.3.9ii, national rules may dictate that, prior to or instead of performing the sequence described in 11.3.9i steps 1-7, the user shall perform a specified action (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0251",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "6. Receive the answer (from network to mobile).",
+    "text": "(I) PSA167D006-15 Page 113 Deregistration 11.3.10 Deregistration shall only be performed by the subscription identified by the MSISDN number which is associated with the functional number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0252",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.3.11 Deleted.",
+    "text": "11.3.12 The result of the deregistration procedure shall be sent back to the mobile.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0253",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.3.13 Re-registration consists of a registration procedure followed by a deregistration",
+    "text": "(I) 11.3.14 Re-registration of on-train functional numbers based on the train number shall be performed every time a train leaves one EIRENE network and enters into another EIRENE network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0254",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.3.13 Re-registration consists of a registration procedure followed by a deregistration",
+    "text": "(M) 11.3.15 Deregistration of a functional number shall not be carried out until registration of the functional number has been carried out and confirmed as being successful.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0255",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.3.13 Re-registration consists of a registration procedure followed by a deregistration",
+    "text": "(O) Functional numbering network interworking 11.3.17 The exchange of information between EIRENE networks is handled by the GMSCs and shall use the standardised protocol as detailed in section 11.6.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0256",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 11.4 Re-establishment of functional number correlation 11.4.1 In the event of losing correlation between functional numbers and MSISDNs, provision for recovery from such a situation shall be made.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0257",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.4.5   Deleted.",
+    "text": "Page 114 PSA167D006-15 11 Functional numbering and location dependent addressing 11.5 Presentation of functional identities 11.5.1 The called party functional identity shall be presented to the user initiating a call and the calling party functional identity shall be presented to the user receiving a call.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0258",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.5     Presentation of functional identities",
+    "text": "(M) 11.5.2 The calling party functional number shall be passed to the receiving mobile using the User to User Signalling supplementary service (UUS1) during call setup.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0259",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.5     Presentation of functional identities",
+    "text": "(M) 11.5.3 If the calling party functional number is not available or if the calling party is not registered then the CLI of the calling party shall be displayed on the receiving mobile' s display.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0260",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.5     Presentation of functional identities",
+    "text": "(M) 11.5.4 The user-to-user information element in the SETUP, ALERT or CONNECT messages, as defined in [EN 301 515, Index [16]], shall be used to transfer the functional number of the calling party to the called party.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0261",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.5.4   The user-to-user information element in the SETUP, ALERT or CONNECT messages,",
+    "text": "(M) 11.5.5 The user-to-user information element shall use the following format: (M) 8 7 6 5 4 3 2 1 Octet User-User Information Element Identifier 1 Length of User-User contents 2 User-User protocol discriminator 3 Binary 0 0 0 0 0 0 0 0 Tag defines presentation of Functional Identity 4 0 0 0 0 0 1 0 1 Length of Numeric FN 5 Numeric FN 6 Digit 2 Digit 1 BCD Digit m Digit m-1 n 11.5.6 If no valid functional number is available, a fixed length User-to-User Information Element shall be used with the following format: (M) PSA167D006-15 Page 115 8 7 6 5 4 3 2 1 Octet User-User Information Element Identifier 1 Length of User-User contents 2 0 0 0 0 0 0 1 1 Binary User-User protocol discriminator 3 0 0 0 0 0 0 0 0 Tag defines presentation of Functional Identity 4 0 0 0 0 0 1 0 1 Functional number 5 BCD 0 0 0 0 0 0 0 0 11.5.7 Further information may be obtained from [MORANE PFN FFFS, MORANE PFN FIS].",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0262",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.6     Inter EIRENE network interfacing",
+    "text": "(O) 11.6.3 The protocol used for routing of calls shall be Signalling System No 7 (SS7) as defined by the ITU-T.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0263",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.6     Inter EIRENE network interfacing",
+    "text": "The signalling system suite shall include the Mobile Application Part (MAP).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0264",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.6     Inter EIRENE network interfacing",
+    "text": "11.6.4 Call setup between EIRENE networks using international functional numbers shall be based on the combination of the Breakout-Code (BC) and International Code (IC) as specified in section 9.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0265",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "11.6.5 The Country Code (CC) followed by the National Significant Number NSN (as specified in ITU-T E.164, Chapter 6.2) shall be used as the Global Title, which forms part of the Signalling Connection Control Part (SCCP) protocol messages and is used for inter-network routing of messages.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0266",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "11.7.1   Location dependent addressing may be provided in the following ways:",
+    "text": "(O) Page 116 PSA167D006-15 11 Functional numbering and location dependent addressing Cell dependent routing 11.7.2 As a minimum, call routing using location dependent addressing shall be based on the use of short codes in conjunction with cell dependent routing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0267",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 11.7.5 If a more accurate way of location determination is used, then position information shall be provided to the radio system which shall be used to associate the short code with the correct called party subscriber number.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0268",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 11.7.6 If implemented, the use of location information from train-based systems external to the radio system shall comply with the requirements stated in the enhanced Location Dependent Addressing FRS and IRS [eLDA FRS and eLDA IRS].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0269",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 11.8 Calls from external networks to the EIRENE network 11.8.1 Facilities shall be provided to prevent unauthorised calls to mobiles either by functional number or MSISDN number from outside the EIRENE network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0270",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "12.1.1   There is no requirement for an internationally standardised pre-defined messaging",
+    "text": "(I) 12.2 System requirements 12.2.1 Where text messaging is implemented in the network, the Short Message Service (SMS) shall be used.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0271",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.2     Provision of Railway emergency calls",
+    "text": "(I) 13.2.2 All Railway emergency calls shall be implemented using GSM VGCS (Specifications [EN 301 515, Index [21] & [4]]).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0272",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.2.2   All Railway emergency calls shall be implemented using GSM VGCS (Specifications",
+    "text": "(M) 13.2.3 It shall be possible to configure Railway emergency group call areas to contain combinations of cells controlled by one or more MSC(s) within one or more network(s).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0273",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.2.2   All Railway emergency calls shall be implemented using GSM VGCS (Specifications",
+    "text": "(I) 13.3 Initiation of Railway emergency calls 13.3.1 A Railway emergency call shall be initiated by using the appropriate function code for the required type of Railway emergency call (see Table 9-8).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0274",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.3     Initiation of Railway emergency calls",
+    "text": "The composition of each group is a matter for national implementation, although all areas shall have a group defined for all mandated Group IDs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0275",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.3     Initiation of Railway emergency calls",
+    "text": "(M) 13.4 Receipt of Railway emergency calls 13.4.1 Each mobile shall store a list of emergency Group IDs in the SIM appropriate to its function (the Cab radio will store Group ID 299 and 599 - see table 9-8).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0276",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.4     Receipt of Railway emergency calls",
+    "text": "(M) 13.4.2 All Railway emergency group IDs required for interoperability and appropriate to the operation of the mobile shall maintain active status whilst the mobile is powered up.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0277",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.4     Receipt of Railway emergency calls",
+    "text": "(O) 13.4.5 If the requirement in 13.4.4 is implemented, as a minimum the location information shall be provided by the GSM network (eg current cell or base station serving the mobile).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0278",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 13.4.7 If the GSM Release 99 capability and the Immediate Setup 2 feature defined in [EN 301 515, Index [6], Release 4] are supported by the network, the network shall set the MSC Release bit in the “Control Channel Description” information element to “1”.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0279",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Otherwise, the MSC Release bit in the “Control Channel Description” information element shall be set to “0” (zero) [EN 301 515, Index [41]].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0280",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13       Railway emergency calls",
+    "text": "The application must be able to deduce that a confirmation is necessary from the call priority, as all calls of ‘Railway emergency’ priority must be confirmed.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0281",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13       Railway emergency calls",
+    "text": "(M) 13.5.3 Confirmation of Railway emergency calls shall be implemented using the User to User Signalling supplementary service (UUS1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0282",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13       Railway emergency calls",
+    "text": "(M) 13.5.4 After clear down of the Railway Emergency call, the mobile application shall start the confirmation process by automatically originating a call.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0283",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13       Railway emergency calls",
+    "text": "In order to avoid network congestion the call set up shall be delayed by a random offset.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0284",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13       Railway emergency calls",
+    "text": "(M) 13.5.5 Railway Emergency call confirmation messages shall be of eMLPP priority 4 - “Railway information and all other calls” (see section 10.2).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0285",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 13.5.6 The user information contained in the confirmation message shall be: (M) - Cab radio: the engine number or train number (if registered); - other mobiles: the user’s functional number (if registered).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0286",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.5.6   The user information contained in the confirmation message shall be: (M)",
+    "text": "13.5.7 Confirmation messages shall be sent to a confirmation centre using a defined short code (see table 9-10), which shall be associated with the GSM network.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0287",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.5.6   The user information contained in the confirmation message shall be: (M)",
+    "text": "(M) 13.5.8 In the case of Cab radio, details of the confirmation shall be passed to the train borne recorder if a train borne recorder is connected to the Cab radio.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0288",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.5.6   The user information contained in the confirmation message shall be: (M)",
+    "text": "(M) 13.5.9 The user-to-user information elements in the following messages, as defined in [EN 301 515, Index [16]], shall be used for the confirmation of high priority calls: (M) − SETUP: transfer of confirmation message to confirmation centre; − RELEASE COMPLETE: acknowledgement of the confirmation message.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0289",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.5.10 The SETUP and RELEASE COMPLETE user-to-user information element shall be as",
+    "text": "13.5.10 The SETUP and RELEASE COMPLETE user-to-user information element shall be as specified in the [MORANE UUIE].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0290",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "13.5.10 The SETUP and RELEASE COMPLETE user-to-user information element shall be as",
+    "text": "(M) 13.5.10i Confirmation centres shall be capable of decoding messages in either format A or B.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0291",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.1     Introduction",
+    "text": "(I) 14.2 System requirements: Operational Radio Enter shunting mode 14.2.1 On entering shunting mode, the operational radio shall determine if any shunting group ID is already activated on the SIM.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0292",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.2     System requirements: Operational Radio",
+    "text": "(M) 14.2.2 If a shunting group ID is activated, the operational radio shall proceed to re-establish the group call.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0293",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.2     System requirements: Operational Radio",
+    "text": "(M) 14.2.3 If no shunting group ID is activated, the operational radio shall initiate a “regular shunting mode ON” procedure as detailed in table 14-1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0294",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Table 14-1: Operational radio “regular shunting mode ON” procedure PSA167D006-15 Page 125 14.2.4 After the “regular shunting mode ON” procedure has been completed, the procedures shown in table 14-2 and 14-3 shall be used to register the shunting leader and shunting members to a dedicated group call.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0295",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Table 14-3: Operational radio dedicated group call registration procedure for shunting members Page 126 PSA167D006-15 14 Shunting mode Leave shunting mode 14.2.5 Two possibilities shall be available to the shunting leader when leaving shunting mode: (M) − Release group call: the shunting leader and all other shunting members leave the dedicated group call and all members of the group are deregistered.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0296",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14         Shunting mode",
+    "text": "The procedure that shall be used to release the group call is shown in table 14-4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0297",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "The operational radio procedure that shall be used to maintain the group call is shown in table 14-5.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0298",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Table 14-5: Operational radio shunting leader “Maintain group call” procedure 14.2.6 On leaving shunting mode, the Operational radios of shunting members shall follow the procedure shown in table 14-6.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0299",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Table 14-6: Operational radio shunting member “Leave shunting mode” procedure 14.3 System requirements: Cab radio Enter shunting mode 14.3.1 On entering shunting mode, the Cab radio shall determine if any shunting group ID is already activated on the SIM.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0300",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.3     System requirements: Cab radio",
+    "text": "(M) 14.3.2 If a shunting group ID is activated, the Cab radio shall proceed to re-establish the group call.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0301",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.3     System requirements: Cab radio",
+    "text": "(M) 14.3.3 If no shunting group ID is activated, the Cab radio shall initiate a “regular shunting mode ON” procedure as shown in table 14-7.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0302",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Table 14-7: Cab radio “regular shunting mode ON” procedure Page 128 PSA167D006-15 14 Shunting mode Leave shunting mode 14.3.4 The Cab radio shall exit shunting mode by means of the “Leave shunting mode” procedure as defined in table 14-8.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0303",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "Table 14-8: Cab radio “Leave shunting mode” procedure 14.4 System requirements: Operational radio and Cab radio 14.4.1 On entering shunting mode, the terminal shall initially select the common shunting group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0304",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.4     System requirements: Operational radio and Cab radio",
+    "text": "(I) 14.4.3 The terminal application shall prevent members of a dedicated shunting team from initiating a new call (unless they are registered as shunting team leader and have left shunting mode using the “maintain group call” function described in 14.2.4).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0305",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.5     Numbering plan",
+    "text": "(I) 14.5.2 Valid group IDs shall be as defined in table 14-9.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0306",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.5.2   Valid group IDs shall be as defined in table 14-9. (M)",
+    "text": "(M) PSA167D006-15 Page 129 Quantity Name Usage Group ID 1 Common Shunting Group Common initiation 500 20 Dedicated Shunting Group Normal shunting 501-520 1 Emergency Shunting Group Emergency (for the whole area) 599 Table 14-9: Valid Group IDs 14.6 Control of shunting group membership 14.6.1 Users shall be prevented from joining a dedicated shunting group by the EIRENE terminal application unless a valid functional number for the group has been successfully registered to the GSM-R network by their terminal.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0307",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.7.1   Deleted.",
+    "text": "14.7.2 The link assurance tone shall be of the form specified in subsection 14.4.2 of the [EIRENE FRS].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0308",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.7.1   Deleted.",
+    "text": "(M) 14.7.3 The mechanism for the generation of the link assurance signal shall be as specified in [MORANE SM FFFIS].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0309",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "14.7.4   Deleted.",
+    "text": "14.7.5 The mechanism for the deactivation of the link assurance signal shall be as specified in [MORANE SM FFFIS].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0310",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "15.2.1   Implementation of direct mode is optional. However, where implemented, the",
+    "text": "However, where implemented, the following requirements shall be mandatory.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0311",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "15.2.1   Implementation of direct mode is optional. However, where implemented, the",
+    "text": "(I) 15.2.2 Frequency modulated equipment conforming to [ETS 300 086] shall be used for direct mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0312",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "15.2.1   Implementation of direct mode is optional. However, where implemented, the",
+    "text": "(M) 15.2.3 Direct mode equipment shall have a maximum transmit power of 1 Watt.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0313",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "15.2.1   Implementation of direct mode is optional. However, where implemented, the",
+    "text": "(M) 15.2.4 Direct mode equipment sensitivity shall be at least –107dBm.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0314",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "15.2.4   Direct mode equipment sensitivity shall be at least –107dBm. (M)",
+    "text": "(M) Frequency range and mode of operation 15.2.5 Direct mode equipment shall be capable of operation in the channels defined in table 15-1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0315",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "15.2.4   Direct mode equipment sensitivity shall be at least –107dBm. (M)",
+    "text": "(M) Channel Frequency 1 876.0125 MHz 2 876.0250 MHz 3 876.0375 MHz 4 876.0500 MHz 5 876.0625 MHz Table 15-1: Direct mode channel frequencies according to [ECC(02)05] 15.2.6 Direct mode shall operate in simplex mode, a radio link that uses a single frequency for alternate transmission and reception.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0316",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5                          876.0625 MHz",
+    "text": "(M) 15.2.7 Voice transmission from direct mode equipment shall be possible only when the Push- To-Talk (PTT) button is pressed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0317",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "5                          876.0625 MHz",
+    "text": "(M) PSA167D006-15 Page 131 CTCSS 15.2.8 Continuous Tone Coded Squelch Systems (CTCSS) shall be implemented on all direct mode equipment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0318",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "CTCSS",
+    "text": "(M) 15.2.9 The CTCSS tone shall be at a frequency of 203.5 Hz.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0319",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "CTCSS",
+    "text": "(M) 15.2.10 The CTCSS modulation shall be within the limits defined in table 15-2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0320",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "12.5                       200 to 400",
+    "text": "(I) 15.2.12 Direct mode channel 1 (876.0125 MHz) shall serve as the common access channel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0321",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) 15.2.15 The presence of the GSM-R network shall be indicated to direct mode users.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0322",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(M) 15.2.16 All terminals shall ensure that when GSM-R services are available, the user is prevented from entering direct mode.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0323",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": null,
+    "text": "(I) Shunting link assurance signal 15.2.18 All direct mode equipment shall provide the facility to broadcast an in-band audio shunting link assurance signal as defined in subsection 14.4.2 of the [EIRENE FRS].",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2006 - eirene sys 15 [pdf]__C0324",
+    "document": "2006 - eirene sys 15 [pdf].txt",
+    "nearest_heading": "28 July 1999 on the basic parameters for the command-and-control and",
+    "text": "CEPT 25-09 CEPT Recommendation T/R 25-09 E (Chester 1990, revised at Budapest",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

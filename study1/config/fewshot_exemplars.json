@@ -1,0 +1,52 @@
+{
+  "_comment": "Few-shot exemplars for the Study 2 'examples' factor. Approved by the author on 2026-10-26 without changes. Taken from PURE documents that supply none of the 150 test items (grid bgc, hats, eirene sys 15). Order is fixed: one exemplar per EARS pattern, in the order the patterns are listed in prompts/components/patterns.txt. Do not edit after the freeze commit.",
+  "approved_by": "author (R1)",
+  "approved_date": "2026-10-26",
+  "overlap_check": {
+    "method": "max share of shared word 3-grams between each exemplar and each test item (source text and messified text), relative to the shorter text",
+    "max_source_overlap": 0.33,
+    "max_messified_overlap": 0.1,
+    "closest_items": {
+      "PURE-126": "shares generic phrase 'graphical user interface' with the grid bgc exemplar",
+      "PURE-014": "shares 'audible and visual indication' with the eirene sys 15 unwanted-behaviour exemplar"
+    },
+    "decision": "Kept: generic phrasing, not the same requirement. Pre-registered sensitivity analysis excludes PURE-014 and PURE-126 (ANALYSIS_PLAN.md S4)."
+  },
+  "exemplars": [
+    {
+      "pattern": "ubiquitous",
+      "source_document": "grid bgc",
+      "source_text": "The system shall provide a graphical user interface to all functions of the system.",
+      "messified_input": "For Grid-BGC, honestly I don't want anyone stuck typing commands. Everything it can do should be reachable through some kind of point-and-click screen, all of it, not just the main bits.",
+      "ears_output": "The Grid-BGC system shall provide a graphical user interface to all of its functions."
+    },
+    {
+      "pattern": "event-driven",
+      "source_document": "hats",
+      "source_text": "[SRSreq 70] When a user selects the File/Save As menu item, the HATS-GUI shall prompt the user to enter a new name.",
+      "messified_input": "In the HATS screen, if somebody hits Save As in the File menu, it should pop up and ask them what they want to call it, you know, a new name.",
+      "ears_output": "WHEN a user selects the File/Save As menu item, the HATS-GUI shall prompt the user to enter a new name."
+    },
+    {
+      "pattern": "unwanted-behaviour",
+      "source_document": "eirene sys 15",
+      "source_text": "(M) 5.4.3 If registration is not successful an audible and visual indication shall be provided.",
+      "messified_input": "With the cab radio, if it doesn't manage to get registered on the network, people need to know somehow. A beep and something on the screen, both really.",
+      "ears_output": "IF the Cab radio fails to register with the mobile network, THEN the Cab radio shall provide an audible and a visual indication."
+    },
+    {
+      "pattern": "state-driven",
+      "source_document": "hats",
+      "source_text": "[SRSreq 158] The HATS-GUI shall allow a user to request transformations while HATS-SML is performing transformations or parsing.",
+      "messified_input": "And while the HATS-SML side is busy churning through transformations or parsing stuff, people shouldn't be locked out of the GUI. They should still be able to kick off more transformations.",
+      "ears_output": "WHILE HATS-SML is performing transformations or parsing, the HATS-GUI shall allow the user to request transformations."
+    },
+    {
+      "pattern": "optional-feature",
+      "source_document": "eirene sys 15",
+      "source_text": "12.2.1 Where text messaging is implemented in the network, the Short Message Service (SMS) shall be used.",
+      "messified_input": "If the network ends up having text messaging at all (it's optional, not every network does), then it should just go over regular SMS, nothing custom.",
+      "ears_output": "WHERE text messaging is implemented in the network, the network shall use the Short Message Service (SMS) for text messages."
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "_comment": "Frozen run settings and secondary-measure definitions for Study 2. Fixed on 2026-10-26 and revised on 2026-11-07, both before the freeze commit and before any Study 2 API call. Changing anything here after the freeze commit is a protocol deviation and must be logged in README.md (Deviations).",
+  "frozen_date": "2026-10-26",
+  "revised_before_freeze": "2026-11-07",
+  "seeds": {
+    "call_order_shuffle": 20261026,
+    "pilot_items": 20261026,
+    "human_subsample": 20261026,
+    "bootstrap": 20261026,
+    "rater_sheet_ids_and_order": "secret random salt drawn by human_subsample_study2.py build-sheets, stored only in the hidden key"
+  },
+  "n_items": 150,
+  "tiers": [
+    "nano",
+    "mini",
+    "gpt-5.4"
+  ],
+  "pilot": {
+    "n_items": 5,
+    "item_ids": [
+      "PURE-030",
+      "PURE-035",
+      "PURE-059",
+      "PURE-104",
+      "PURE-125"
+    ],
+    "note": "Pilot outputs are archived under results/pilot/ and never analysed. The same items are re-run in the full run."
+  },
+  "api_call": {
+    "endpoint": "chat.completions",
+    "temperature": 0,
+    "reasoning_effort": "not passed (API default). The OpenAI model pages list 'none' as the default for all three GPT-5.4 snapshots (checked 2026-10-26); reasoning_tokens are logged on every call to confirm 0.",
+    "max_tokens": "not passed",
+    "n": 1,
+    "messages": "system = arm prompt, user = messified text only (same split as the prior exploratory run)"
+  },
+  "budget_usd_cap": 15.0,
+  "budget_note": "Cap covers pilot + full run together. Cost is computed from logged usage and the per-tier prices in config/model_lineup.json; cached input tokens are charged at the full input price (conservative).",
+  "extraction": {
+    "final_line": "the LAST 'FINAL REQUIREMENT:' tag that starts a line (markdown markers * # _ ` > and spaces allowed before it, case-insensitive); if none starts a line, the last exact upper-case tag anywhere. Answer = first line after the tag that still has text once markdown markers and spaces are removed.",
+    "final_json": "same tag rule for 'FINAL JSON:'; the JSON object after it; its 'requirement' field",
+    "first_tag_rule_for_sensitivity": "FIRST tag, case-insensitive, anywhere; first non-empty line (the prior run's extraction rule, archive/study1/scripts/extract_answers.py)",
+    "completeness": "exactly one successful record per planned (item, arm, model) call, all from the frozen prompt version; otherwise extraction stops"
+  },
+  "primary_outcome": "ears_v2_compliant from scripts/check_ears_compliance_v2.py (unchanged, sha256 4a9bb37b78851e01bf600f65d117f74c9583412f4f1f5938233daaa477c20e8f). Extraction failures count as non-compliant.",
+  "human_evaluation": {
+    "calibration_inputs": ["PURE-002", "PURE-014", "PURE-017"],
+    "sensitivity_exclude_items": ["PURE-002", "PURE-014"],
+    "note": "The 2026-10-01 rater calibration discussed outputs for PURE-002, PURE-014 and PURE-017. PURE-002 and PURE-014 are in the human subsample; the S6 confirmatory comparisons are repeated without them (ANALYSIS_PLAN.md, S6)."
+  },
+  "secondary_measures": {
+    "template_slot": "checker v2 fail reason 'template_slot' (an unfilled <...> slot, e.g. '<system name>')",
+    "register_leakage": {
+      "definition": "normalized requirement text contains any LEAK_TERMS entry as a whole phrase, case-insensitive (regex (?<![a-z])term(?![a-z]) on ' '+lower(text)+' ')",
+      "LEAK_TERMS": [
+        "kind of",
+        "sort of",
+        "probably",
+        "something like",
+        "not sure exactly",
+        "i guess",
+        "i think",
+        "maybe",
+        "roughly",
+        "or so",
+        "some way",
+        "pretty much",
+        "basically",
+        "at some point",
+        "a bit",
+        "a while",
+        "not exactly sure",
+        "some kind of",
+        "i mean",
+        "you know",
+        "or whatever",
+        "whatever",
+        "whatnot",
+        "kinda",
+        "gonna",
+        "or something",
+        "nothing crazy",
+        "stuff",
+        "folks",
+        "heads-up",
+        "whoever",
+        "whoever's"
+      ],
+      "LEAK_TERMS_sha256_of_json_dumps": "a6552a46ee10ba646736359ddc95a88848792495036ed3833816c6a46429b529"
+    },
+    "transcription": {
+      "definition": "share of the normalized requirement's tokens covered by word 4-grams that also occur in the messified input >= 0.5; tokens = re.findall(r\"[a-z0-9']+\", lower(text))",
+      "n": 4,
+      "threshold": 0.5
+    },
+    "extraction_failure": "no parsable final answer",
+    "length_words": "word count of the normalized requirement (descriptive only)",
+    "denominator": "outputs with an extractable requirement (extraction failures are reported separately)"
+  }
+}

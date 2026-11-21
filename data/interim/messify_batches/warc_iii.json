@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PURE-145",
+    "text": "The tools shall be able to scale to process large collections using distributed processing and data transport (see FRS 10 and 11)"
+  },
+  {
+    "id": "PURE-146",
+    "text": "The tools shall offer best possible performance to correctly process large collections (I/O bound)"
+  },
+  {
+    "id": "PURE-147",
+    "text": "The tools shall be compliant with Java development environments, by using web services, RESTful API’s, etc."
+  },
+  {
+    "id": "PURE-148",
+    "text": "The tools shall provide logging facilities, for example, to follow command progression, i.e. process duration, output levels, etc."
+  },
+  {
+    "id": "PURE-149",
+    "text": "The workflow system shall have a configurable management strategy for migration from ARCs to WARCs."
+  },
+  {
+    "id": "PURE-150",
+    "text": "The migration API will require inclusion of only one header file."
+  }
+]

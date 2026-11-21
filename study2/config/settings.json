@@ -1,0 +1,42 @@
+{
+  "_comment": "FROZEN on 2026-11-08 before any Study 2b model call. Decisions D1-D7 confirmed by the author on 2026-11-08 (README.md). Any change is a deviation, logged in README.md (Deviations).",
+  "status": "frozen",
+  "seeds": {
+    "call_order_shuffle": 20261108,
+    "bootstrap": 20261108
+  },
+  "n_items": 150,
+  "api_call": {
+    "endpoint": "chat.completions",
+    "temperature": "omitted for every arm (API default). D1, confirmed 2026-11-08: GPT-5.4 does not accept temperature when reasoning_effort is not 'none' (OpenAI 'Using GPT-5.4' guide, read 2026-11-08), so omitting it everywhere keeps sampling identical across the three reasoning levels.",
+    "reasoning_effort": {
+      "none": "none",
+      "written": "none",
+      "native": "medium"
+    },
+    "reasoning_effort_note": "Passed explicitly on every call. D2: 'low' (2026-11-08), changed to 'medium' on 2026-11-08 after the pilot, before the full run (deviation logged in README.md): at 'low', gpt-5.4-nano used reasoning tokens in only 16 of 20 native calls (80%, below the 90% manipulation check). Supported values for gpt-5.4-nano: none (default), low, medium, high, xhigh (model page, read 2026-11-08).",
+    "max_tokens": "not passed",
+    "n": 1
+  },
+  "manipulation_checks": {
+    "written": "in every tier, at least 90% of written-arm outputs have at least 15 words before the last FINAL REQUIREMENT: tag",
+    "native": "in every tier, at least 90% of native-arm calls report reasoning_tokens > 0",
+    "none": "in every tier, at least 95% of none-arm outputs have no text before the tag and every call reports reasoning_tokens = 0",
+    "rule": "a reasoning level that fails its check in a tier is reported as not manipulated in that tier, and no conclusion about it is drawn there"
+  },
+  "budget_usd_cap": 40.0,
+  "budget_note": "D3: $40 cap (default kept 2026-11-08). Dry-run estimate $25.85 incl. 20% margin. Cost computed from logged usage (reasoning tokens are billed as output tokens) and config/model_lineup.json prices.",
+  "pilot": {
+    "n_items": 5,
+    "item_ids": [
+      "PURE-030",
+      "PURE-035",
+      "PURE-059",
+      "PURE-104",
+      "PURE-125"
+    ],
+    "note": "Same pilot items as Study 2; pilot outputs are never analysed."
+  },
+  "annotators_and_raters": "D4/D5, 2026-11-08: parts P and H are done by R1 (first author) and R3, the only people available. Mitigations in ANALYSIS_PLAN.md.",
+  "frozen_date": "2026-11-08"
+}

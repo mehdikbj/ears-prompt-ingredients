@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PURE-037",
+    "text": "The Unique Tag must be at most 18 characters long"
+  },
+  {
+    "id": "PURE-038",
+    "text": "The Item Detail Name must be unique across the inventory"
+  },
+  {
+    "id": "PURE-039",
+    "text": "If the „Other‟ reason is selected, the user must enter an additional comment"
+  },
+  {
+    "id": "PURE-040",
+    "text": "The original CRM acquisition data must be kept, not overridden by the values entered here"
+  },
+  {
+    "id": "PURE-041",
+    "text": "The sale price must not override the original item price in the inventory"
+  },
+  {
+    "id": "PURE-042",
+    "text": "The system must be available during normal Construction Junction operating hours."
+  },
+  {
+    "id": "PURE-043",
+    "text": "Access to the application by the Construction Junction staff must require user login."
+  },
+  {
+    "id": "PURE-044",
+    "text": "Department‟s Unique Tag must be unique across the inventory"
+  }
+]

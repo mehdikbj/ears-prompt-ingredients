@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PURE-017",
+    "text": "ETCS shall provide the driver with information to allow him to drive the train safely."
+  },
+  {
+    "id": "PURE-018",
+    "text": "The DMI shall indicate the result of the self-test."
+  },
+  {
+    "id": "PURE-019",
+    "text": "Exit from Shunting shall take place when the driver selects exit from shunting."
+  },
+  {
+    "id": "PURE-020",
+    "text": "The driver shall be able to release an ETCS emergency brake application when stationary."
+  },
+  {
+    "id": "PURE-021",
+    "text": "The character set used shall support different languages."
+  },
+  {
+    "id": "PURE-022",
+    "text": "If a train cannot stop at the proposed new target location it shall reject the request and keep the old target location."
+  }
+]

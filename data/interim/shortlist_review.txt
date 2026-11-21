@@ -1,0 +1,1186 @@
+
+================================================================================
+npac  (cap=12, shortlisted=30)
+================================================================================
+
+[2001 - npac [doc]__C1144] (labeled_id) heading: None
+  20% of all downloads as specified in R6-28.1, R6-28.2, R6-29.1 and R6-29.2 will be processed via range activations.
+
+[2001 - npac [doc]__C1161] (labeled_id) heading: None
+  R3‑11 NPAC SMS notification of LRNs and Service Provider data by Service Provider
+
+[2001 - npac [doc]__C1182] (labeled_id) heading: None
+  R4‑14 Error notification of invalid Service Provider ID or Name during Modify
+
+[2001 - npac [doc]__C1197] (labeled_id) heading: None
+  R4‑26.2 Results returned to Service Provider during a query
+
+[2001 - npac [doc]__C1213] (labeled_id) heading: None
+  R5-3.5 Cancel-Conflict Subscription Retention - Tunable Parameter Modification
+
+[2001 - npac [doc]__C1234] (labeled_id) heading: None
+  R5-18.6 Create Subscription Version - LRN Validation
+
+[2001 - npac [doc]__C1247] (labeled_id) heading: None
+  R5‑20.3 Create Subscription Version - Validation Failure - No Create
+
+[2001 - npac [doc]__C1261] (labeled_id) heading: None
+  R5‑23.5 Activation without Old Service Provider Authorization
+
+[2001 - npac [doc]__C1274] (labeled_id) heading: WSMSC SSN
+  R5-29.5 Modify Subscription Version - Status Change Cause Code Validation
+
+[2001 - npac [doc]__C1287] (labeled_id) heading: None
+  R5-40.4 Modify Active Subscription Version - Broadcast complete Time Stamp
+
+[2001 - npac [doc]__C1301] (labeled_id) heading: None
+  R5-45.6 Conflict Subscription Version - Inform Service Providers of Cancel Status
+
+[2001 - npac [doc]__C1314] (labeled_id) heading: None
+  R5‑57.1 Activate Subscription Version - Send to Local SMSs
+
+[2001 - npac [doc]__C1328] (labeled_id) heading: None
+  R5-60.5 Subscription Activation Retry Attempts - Tunable Parameter Default
+
+[2001 - npac [doc]__C1341] (labeled_id) heading: None
+  R5-64.1 Disconnect Subscription Version - Cancel Other Version Notification
+
+[2001 - npac [doc]__C1355] (labeled_id) heading: None
+  R5-68.3 Disconnect Subscription Version - Subscription Disconnect Retry Interval - Tunable Parameter
+
+[2001 - npac [doc]__C1368] (labeled_id) heading: None
+  R5-71.5 Cancel Subscription version- Error on Cancellation
+
+[2001 - npac [doc]__C1381] (labeled_id) heading: ISVM SSN
+  R5‑75 Query Subscription Version -No Data Found
+
+[2001 - npac [doc]__C1409] (labeled_id) heading: None
+  R7‑16 Passwords, Encrypted - Privileged Users Access Control
+
+[2001 - npac [doc]__C1433] (labeled_id) heading: None
+  R7‑33.1 System Access - User Authentication Failure
+
+[2001 - npac [doc]__C1449] (labeled_id) heading: None
+  R7‑42.2 System Access - Per-Port Basis
+
+[2001 - npac [doc]__C1465] (labeled_id) heading: None
+  R7-53.3 Authorized User Access to Data
+
+[2001 - npac [doc]__C1500] (labeled_id) heading: None
+  R7-77.3 Exception Reports on Communication Failures
+
+[2001 - npac [doc]__C1549] (labeled_id) heading: None
+  R7‑111.1 New Encryption Key Can Be Chosen
+
+[2001 - npac [doc]__C1565] (labeled_id) heading: None
+  R8‑12 NPAC Personnel Cancel of an Audit
+
+[2001 - npac [doc]__C1585] (labeled_id) heading: None
+  R9‑4 NPAC Personnel Create Customized Reports
+
+[2001 - npac [doc]__C1604] (labeled_id) heading: None
+  NPAC SMS shall sort the report listed in RR9-16, in the following order: (Previously R-141) New Service Provider SPID (primary sort) TN (secondary sort)
+
+[2001 - npac [doc]__C1635] (labeled_id) heading: None
+  R11‑6 Generating Usage Measurements for the Number of Messages Downloaded
+
+[2001 - npac [doc]__C1652] (labeled_id) heading: RX3-2
+  R3‑6.1 (Duplicate – refer to R3-7.2)
+
+[2001 - npac [doc]__C1668] (labeled_id) heading: RR5-20
+  R5-24.3 (Duplicate – refer to R5-27 and R5-28)
+
+[2001 - npac [doc]__C1681] (labeled_id) heading: None
+  R7-59 (Duplicate – refer to R7-53.3)
+
+================================================================================
+tcs  (cap=12, shortlisted=30)
+================================================================================
+
+[1999 - tcs__X0025] (xml_text_body_requirements_section) heading: Engineering Requirements
+  The TCS system will be capable of controlling the Predator and Outrider AVs with a single control system, using existing military services standard hardware and software, and supporting interfaces with various C4I systems.
+
+[1999 - tcs__X0045] (xml_text_body_requirements_section) heading: Engineering Requirements > Required States And Modes
+  [SSS015] Figure 3.1-1 shows the existing states of the TCS.
+
+[1999 - tcs__X0070] (xml_text_body_requirements_section) heading: Engineering Requirements > Required States And Modes > Operations State > Normal Operations Mode
+  In the Normal Operations Mode the TCS shall support the following functions: [SSS037]
+
+[1999 - tcs__X0107] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > Mission Planning Function
+  [SSS058] The TCS mission planning function shall provide a graphical user interface that gives the operator the ability to define waypoints on a map based display using a pointing device with full keyset redundancy.
+
+[1999 - tcs__X0132] (xml_item_requirements_section) heading: Engineering Requirements > System Capability Requirements > Mission Planning Function > Flight Route Planning Capability
+  Minimum data link reception altitude calculations for line of sight flights. [SSS554]
+
+[1999 - tcs__X0156] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > Mission Control And Monitoring Functions
+  The TCS will have the capability to control and monitor an AV, payload, data link, and C4I interfaces during the execution of a mission.
+
+[1999 - tcs__X0179] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > Mission Control And Monitoring Functions > AV Control And Monitoring Capability > AV Navigation Control Task
+  The TCS shall have the capability to command the AV to use the navigation methods inherent to the selected AV.
+
+[1999 - tcs__X0205] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > Mission Control And Monitoring Functions > AV Control And Monitoring Capability > AV Monitoring Task > AV Monitoring Displays
+  [SSS146] TCS shall display a LOL timer to the operator initiating a LOL onset.
+
+[1999 - tcs__X0231] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > Mission Control And Monitoring Functions > Data terminal Control And Monitoring Capability > Data Terminal Control Task
+  [SSS163] The TCS shall support a LOS data link and SATCOM data link capability.
+
+[1999 - tcs__X0256] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > Payload Product Management Function
+  The payload product includes the payload sensor output and the appropriate AV and payload telemetry data.
+
+[1999 - tcs__X0278] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > Payload Product Management Function > Payload Product Exploitation Capability
+  The image enhancement capability shall include contrast, brightness, edge enhancement, and sharpness.
+
+[1999 - tcs__X0304] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > C4I System Interface Function > C4I Interface Control Capability
+  The TCS will have the capability to manage all operational C4I interfaces across all 5 levels of interaction.
+
+[1999 - tcs__X0333] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > C4I System Interface Function > C4I Interface Data Processing Capability > C4I Analog Interface Data Processing Capability
+  Receive incoming annotated as well as un-annotated analog imagery [SSS238]
+
+[1999 - tcs__X0361] (xml_text_body_requirements_section) heading: Engineering Requirements > System Capability Requirements > Software Upgrade Function
+  [SSS278] As a minimum, the TCS shall restrict Operator access to this capability via password protection.
+
+[1999 - tcs__X0385] (xml_text_body_requirements_section) heading: Engineering Requirements > System External Interface Requirements > Interface Identification > TCS to C4I > TCS to JMCIS
+  The TCS shall provide the necessary hardware and software functionality to allow the TCS to integrate with JMCIS.
+
+[1999 - tcs__X0405] (xml_text_body_requirements_section) heading: Engineering Requirements > System External Interface Requirements > Interface Identification > TCS to C4I > TCS to CCTV > TCS to JDISS > TCS to TES
+  The TCS shall provide the necessary hardware and software functionality to allow the TCS to integrate with TES.
+
+[1999 - tcs__X0427] (xml_text_body_requirements_section) heading: Engineering Requirements > System External Interface Requirements > Interface Identification > TCS to C4I > TCS to CCTV > TCS to DT Control
+  Figure 3.3.1.2-1 illustrates the TCS to DT control interface.
+
+[1999 - tcs__X0447] (xml_text_body_requirements_section) heading: Engineering Requirements > System External Interface Requirements > Interface Identification > TCS to Geopositional Data
+  Details of the Tactical Control System (TCS) to external power interface will be defined in the TCS to Geopositional Data IDD, TCS 243.
+
+[1999 - tcs__X0476] (xml_text_body_requirements_section) heading: Engineering Requirements > System Internal Interface Requirements > VCR
+  The TCS will provide an interface between the TCS and a video cassette recorder.
+
+[1999 - tcs__X0502] (xml_text_body_requirements_section) heading: Engineering Requirements > Safety Requirements > Air Vehicle Safety
+  [SSS347] The TCS shall provide adequate capability to allow the operator to operate each UAV within its certified operational flight envelope.
+
+[1999 - tcs__X0526] (xml_text_body_requirements_section) heading: Engineering Requirements > Security And Privacy Requirements > Computer Security
+  The TCS data sensitivities shall be determined by the data sensitivities of the systems with which it interfaces, to including the air vehicles, payloads, and C4I systems.
+
+[1999 - tcs__X0554] (xml_text_body_requirements_section) heading: Engineering Requirements > Resource Requirements > Hardware Requirements > Power
+  The TCS shall use standard military worldwide 110/220 volt 50/60 hertz generators and commercial power sources.
+
+[1999 - tcs__X0578] (xml_text_body_requirements_section) heading: Engineering Requirements > Resource Requirements > Computer Software Requirements
+  The TCS software shall restrict the operator(s) from exercising levels of interaction not achievable by the system.
+
+[1999 - tcs__X0609] (xml_text_body_requirements_section) heading: Engineering Requirements > System Quality Factors > Flexibility
+  [SSS416] TCS software flexibility and expandability shall be provided through use of the DII COE and through use of standardized software development practices.
+
+[1999 - tcs__X0635] (xml_item_requirements_section) heading: Engineering Requirements > Design And Construction Constraints > Documentation
+  The Software Design Document (SDD) (1 for each CSCI)
+
+[1999 - tcs__X0658] (xml_text_body_requirements_section) heading: Engineering Requirements > Design And Construction Constraints > Endurance
+  The TCS shall be capable of operating continuously in functional Operation Mode for a minimum of 72 hours.
+
+[1999 - tcs__X0679] (xml_text_body_requirements_section) heading: Engineering Requirements > Personnel-Related requirements > Human Factors Engineering (HFE)
+  The TCS shall facilitate Human-Computer Interfaces (HCIs) that support operation of all system modes, functions, and capabilities.
+
+[1999 - tcs__X0702] (xml_text_body_requirements_section) heading: Engineering Requirements > Personnel-Related requirements > Human Factors Engineering (HFE)
+  [SSS486] For AV safety as well as mission-critical Warnings, the TCS HCI shall provide a default selection as well as an override option, along with a selection of adaptive responses, and the minimum information necessary to assist the operator in responding quickly and adaptively to the emergency.
+
+[1999 - tcs__X0723] (xml_text_body_requirements_section) heading: Engineering Requirements > Training Related Requirements
+  [SSS500] Training shall be adequate to maintain operator and maintainer skills and proficiencies.
+
+[1999 - tcs__X0745] (xml_text_body_requirements_section) heading: Engineering Requirements > Logistics-Related Requirements > Transportability
+  [SSS516] The TCS shall be transported into the theater as an organic component of the operational UAV system being deployed.
+
+================================================================================
+nasa_x38  (cap=10, shortlisted=25)
+================================================================================
+
+[2000 - nasa x38 [doc]__C0001] (modal_verb) heading: REQUIREMENTS
+  Whenever a power-on reset occurs, System Initialization shall [SRS194] perform the following functions.
+
+[2000 - nasa x38 [doc]__C0020] (modal_verb) heading: None
+  The scheduler shall [SRS197] support up to 3 rate groups per vehicle mode.
+
+[2000 - nasa x38 [doc]__C0038] (modal_verb) heading: None
+  The scheduler shall [SRS034] take no longer than 1 millisecond to execute scheduler and Time Services FTSS overhead tasks in each rate group.
+
+[2000 - nasa x38 [doc]__C0058] (modal_verb) heading: None
+  Communication services shall [SRS050] restrict the use of "immediate" message passing services between virtual groups (from FCP to ICP) to tasks running in the highest rate group on the FCP.
+
+[2000 - nasa x38 [doc]__C0079] (modal_verb) heading: None
+  The FTSS shall [SRS262] configure each FCP to continue processing if any of the Power-up or Initial BIT tests fail.
+
+[2000 - nasa x38 [doc]__C0100] (modal_verb) heading: None
+  RAM scrub shall [SRS044] report detected errors to the application, congruently on all channels, via an API service for inclusion in the telemetry stream.
+
+[2000 - nasa x38 [doc]__C0118] (modal_verb) heading: None
+  (Note that NEFU recovery does not depend on whether alignment is permitted.) Redundancy Management shall [SRS129] initiate transient NE recovery to restore Byzantine-resilient communications, if alignment is permitted.
+
+[2000 - nasa x38 [doc]__C0138] (modal_verb) heading: None
+  The FTSS API shall [SRS217] specify a memory map that provides the boundaries for congruent aligned memory, congruent initialized memory, and non-congruent memory.
+
+[2000 - nasa x38 [doc]__C0159] (modal_verb) heading: None
+  In all error cases, Support Services shall [SRS222] attempt to choose an error-free FCC-MPCC path, switching back and forth between channels if necessary.
+
+[2000 - nasa x38 [doc]__C0177] (modal_verb) heading: None
+  In addition, the FTSS software shall [SRS280] provide up to 600 bits of start-up data that indicates the state of the FTPP system during start-up.
+
+[2000 - nasa x38 [doc]__C0197] (modal_verb) heading: None
+  Packaging Requirements FTSS deliveries shall [SRS252] be made using CD ROM media.
+
+[2000 - nasa x38 [doc]__C0216] (modal_verb) heading: SRS109
+  SRS043, SRS091, SRS093, SRS094, SRS095, SRS096, SRS102, SRS104, SRS106, SRS109, SRS128, SRS183, SRS184, SRS187 SRS235, SRS282, SRS283, SRS281 3.1 FTPP System Requirements The FTPP system shall (3.1.18) be capable of powering up and operating with any combination of 3 of the 5 FCR's active.
+
+[2000 - nasa x38 [doc]__C0234] (modal_verb) heading: None
+  hw 3.2.2.3 Initial Synchronization (ISYNC) The maximum time-out value shall (3.2.2.3.7) be 327.68 microseconds (256 counts of the least significant bit of the fault tolerant clock which is 1.28 microseconds).
+
+[2000 - nasa x38 [doc]__C0253] (modal_verb) heading: None
+  hw 3.2.2.6 Error Syndrome Reports When a majority, but not a unanimity, of FCP members are observed with packets in their output buffers, a time-out shall (3.2.2.6.7) be initiated.
+
+[2000 - nasa x38 [doc]__C0271] (modal_verb) heading: None
+  hw 3.2.3.1.1 Prototype NE Physical Characteristics The storage temperature range shall (3.2.3.1.1.4) be from - 30º to + 60º C.
+
+[2000 - nasa x38 [doc]__C0291] (modal_verb) heading: None
+  hw 3.2.3.1.3.1 Temperature The NE shall (3.2.3.1.3.1.2) operate with a worst case card edge thermal interface temperature of +65 °C for greater than 10 hours.
+
+[2000 - nasa x38 [doc]__C0314] (modal_verb) heading: None
+  NA 3.2.4 Miscellaneous NE Requirements Each NE and flight cable assembly shall (3.2.4.2) be identified by a part or type number and a unique serial number, consistent with the configuration management system and the specification for the contract.
+
+[2000 - nasa x38 [doc]__C0332] (modal_verb) heading: SRS288
+  SRS288 3.3.2 Start Up The FTPP system shall (3.3.2.32) configure the Radstone processor to continue processing if any of the Power-up tests or Initial BIT tests mentioned in Table 3.3.2.2, ICP IBIT Table, fail.
+
+[2000 - nasa x38 [doc]__C0350] (modal_verb) heading: SRS008
+  SRS008 3.3.2 Start Up Start Up shall (3.3.2.19) test to ensure that all four FCPs are synchronized.
+
+[2000 - nasa x38 [doc]__C0370] (modal_verb) heading: SRS270
+  SRS270 3.3.4 Scheduler The Scheduler in the FTPP shall (3.3.4.16) keep all redundant copies of a process, which are executing in different computers, in synchronization.
+
+[2000 - nasa x38 [doc]__C0388] (modal_verb) heading: SRS106
+  SRS106 3.3.5 Fault Detection, Identification, and Recovery If a second permanent FCP failure occurs, then FDIR shall (3.3.5.31) degrade the redundancy level of the FCP from 3 to 2 and operate in a degraded triplex mode.
+
+[2000 - nasa x38 [doc]__C0407] (modal_verb) heading: None
+  SRS062, SRS066 3.3.6 Communications Message passing communications primitives shall (3.3.6.9) be provided for task-to-task communication as well as for broadcast to all processors.
+
+[2000 - nasa x38 [doc]__C0427] (modal_verb) heading: None
+  SRS043, SRS044, SRS046, SRS217, SRS045, SRS186, SRS200, SRS203, SRS187 3.3.9 Memory Protection Memory shall (3.3.9.1) be categorized into congruent (identical data) and non-congruent (data that is not identical) memory.
+
+[2000 - nasa x38 [doc]__C0445] (modal_verb) heading: SRS161
+  SRS246, SRS248 3.3.10 Time Management The utility timer shall (3.3.10.24) be available via an FTSS API call(s).
+
+[2000 - nasa x38 [doc]__C0463] (modal_verb) heading: SRS249
+  SRS249 3.4.1.1 FCP-ICP Communication Architecture The FCP-ICP communications shall (3.4.1.1.1) provide the following capabilities (these are written from the viewpoint of the FCP): 1.
+
+================================================================================
+clarus_low  (cap=8, shortlisted=20)
+================================================================================
+
+[2005 - clarus low [pdf]__C0002] (modal_verb) heading: None
+  The Clarus system design must address how best to minimize these times to optimize the flow of data in a timely manner.
+
+[2005 - clarus low [pdf]__C0023] (modal_verb) heading: None
+  CAS, EMC, EMS, DOG F- The CAS shall be 213B1 configurable to allow new observation types to be implemented as they become available.
+
+[2005 - clarus low [pdf]__C0044] (modal_verb) heading: 4.2     Configuration & Administration User Interface (CAUI)
+  F-111 The Clarus system shall provide OCS QChS, H environmental data quality flags.
+
+[2005 - clarus low [pdf]__C0066] (modal_verb) heading: None
+  I-032C2 The CAUI shall enable administrators to assign system privileges.
+
+[2005 - clarus low [pdf]__C0086] (modal_verb) heading: None
+  F-214D1 CS shall accept surface condition Task Force Surface condition data may include, for H data derived from surface images.
+
+[2005 - clarus low [pdf]__C0107] (modal_verb) heading: None
+  F-271 The Clarus system shall accept ConOps CS Transit vehicles include watercraft H environmental data from transit §2.5.5 (ferries) and buses.
+
+[2005 - clarus low [pdf]__C0127] (modal_verb) heading: None
+  I-011 The Clarus system shall accept OCS CS Standard to be determined during design H data through a Clarus standard phase of this project.
+
+[2005 - clarus low [pdf]__C0149] (modal_verb) heading: None
+  Q- The watchdog service shall 012G1 monitor the overall Clarus system state.
+
+[2005 - clarus low [pdf]__C0169] (modal_verb) heading: None
+  F-213 The Clarus system shall allow ConOps §1, 2.4, 3.1 CS, QChS, Access could only be provided when L access to new surface QEDC, new data sources are established and transportation related observed QEDS, available.
+
+[2005 - clarus low [pdf]__C0189] (modal_verb) heading: 4.7     Qualified Environmental Data (QEDC)
+  ID Requirement Source Allocation Comment Criticality - QEDC F-111 The Clarus system shall OCS QChS, H provide environmental data CAUI, quality flags.
+
+[2005 - clarus low [pdf]__C0209] (modal_verb) heading: None
+  D-081 The Clarus system shall be OCS QEDS H able to notify subscribers when data sets become available.
+
+[2005 - clarus low [pdf]__C0229] (modal_verb) heading: None
+  F-811J1 QEDS shall be able to determine if an observation can be disseminated.
+
+[2005 - clarus low [pdf]__C0250] (modal_verb) heading: None
+  I-025J1 QEDS shall accept timestamp queries based on a single timestamp range.
+
+[2005 - clarus low [pdf]__C0270] (modal_verb) heading: None
+  P-025J1 QEDS shall respond to an environmental data request within one minute.
+
+[2005 - clarus low [pdf]__C0292] (modal_verb) heading: None
+  F-151 The Clarus system shall MHI QChS, CAS H record the methods applied when deriving quality checking information.
+
+[2005 - clarus low [pdf]__C0312] (modal_verb) heading: None
+  F-223 The Clarus system shall ConOps §3.4.3 CS,QChS H process data as they are received.
+
+[2005 - clarus low [pdf]__C0332] (modal_verb) heading: 4.11 Program Requirements
+  D- Clarus hosts shall be able to 011A4 aggregate environmental data from other Clarus hosts.
+
+[2005 - clarus low [pdf]__C0353] (modal_verb) heading: None
+  X- The contributors shall 20114 identify the intended use of their shared data and information.
+
+[2005 - clarus low [pdf]__C0373] (modal_verb) heading: 20139   the right to use the Clarus
+  X- The requestors shall have Task Force 20140 the right to use the Clarus system data and information for purposes delineated within the Clarus User Agreement.
+
+[2005 - clarus low [pdf]__C0393] (modal_verb) heading: None
+  X-311 The Clarus program shall OCS H test all software changes in the designated test environment before deployment to production.
+
+================================================================================
+eirene_fun_7  (cap=8, shortlisted=20)
+================================================================================
+
+[2007-eirene_fun_7-2__X0011] (xml_req_tag) heading: 2 Network requirements > 2.2 Voice services
+  2.2.1 This section describes the generic voice telephony services which are to be supported by the EIRENE network: (M) point-to-point voice calls; public emergency voice calls; broadcast voice calls; group voice calls; multi-party voice calls.
+
+[2007-eirene_fun_7-2__X0100] (xml_req_tag) heading: 2 Network requirements > 2.3 Data services
+  2.3.8 The network shall support data rates of at least 2.4 kbit/s. (M)
+
+[2007-eirene_fun_7-2__X0176] (xml_req_tag) heading: 2 Network requirements > 2.4 Call related services
+  2.4.14 It shall be possible for the user to re-join the call which is on hold at any time. (M) Call waiting
+
+[2007-eirene_fun_7-2__X0244] (xml_req_tag) heading: 3 Network configuration > 3.5 Broadcast and group call areas
+  3.5.8 Requirement 3.5.7 needs further technical specification changes before field implementation can be achieved. (I)
+
+[2007-eirene_fun_7-2__X0390] (xml_req_tag) heading: 5 Cab radio > 5.2 Functional requirements > 5.2.2 Driver call related functions
+  5.2.2.5 When the call is connected to the controller, an audible and visual indication is to be provided to the driver. The call shall be connected to the loudspeaker at the pre-set value. (M)
+
+[2007-eirene_fun_7-2__X0469] (xml_req_tag) heading: 5 Cab radio > 5.2 Functional requirements > 5.2.2 Driver call related functions
+  5.2.2.30 At any time during the call, the lead driver shall be able to remove a member of the group. (M)
+
+[2007-eirene_fun_7-2__X0552] (xml_req_tag) heading: 5 Cab radio > 5.2 Functional requirements > 5.2.2 Driver call related functions
+  5.2.2.53 The driver can not speak in a group call until permission is granted by the network after pushing the PTT button. (I)
+
+[2007-eirene_fun_7-2__X0640] (xml_req_tag) heading: 5 Cab radio > 5.2 Functional requirements
+  5.2.3.2 At the point of successful connection, the Cab radio will be able to receive all calls made using the Cab radios telephone number, engine number or appropriate group call numbers (including Railway emergency calls). (I)
+
+[2007-eirene_fun_7-2__X0739] (xml_req_tag) heading: 5 Cab radio > 5.2 Functional requirements
+  5.2.3.25vi The Cab radio should be capable of selecting the mobile radio network automatically from a list of suitable networks (see section 10.5). (O)
+
+[2007-eirene_fun_7-2__X0817] (xml_req_tag) heading: 5 Cab radio > 5.2 Functional requirements
+  5.2.3.43 The actions required from the driver will be as simple as possible. (I) Invoke tests
+
+[2007-eirene_fun_7-2__X0884] (xml_req_tag) heading: 5 Cab radio > 5.3 Environmental and physical requirements
+  5.3.4 Ease of maintenance should be taken into account in the design and installation of radio equipment. For example, maintenance access to antennas on vehicles should be provided. (I) Electrical
+
+[2007-eirene_fun_7-2__X0931] (xml_req_tag) heading: 5 Cab radio > 5.7 Driver safety device interface
+  5.7.2 The activation of the driver safety device shall automatically trigger the Cab radio to send a data message. (M)
+
+[2007-eirene_fun_7-2__X1143] (xml_req_tag) heading: 7 Operational radio > 7.2 Operational radio functions
+  7.2.2.15 A short audible and visual indication of the incoming call shall be provided. (M)
+
+[2007-eirene_fun_7-2__X1193] (xml_req_tag) heading: 7 Operational radio > 7.2 Operational radio functions
+  7.2.3.10 It shall be possible to register and deregister a functional number in the following way: Initiated by the user and transmitted to the ground: user enters functional number which is transmitted to the network. (M)
+
+[2007-eirene_fun_7-2__X1257] (xml_req_tag) heading: 7 Operational radio > 7.4 Operational radio man-machine interface > 7.4.4 Indications
+  7.4.4.1 A visual and audible alarm shall be given when the remaining capacity of the battery is such as to enable only 10 minutes of full duplex call time. (M)
+
+[2007-eirene_fun_7-2__X1298] (xml_req_tag) heading: 9 Numbering plan > 9.2 Numbering plan requirements > 9.2.4 Use of shunting team, maintenance team or controller number
+  9.2.4.1 Every shunting team number shall be based on an association of: (M) service area identifier; shunting team identifier.
+
+[2007-eirene_fun_7-2__X1356] (xml_req_tag) heading: 10 Subscriber management > 10.5 Network selection list
+  10.5.2 Where EIRENE facilities are not available within the currently selected network, the user shall be given a visible indication. (M)
+
+[2007-eirene_fun_7-2__X1411] (xml_req_tag) heading: 11.3 Functional addressing registration procedures principles > 11.3.2 Registration
+  11.3.2.2i It should be possible for the system to prevent certain types of users from registering functional numbers that they are not authorised to use, for example: (O) train number; driver of train; shunting team leader.
+
+[2007-eirene_fun_7-2__X1483] (xml_req_tag) heading: 13 Railway emergency calls > 13.2 Management of Railway emergency calls > 13.2.2 Stage 1: Warning
+  13.2.2.2 A connection of Railway emergency priority (see section 10.2) shall be established to a pre-determined set of receiving mobiles and controller(s). (M)
+
+[2007-eirene_fun_7-2__X1533] (xml_req_tag) heading: 14 Shunting mode > 14.2 Functional requirements
+  14.2.2 Throughout the duration of the shunting group call, it shall be possible for any member of the shunting group to speak to all other members of the group, using the PTT function (as described in sections 5.2.2.53, 6.2.2.12 and 7.2.2.20), except during transmission of the link assurance signal. (M)
+
+================================================================================
+nde  (cap=8, shortlisted=20)
+================================================================================
+
+[2007 - nde [pdf]__C0002] (modal_verb) heading: 3.1.2 Degraded System Mode
+  3.1.2 Degraded System Mode The System shall provide the capability to operate in a Degraded System Mode, within which the system generates a subset of products based upon priority and availability of system resources.
+
+[2007 - nde [pdf]__C0011] (modal_verb) heading: 3.2.6 Data Product Generation
+  3.2.6 Data Product Generation The System shall be capable of generating Data Products.
+
+[2007 - nde [pdf]__C0020] (modal_verb) heading: 3.2.6.9 GRIB2 Data Format
+  3.2.6.9 GRIB2 Data Format The System shall be capable of reformatting Data Products into GRIB2.
+
+[2007 - nde [pdf]__C0029] (modal_verb) heading: 3.2.6.18 Data Product Recovery
+  3.2.6.18 Data Product Recovery The System shall be capable of generating Data Products within a time frame not to exceed the maximum user-specified shelf-life of the Data Product.
+
+[2007 - nde [pdf]__C0038] (modal_verb) heading: 3.2.10 System Status Notification
+  3.2.10 System Status Notification The System shall be capable of notifying registered users of the status of the System.
+
+[2007 - nde [pdf]__C0047] (modal_verb) heading: 3.2.16 Data Product Latency
+  3.2.16 Data Product Latency The System shall be capable of making products available for distribution according to customer- 15 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 specified latencies.
+
+[2007 - nde [pdf]__C0056] (modal_verb) heading: 3.3.1.5 Ad Hoc Requests to the IDPS
+  3.3.1.5 Ad Hoc Requests to the IDPS The System shall be capable of automatically submitting Ad Hoc Requests to the IDPS for retransmission of Data Products.
+
+[2007 - nde [pdf]__C0066] (modal_verb) heading: 3.4 Internal Interface Requirements
+  3.4 Internal Interface Requirements 3.4.1 Schedule Tasks The System shall be capable of executing tasks according to a schedule.
+
+[2007 - nde [pdf]__C0075] (modal_verb) heading: 3.6 Adaptation Requirements
+  3.6 Adaptation Requirements 3.6.1 Technology Updates The System shall be capable of accepting technology updates without System downtime.
+
+[2007 - nde [pdf]__C0084] (modal_verb) heading: 3.7.8 Integrity - Protect from Hardware Malfunction
+  3.7.8 Integrity - Protect from Hardware Malfunction The System shall be capable of protecting the integrity of NDE data in the event of a hardware malfunction such as a disk crash.
+
+[2007 - nde [pdf]__C0094] (modal_verb) heading: 3.9.4 Report on Events
+  3.9.4 Report on Events The System shall be capable of reporting on summary log events.
+
+[2007 - nde [pdf]__C0103] (modal_verb) heading: 3.10.1.4 Operations Monitoring Availability
+  3.10.1.4 Operations Monitoring Availability The NDE Operations Monitoring capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.
+
+[2007 - nde [pdf]__C0112] (modal_verb) heading: 3.10.4 Federal Enterprise Architecture
+  3.10.4 Federal Enterprise Architecture The System shall be compliant with the OMB Federal Enterprise Architecture (FEA) according to the documents dated December 2006, and available from http://www.whitehouse.gov/omb/egov/a-2- EAModelsNEW2.html .
+
+[2007 - nde [pdf]__C0140] (modal_verb) heading: None
+  responses SM 21 All The contractor shall Completeness: All Completeness: correspondenc develop and implement electronic and Inspection of e regarding the procedures to log and written correspondence ESPC is kept track all correspondence correspondence is by date, author, retained and and subject accessible for inspection.
+
+[2007 - nde [pdf]__C0168] (modal_verb) heading: None
+  The supplied algorithms and NOAA-unique utilization of NOAA- products must supplied data.
+
+[2007 - nde [pdf]__C0197] (modal_verb) heading: None
+  ESPC The Contractor shall An ESPC system, or Annual self- development, follow ESPC data, will never be assessment of ESPC test, and (DOC/NOAA/NESDIS) compromised and the systems.
+
+[2007 - nde [pdf]__C0218] (modal_verb) heading: None
+  All user calls for The Contractor shall All calls will be Customer surveys and support or inquiry are provide help desk routed to appropriate morning reports.
+
+[2007 - nde [pdf]__C0242] (modal_verb) heading: None
+  personnel and design, and the be held within 120 - help desk staff tracking of Contractor shall days of Task Order and designated performance, and implement all award.
+
+[2007 - nde [pdf]__C0259] (modal_verb) heading: None
+  change is made AS3 ESPC will support The Contractor Automated testing Logs automated testing shall assist in and reprocessing of Feedback from and reprocessing of implementing data is performed GTMs and users data, when needed.
+
+[2007 - nde [pdf]__C0275] (modal_verb) heading: None
+  shall comply with software by GTM or standards.
+
+================================================================================
+ertms  (cap=6, shortlisted=15)
+================================================================================
+
+[2007-ertms__X0003] (xml_req_tag) heading: General requirements > Basic functioning
+  ETCS shall provide the driver with information to allow him to drive the train safely.
+
+[2007-ertms__X0048] (xml_req_tag) heading: General requirements > Operational states
+  In case the transition has to be acknowledged and the driver fails to acknowledge as required, the ETCS shall initiate a brake application
+
+[2007-ertms__X0072] (xml_req_tag) heading: Functions > Operational Functions > On Board Equipment self Test
+  The DMI shall indicate the result of the self-test.
+
+[2007-ertms__X0097] (xml_req_tag) heading: Functions > Operational Functions > Train and driver Data Entry
+  If the onboard fails to contact the RBC when awakening the driver shall be asked to enter the RBC contact details
+
+[2007-ertms__X0120] (xml_req_tag) heading: Functions > Operational Functions > Shunting operation
+  Exit from Shunting shall take place when the driver selects exit from shunting.
+
+[2007-ertms__X0144] (xml_req_tag) heading: Functions > Operational Functions > Full Supervision operation
+  The trainborne equipment shall remain in Full Supervision until the trainborne equipment is not active any longer, when Shunting is selected or when Partial Supervision information is received.
+
+[2007-ertms__X0167] (xml_req_tag) heading: Functions > Infrastructure Functions
+  It shall be possible to send information on adhesion conditions from trackside.
+
+[2007-ertms__X0193] (xml_req_tag) heading: Functions > Infrastructure Functions > Supervision of driving into a section of track which could be occupied (On Sight operation)
+  The target distance shall not be shown on the DMI unless selected by the driver.
+
+[2007-ertms__X0222] (xml_req_tag) heading: Functions > Trainborne Functions > Release speed calculation
+  If the release speed is calculated on board it shall ensure that the train will stop before reaching the danger point
+
+[2007-ertms__X0254] (xml_req_tag) heading: Functions > Trainborne Functions > Indication displayed on the DMI > Supervision of movement authorities and speed limits
+  The driver shall be able to release an ETCS emergency brake application when stationary.
+
+[2007-ertms__X0286] (xml_req_tag) heading: Functions > Special Operations > Using multiple traction units
+  The train trip function 4.6.12 shall be suppressed in traction unit(s) with in-operative cabs.
+
+[2007-ertms__X0308] (xml_req_tag) heading: Functions > Functions required in the event of incidents or other (non ETCS) system failures > Passing a stop signal with restricted movement authority
+  The train shall be capable of receiving any track-to-train information intended and relevant for this train including movement authority.
+
+[2007-ertms__X0335] (xml_req_tag) heading: Functions > Protection Functions > Train trip
+  When the traction unit is stationary the driver shall be required to acknowledge the train trip condition. This acknowledgement will release the emergency brake.
+
+[2007-ertms__X0363] (xml_req_tag) heading: Functions > Additional Functions > Plain text transmission
+  The character set used shall support different languages.
+
+[2007-ertms__X0387] (xml_req_tag) heading: Functions > Functions primarily related to RBC > Revocation of a Movement Authority
+  If a train cannot stop at the proposed new target location it shall reject the request and keep the old target location.
+
+================================================================================
+pontis  (cap=8, shortlisted=20)
+================================================================================
+
+[2005 - pontis [pdf]__C0201] (labeled_id) heading: None
+  The numbering convention below is to first identify the use case e.g., UC-1 View
+
+[2005 - pontis [pdf]__C0010] (modal_verb) heading: None
+  Pontis must observe industry standard protocols in this regard and avoid vendor specific implementation approaches.
+
+[2005 - pontis [pdf]__C0021] (modal_verb) heading: 1.2       The user shall be able to switch between predefined structure lists.
+  1.2 The user shall be able to switch between predefined structure lists.
+
+[2005 - pontis [pdf]__C0030] (modal_verb) heading: None
+  1.8 The user shall be able to select bridges on a supported map display and generate a bridge list for use within Pontis, for example, to perform a simulation analysis or to generate an inspection roster.
+
+[2005 - pontis [pdf]__C0040] (modal_verb) heading: None
+  UC-3 Generate Predefined Reports 3.1 The user shall be able to select and execute predefined reports to view bridge data, project data, preservation model data, program simulation results, and configuration data.
+
+[2005 - pontis [pdf]__C0049] (modal_verb) heading: 4.2        BRIDGE INVENTORY & INSPECTION
+  5.2 The user shall be able to create a new structure by copying all data of an existing structure.
+
+[2005 - pontis [pdf]__C0059] (modal_verb) heading: 6.1       The user shall be able to create a new inspection.
+  6.5 The user shall have the option to copy the notes from previous inspection when creating a new inspection.
+
+[2005 - pontis [pdf]__C0072] (modal_verb) heading: 6.17      The system shall provide an inspection scheduling tool.13
+  6.19 Privileged users shall be able to delete an existing inspection unless it is “locked down”.
+
+[2005 - pontis [pdf]__C0082] (modal_verb) heading: None
+  7.6 The system shall be capable of prompting users when the dependent fields for ratings are changed and offer the user option to recalculate the ratings.
+
+[2005 - pontis [pdf]__C0091] (modal_verb) heading: 7.6      The system shall be capable of using the transition probabilities and
+  7.6 The system shall be capable of using the transition probabilities and preservation action costs to develop an optimal preservation policy as detailed in the Pontis Technical Manual.
+
+[2005 - pontis [pdf]__C0101] (modal_verb) heading: 4.4         PROGRAM SIMULATION16
+  10.3 The user shall be able to modify the technical parameters governing the simulation, including the parameters of the improvement model and the simulation rules.
+
+[2005 - pontis [pdf]__C0110] (modal_verb) heading: 13.2     The user shall be able to edit or delete existing programs.
+  UC-14 Create/Edit Projects 14.1 The user shall be able to create new projects by manually entering the project information.
+
+[2005 - pontis [pdf]__C0119] (modal_verb) heading: 4.6         DATA MANAGEMENT
+  4.6 DATA MANAGEMENT UC-15 Perform Data Validation 15.1 The system shall be capable of performing single-field and cross-field validation on NBI data items in batch mode.
+
+[2005 - pontis [pdf]__C0128] (modal_verb) heading: 16.1     The user shall be able to exchange data in NBI format.
+  16.2 The user shall be able to exchange data in PDI format as specified in the Pontis Technical Manual.
+
+[2005 - pontis [pdf]__C0139] (modal_verb) heading: 17.4         The user shall be able to restore the archived data.
+  UC-18 BRIDGEWare Integration Support 18.1 The system shall continue to provide existing application integration capabilities with BRIDGEWare products.
+
+[2005 - pontis [pdf]__C0149] (modal_verb) heading: 20.3         The administrator shall be able to create bridge-level access filters.
+  20.5 The administrator shall be able to remove users from the system or disable access as appropriate.
+
+[2005 - pontis [pdf]__C0160] (modal_verb) heading: 22.6         The administrator shall be able to configure field-level security.
+  22.6 The administrator shall be able to configure field-level security.
+
+[2005 - pontis [pdf]__C0171] (modal_verb) heading: 22.17     The administrator shall be able to configure customizable options that affect
+  22.17 The administrator shall be able to configure customizable options that affect system operations.
+
+[2005 - pontis [pdf]__C0180] (modal_verb) heading: 24.3      The system shall provide application administrators with a secured tool for
+  4-13 Pontis 5.0 Functional Requirements Specification v1.0 24.4 The system shall provide a fixed set of predefined, secured, administration reports to document users, user roles, application privileges, user login sessions, checked-out bridges, and other key information necessary to manage application operation.
+
+[2005 - pontis [pdf]__C0190] (modal_verb) heading: None
+  During normal times of operation, Pontis shall achieve 98 percent up time.
+
+================================================================================
+rlcs  (cap=6, shortlisted=15)
+================================================================================
+
+[2004 - rlcs [pdf]__C0195] (labeled_id) heading: None
+  CMS 5-8 SR 163 northbound RLCS Controlled
+
+[2004 - rlcs [pdf]__C0010] (modal_verb) heading: 3.2.1. Graphical User Interface (GUI)
+  Graphical User Interface (GUI) The system shall have a Graphical User Interface (GUI) that allows the operator to view system status, issue commands to change device status, configure the system, export log data, and generate reports.
+
+[2004 - rlcs [pdf]__C0021] (modal_verb) heading: 3.2.1.3.4. The RLCS software shall display information about active overrides: Which
+  The RLCS software shall display information about active overrides: Which are active, and which devices have no currently active 'rules protection' against erroneous opening/closing.
+
+[2004 - rlcs [pdf]__C0035] (modal_verb) heading: None
+  The configuration option shall also allow user accounts l to be changed remotely in the field units.
+
+[2004 - rlcs [pdf]__C0046] (modal_verb) heading: 3.2.1.9.   Report Screen
+  Report Screen The user shall be able to retrieve historic reports from the COTS reporting system based on date range and report name.
+
+[2004 - rlcs [pdf]__C0059] (modal_verb) heading: None
+  3.2.2.4 During ‘degraded’ mode, the system shall monitor device sensors at the frequency rate stored in the database to take effect only during ‘degraded’ mode.
+
+[2004 - rlcs [pdf]__C0071] (modal_verb) heading: 3.2.2.4.9 Process GUI Commands
+  3.2.2.4.9 Process GUI Commands 3.2.2.4.9.1 In order for a command to be processed from any workstation or controller, the MCU field device shall be in the “Auto” mode.
+
+[2004 - rlcs [pdf]__C0083] (modal_verb) heading: None
+  Updating non-volatile memory-based tables shall be sufficient to accommodate future changes to the roadway.
+
+[2004 - rlcs [pdf]__C0097] (modal_verb) heading: None
+  3.2.4.2 The RLCS application software shall Update and read password and device rule data in encrypted format.
+
+[2004 - rlcs [pdf]__C0109] (modal_verb) heading: 3.2.4.5.3 The system will provide for periodic verification that current, recomputed
+  If the failure occurs in checking the non-volatile memory items, the system shall will prevent the affected unit from being used in control sequences.
+
+[2004 - rlcs [pdf]__C0122] (modal_verb) heading: 3.3.2 User Interface (GUI)
+  Not including device and network response time, requests from the GUI for device status changes (control commands) shall not exceed 2 seconds.
+
+[2004 - rlcs [pdf]__C0141] (modal_verb) heading: 3.5.2 Security
+  3.5.2.1 The RLCS shall incorporate a database to store, process, and retrieve all data necessary to secure the system from unauthorized use.
+
+[2004 - rlcs [pdf]__C0156] (modal_verb) heading: 3.6.3.1 The RLCS shall support remote system administration and maintenance of the
+  3.6.3.2 The RLCS shall utilize an open architecture that is modular and scaleable.
+
+[2004 - rlcs [pdf]__C0170] (modal_verb) heading: 1. CMS
+  The system shall provide for a specific delay between the message change on each sign and the message change on the next downstream sign.
+
+[2004 - rlcs [pdf]__C0181] (modal_verb) heading: None
+  Safety screening shall be applied to all device commands at the originating control unit, and at all subordinate control units to which the device command or any of its subordinate device commands may be forwarded.
+
+================================================================================
+gemini  (cap=8, shortlisted=20)
+================================================================================
+
+[1995 - gemini__X0004] (xml_text_body_requirements_section) heading: General Description > User-level requirements > User Needs
+  Each class of users has different needs of the system.
+
+[1995 - gemini__X0064] (xml_text_body_requirements_section) heading: General Description > Observing model requirements > Remote operations
+  (There will always be support staff on-site during observations, however.) The requirements for supporting remote operations are:
+
+[1995 - gemini__X0097] (xml_text_body_requirements_section) heading: General Description > Observing model requirements > Remote operations > Multipoint Monitoring
+  The monitor's keyboard would not have any effect on the observer's environment
+
+[1995 - gemini__X0132] (xml_text_body_requirements_section) heading: General Description > General Softwar Requirements > Control information flow
+  These requirements apply to the commands and replies between sub-systems (including status information requests and replies), information ﬂow to and from on-line databases, and commands and software for the IOCs.
+
+[1995 - gemini__X0190] (xml_text_body_requirements_section) heading: General Requirements > Data Specifications > Control Information Flow
+  In particular also, the meteorological information coming from a weather station should be available centrally.
+
+[1995 - gemini__X0220] (xml_text_body_requirements_section) heading: General Requirements > Operation > privilege and protection levels > Privileges
+  A further subdivision within the levels can be achieved by implementing privileges associated with categories of users or with the location of the user station (local or remote).
+
+[1995 - gemini__X0250] (xml_text_body_requirements_section) heading: General Requirements > External Iterface Requirements > User Interface (UIF)
+  It should also be network transparent so that it does not matter where it is being run.
+
+[1995 - gemini__X0287] (xml_text_body_requirements_section) heading: General Requirements > External Iterface Requirements > Software iterfaces > On-line image processing interfaces
+  remove instrument and observatory effects so the observer can make decisions about further observing actions).
+
+[1995 - gemini__X0321] (xml_text_body_requirements_section) heading: General Requirements > External Iterface Requirements > Communication interface > Local area network (LAN)
+  All essential tasks, not including remote observing, must take place on resources controlled by the project (such as leased lines).
+
+[1995 - gemini__X0352] (xml_text_body_requirements_section) heading: General Requirements > General constraints > Hardware constraints
+  In any case, remote operation must include remote monitoring from the Gemini 8m Telescopes base facilities, together with access tools for diagnostic and test use.
+
+[1995 - gemini__X0402] (xml_item_requirements_section) heading: General Requirements > Attributes > Supportability > Issues
+  turnaround time to ﬁx and maintain system
+
+[1995 - gemini__X0451] (xml_item_requirements_section) heading: General Requirements > Attributes > Maintainability > Maintenance Requirements
+  Monitor level Each subsystem should have a background task running whenever that subsystem is operational, performing such tasks as checking power supply levels, temperatures, performance, correct responses to commands. The OCS is to be notiﬁed of any detected problems.
+
+[1995 - gemini__X0514] (xml_text_body_requirements_section) heading: General Requirements > Attributes > Security and Safety > Security and Safety Requirements
+  In general this will require mechanical hard stops, electrical interlocks, electrical hard limit switches, soft limit switches, software limits, and watch dogs,.
+
+[1995 - gemini__X0551] (xml_text_body_requirements_section) heading: General Requirements > Attributes > testabilty
+  This plan will address all areas of testing from design, acceptance, commissioning through to hand-over.
+
+[1995 - gemini__X0596] (xml_text_body_requirements_section) heading: General Requirements > Development Environment
+  The choice of such an environment has to be deﬁned, together with the choice of all the Gemini 8m Telescopes standards, but excluding the target computer hardware, in Section 4.2.5 on page 4- 7.
+
+[1995 - gemini__X0633] (xml_item_requirements_section) heading: Specific Requirements > Other Controls and Software Requirements > On-line database subsystems
+  The database must support both remote access and distributed data.
+
+[1995 - gemini__X0678] (xml_text_body_requirements_section) heading: Specific Requirements > Other Controls and Software Requirements > Standards > Software standards > Software methods
+  Functional analysis is done using a CASE tool suitable for use with Ward/Mellor techniques, such as TSEE, by Westmount Technologies.
+
+[1995 - gemini__X0714] (xml_item_requirements_section) heading: Specific Requirements > Other Controls and Software Requirements > Standards > Hardware standards > Harware requirements
+  SCSI-interface peripherals are to be available.
+
+[1995 - gemini__X0748] (xml_text_body_requirements_section) heading: Specific Requirements > User Requirements for EPICS developers > EPICS Components
+  Note: The bulk of this section is taken from the EPICS document ‘EPICS Overview’.
+
+[1995 - gemini__X0792] (xml_item_requirements_section) heading: Specific Requirements > User Requirements for EPICS developers > Gemini Breakdown of tasks > SIC work package only
+  Record Support, Device Support, and Device Drivers For Gemini this entails support for new devices: PMAC, VMIC5578, BANCOMM
+
+================================================================================
+peppol  (cap=8, shortlisted=20)
+================================================================================
+
+[2009 - peppol approved__X0298] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements
+  Interoperability is a major topic being discussed in eGovernment for a while now.
+
+[2009 - peppol approved__X0363] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Organisational Framework > Organisational requirements > Conformance of national solution with pre-VCD mapping tool defined in stage 1
+  Requirement Any national pilot solution that will be developed in the context of PEPPOL WP2 has to follow the pre- VCD mapping defined in stage 1.
+
+[2009 - peppol approved__X0401] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Organisational Framework > Organisational requirements > Principle for selecting issuing body
+  Measurement Functionality and interface to select issuing services
+
+[2009 - peppol approved__X0451] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Semantic framework > Patterns for Data Representation and Utilisation
+  To further clarify their interrelation we take the research by (Russel N., Hofsteded A.H.M.
+
+[2009 - peppol approved__X0478] (xml_item_requirements_section) heading: Legal, organisational and semantic framework and requirements > Semantic framework > Relevant standards, methodologies and initiatives for the VCD package > Methodical Framework
+  Evidence of a company’s identity (Extracts of commercial records or equivalent documents)
+
+[2009 - peppol approved__X0504] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Semantic framework > Semantic Requirements > Method for ensuring “Level of completeness”
+  The range of attestations varies from selfdeclarations to official attestations/certificates issued by public authorities.
+
+[2009 - peppol approved__X0529] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Semantic framework > Semantic Requirements > Implementation approach with regard to stages of maturity
+  Measurement Pre-VCD mapping tool filled with national instances Requirement The VCD simple package (Stage 2) lays the basic ground for the creation of VCDs and the implementation of other services mentioned in stages 3 and 4 so the key concepts of Stage 2 MUST be implemented in each Member States.
+
+[2009 - peppol approved__X0555] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Semantic framework > Semantic Requirements > Classification schemes awareness
+  2009) Requirement Classification schemes for goods, services and code lists SHOULD be publicly available and identified in the document objects.
+
+[2009 - peppol approved__X0591] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Legal framework > Legal Requirements > Legal effect of subset criteria and evidences specified by the contracting autho
+  subsection 3.1.2.8: “Specification of criteria subset by the Procurer”; and subsection 3.1.2.9: “Provision of criteria subset by the Economic Operator” Requirement The contracting authority SHOULD specify a subset of evidences from the superset evidences that are relevant to a specific Call for Tender.
+
+[2009 - peppol approved__X0636] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Legal framework > Legal Requirements > Legal requirements regarding service providers > National Service Providers
+  In particular a National Service Provider refers to any VCD system and VCD package that is developed within a Member State.
+
+[2009 - peppol approved__X0660] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Legal framework > Legal Requirements > Legal requirements regarding data protection
+  Requirement Relevant regulations of national data protection acts MUST be analysed and considered.
+
+[2009 - peppol approved__X0685] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Legal framework > Legal Requirements > Legal Validity
+  Requirement A process for document handling compliant with the relevant legal regulations MUST be defined (especially with respect to the data protection acts).
+
+[2009 - peppol approved__X0743] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Technical Framework (Infrastructure specific) > Technical Requirements > Identity
+  2009) Requirement Every party participating MUST be uniquely identifiable
+
+[2009 - peppol approved__X0770] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Technical Framework (Infrastructure specific) > Technical Requirements > Use of PEPPOL infrastructure to submit a VCD (next to a bid)
+  Requirement The PEPPOL infrastructure MUST have the capability to submit a VCD to a contracting authority or tendering platform.
+
+[2009 - peppol approved__X0801] (xml_text_body_requirements_section) heading: Legal, organisational and semantic framework and requirements > Technical Framework (Infrastructure specific) > Technical Requirements > Security
+  Requirement Transport mechanisms between party’s addresses MUST be secure.
+
+[2009 - peppol approved__X0851] (xml_text_body_requirements_section) heading: Synthesis: Major interoperability requirements, SWOT and next steps > Major requirements for VCD interoperability
+  Pre-VCD mapping tool: Provides a widely available tool which contains the up-to-date mappings of European criteria and evidences.
+
+[2009 - peppol approved__X0875] (xml_text_body_requirements_section) heading: Synthesis: Major interoperability requirements, SWOT and next steps > Major requirements for VCD interoperability
+  Technical Framework: Referring to the PEPPOL infrastructure.
+
+[2009 - peppol approved__X0897] (xml_text_body_requirements_section) heading: Synthesis: Major interoperability requirements, SWOT and next steps > VCD concept and its Strengths, Weaknesses, Opportunities and Threats > Strength of the VCD concepts
+  Therefore the national focus of a VCD needs to be enhanced through a cross border perspective.
+
+[2009 - peppol approved__X0920] (xml_text_body_requirements_section) heading: Synthesis: Major interoperability requirements, SWOT and next steps > VCD concept and its Strengths, Weaknesses, Opportunities and Threats > Weaknesses of a VCD
+  Nevertheless such direct exchange is very difficult to establish because a lot of entities and attestation services have to be federated, access policies have to be developed, legal uncertainties have to be resolved and political guidelines have to be considered.
+
+[2009 - peppol approved__X0942] (xml_text_body_requirements_section) heading: Synthesis: Major interoperability requirements, SWOT and next steps > VCD concept and its Strengths, Weaknesses, Opportunities and Threats > Threats for a VCD in public procurement
+  Challenges to be dissolved when facing in particular the European perspectives of a VCD are mentioned by (Siemens_and_Time.lex 2008):
+
+================================================================================
+fishing  (cap=6, shortlisted=15)
+================================================================================
+
+[2010 - fishing [pdf]__C0001] (modal_verb) heading: None
+   Product Profile – The product profile is a questionnaire which must be completed by an ELSS supplier to list the mandatory, optional and conditional features supported in their product.
+
+[2010 - fishing [pdf]__C0007] (modal_verb) heading: 2.4         Capture Functions
+  2.4 Capture Functions The ELSS must provide data capture screens for the entry of the logbook, transhipment and landing declaration data that is required to be transmitted to the UK fisheries administrations’ ERS system.
+
+[2010 - fishing [pdf]__C0013] (modal_verb) heading: 2.5         Data Transmission
+  The subject header must consist of a character string containing ‘ERS – ‘ prefixed to the contents of the GBRRN attribute of the Electronic Logbook data being transmitted.
+
+[2010 - fishing [pdf]__C0022] (modal_verb) heading: 2.5.3       Data Deletions
+  All deletions must be easily identifiable within the ELSS user interface.
+
+[2010 - fishing [pdf]__C0030] (modal_verb) heading: None
+  o Each copy of the ELSS installed must be provided with a unique (internal?) number that is automatically entered into each transmission to identify the instance of the ELSS from which the report has been transmitted.
+
+[2010 - fishing [pdf]__C0035] (modal_verb) heading: None
+  Values must conform to UTC standards.) ers:OPS 06n Operation Time attribute OT The time of sending for this OPS message.
+
+[2010 - fishing [pdf]__C0048] (modal_verb) heading: None
+  Any C change of vessel master during a voyage must be notified in the next LOG message.
+
+[2010 - fishing [pdf]__C0053] (modal_verb) heading: None
+  Values must conform to UTC standards.) ers:FAR 48 Relevant area sub-declaration element RAS (See details of sub-elements and attributes CIF no catch of RAS).
+
+[2010 - fishing [pdf]__C0059] (modal_verb) heading: None
+  Must C vessel conform to the ISO alpha-3 country code.
+
+[2010 - fishing [pdf]__C0065] (modal_verb) heading: None
+  Values must conform to UTC standards.) ers:GBRCON 99d Time of arrival attribute GBRTI The estimated time of arrival at the control CIF Norway point.
+
+[2010 - fishing [pdf]__C0073] (modal_verb) heading: None
+  Values must conform to UTC standards.) ers:PNO 129 Port name attribute PO The port code for the port of arrival.
+
+[2010 - fishing [pdf]__C0080] (modal_verb) heading: 4.4.3.12 Landing Declaration (LAN)
+  Values must conform to UTC standards.) ers:LAN 151 Time attribute TI The time of the landing being reported.
+
+[2010 - fishing [pdf]__C0086] (modal_verb) heading: None
+  Values must conform to UTC standards.) ers:GER 186 POS sub-declaration element POS (See details of sub-elements and attributes C of POS) ers:GER 186a Gill net fleet retrieved attribute GBRGNFN Unique reference number identifying the CIF gill nets gill net fleet retrieved.
+
+[2010 - fishing [pdf]__C0092] (modal_verb) heading: 4.4.6 ELSS Capture Functions
+  Capture-002 Product MUST provide a means for fisherman to C manually enter required Electronic Logbook and Landing Declaration information.
+
+[2010 - fishing [pdf]__C0103] (modal_verb) heading: None
+  Frequency-004 Product MUST provide a means of sending the C Electronic Logbook before entering into port.
+
+================================================================================
+inventory_2_0  (cap=8, shortlisted=20)
+================================================================================
+
+[2009 - inventory 2.0 [pdf]__C0001] (modal_verb) heading: 3. Detailed Functional Requirements
+  Pre-conditions: Pre-conditions are conditions that must be true prior to beginning the use case and are assumed to be true throughout the use case.
+
+[2009 - inventory 2.0 [pdf]__C0005] (modal_verb) heading: 1.5. The Unique Tag must be at most 18 characters long
+  The Unique Tag must be at most 18 characters long 1.6.
+
+[2009 - inventory 2.0 [pdf]__C0009] (modal_verb) heading: 2.4. The Unique Tag must be at most 18 characters long
+  The Unique Tag must be at most 18 characters long 3.
+
+[2009 - inventory 2.0 [pdf]__C0013] (modal_verb) heading: 1.4. The Unique Tag must be at most 18 characters long
+  The Unique Tag must be at most 18 characters long 1.5.
+
+[2009 - inventory 2.0 [pdf]__C0017] (modal_verb) heading: 2.4. The Unique Tag must be at most 18 characters long
+  The Unique Tag must be at most 18 characters long 2.5.
+
+[2009 - inventory 2.0 [pdf]__C0021] (modal_verb) heading: 4.6. If a new target Category is selected
+  If a new target Category is selected 4.6.1.User must enter 4.6.1.1.
+
+[2009 - inventory 2.0 [pdf]__C0025] (modal_verb) heading: 4.4. The Item Detail Name must be unique across the inventory
+  The Item Detail Name must be unique across the inventory 4.5.
+
+[2009 - inventory 2.0 [pdf]__C0029] (modal_verb) heading: 2.2.1.7.      Other (please explain)
+  Other (please explain) 2.2.2.If the „Other‟ reason is selected, the user must enter an additional comment 2.3.
+
+[2009 - inventory 2.0 [pdf]__C0033] (modal_verb) heading: None
+  The original CRM acquisition data must be kept, not overridden by the values entered here 3.9.7.
+
+[2009 - inventory 2.0 [pdf]__C0037] (modal_verb) heading: 1.2. Quantity on hand
+  The sale price must not override the original item price in the inventory 3.
+
+[2009 - inventory 2.0 [pdf]__C0041] (modal_verb) heading: 5.2. Availability
+  Availability For internal users: Donation/acquisition processing - The system must be available during normal Construction Junction operating hours.
+
+[2009 - inventory 2.0 [pdf]__C0045] (modal_verb) heading: 5.4. Security
+  Security Access to the application by the Construction Junction staff must require user login.
+
+[2009 - inventory 2.0 [pdf]__C0049] (modal_verb) heading: 4. Each matrix cell displays a department name
+  Each cell in the matrix must indicate in some visual form that it contains subcategories Confidential and Proprietary Page 38 of 62 November 9th, 2009 Inventory Management Software Requirements Specification Version 2.00 Figure 2 - Inventory Department View 12.
+
+[2009 - inventory 2.0 [pdf]__C0053] (modal_verb) heading: 3. The Department‟s Unique Tag must be unique across the inventory
+  The Department‟s Unique Tag must be unique across the inventory 4.
+
+[2009 - inventory 2.0 [pdf]__C0057] (modal_verb) heading: 8. The system must ask for confirmation before deleting a Department
+  The system must ask for confirmation before deleting a Department 5.6.1.3.
+
+[2009 - inventory 2.0 [pdf]__C0061] (modal_verb) heading: 4. The Unique Tag must be at most 18 characters long
+  There must be at least one slot available in the Category matrix at the level the new Category will be created to hold the new Category 6.
+
+[2009 - inventory 2.0 [pdf]__C0065] (modal_verb) heading: 6.1. User must enter
+  User must enter 6.1.1.Name 6.1.2.Unique Tag 6.1.3.Location of new category 7.
+
+[2009 - inventory 2.0 [pdf]__C0069] (modal_verb) heading: 1.2. Condition
+  When building the split item list, at least two items must exist in the list, including the original item 3.
+
+[2009 - inventory 2.0 [pdf]__C0073] (modal_verb) heading: 1.1. Constituent data between QuickBooks POS and Salesforce must be synchronized
+  Customer‟s sales history must be synchronized to QuickBooks POS and roll up in a similar fashion as donation statistics Confidential and Proprietary Page 58 of 62 November 9th, 2009 Inventory Management Software Requirements Specification Version 2.00 1.5.
+
+[2009 - inventory 2.0 [pdf]__C0077] (modal_verb) heading: 4.   Construction Junction website
+  The system must be able to provide the contents of the categorized inventory for viewing on the website, allowing users to create wish lists and purchase items online 4.2.
+
+================================================================================
+phin  (cap=8, shortlisted=20)
+================================================================================
+
+[2005 - phin__X0001] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS
+  The following requirements describe baseline functionality for any system(s) implemented to support Outbreak Management:
+
+[2005 - phin__X0009] (xml_item_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS
+  2.8 System Security and Availability: Security of OM data includes the protection of data from corruption and access by unauthorized individuals, as well as the protection of the actual systems supporting OM from sabotage or other failure. A plan must be established for continuing activities when systems supporting OM are unavailable.
+
+[2005 - phin__X0018] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE
+  Systems supporting OM should be capable of using configurable, domain-specific vocabulary.
+
+[2005 - phin__X0028] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data
+  A Subject ID should also be collected for animals in an OM investigation.
+
+[2005 - phin__X0037] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Health Event Data
+  Data describing the health event should be captured, including the reason for the investigation, the category of event (e.g.
+
+[2005 - phin__X0045] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data
+  Information about each leg of a trip, as well as the parent information about the trip, should be captured.
+
+[2005 - phin__X0057] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data
+  Systems supporting OM must allow for dynamic, event-specific case investigation data to be captured.
+
+[2005 - phin__X0067] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data
+  Exposure data related to both the potential source and the potential spread include the entity’s type, Subject ID, Contact ID, contact’s name and address, exposure dates and times, health status, and priority code.
+
+[2005 - phin__X0076] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Monitoring and Follow-up Data
+  Follow-up data may be received from take response exams of persons who received a countermeasure that requires such an exam (i.e., smallpox vaccination).
+
+[2005 - phin__X0085] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data
+  Food sample data should include information about the lot number, batch number, manufacturer name, shipping invoice, temperature, sample type (e.g., dairy – milk, red meat, spice), and product storage condition.
+
+[2005 - phin__X0094] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data
+  More information about receiving and linking laboratory test requests is found in section 2.5 System Integration and Data Exchange of this document.
+
+[2005 - phin__X0104] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Adverse Event Data
+  For specific data requirements regarding adverse event data, please reference PHIN Preparedness Countermeasure/Response Administration Functional Requirements and Process Flows, available at www.cdc.gov/phin.
+
+[2005 - phin__X0113] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation
+  Systems supporting OM must provide the ability to control the configuration of and revisions to investigation-specific questionnaires.
+
+[2005 - phin__X0121] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking
+  Entity-to-epi data links must match the entity to their symptoms, survey questions, specimens/samples collected, laboratory results, and prophylaxis and treatment data.
+
+[2005 - phin__X0130] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Contact Exposure Tracing
+  Systems supporting OM must support contact exposure tracing by allowing one contact to be linked to multiple cases, and allowing multiple contacts to be linked to a single case.
+
+[2005 - phin__X0139] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION
+  Systems supporting OM should have the ability to produce lists of action items (e.g., to do lists).
+
+[2005 - phin__X0148] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE
+  Message construction and parsing, and secure data transport requirements that span PHIN functional areas are separately defined and should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.
+
+[2005 - phin__X0157] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE
+  Systems supporting OM should be able to exchange messages for laboratory results with systems supporting surveillance, early event detection (EED), and other preparedness areas.
+
+[2005 - phin__X0171] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE
+  Message components should be grouped by observation type (e.g., laboratory, symptom, exposure, risk, treatment) by systems supporting OM.
+
+[2005 - phin__X0180] (xml_text_body_requirements_section) heading: OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS
+  Polices regarding data synchronization should be defined to support multiple deployment options as discussed in section 2.1 System Architecture of this document.
+
+================================================================================
+warc_iii  (cap=6, shortlisted=15)
+================================================================================
+
+[2009 - warc III [pdf]__C0027] (labeled_id) heading: None
+  NFR 1 — The tools shall be able to process a set of multiple WARC files at the same time. For this
+
+[2009 - warc III [pdf]__C0030] (labeled_id) heading: None
+  NFR 4 — The tools shall be able to run on multiple machines but will not provide functionality for
+
+[2009 - warc III [pdf]__C0034] (labeled_id) heading: None
+  NFR 9 — It shall be possible to operate the tools in modes that restrict their effects to selected collection
+
+[2009 - warc III [pdf]__C0038] (labeled_id) heading: None
+  NFR 11.1 -- Migration configurations can be built with a Web User Interface
+
+[2009 - warc III [pdf]__C0041] (labeled_id) heading: None
+  FR 1 — The migration workflow shall provide a clear Application Programming Interface (API) to handle
+
+[2009 - warc III [pdf]__C0045] (labeled_id) heading: None
+  FR 5 — It shall be possible to request that automatically generated migration metadata be stored in the
+
+[2009 - warc III [pdf]__C0048] (labeled_id) heading: None
+  FR 7 — The migration process shall use persistent, opaque, unique, and global identifiers for records
+
+[2009 - warc III [pdf]__C0052] (labeled_id) heading: None
+  FR 11 —Logging during the migration may be turned on/off at any time .
+
+[2009 - warc III [pdf]__C0055] (labeled_id) heading: None
+  NFR 14 — Deduplication may be run before migration, inside a batch process.
+
+[2009 - warc III [pdf]__C0059] (labeled_id) heading: None
+  FR 16 — Sampling will be provided where applicable to quickly validate the conversions (FR 15.1 and FR
+
+[2009 - warc III [pdf]__C0064] (labeled_id) heading: None
+  FR 20 — It shall be possible to repackage WARC files by filtering records based on MIME-Types.
+
+[2009 - warc III [pdf]__C0068] (labeled_id) heading: None
+  FR 24.1 -- Pre operation can prevent a file or record being processed by returning value
+
+[2009 - warc III [pdf]__C0071] (labeled_id) heading: None
+  FR 26 — The migration framework shall provide tools to build reports from WARC files
+
+[2009 - warc III [pdf]__C0075] (labeled_id) heading: None
+  FR 29 — Enhance the WARC browser to display a manifest of WARC files and their locations
+
+[2009 - warc III [pdf]__C0078] (labeled_id) heading: None
+  FR 32 — Provide a way to view crawls deltas for quality assurance
+
+================================================================================
+stewards  (cap=6, shortlisted=15)
+================================================================================
+
+[2006 - stewards [pdf]__C0019] (labeled_id) heading: None
+  FR-2.1: View entire universe of watersheds from top-level screen for selection
+
+[2006 - stewards [pdf]__C0021] (labeled_id) heading: None
+  FR-2.3: Browse, query, and download individual sampling station data and metadata
+
+[2006 - stewards [pdf]__C0023] (labeled_id) heading: None
+  FR-2.5: Generate tabular reports of selected data
+
+[2006 - stewards [pdf]__C0024] (labeled_id) heading: None
+  FR-2.6: Visualize, query, and download spatial data
+
+[2006 - stewards [pdf]__C0025] (labeled_id) heading: None
+  FR-2.7: Browse, visualize, and download agricultural modeling data and results
+
+[2006 - stewards [pdf]__C0027] (labeled_id) heading: None
+  FR-3.2: Browse and query watershed metadata by theme or location
+
+[2006 - stewards [pdf]__C0028] (labeled_id) heading: None
+  FR-4.1: Administrative metrics – user access lists, data download estimates
+
+[2006 - stewards [pdf]__C0029] (labeled_id) heading: None
+  FR-4.2: User feedback, user support tools
+
+[2006 - stewards [pdf]__C0030] (labeled_id) heading: None
+  FR-4.3: Conform to USDA web site style guide
+
+[2006 - stewards [pdf]__C0031] (labeled_id) heading: 3.5 Software requirements
+  SR-1: Backup Software – Data and application backups will be managed through fully supported
+
+[2006 - stewards [pdf]__C0032] (labeled_id) heading: 3.5 Software requirements
+  SR-2: HTTP and GIS Server Applications – As the Web will be the primary delivery protocol
+
+[2006 - stewards [pdf]__C0033] (labeled_id) heading: 3.5 Software requirements
+  SR-3: Web Browsers and Browser Plug-ins – In support of External Interface requirements,
+
+[2006 - stewards [pdf]__C0034] (labeled_id) heading: 3.5 Software requirements
+  SR-4: Email Services– As a secondary delivery protocol for alerts, data, and other information
+
+[2006 - stewards [pdf]__C0035] (labeled_id) heading: None
+  SR-5: Relational Database Management System - As the primary data storage mechanism for
+
+[2006 - stewards [pdf]__C0036] (labeled_id) heading: None
+  SR-6: The system will use, where appropriate, the standard software resources provided by the
+
+================================================================================
+keepass  (cap=8, shortlisted=20)
+================================================================================
+
+[2008 - keepass__X0009] (xml_req_tag) heading: System Features > New Database > Functional Requirements
+  REQ-1: KeePass must be downloaded and installed
+
+[2008 - keepass__X0011] (xml_req_tag) heading: System Features > New Database > Functional Requirements
+  REQ-2: Master Password has no limits in length. A whole sentence can be used with more than 100 characters.
+
+[2008 - keepass__X0017] (xml_req_tag) heading: System Features > Save Database > Functional Requirements
+  Databases must have different names or else the previews one will be replace if selected
+
+[2008 - keepass__X0019] (xml_req_tag) heading: System Features > Print Database > Functional Requirements
+  There must be entries in the database in order for them to be printed
+
+[2008 - keepass__X0028] (xml_req_tag) heading: System Features > Add Group/Subgroup > Functional Requirements
+  A subgroup cannot be created when no group is selected
+
+[2008 - keepass__X0030] (xml_req_tag) heading: System Features > Modify group/subgroup > Functional Requirements
+  A name is required in order for the group/subgroup to be renamed
+
+[2008 - keepass__X0039] (xml_req_tag) heading: System Features > Add Entry > Functional Requirements
+  An entry must belong to a group to be created
+
+[2008 - keepass__X0041] (xml_req_tag) heading: System Features > Add Entry > Functional Requirements
+  When the password field is completed the repeat password field must be completed
+
+[2008 - keepass__X0047] (xml_req_tag) heading: System Features > View/Edit Entry > Functional Requirements
+  ìAn entry must be selected to be viewed or modified
+
+[2008 - keepass__X0049] (xml_req_tag) heading: System Features > View/Edit Entry > Functional Requirements
+  ìWhen the password field is changed the repeat password field must be Changed and be identical with password field
+
+[2008 - keepass__X0056] (xml_req_tag) heading: System Features > Change Language > Functional Requirements
+  REQ-18: An internet connection and a browser are required in order to download new language translations For the following features, use cases are not included
+
+[2008 - keepass__X0062] (xml_req_tag) heading: System Features > Auto-type > Functional Requirements
+  Sequence’s length must not be more than a line (59 characters)
+
+[2008 - keepass__X0064] (xml_req_tag) heading: System Features > Auto-type > Functional Requirements
+  If two auto-types are referred in one note field, only the first is used
+
+[2008 - keepass__X0069] (xml_req_tag) heading: System Features > Command Line Options > Functional Requirements
+  In case a space is found in the path, it must be enclosed into quotes
+
+[2008 - keepass__X0072] (xml_req_tag) heading: System Features > Composite Master Key > Functional Requirements
+  If a master password is required to unlock the database, the database doesn’t open unless the password is entered
+
+[2008 - keepass__X0076] (xml_req_tag) heading: System Features > Composite Master Key > Functional Requirements
+  If there is a composite key, both master password and key file are required
+
+[2008 - keepass__X0078] (xml_req_tag) heading: System Features > Composite Master Key > Functional Requirements
+  In case of lost master password or key file, the database never unlocks again. There is no recovery
+
+[2008 - keepass__X0083] (xml_req_tag) heading: System Features > Import/Export > Functional Requirements
+  REQ-29: File formats are not specialized password database formats
+
+[2008 - keepass__X0085] (xml_req_tag) heading: System Features > Import/Export > Functional Requirements
+  REQ-30: File formats only specify a low-level layout of stored data
+
+[2008 - keepass__X0091] (xml_req_tag) heading: System Features > TAN Support > Functional Requirements
+  Title, username or URL cannot be changed in a TAN entry.
+
+================================================================================
+peering  (cap=6, shortlisted=15)
+================================================================================
+
+[2008 - peering__X0009] (xml_req_tag) heading: System Features > Service Registration > Functional Requirements
+  The format for service information description is defined
+
+[2008 - peering__X0013] (xml_req_tag) heading: System Features > Service Registration > Functional Requirements
+  The interaction protocol between Web Server-SR, SR-mediator is defined.
+
+[2008 - peering__X0015] (xml_req_tag) heading: System Features > Service Registration > Functional Requirements
+  Resource provisioning, delegation and reservation policies are in place
+
+[2008 - peering__X0021] (xml_req_tag) heading: System Features > Request Initiation to Trigger Peering > Exceptions
+  Malicious requests are detected and rejected.
+
+[2008 - peering__X0022] (xml_req_tag) heading: System Features > Request Initiation to Trigger Peering > Exceptions
+  Web servers have already replicated necessary content.
+
+[2008 - peering__X0023] (xml_req_tag) heading: System Features > Request Initiation to Trigger Peering > Exceptions
+  Both anticipated and unanticipated user requests (traffic) are considered.
+
+[2008 - peering__X0026] (xml_req_tag) heading: System Features > Mediator Invokes Creation of Negotiated Relationship > Exceptions
+  Mediator-SR, mediator-PR, mediator-PA interaction protocols are defined.
+
+[2008 - peering__X0027] (xml_req_tag) heading: System Features > Mediator Invokes Creation of Negotiated Relationship > Exceptions
+  Mediator works in conjunction with the PA to establish negotiation.
+
+[2008 - peering__X0028] (xml_req_tag) heading: System Features > Resource Discovery through PA > Exceptions
+  Interaction protocols between PAs are identified.
+
+[2008 - peering__X0030] (xml_req_tag) heading: System Features > Resource Discovery through PA > Exceptions
+  There are existing policies for long-term peering arrangement.
+
+[2008 - peering__X0031] (xml_req_tag) heading: System Features > Resource Discovery through PA > Exceptions
+  There is procedure to perform short-term negotiation.
+
+[2008 - peering__X0032] (xml_req_tag) heading: System Features > Operational Management > Exceptions
+  Negotiation is established between selected CDN peers.
+
+[2008 - peering__X0034] (xml_req_tag) heading: System Features > Operational Management > Exceptions
+  Functional policies are identified and deployed.
+
+[2008 - peering__X0035] (xml_req_tag) heading: System Features > Operational Management > Exceptions
+  Effective content delivery is ensured through SLA satisfaction.
+
+[2008 - peering__X0036] (xml_req_tag) heading: System Features > Disband or Re-arrangement > Exceptions
+  Policies identifying the consequences of SLA violation are defined.
+
+================================================================================
+video_search  (cap=6, shortlisted=15)
+================================================================================
+
+[2009 - video search__X0038] (xml_item_requirements_section) heading: System Features > Torrent Search > Functional Requirements
+  REQ-1: Torrent search will share the same search bar with the streaming search.
+
+[2009 - video search__X0040] (xml_item_requirements_section) heading: System Features > Torrent Search > Functional Requirements
+  REQ-3: There will be a tick box to allow the user to choose to include torrent searching in the search.
+
+[2009 - video search__X0043] (xml_item_requirements_section) heading: System Features > Torrent Search > Functional Requirements
+  REQ-6: Results will be arranged in size/date/alphabetical order by clicking on the column headers.
+
+[2009 - video search__X0050] (xml_item_requirements_section) heading: System Features > Video Stream Search > Functional Requirements
+  REQ-1: Streaming search will share the same search bar with the torrent search.
+
+[2009 - video search__X0053] (xml_item_requirements_section) heading: System Features > Video Stream Search > Functional Requirements
+  REQ-4: There will be a tick box to allow the user to choose to include video link searching in the search.
+
+[2009 - video search__X0055] (xml_item_requirements_section) heading: System Features > Video Stream Search > Functional Requirements
+  REQ-6: Query to video link sites will retrieve the show’s name, episode name and a link to the webpage itself.
+
+[2009 - video search__X0060] (xml_text_body_requirements_section) heading: External Interface Requirements > User Interfaces
+  This allows the user to use the software with ease by not flicking through a number of different screens.
+
+[2009 - video search__X0062] (xml_text_body_requirements_section) heading: External Interface Requirements > User Interfaces
+  The main screen will be laid out as in Appendix: B Diagram along with the description of the diagram.
+
+[2009 - video search__X0065] (xml_text_body_requirements_section) heading: External Interface Requirements > User Interfaces
+  With all these features complied into one screen it will give the software more flexibility and allows for easy and simple usage.
+
+[2009 - video search__X0067] (xml_text_body_requirements_section) heading: External Interface Requirements > Software Interfaces
+  The software will use hyperlinks to allow the user to open websites in their default web browser.
+
+[2009 - video search__X0070] (xml_item_requirements_section) heading: Other Nonfunctional Requirements > Performance Requirements
+  REQ-1: Query times will take no longer than 5 seconds to any website.
+
+[2009 - video search__X0072] (xml_item_requirements_section) heading: Other Nonfunctional Requirements > Performance Requirements
+  REQ-3: Loading the program will take less than 10 seconds.
+
+[2009 - video search__X0075] (xml_item_requirements_section) heading: Other Nonfunctional Requirements > Performance Requirements
+  REQ-6: A results page will display 100 results.
+
+[2009 - video search__X0077] (xml_text_body_requirements_section) heading: Other Nonfunctional Requirements > Safety Requirements
+  Our development team must thoroughly investigate each website within our database each month, to ensure that no illegal or harmful content is exposed to our users.
+
+[2009 - video search__X0080] (xml_text_body_requirements_section) heading: Other Nonfunctional Requirements > Legal Requirements
+  In doing so, the site will be subject to full indemnification of liability.

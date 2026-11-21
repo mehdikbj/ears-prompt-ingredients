@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PURE-114",
+    "text": "The RLCS software shall display information about active overrides: Which are active, and which devices have no currently active 'rules protection' against erroneous opening/closing."
+  },
+  {
+    "id": "PURE-115",
+    "text": "The user shall be able to retrieve historic reports from the COTS reporting system based on date range and report name."
+  },
+  {
+    "id": "PURE-116",
+    "text": "Updating non-volatile memory-based tables shall be sufficient to accommodate future changes to the roadway."
+  },
+  {
+    "id": "PURE-117",
+    "text": "Not including device and network response time, requests from the GUI for device status changes (control commands) shall not exceed 2 seconds."
+  },
+  {
+    "id": "PURE-118",
+    "text": "The RLCS shall incorporate a database to store, process, and retrieve all data necessary to secure the system from unauthorized use."
+  },
+  {
+    "id": "PURE-119",
+    "text": "Safety screening shall be applied to all device commands at the originating control unit, and at all subordinate control units to which the device command or any of its subordinate device commands may be forwarded."
+  }
+]

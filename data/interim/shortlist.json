@@ -1,0 +1,3484 @@
+{
+  "npac": {
+    "cap": 12,
+    "screened_source": "2001 - npac [doc].json",
+    "n_passed_total": 1317,
+    "n_shortlisted": 30,
+    "candidates": [
+      {
+        "id": "2001 - npac [doc]__C1144",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "20% of all downloads as specified in R6-28.1, R6-28.2, R6-29.1 and R6-29.2 will be processed via range activations.",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1161",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R3‑11 NPAC SMS notification of LRNs and Service Provider data by Service Provider",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1182",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R4‑14 Error notification of invalid Service Provider ID or Name during Modify",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1197",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R4‑26.2 Results returned to Service Provider during a query",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1213",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5-3.5 Cancel-Conflict Subscription Retention - Tunable Parameter Modification",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1234",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5-18.6 Create Subscription Version - LRN Validation",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1247",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5‑20.3 Create Subscription Version - Validation Failure - No Create",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1261",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5‑23.5 Activation without Old Service Provider Authorization",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1274",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": "WSMSC SSN",
+        "text": "R5-29.5 Modify Subscription Version - Status Change Cause Code Validation",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1287",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5-40.4 Modify Active Subscription Version - Broadcast complete Time Stamp",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1301",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5-45.6 Conflict Subscription Version - Inform Service Providers of Cancel Status",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1314",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5‑57.1 Activate Subscription Version - Send to Local SMSs",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1328",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5-60.5 Subscription Activation Retry Attempts - Tunable Parameter Default",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1341",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5-64.1 Disconnect Subscription Version - Cancel Other Version Notification",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1355",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5-68.3 Disconnect Subscription Version - Subscription Disconnect Retry Interval - Tunable Parameter",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1368",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R5-71.5 Cancel Subscription version- Error on Cancellation",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1381",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": "ISVM SSN",
+        "text": "R5‑75 Query Subscription Version -No Data Found",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1409",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R7‑16 Passwords, Encrypted - Privileged Users Access Control",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1433",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R7‑33.1 System Access - User Authentication Failure",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1449",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R7‑42.2 System Access - Per-Port Basis",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1465",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R7-53.3 Authorized User Access to Data",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1500",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R7-77.3 Exception Reports on Communication Failures",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1549",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R7‑111.1 New Encryption Key Can Be Chosen",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1565",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R8‑12 NPAC Personnel Cancel of an Audit",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1585",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R9‑4 NPAC Personnel Create Customized Reports",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1604",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "NPAC SMS shall sort the report listed in RR9-16, in the following order: (Previously R-141) New Service Provider SPID (primary sort) TN (secondary sort)",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1635",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R11‑6 Generating Usage Measurements for the Number of Messages Downloaded",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1652",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": "RX3-2",
+        "text": "R3‑6.1 (Duplicate – refer to R3-7.2)",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1668",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": "RR5-20",
+        "text": "R5-24.3 (Duplicate – refer to R5-27 and R5-28)",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2001 - npac [doc]__C1681",
+        "document": "2001 - npac [doc].txt",
+        "nearest_heading": null,
+        "text": "R7-59 (Duplicate – refer to R7-53.3)",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "tcs": {
+    "cap": 12,
+    "screened_source": "1999 - tcs.json",
+    "n_passed_total": 602,
+    "n_shortlisted": 30,
+    "candidates": [
+      {
+        "id": "1999 - tcs__X0025",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements",
+        "text": "The TCS system will be capable of controlling the Predator and Outrider AVs with a single control system, using existing military services standard hardware and software, and supporting interfaces with various C4I systems.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0045",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Required States And Modes",
+        "text": "[SSS015] Figure 3.1-1 shows the existing states of the TCS.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0070",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Required States And Modes > Operations State > Normal Operations Mode",
+        "text": "In the Normal Operations Mode the TCS shall support the following functions: [SSS037]",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0107",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > Mission Planning Function",
+        "text": "[SSS058] The TCS mission planning function shall provide a graphical user interface that gives the operator the ability to define waypoints on a map based display using a pointing device with full keyset redundancy.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0132",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > Mission Planning Function > Flight Route Planning Capability",
+        "text": "Minimum data link reception altitude calculations for line of sight flights. [SSS554]",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0156",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > Mission Control And Monitoring Functions",
+        "text": "The TCS will have the capability to control and monitor an AV, payload, data link, and C4I interfaces during the execution of a mission.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0179",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > Mission Control And Monitoring Functions > AV Control And Monitoring Capability > AV Navigation Control Task",
+        "text": "The TCS shall have the capability to command the AV to use the navigation methods inherent to the selected AV.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0205",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > Mission Control And Monitoring Functions > AV Control And Monitoring Capability > AV Monitoring Task > AV Monitoring Displays",
+        "text": "[SSS146] TCS shall display a LOL timer to the operator initiating a LOL onset.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0231",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > Mission Control And Monitoring Functions > Data terminal Control And Monitoring Capability > Data Terminal Control Task",
+        "text": "[SSS163] The TCS shall support a LOS data link and SATCOM data link capability.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0256",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > Payload Product Management Function",
+        "text": "The payload product includes the payload sensor output and the appropriate AV and payload telemetry data.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0278",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > Payload Product Management Function > Payload Product Exploitation Capability",
+        "text": "The image enhancement capability shall include contrast, brightness, edge enhancement, and sharpness.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0304",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > C4I System Interface Function > C4I Interface Control Capability",
+        "text": "The TCS will have the capability to manage all operational C4I interfaces across all 5 levels of interaction.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0333",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > C4I System Interface Function > C4I Interface Data Processing Capability > C4I Analog Interface Data Processing Capability",
+        "text": "Receive incoming annotated as well as un-annotated analog imagery [SSS238]",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0361",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Capability Requirements > Software Upgrade Function",
+        "text": "[SSS278] As a minimum, the TCS shall restrict Operator access to this capability via password protection.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0385",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System External Interface Requirements > Interface Identification > TCS to C4I > TCS to JMCIS",
+        "text": "The TCS shall provide the necessary hardware and software functionality to allow the TCS to integrate with JMCIS.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0405",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System External Interface Requirements > Interface Identification > TCS to C4I > TCS to CCTV > TCS to JDISS > TCS to TES",
+        "text": "The TCS shall provide the necessary hardware and software functionality to allow the TCS to integrate with TES.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0427",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System External Interface Requirements > Interface Identification > TCS to C4I > TCS to CCTV > TCS to DT Control",
+        "text": "Figure 3.3.1.2-1 illustrates the TCS to DT control interface.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0447",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System External Interface Requirements > Interface Identification > TCS to Geopositional Data",
+        "text": "Details of the Tactical Control System (TCS) to external power interface will be defined in the TCS to Geopositional Data IDD, TCS 243.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0476",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Internal Interface Requirements > VCR",
+        "text": "The TCS will provide an interface between the TCS and a video cassette recorder.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0502",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Safety Requirements > Air Vehicle Safety",
+        "text": "[SSS347] The TCS shall provide adequate capability to allow the operator to operate each UAV within its certified operational flight envelope.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0526",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Security And Privacy Requirements > Computer Security",
+        "text": "The TCS data sensitivities shall be determined by the data sensitivities of the systems with which it interfaces, to including the air vehicles, payloads, and C4I systems.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0554",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Resource Requirements > Hardware Requirements > Power",
+        "text": "The TCS shall use standard military worldwide 110/220 volt 50/60 hertz generators and commercial power sources.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0578",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Resource Requirements > Computer Software Requirements",
+        "text": "The TCS software shall restrict the operator(s) from exercising levels of interaction not achievable by the system.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0609",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > System Quality Factors > Flexibility",
+        "text": "[SSS416] TCS software flexibility and expandability shall be provided through use of the DII COE and through use of standardized software development practices.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0635",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Design And Construction Constraints > Documentation",
+        "text": "The Software Design Document (SDD) (1 for each CSCI)",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0658",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Design And Construction Constraints > Endurance",
+        "text": "The TCS shall be capable of operating continuously in functional Operation Mode for a minimum of 72 hours.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0679",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Personnel-Related requirements > Human Factors Engineering (HFE)",
+        "text": "The TCS shall facilitate Human-Computer Interfaces (HCIs) that support operation of all system modes, functions, and capabilities.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0702",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Personnel-Related requirements > Human Factors Engineering (HFE)",
+        "text": "[SSS486] For AV safety as well as mission-critical Warnings, the TCS HCI shall provide a default selection as well as an override option, along with a selection of adaptive responses, and the minimum information necessary to assist the operator in responding quickly and adaptively to the emergency.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0723",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Training Related Requirements",
+        "text": "[SSS500] Training shall be adequate to maintain operator and maintainer skills and proficiencies.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1999 - tcs__X0745",
+        "document": "1999 - tcs",
+        "nearest_heading": "Engineering Requirements > Logistics-Related Requirements > Transportability",
+        "text": "[SSS516] The TCS shall be transported into the theater as an organic component of the operational UAV system being deployed.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "nasa_x38": {
+    "cap": 10,
+    "screened_source": "2000 - nasa x38 [doc].json",
+    "n_passed_total": 458,
+    "n_shortlisted": 25,
+    "candidates": [
+      {
+        "id": "2000 - nasa x38 [doc]__C0001",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": "REQUIREMENTS",
+        "text": "Whenever a power-on reset occurs, System Initialization shall [SRS194] perform the following functions.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0020",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "The scheduler shall [SRS197] support up to 3 rate groups per vehicle mode.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0038",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "The scheduler shall [SRS034] take no longer than 1 millisecond to execute scheduler and Time Services FTSS overhead tasks in each rate group.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0058",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "Communication services shall [SRS050] restrict the use of \"immediate\" message passing services between virtual groups (from FCP to ICP) to tasks running in the highest rate group on the FCP.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0079",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "The FTSS shall [SRS262] configure each FCP to continue processing if any of the Power-up or Initial BIT tests fail.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0100",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "RAM scrub shall [SRS044] report detected errors to the application, congruently on all channels, via an API service for inclusion in the telemetry stream.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0118",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "(Note that NEFU recovery does not depend on whether alignment is permitted.) Redundancy Management shall [SRS129] initiate transient NE recovery to restore Byzantine-resilient communications, if alignment is permitted.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0138",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "The FTSS API shall [SRS217] specify a memory map that provides the boundaries for congruent aligned memory, congruent initialized memory, and non-congruent memory.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0159",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "In all error cases, Support Services shall [SRS222] attempt to choose an error-free FCC-MPCC path, switching back and forth between channels if necessary.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0177",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "In addition, the FTSS software shall [SRS280] provide up to 600 bits of start-up data that indicates the state of the FTPP system during start-up.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0197",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "Packaging Requirements FTSS deliveries shall [SRS252] be made using CD ROM media.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0216",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": "SRS109",
+        "text": "SRS043, SRS091, SRS093, SRS094, SRS095, SRS096, SRS102, SRS104, SRS106, SRS109, SRS128, SRS183, SRS184, SRS187 SRS235, SRS282, SRS283, SRS281 3.1 FTPP System Requirements The FTPP system shall (3.1.18) be capable of powering up and operating with any combination of 3 of the 5 FCR's active.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0234",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "hw 3.2.2.3 Initial Synchronization (ISYNC) The maximum time-out value shall (3.2.2.3.7) be 327.68 microseconds (256 counts of the least significant bit of the fault tolerant clock which is 1.28 microseconds).",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0253",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "hw 3.2.2.6 Error Syndrome Reports When a majority, but not a unanimity, of FCP members are observed with packets in their output buffers, a time-out shall (3.2.2.6.7) be initiated.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0271",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "hw 3.2.3.1.1 Prototype NE Physical Characteristics The storage temperature range shall (3.2.3.1.1.4) be from - 30º to + 60º C.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0291",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "hw 3.2.3.1.3.1 Temperature The NE shall (3.2.3.1.3.1.2) operate with a worst case card edge thermal interface temperature of +65 °C for greater than 10 hours.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0314",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "NA 3.2.4 Miscellaneous NE Requirements Each NE and flight cable assembly shall (3.2.4.2) be identified by a part or type number and a unique serial number, consistent with the configuration management system and the specification for the contract.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0332",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": "SRS288",
+        "text": "SRS288 3.3.2 Start Up The FTPP system shall (3.3.2.32) configure the Radstone processor to continue processing if any of the Power-up tests or Initial BIT tests mentioned in Table 3.3.2.2, ICP IBIT Table, fail.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0350",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": "SRS008",
+        "text": "SRS008 3.3.2 Start Up Start Up shall (3.3.2.19) test to ensure that all four FCPs are synchronized.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0370",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": "SRS270",
+        "text": "SRS270 3.3.4 Scheduler The Scheduler in the FTPP shall (3.3.4.16) keep all redundant copies of a process, which are executing in different computers, in synchronization.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0388",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": "SRS106",
+        "text": "SRS106 3.3.5 Fault Detection, Identification, and Recovery If a second permanent FCP failure occurs, then FDIR shall (3.3.5.31) degrade the redundancy level of the FCP from 3 to 2 and operate in a degraded triplex mode.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0407",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "SRS062, SRS066 3.3.6 Communications Message passing communications primitives shall (3.3.6.9) be provided for task-to-task communication as well as for broadcast to all processors.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0427",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": null,
+        "text": "SRS043, SRS044, SRS046, SRS217, SRS045, SRS186, SRS200, SRS203, SRS187 3.3.9 Memory Protection Memory shall (3.3.9.1) be categorized into congruent (identical data) and non-congruent (data that is not identical) memory.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0445",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": "SRS161",
+        "text": "SRS246, SRS248 3.3.10 Time Management The utility timer shall (3.3.10.24) be available via an FTSS API call(s).",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2000 - nasa x38 [doc]__C0463",
+        "document": "2000 - nasa x38 [doc].txt",
+        "nearest_heading": "SRS249",
+        "text": "SRS249 3.4.1.1 FCP-ICP Communication Architecture The FCP-ICP communications shall (3.4.1.1.1) provide the following capabilities (these are written from the viewpoint of the FCP): 1.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "clarus_low": {
+    "cap": 8,
+    "screened_source": "2005 - clarus low [pdf].json",
+    "n_passed_total": 403,
+    "n_shortlisted": 20,
+    "candidates": [
+      {
+        "id": "2005 - clarus low [pdf]__C0002",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "The Clarus system design must address how best to minimize these times to optimize the flow of data in a timely manner.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0023",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "CAS, EMC, EMS, DOG F- The CAS shall be 213B1 configurable to allow new observation types to be implemented as they become available.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0044",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": "4.2     Configuration & Administration User Interface (CAUI)",
+        "text": "F-111 The Clarus system shall provide OCS QChS, H environmental data quality flags.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0066",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "I-032C2 The CAUI shall enable administrators to assign system privileges.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0086",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "F-214D1 CS shall accept surface condition Task Force Surface condition data may include, for H data derived from surface images.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0107",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "F-271 The Clarus system shall accept ConOps CS Transit vehicles include watercraft H environmental data from transit §2.5.5 (ferries) and buses.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0127",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "I-011 The Clarus system shall accept OCS CS Standard to be determined during design H data through a Clarus standard phase of this project.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0149",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "Q- The watchdog service shall 012G1 monitor the overall Clarus system state.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0169",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "F-213 The Clarus system shall allow ConOps §1, 2.4, 3.1 CS, QChS, Access could only be provided when L access to new surface QEDC, new data sources are established and transportation related observed QEDS, available.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0189",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": "4.7     Qualified Environmental Data (QEDC)",
+        "text": "ID Requirement Source Allocation Comment Criticality - QEDC F-111 The Clarus system shall OCS QChS, H provide environmental data CAUI, quality flags.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0209",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "D-081 The Clarus system shall be OCS QEDS H able to notify subscribers when data sets become available.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0229",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "F-811J1 QEDS shall be able to determine if an observation can be disseminated.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0250",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "I-025J1 QEDS shall accept timestamp queries based on a single timestamp range.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0270",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "P-025J1 QEDS shall respond to an environmental data request within one minute.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0292",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "F-151 The Clarus system shall MHI QChS, CAS H record the methods applied when deriving quality checking information.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0312",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "F-223 The Clarus system shall ConOps §3.4.3 CS,QChS H process data as they are received.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0332",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": "4.11 Program Requirements",
+        "text": "D- Clarus hosts shall be able to 011A4 aggregate environmental data from other Clarus hosts.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0353",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "X- The contributors shall 20114 identify the intended use of their shared data and information.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0373",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": "20139   the right to use the Clarus",
+        "text": "X- The requestors shall have Task Force 20140 the right to use the Clarus system data and information for purposes delineated within the Clarus User Agreement.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - clarus low [pdf]__C0393",
+        "document": "2005 - clarus low [pdf].txt",
+        "nearest_heading": null,
+        "text": "X-311 The Clarus program shall OCS H test all software changes in the designated test environment before deployment to production.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "eirene_fun_7": {
+    "cap": 8,
+    "screened_source": "2007-eirene_fun_7-2.json",
+    "n_passed_total": 989,
+    "n_shortlisted": 20,
+    "candidates": [
+      {
+        "id": "2007-eirene_fun_7-2__X0011",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "2 Network requirements > 2.2 Voice services",
+        "text": "2.2.1 This section describes the generic voice telephony services which are to be supported by the EIRENE network: (M) point-to-point voice calls; public emergency voice calls; broadcast voice calls; group voice calls; multi-party voice calls.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0100",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "2 Network requirements > 2.3 Data services",
+        "text": "2.3.8 The network shall support data rates of at least 2.4 kbit/s. (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0176",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "2 Network requirements > 2.4 Call related services",
+        "text": "2.4.14 It shall be possible for the user to re-join the call which is on hold at any time. (M) Call waiting",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0244",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "3 Network configuration > 3.5 Broadcast and group call areas",
+        "text": "3.5.8 Requirement 3.5.7 needs further technical specification changes before field implementation can be achieved. (I)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0390",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "5 Cab radio > 5.2 Functional requirements > 5.2.2 Driver call related functions",
+        "text": "5.2.2.5 When the call is connected to the controller, an audible and visual indication is to be provided to the driver. The call shall be connected to the loudspeaker at the pre-set value. (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0469",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "5 Cab radio > 5.2 Functional requirements > 5.2.2 Driver call related functions",
+        "text": "5.2.2.30 At any time during the call, the lead driver shall be able to remove a member of the group. (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0552",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "5 Cab radio > 5.2 Functional requirements > 5.2.2 Driver call related functions",
+        "text": "5.2.2.53 The driver can not speak in a group call until permission is granted by the network after pushing the PTT button. (I)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0640",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "5 Cab radio > 5.2 Functional requirements",
+        "text": "5.2.3.2 At the point of successful connection, the Cab radio will be able to receive all calls made using the Cab radios telephone number, engine number or appropriate group call numbers (including Railway emergency calls). (I)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0739",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "5 Cab radio > 5.2 Functional requirements",
+        "text": "5.2.3.25vi The Cab radio should be capable of selecting the mobile radio network automatically from a list of suitable networks (see section 10.5). (O)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0817",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "5 Cab radio > 5.2 Functional requirements",
+        "text": "5.2.3.43 The actions required from the driver will be as simple as possible. (I) Invoke tests",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0884",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "5 Cab radio > 5.3 Environmental and physical requirements",
+        "text": "5.3.4 Ease of maintenance should be taken into account in the design and installation of radio equipment. For example, maintenance access to antennas on vehicles should be provided. (I) Electrical",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X0931",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "5 Cab radio > 5.7 Driver safety device interface",
+        "text": "5.7.2 The activation of the driver safety device shall automatically trigger the Cab radio to send a data message. (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X1143",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "7 Operational radio > 7.2 Operational radio functions",
+        "text": "7.2.2.15 A short audible and visual indication of the incoming call shall be provided. (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X1193",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "7 Operational radio > 7.2 Operational radio functions",
+        "text": "7.2.3.10 It shall be possible to register and deregister a functional number in the following way: Initiated by the user and transmitted to the ground: user enters functional number which is transmitted to the network. (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X1257",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "7 Operational radio > 7.4 Operational radio man-machine interface > 7.4.4 Indications",
+        "text": "7.4.4.1 A visual and audible alarm shall be given when the remaining capacity of the battery is such as to enable only 10 minutes of full duplex call time. (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X1298",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "9 Numbering plan > 9.2 Numbering plan requirements > 9.2.4 Use of shunting team, maintenance team or controller number",
+        "text": "9.2.4.1 Every shunting team number shall be based on an association of: (M) service area identifier; shunting team identifier.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X1356",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "10 Subscriber management > 10.5 Network selection list",
+        "text": "10.5.2 Where EIRENE facilities are not available within the currently selected network, the user shall be given a visible indication. (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X1411",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "11.3 Functional addressing registration procedures principles > 11.3.2 Registration",
+        "text": "11.3.2.2i It should be possible for the system to prevent certain types of users from registering functional numbers that they are not authorised to use, for example: (O) train number; driver of train; shunting team leader.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X1483",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "13 Railway emergency calls > 13.2 Management of Railway emergency calls > 13.2.2 Stage 1: Warning",
+        "text": "13.2.2.2 A connection of Railway emergency priority (see section 10.2) shall be established to a pre-determined set of receiving mobiles and controller(s). (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-eirene_fun_7-2__X1533",
+        "document": "2007-eirene_fun_7-2",
+        "nearest_heading": "14 Shunting mode > 14.2 Functional requirements",
+        "text": "14.2.2 Throughout the duration of the shunting group call, it shall be possible for any member of the shunting group to speak to all other members of the group, using the PTT function (as described in sections 5.2.2.53, 6.2.2.12 and 7.2.2.20), except during transmission of the link assurance signal. (M)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "nde": {
+    "cap": 8,
+    "screened_source": "2007 - nde [pdf].json",
+    "n_passed_total": 182,
+    "n_shortlisted": 20,
+    "candidates": [
+      {
+        "id": "2007 - nde [pdf]__C0002",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.1.2 Degraded System Mode",
+        "text": "3.1.2 Degraded System Mode The System shall provide the capability to operate in a Degraded System Mode, within which the system generates a subset of products based upon priority and availability of system resources.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0011",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.2.6 Data Product Generation",
+        "text": "3.2.6 Data Product Generation The System shall be capable of generating Data Products.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0020",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.2.6.9 GRIB2 Data Format",
+        "text": "3.2.6.9 GRIB2 Data Format The System shall be capable of reformatting Data Products into GRIB2.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0029",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.2.6.18 Data Product Recovery",
+        "text": "3.2.6.18 Data Product Recovery The System shall be capable of generating Data Products within a time frame not to exceed the maximum user-specified shelf-life of the Data Product.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0038",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.2.10 System Status Notification",
+        "text": "3.2.10 System Status Notification The System shall be capable of notifying registered users of the status of the System.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0047",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.2.16 Data Product Latency",
+        "text": "3.2.16 Data Product Latency The System shall be capable of making products available for distribution according to customer- 15 NOAA/NESDIS/OSDPD NOAA-ESPC-018-2007 ESPC- CM1301-05-CT-0044 DCN 1.0 (08/07/2007) OSDPD/ESPC-NDE-008-018-005-V1.0 specified latencies.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0056",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.3.1.5 Ad Hoc Requests to the IDPS",
+        "text": "3.3.1.5 Ad Hoc Requests to the IDPS The System shall be capable of automatically submitting Ad Hoc Requests to the IDPS for retransmission of Data Products.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0066",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.4 Internal Interface Requirements",
+        "text": "3.4 Internal Interface Requirements 3.4.1 Schedule Tasks The System shall be capable of executing tasks according to a schedule.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0075",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.6 Adaptation Requirements",
+        "text": "3.6 Adaptation Requirements 3.6.1 Technology Updates The System shall be capable of accepting technology updates without System downtime.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0084",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.7.8 Integrity - Protect from Hardware Malfunction",
+        "text": "3.7.8 Integrity - Protect from Hardware Malfunction The System shall be capable of protecting the integrity of NDE data in the event of a hardware malfunction such as a disk crash.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0094",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.9.4 Report on Events",
+        "text": "3.9.4 Report on Events The System shall be capable of reporting on summary log events.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0103",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.10.1.4 Operations Monitoring Availability",
+        "text": "3.10.1.4 Operations Monitoring Availability The NDE Operations Monitoring capability shall not be interrupted for more than 2 hours in any consecutive 24 hour period and no more than 4 hours in any consecutive 30 day period.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0112",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": "3.10.4 Federal Enterprise Architecture",
+        "text": "3.10.4 Federal Enterprise Architecture The System shall be compliant with the OMB Federal Enterprise Architecture (FEA) according to the documents dated December 2006, and available from http://www.whitehouse.gov/omb/egov/a-2- EAModelsNEW2.html .",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0140",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": null,
+        "text": "responses SM 21 All The contractor shall Completeness: All Completeness: correspondenc develop and implement electronic and Inspection of e regarding the procedures to log and written correspondence ESPC is kept track all correspondence correspondence is by date, author, retained and and subject accessible for inspection.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0168",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": null,
+        "text": "The supplied algorithms and NOAA-unique utilization of NOAA- products must supplied data.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0197",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": null,
+        "text": "ESPC The Contractor shall An ESPC system, or Annual self- development, follow ESPC data, will never be assessment of ESPC test, and (DOC/NOAA/NESDIS) compromised and the systems.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0218",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": null,
+        "text": "All user calls for The Contractor shall All calls will be Customer surveys and support or inquiry are provide help desk routed to appropriate morning reports.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0242",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": null,
+        "text": "personnel and design, and the be held within 120 - help desk staff tracking of Contractor shall days of Task Order and designated performance, and implement all award.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0259",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": null,
+        "text": "change is made AS3 ESPC will support The Contractor Automated testing Logs automated testing shall assist in and reprocessing of Feedback from and reprocessing of implementing data is performed GTMs and users data, when needed.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007 - nde [pdf]__C0275",
+        "document": "2007 - nde [pdf].txt",
+        "nearest_heading": null,
+        "text": "shall comply with software by GTM or standards.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "ertms": {
+    "cap": 6,
+    "screened_source": "2007-ertms.json",
+    "n_passed_total": 219,
+    "n_shortlisted": 15,
+    "candidates": [
+      {
+        "id": "2007-ertms__X0003",
+        "document": "2007-ertms",
+        "nearest_heading": "General requirements > Basic functioning",
+        "text": "ETCS shall provide the driver with information to allow him to drive the train safely.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0048",
+        "document": "2007-ertms",
+        "nearest_heading": "General requirements > Operational states",
+        "text": "In case the transition has to be acknowledged and the driver fails to acknowledge as required, the ETCS shall initiate a brake application",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0072",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Operational Functions > On Board Equipment self Test",
+        "text": "The DMI shall indicate the result of the self-test.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0097",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Operational Functions > Train and driver Data Entry",
+        "text": "If the onboard fails to contact the RBC when awakening the driver shall be asked to enter the RBC contact details",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0120",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Operational Functions > Shunting operation",
+        "text": "Exit from Shunting shall take place when the driver selects exit from shunting.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0144",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Operational Functions > Full Supervision operation",
+        "text": "The trainborne equipment shall remain in Full Supervision until the trainborne equipment is not active any longer, when Shunting is selected or when Partial Supervision information is received.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0167",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Infrastructure Functions",
+        "text": "It shall be possible to send information on adhesion conditions from trackside.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0193",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Infrastructure Functions > Supervision of driving into a section of track which could be occupied (On Sight operation)",
+        "text": "The target distance shall not be shown on the DMI unless selected by the driver.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0222",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Trainborne Functions > Release speed calculation",
+        "text": "If the release speed is calculated on board it shall ensure that the train will stop before reaching the danger point",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0254",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Trainborne Functions > Indication displayed on the DMI > Supervision of movement authorities and speed limits",
+        "text": "The driver shall be able to release an ETCS emergency brake application when stationary.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0286",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Special Operations > Using multiple traction units",
+        "text": "The train trip function 4.6.12 shall be suppressed in traction unit(s) with in-operative cabs.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0308",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Functions required in the event of incidents or other (non ETCS) system failures > Passing a stop signal with restricted movement authority",
+        "text": "The train shall be capable of receiving any track-to-train information intended and relevant for this train including movement authority.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0335",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Protection Functions > Train trip",
+        "text": "When the traction unit is stationary the driver shall be required to acknowledge the train trip condition. This acknowledgement will release the emergency brake.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0363",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Additional Functions > Plain text transmission",
+        "text": "The character set used shall support different languages.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2007-ertms__X0387",
+        "document": "2007-ertms",
+        "nearest_heading": "Functions > Functions primarily related to RBC > Revocation of a Movement Authority",
+        "text": "If a train cannot stop at the proposed new target location it shall reject the request and keep the old target location.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "pontis": {
+    "cap": 8,
+    "screened_source": "2005 - pontis [pdf].json",
+    "n_passed_total": 186,
+    "n_shortlisted": 20,
+    "candidates": [
+      {
+        "id": "2005 - pontis [pdf]__C0201",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": null,
+        "text": "The numbering convention below is to first identify the use case e.g., UC-1 View",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0010",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": null,
+        "text": "Pontis must observe industry standard protocols in this regard and avoid vendor specific implementation approaches.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0021",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "1.2       The user shall be able to switch between predefined structure lists.",
+        "text": "1.2 The user shall be able to switch between predefined structure lists.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0030",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": null,
+        "text": "1.8 The user shall be able to select bridges on a supported map display and generate a bridge list for use within Pontis, for example, to perform a simulation analysis or to generate an inspection roster.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0040",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": null,
+        "text": "UC-3 Generate Predefined Reports 3.1 The user shall be able to select and execute predefined reports to view bridge data, project data, preservation model data, program simulation results, and configuration data.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0049",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "4.2        BRIDGE INVENTORY & INSPECTION",
+        "text": "5.2 The user shall be able to create a new structure by copying all data of an existing structure.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0059",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "6.1       The user shall be able to create a new inspection.",
+        "text": "6.5 The user shall have the option to copy the notes from previous inspection when creating a new inspection.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0072",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "6.17      The system shall provide an inspection scheduling tool.13",
+        "text": "6.19 Privileged users shall be able to delete an existing inspection unless it is “locked down”.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0082",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": null,
+        "text": "7.6 The system shall be capable of prompting users when the dependent fields for ratings are changed and offer the user option to recalculate the ratings.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0091",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "7.6      The system shall be capable of using the transition probabilities and",
+        "text": "7.6 The system shall be capable of using the transition probabilities and preservation action costs to develop an optimal preservation policy as detailed in the Pontis Technical Manual.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0101",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "4.4         PROGRAM SIMULATION16",
+        "text": "10.3 The user shall be able to modify the technical parameters governing the simulation, including the parameters of the improvement model and the simulation rules.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0110",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "13.2     The user shall be able to edit or delete existing programs.",
+        "text": "UC-14 Create/Edit Projects 14.1 The user shall be able to create new projects by manually entering the project information.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0119",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "4.6         DATA MANAGEMENT",
+        "text": "4.6 DATA MANAGEMENT UC-15 Perform Data Validation 15.1 The system shall be capable of performing single-field and cross-field validation on NBI data items in batch mode.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0128",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "16.1     The user shall be able to exchange data in NBI format.",
+        "text": "16.2 The user shall be able to exchange data in PDI format as specified in the Pontis Technical Manual.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0139",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "17.4         The user shall be able to restore the archived data.",
+        "text": "UC-18 BRIDGEWare Integration Support 18.1 The system shall continue to provide existing application integration capabilities with BRIDGEWare products.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0149",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "20.3         The administrator shall be able to create bridge-level access filters.",
+        "text": "20.5 The administrator shall be able to remove users from the system or disable access as appropriate.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0160",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "22.6         The administrator shall be able to configure field-level security.",
+        "text": "22.6 The administrator shall be able to configure field-level security.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0171",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "22.17     The administrator shall be able to configure customizable options that affect",
+        "text": "22.17 The administrator shall be able to configure customizable options that affect system operations.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0180",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": "24.3      The system shall provide application administrators with a secured tool for",
+        "text": "4-13 Pontis 5.0 Functional Requirements Specification v1.0 24.4 The system shall provide a fixed set of predefined, secured, administration reports to document users, user roles, application privileges, user login sessions, checked-out bridges, and other key information necessary to manage application operation.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - pontis [pdf]__C0190",
+        "document": "2005 - pontis [pdf].txt",
+        "nearest_heading": null,
+        "text": "During normal times of operation, Pontis shall achieve 98 percent up time.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "rlcs": {
+    "cap": 6,
+    "screened_source": "2004 - rlcs [pdf].json",
+    "n_passed_total": 172,
+    "n_shortlisted": 15,
+    "candidates": [
+      {
+        "id": "2004 - rlcs [pdf]__C0195",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": null,
+        "text": "CMS 5-8 SR 163 northbound RLCS Controlled",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0010",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": "3.2.1. Graphical User Interface (GUI)",
+        "text": "Graphical User Interface (GUI) The system shall have a Graphical User Interface (GUI) that allows the operator to view system status, issue commands to change device status, configure the system, export log data, and generate reports.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0021",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": "3.2.1.3.4. The RLCS software shall display information about active overrides: Which",
+        "text": "The RLCS software shall display information about active overrides: Which are active, and which devices have no currently active 'rules protection' against erroneous opening/closing.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0035",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": null,
+        "text": "The configuration option shall also allow user accounts l to be changed remotely in the field units.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0046",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": "3.2.1.9.   Report Screen",
+        "text": "Report Screen The user shall be able to retrieve historic reports from the COTS reporting system based on date range and report name.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0059",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": null,
+        "text": "3.2.2.4 During ‘degraded’ mode, the system shall monitor device sensors at the frequency rate stored in the database to take effect only during ‘degraded’ mode.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0071",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": "3.2.2.4.9 Process GUI Commands",
+        "text": "3.2.2.4.9 Process GUI Commands 3.2.2.4.9.1 In order for a command to be processed from any workstation or controller, the MCU field device shall be in the “Auto” mode.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0083",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": null,
+        "text": "Updating non-volatile memory-based tables shall be sufficient to accommodate future changes to the roadway.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0097",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": null,
+        "text": "3.2.4.2 The RLCS application software shall Update and read password and device rule data in encrypted format.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0109",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": "3.2.4.5.3 The system will provide for periodic verification that current, recomputed",
+        "text": "If the failure occurs in checking the non-volatile memory items, the system shall will prevent the affected unit from being used in control sequences.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0122",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": "3.3.2 User Interface (GUI)",
+        "text": "Not including device and network response time, requests from the GUI for device status changes (control commands) shall not exceed 2 seconds.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0141",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": "3.5.2 Security",
+        "text": "3.5.2.1 The RLCS shall incorporate a database to store, process, and retrieve all data necessary to secure the system from unauthorized use.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0156",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": "3.6.3.1 The RLCS shall support remote system administration and maintenance of the",
+        "text": "3.6.3.2 The RLCS shall utilize an open architecture that is modular and scaleable.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0170",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": "1. CMS",
+        "text": "The system shall provide for a specific delay between the message change on each sign and the message change on the next downstream sign.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2004 - rlcs [pdf]__C0181",
+        "document": "2004 - rlcs [pdf].txt",
+        "nearest_heading": null,
+        "text": "Safety screening shall be applied to all device commands at the originating control unit, and at all subordinate control units to which the device command or any of its subordinate device commands may be forwarded.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "gemini": {
+    "cap": 8,
+    "screened_source": "1995 - gemini.json",
+    "n_passed_total": 648,
+    "n_shortlisted": 20,
+    "candidates": [
+      {
+        "id": "1995 - gemini__X0004",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Description > User-level requirements > User Needs",
+        "text": "Each class of users has different needs of the system.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0064",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Description > Observing model requirements > Remote operations",
+        "text": "(There will always be support staff on-site during observations, however.) The requirements for supporting remote operations are:",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0097",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Description > Observing model requirements > Remote operations > Multipoint Monitoring",
+        "text": "The monitor's keyboard would not have any effect on the observer's environment",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0132",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Description > General Softwar Requirements > Control information flow",
+        "text": "These requirements apply to the commands and replies between sub-systems (including status information requests and replies), information ﬂow to and from on-line databases, and commands and software for the IOCs.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0190",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > Data Specifications > Control Information Flow",
+        "text": "In particular also, the meteorological information coming from a weather station should be available centrally.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0220",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > Operation > privilege and protection levels > Privileges",
+        "text": "A further subdivision within the levels can be achieved by implementing privileges associated with categories of users or with the location of the user station (local or remote).",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0250",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > External Iterface Requirements > User Interface (UIF)",
+        "text": "It should also be network transparent so that it does not matter where it is being run.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0287",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > External Iterface Requirements > Software iterfaces > On-line image processing interfaces",
+        "text": "remove instrument and observatory effects so the observer can make decisions about further observing actions).",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0321",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > External Iterface Requirements > Communication interface > Local area network (LAN)",
+        "text": "All essential tasks, not including remote observing, must take place on resources controlled by the project (such as leased lines).",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0352",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > General constraints > Hardware constraints",
+        "text": "In any case, remote operation must include remote monitoring from the Gemini 8m Telescopes base facilities, together with access tools for diagnostic and test use.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0402",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > Attributes > Supportability > Issues",
+        "text": "turnaround time to ﬁx and maintain system",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0451",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > Attributes > Maintainability > Maintenance Requirements",
+        "text": "Monitor level Each subsystem should have a background task running whenever that subsystem is operational, performing such tasks as checking power supply levels, temperatures, performance, correct responses to commands. The OCS is to be notiﬁed of any detected problems.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0514",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > Attributes > Security and Safety > Security and Safety Requirements",
+        "text": "In general this will require mechanical hard stops, electrical interlocks, electrical hard limit switches, soft limit switches, software limits, and watch dogs,.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0551",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > Attributes > testabilty",
+        "text": "This plan will address all areas of testing from design, acceptance, commissioning through to hand-over.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0596",
+        "document": "1995 - gemini",
+        "nearest_heading": "General Requirements > Development Environment",
+        "text": "The choice of such an environment has to be deﬁned, together with the choice of all the Gemini 8m Telescopes standards, but excluding the target computer hardware, in Section 4.2.5 on page 4- 7.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0633",
+        "document": "1995 - gemini",
+        "nearest_heading": "Specific Requirements > Other Controls and Software Requirements > On-line database subsystems",
+        "text": "The database must support both remote access and distributed data.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0678",
+        "document": "1995 - gemini",
+        "nearest_heading": "Specific Requirements > Other Controls and Software Requirements > Standards > Software standards > Software methods",
+        "text": "Functional analysis is done using a CASE tool suitable for use with Ward/Mellor techniques, such as TSEE, by Westmount Technologies.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0714",
+        "document": "1995 - gemini",
+        "nearest_heading": "Specific Requirements > Other Controls and Software Requirements > Standards > Hardware standards > Harware requirements",
+        "text": "SCSI-interface peripherals are to be available.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0748",
+        "document": "1995 - gemini",
+        "nearest_heading": "Specific Requirements > User Requirements for EPICS developers > EPICS Components",
+        "text": "Note: The bulk of this section is taken from the EPICS document ‘EPICS Overview’.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "1995 - gemini__X0792",
+        "document": "1995 - gemini",
+        "nearest_heading": "Specific Requirements > User Requirements for EPICS developers > Gemini Breakdown of tasks > SIC work package only",
+        "text": "Record Support, Device Support, and Device Drivers For Gemini this entails support for new devices: PMAC, VMIC5578, BANCOMM",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "peppol": {
+    "cap": 8,
+    "screened_source": "2009 - peppol approved.json",
+    "n_passed_total": 471,
+    "n_shortlisted": 20,
+    "candidates": [
+      {
+        "id": "2009 - peppol approved__X0298",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements",
+        "text": "Interoperability is a major topic being discussed in eGovernment for a while now.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0363",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Organisational Framework > Organisational requirements > Conformance of national solution with pre-VCD mapping tool defined in stage 1",
+        "text": "Requirement Any national pilot solution that will be developed in the context of PEPPOL WP2 has to follow the pre- VCD mapping defined in stage 1.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0401",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Organisational Framework > Organisational requirements > Principle for selecting issuing body",
+        "text": "Measurement Functionality and interface to select issuing services",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0451",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Semantic framework > Patterns for Data Representation and Utilisation",
+        "text": "To further clarify their interrelation we take the research by (Russel N., Hofsteded A.H.M.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0478",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Semantic framework > Relevant standards, methodologies and initiatives for the VCD package > Methodical Framework",
+        "text": "Evidence of a company’s identity (Extracts of commercial records or equivalent documents)",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0504",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Semantic framework > Semantic Requirements > Method for ensuring “Level of completeness”",
+        "text": "The range of attestations varies from selfdeclarations to official attestations/certificates issued by public authorities.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0529",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Semantic framework > Semantic Requirements > Implementation approach with regard to stages of maturity",
+        "text": "Measurement Pre-VCD mapping tool filled with national instances Requirement The VCD simple package (Stage 2) lays the basic ground for the creation of VCDs and the implementation of other services mentioned in stages 3 and 4 so the key concepts of Stage 2 MUST be implemented in each Member States.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0555",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Semantic framework > Semantic Requirements > Classification schemes awareness",
+        "text": "2009) Requirement Classification schemes for goods, services and code lists SHOULD be publicly available and identified in the document objects.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0591",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Legal framework > Legal Requirements > Legal effect of subset criteria and evidences specified by the contracting autho",
+        "text": "subsection 3.1.2.8: “Specification of criteria subset by the Procurer”; and subsection 3.1.2.9: “Provision of criteria subset by the Economic Operator” Requirement The contracting authority SHOULD specify a subset of evidences from the superset evidences that are relevant to a specific Call for Tender.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0636",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Legal framework > Legal Requirements > Legal requirements regarding service providers > National Service Providers",
+        "text": "In particular a National Service Provider refers to any VCD system and VCD package that is developed within a Member State.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0660",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Legal framework > Legal Requirements > Legal requirements regarding data protection",
+        "text": "Requirement Relevant regulations of national data protection acts MUST be analysed and considered.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0685",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Legal framework > Legal Requirements > Legal Validity",
+        "text": "Requirement A process for document handling compliant with the relevant legal regulations MUST be defined (especially with respect to the data protection acts).",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0743",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Technical Framework (Infrastructure specific) > Technical Requirements > Identity",
+        "text": "2009) Requirement Every party participating MUST be uniquely identifiable",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0770",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Technical Framework (Infrastructure specific) > Technical Requirements > Use of PEPPOL infrastructure to submit a VCD (next to a bid)",
+        "text": "Requirement The PEPPOL infrastructure MUST have the capability to submit a VCD to a contracting authority or tendering platform.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0801",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Legal, organisational and semantic framework and requirements > Technical Framework (Infrastructure specific) > Technical Requirements > Security",
+        "text": "Requirement Transport mechanisms between party’s addresses MUST be secure.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0851",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Synthesis: Major interoperability requirements, SWOT and next steps > Major requirements for VCD interoperability",
+        "text": "Pre-VCD mapping tool: Provides a widely available tool which contains the up-to-date mappings of European criteria and evidences.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0875",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Synthesis: Major interoperability requirements, SWOT and next steps > Major requirements for VCD interoperability",
+        "text": "Technical Framework: Referring to the PEPPOL infrastructure.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0897",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Synthesis: Major interoperability requirements, SWOT and next steps > VCD concept and its Strengths, Weaknesses, Opportunities and Threats > Strength of the VCD concepts",
+        "text": "Therefore the national focus of a VCD needs to be enhanced through a cross border perspective.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0920",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Synthesis: Major interoperability requirements, SWOT and next steps > VCD concept and its Strengths, Weaknesses, Opportunities and Threats > Weaknesses of a VCD",
+        "text": "Nevertheless such direct exchange is very difficult to establish because a lot of entities and attestation services have to be federated, access policies have to be developed, legal uncertainties have to be resolved and political guidelines have to be considered.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - peppol approved__X0942",
+        "document": "2009 - peppol approved",
+        "nearest_heading": "Synthesis: Major interoperability requirements, SWOT and next steps > VCD concept and its Strengths, Weaknesses, Opportunities and Threats > Threats for a VCD in public procurement",
+        "text": "Challenges to be dissolved when facing in particular the European perspectives of a VCD are mentioned by (Siemens_and_Time.lex 2008):",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "fishing": {
+    "cap": 6,
+    "screened_source": "2010 - fishing [pdf].json",
+    "n_passed_total": 83,
+    "n_shortlisted": 15,
+    "candidates": [
+      {
+        "id": "2010 - fishing [pdf]__C0001",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "\u0001 Product Profile – The product profile is a questionnaire which must be completed by an ELSS supplier to list the mandatory, optional and conditional features supported in their product.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0007",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": "2.4         Capture Functions",
+        "text": "2.4 Capture Functions The ELSS must provide data capture screens for the entry of the logbook, transhipment and landing declaration data that is required to be transmitted to the UK fisheries administrations’ ERS system.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0013",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": "2.5         Data Transmission",
+        "text": "The subject header must consist of a character string containing ‘ERS – ‘ prefixed to the contents of the GBRRN attribute of the Electronic Logbook data being transmitted.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0022",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": "2.5.3       Data Deletions",
+        "text": "All deletions must be easily identifiable within the ELSS user interface.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0030",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "o Each copy of the ELSS installed must be provided with a unique (internal?) number that is automatically entered into each transmission to identify the instance of the ELSS from which the report has been transmitted.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0035",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "Values must conform to UTC standards.) ers:OPS 06n Operation Time attribute OT The time of sending for this OPS message.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0048",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "Any C change of vessel master during a voyage must be notified in the next LOG message.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0053",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "Values must conform to UTC standards.) ers:FAR 48 Relevant area sub-declaration element RAS (See details of sub-elements and attributes CIF no catch of RAS).",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0059",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "Must C vessel conform to the ISO alpha-3 country code.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0065",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "Values must conform to UTC standards.) ers:GBRCON 99d Time of arrival attribute GBRTI The estimated time of arrival at the control CIF Norway point.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0073",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "Values must conform to UTC standards.) ers:PNO 129 Port name attribute PO The port code for the port of arrival.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0080",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": "4.4.3.12 Landing Declaration (LAN)",
+        "text": "Values must conform to UTC standards.) ers:LAN 151 Time attribute TI The time of the landing being reported.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0086",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "Values must conform to UTC standards.) ers:GER 186 POS sub-declaration element POS (See details of sub-elements and attributes C of POS) ers:GER 186a Gill net fleet retrieved attribute GBRGNFN Unique reference number identifying the CIF gill nets gill net fleet retrieved.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0092",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": "4.4.6 ELSS Capture Functions",
+        "text": "Capture-002 Product MUST provide a means for fisherman to C manually enter required Electronic Logbook and Landing Declaration information.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2010 - fishing [pdf]__C0103",
+        "document": "2010 - fishing [pdf].txt",
+        "nearest_heading": null,
+        "text": "Frequency-004 Product MUST provide a means of sending the C Electronic Logbook before entering into port.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "inventory_2_0": {
+    "cap": 8,
+    "screened_source": "2009 - inventory 2.0 [pdf].json",
+    "n_passed_total": 80,
+    "n_shortlisted": 20,
+    "candidates": [
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0001",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "3. Detailed Functional Requirements",
+        "text": "Pre-conditions: Pre-conditions are conditions that must be true prior to beginning the use case and are assumed to be true throughout the use case.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0005",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "1.5. The Unique Tag must be at most 18 characters long",
+        "text": "The Unique Tag must be at most 18 characters long 1.6.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0009",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "2.4. The Unique Tag must be at most 18 characters long",
+        "text": "The Unique Tag must be at most 18 characters long 3.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0013",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "1.4. The Unique Tag must be at most 18 characters long",
+        "text": "The Unique Tag must be at most 18 characters long 1.5.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0017",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "2.4. The Unique Tag must be at most 18 characters long",
+        "text": "The Unique Tag must be at most 18 characters long 2.5.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0021",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "4.6. If a new target Category is selected",
+        "text": "If a new target Category is selected 4.6.1.User must enter 4.6.1.1.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0025",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "4.4. The Item Detail Name must be unique across the inventory",
+        "text": "The Item Detail Name must be unique across the inventory 4.5.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0029",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "2.2.1.7.      Other (please explain)",
+        "text": "Other (please explain) 2.2.2.If the „Other‟ reason is selected, the user must enter an additional comment 2.3.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0033",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": null,
+        "text": "The original CRM acquisition data must be kept, not overridden by the values entered here 3.9.7.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0037",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "1.2. Quantity on hand",
+        "text": "The sale price must not override the original item price in the inventory 3.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0041",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "5.2. Availability",
+        "text": "Availability For internal users: Donation/acquisition processing - The system must be available during normal Construction Junction operating hours.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0045",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "5.4. Security",
+        "text": "Security Access to the application by the Construction Junction staff must require user login.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0049",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "4. Each matrix cell displays a department name",
+        "text": "Each cell in the matrix must indicate in some visual form that it contains subcategories Confidential and Proprietary Page 38 of 62 November 9th, 2009 Inventory Management Software Requirements Specification Version 2.00 Figure 2 - Inventory Department View 12.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0053",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "3. The Department‟s Unique Tag must be unique across the inventory",
+        "text": "The Department‟s Unique Tag must be unique across the inventory 4.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0057",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "8. The system must ask for confirmation before deleting a Department",
+        "text": "The system must ask for confirmation before deleting a Department 5.6.1.3.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0061",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "4. The Unique Tag must be at most 18 characters long",
+        "text": "There must be at least one slot available in the Category matrix at the level the new Category will be created to hold the new Category 6.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0065",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "6.1. User must enter",
+        "text": "User must enter 6.1.1.Name 6.1.2.Unique Tag 6.1.3.Location of new category 7.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0069",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "1.2. Condition",
+        "text": "When building the split item list, at least two items must exist in the list, including the original item 3.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0073",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "1.1. Constituent data between QuickBooks POS and Salesforce must be synchronized",
+        "text": "Customer‟s sales history must be synchronized to QuickBooks POS and roll up in a similar fashion as donation statistics Confidential and Proprietary Page 58 of 62 November 9th, 2009 Inventory Management Software Requirements Specification Version 2.00 1.5.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - inventory 2.0 [pdf]__C0077",
+        "document": "2009 - inventory 2.0 [pdf].txt",
+        "nearest_heading": "4.   Construction Junction website",
+        "text": "The system must be able to provide the contents of the categorized inventory for viewing on the website, allowing users to create wish lists and purchase items online 4.2.",
+        "match_type": "modal_verb",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "phin": {
+    "cap": 8,
+    "screened_source": "2005 - phin.json",
+    "n_passed_total": 175,
+    "n_shortlisted": 20,
+    "candidates": [
+      {
+        "id": "2005 - phin__X0001",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+        "text": "The following requirements describe baseline functionality for any system(s) implemented to support Outbreak Management:",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0009",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS",
+        "text": "2.8 System Security and Availability: Security of OM data includes the protection of data from corruption and access by unauthorized individuals, as well as the protection of the actual systems supporting OM from sabotage or other failure. A plan must be established for continuing activities when systems supporting OM are unavailable.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0018",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM ARCHITECTURE",
+        "text": "Systems supporting OM should be capable of using configurable, domain-specific vocabulary.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0028",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Entity Data",
+        "text": "A Subject ID should also be collected for animals in an OM investigation.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0037",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Health Event Data",
+        "text": "Data describing the health event should be captured, including the reason for the investigation, the category of event (e.g.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0045",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Travel History and Conveyance Data",
+        "text": "Information about each leg of a trip, as well as the parent information about the trip, should be captured.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0057",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+        "text": "Systems supporting OM must allow for dynamic, event-specific case investigation data to be captured.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0067",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Case Investigation and Exposure Contact Data",
+        "text": "Exposure data related to both the potential source and the potential spread include the entity’s type, Subject ID, Contact ID, contact’s name and address, exposure dates and times, health status, and priority code.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0076",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Monitoring and Follow-up Data",
+        "text": "Follow-up data may be received from take response exams of persons who received a countermeasure that requires such an exam (i.e., smallpox vaccination).",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0085",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+        "text": "Food sample data should include information about the lot number, batch number, manufacturer name, shipping invoice, temperature, sample type (e.g., dairy – milk, red meat, spice), and product storage condition.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0094",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Specimen/Sample Collection and Laboratory Response Data",
+        "text": "More information about receiving and linking laboratory test requests is found in section 2.5 System Integration and Data Exchange of this document.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0104",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > DATA REQUIREMENTS > Adverse Event Data",
+        "text": "For specific data requirements regarding adverse event data, please reference PHIN Preparedness Countermeasure/Response Administration Functional Requirements and Process Flows, available at www.cdc.gov/phin.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0113",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Case Investigation",
+        "text": "Systems supporting OM must provide the ability to control the configuration of and revisions to investigation-specific questionnaires.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0121",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Linking",
+        "text": "Entity-to-epi data links must match the entity to their symptoms, survey questions, specimens/samples collected, laboratory results, and prophylaxis and treatment data.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0130",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM FUNCTIONS AND BEHAVIORS > Contact Exposure Tracing",
+        "text": "Systems supporting OM must support contact exposure tracing by allowing one contact to be linked to multiple cases, and allowing multiple contacts to be linked to a single case.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0139",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > ANALYSIS, VISUALIZATION, AND REPORT GENERATION",
+        "text": "Systems supporting OM should have the ability to produce lists of action items (e.g., to do lists).",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0148",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+        "text": "Message construction and parsing, and secure data transport requirements that span PHIN functional areas are separately defined and should be reviewed in “PHIN Preparedness Cross Functional Components Requirements”, available at www.cdc.gov/phin.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0157",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+        "text": "Systems supporting OM should be able to exchange messages for laboratory results with systems supporting surveillance, early event detection (EED), and other preparedness areas.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0171",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > SYSTEM INTEGRATION AND DATA EXCHANGE",
+        "text": "Message components should be grouped by observation type (e.g., laboratory, symptom, exposure, risk, treatment) by systems supporting OM.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2005 - phin__X0180",
+        "document": "2005 - phin",
+        "nearest_heading": "OUTBREAK MANAGEMENT FUNCTIONAL REQUIREMENTS > OPERATIONS",
+        "text": "Polices regarding data synchronization should be defined to support multiple deployment options as discussed in section 2.1 System Architecture of this document.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "warc_iii": {
+    "cap": 6,
+    "screened_source": "2009 - warc III [pdf].json",
+    "n_passed_total": 71,
+    "n_shortlisted": 15,
+    "candidates": [
+      {
+        "id": "2009 - warc III [pdf]__C0027",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "NFR 1 — The tools shall be able to process a set of multiple WARC files at the same time. For this",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0030",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "NFR 4 — The tools shall be able to run on multiple machines but will not provide functionality for",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0034",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "NFR 9 — It shall be possible to operate the tools in modes that restrict their effects to selected collection",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0038",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "NFR 11.1 -- Migration configurations can be built with a Web User Interface",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0041",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 1 — The migration workflow shall provide a clear Application Programming Interface (API) to handle",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0045",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 5 — It shall be possible to request that automatically generated migration metadata be stored in the",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0048",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 7 — The migration process shall use persistent, opaque, unique, and global identifiers for records",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0052",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 11 —Logging during the migration may be turned on/off at any time .",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0055",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "NFR 14 — Deduplication may be run before migration, inside a batch process.",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0059",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 16 — Sampling will be provided where applicable to quickly validate the conversions (FR 15.1 and FR",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0064",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 20 — It shall be possible to repackage WARC files by filtering records based on MIME-Types.",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0068",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 24.1 -- Pre operation can prevent a file or record being processed by returning value",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0071",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 26 — The migration framework shall provide tools to build reports from WARC files",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0075",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 29 — Enhance the WARC browser to display a manifest of WARC files and their locations",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - warc III [pdf]__C0078",
+        "document": "2009 - warc III [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR 32 — Provide a way to view crawls deltas for quality assurance",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "stewards": {
+    "cap": 6,
+    "screened_source": "2006 - stewards [pdf].json",
+    "n_passed_total": 33,
+    "n_shortlisted": 15,
+    "candidates": [
+      {
+        "id": "2006 - stewards [pdf]__C0019",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR-2.1: View entire universe of watersheds from top-level screen for selection",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0021",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR-2.3: Browse, query, and download individual sampling station data and metadata",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0023",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR-2.5: Generate tabular reports of selected data",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0024",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR-2.6: Visualize, query, and download spatial data",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0025",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR-2.7: Browse, visualize, and download agricultural modeling data and results",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0027",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR-3.2: Browse and query watershed metadata by theme or location",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0028",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR-4.1: Administrative metrics – user access lists, data download estimates",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0029",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR-4.2: User feedback, user support tools",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0030",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "FR-4.3: Conform to USDA web site style guide",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0031",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": "3.5 Software requirements",
+        "text": "SR-1: Backup Software – Data and application backups will be managed through fully supported",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0032",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": "3.5 Software requirements",
+        "text": "SR-2: HTTP and GIS Server Applications – As the Web will be the primary delivery protocol",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0033",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": "3.5 Software requirements",
+        "text": "SR-3: Web Browsers and Browser Plug-ins – In support of External Interface requirements,",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0034",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": "3.5 Software requirements",
+        "text": "SR-4: Email Services– As a secondary delivery protocol for alerts, data, and other information",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0035",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "SR-5: Relational Database Management System - As the primary data storage mechanism for",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2006 - stewards [pdf]__C0036",
+        "document": "2006 - stewards [pdf].txt",
+        "nearest_heading": null,
+        "text": "SR-6: The system will use, where appropriate, the standard software resources provided by the",
+        "match_type": "labeled_id",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "keepass": {
+    "cap": 8,
+    "screened_source": "2008 - keepass.json",
+    "n_passed_total": 79,
+    "n_shortlisted": 20,
+    "candidates": [
+      {
+        "id": "2008 - keepass__X0009",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > New Database > Functional Requirements",
+        "text": "REQ-1: KeePass must be downloaded and installed",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0011",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > New Database > Functional Requirements",
+        "text": "REQ-2: Master Password has no limits in length. A whole sentence can be used with more than 100 characters.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0017",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Save Database > Functional Requirements",
+        "text": "Databases must have different names or else the previews one will be replace if selected",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0019",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Print Database > Functional Requirements",
+        "text": "There must be entries in the database in order for them to be printed",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0028",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Add Group/Subgroup > Functional Requirements",
+        "text": "A subgroup cannot be created when no group is selected",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0030",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Modify group/subgroup > Functional Requirements",
+        "text": "A name is required in order for the group/subgroup to be renamed",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0039",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Add Entry > Functional Requirements",
+        "text": "An entry must belong to a group to be created",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0041",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Add Entry > Functional Requirements",
+        "text": "When the password field is completed the repeat password field must be completed",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0047",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > View/Edit Entry > Functional Requirements",
+        "text": "ìAn entry must be selected to be viewed or modified",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0049",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > View/Edit Entry > Functional Requirements",
+        "text": "ìWhen the password field is changed the repeat password field must be Changed and be identical with password field",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0056",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Change Language > Functional Requirements",
+        "text": "REQ-18: An internet connection and a browser are required in order to download new language translations For the following features, use cases are not included",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0062",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Auto-type > Functional Requirements",
+        "text": "Sequence’s length must not be more than a line (59 characters)",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0064",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Auto-type > Functional Requirements",
+        "text": "If two auto-types are referred in one note field, only the first is used",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0069",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Command Line Options > Functional Requirements",
+        "text": "In case a space is found in the path, it must be enclosed into quotes",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0072",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+        "text": "If a master password is required to unlock the database, the database doesn’t open unless the password is entered",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0076",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+        "text": "If there is a composite key, both master password and key file are required",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0078",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+        "text": "In case of lost master password or key file, the database never unlocks again. There is no recovery",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0083",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Import/Export > Functional Requirements",
+        "text": "REQ-29: File formats are not specialized password database formats",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0085",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > Import/Export > Functional Requirements",
+        "text": "REQ-30: File formats only specify a low-level layout of stored data",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - keepass__X0091",
+        "document": "2008 - keepass",
+        "nearest_heading": "System Features > TAN Support > Functional Requirements",
+        "text": "Title, username or URL cannot be changed in a TAN entry.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "peering": {
+    "cap": 6,
+    "screened_source": "2008 - peering.json",
+    "n_passed_total": 34,
+    "n_shortlisted": 15,
+    "candidates": [
+      {
+        "id": "2008 - peering__X0009",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Service Registration > Functional Requirements",
+        "text": "The format for service information description is defined",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0013",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Service Registration > Functional Requirements",
+        "text": "The interaction protocol between Web Server-SR, SR-mediator is defined.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0015",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Service Registration > Functional Requirements",
+        "text": "Resource provisioning, delegation and reservation policies are in place",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0021",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Request Initiation to Trigger Peering > Exceptions",
+        "text": "Malicious requests are detected and rejected.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0022",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Request Initiation to Trigger Peering > Exceptions",
+        "text": "Web servers have already replicated necessary content.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0023",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Request Initiation to Trigger Peering > Exceptions",
+        "text": "Both anticipated and unanticipated user requests (traffic) are considered.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0026",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Mediator Invokes Creation of Negotiated Relationship > Exceptions",
+        "text": "Mediator-SR, mediator-PR, mediator-PA interaction protocols are defined.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0027",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Mediator Invokes Creation of Negotiated Relationship > Exceptions",
+        "text": "Mediator works in conjunction with the PA to establish negotiation.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0028",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Resource Discovery through PA > Exceptions",
+        "text": "Interaction protocols between PAs are identified.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0030",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Resource Discovery through PA > Exceptions",
+        "text": "There are existing policies for long-term peering arrangement.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0031",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Resource Discovery through PA > Exceptions",
+        "text": "There is procedure to perform short-term negotiation.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0032",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Operational Management > Exceptions",
+        "text": "Negotiation is established between selected CDN peers.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0034",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Operational Management > Exceptions",
+        "text": "Functional policies are identified and deployed.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0035",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Operational Management > Exceptions",
+        "text": "Effective content delivery is ensured through SLA satisfaction.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2008 - peering__X0036",
+        "document": "2008 - peering",
+        "nearest_heading": "System Features > Disband or Re-arrangement > Exceptions",
+        "text": "Policies identifying the consequences of SLA violation are defined.",
+        "match_type": "xml_req_tag",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  },
+  "video_search": {
+    "cap": 6,
+    "screened_source": "2009 - video search.json",
+    "n_passed_total": 63,
+    "n_shortlisted": 15,
+    "candidates": [
+      {
+        "id": "2009 - video search__X0038",
+        "document": "2009 - video search",
+        "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+        "text": "REQ-1: Torrent search will share the same search bar with the streaming search.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0040",
+        "document": "2009 - video search",
+        "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+        "text": "REQ-3: There will be a tick box to allow the user to choose to include torrent searching in the search.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0043",
+        "document": "2009 - video search",
+        "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+        "text": "REQ-6: Results will be arranged in size/date/alphabetical order by clicking on the column headers.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0050",
+        "document": "2009 - video search",
+        "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+        "text": "REQ-1: Streaming search will share the same search bar with the torrent search.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0053",
+        "document": "2009 - video search",
+        "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+        "text": "REQ-4: There will be a tick box to allow the user to choose to include video link searching in the search.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0055",
+        "document": "2009 - video search",
+        "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+        "text": "REQ-6: Query to video link sites will retrieve the show’s name, episode name and a link to the webpage itself.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0060",
+        "document": "2009 - video search",
+        "nearest_heading": "External Interface Requirements > User Interfaces",
+        "text": "This allows the user to use the software with ease by not flicking through a number of different screens.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0062",
+        "document": "2009 - video search",
+        "nearest_heading": "External Interface Requirements > User Interfaces",
+        "text": "The main screen will be laid out as in Appendix: B Diagram along with the description of the diagram.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0065",
+        "document": "2009 - video search",
+        "nearest_heading": "External Interface Requirements > User Interfaces",
+        "text": "With all these features complied into one screen it will give the software more flexibility and allows for easy and simple usage.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0067",
+        "document": "2009 - video search",
+        "nearest_heading": "External Interface Requirements > Software Interfaces",
+        "text": "The software will use hyperlinks to allow the user to open websites in their default web browser.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0070",
+        "document": "2009 - video search",
+        "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+        "text": "REQ-1: Query times will take no longer than 5 seconds to any website.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0072",
+        "document": "2009 - video search",
+        "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+        "text": "REQ-3: Loading the program will take less than 10 seconds.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0075",
+        "document": "2009 - video search",
+        "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+        "text": "REQ-6: A results page will display 100 results.",
+        "match_type": "xml_item_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0077",
+        "document": "2009 - video search",
+        "nearest_heading": "Other Nonfunctional Requirements > Safety Requirements",
+        "text": "Our development team must thoroughly investigate each website within our database each month, to ensure that no illegal or harmful content is exposed to our users.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      },
+      {
+        "id": "2009 - video search__X0080",
+        "document": "2009 - video search",
+        "nearest_heading": "Other Nonfunctional Requirements > Legal Requirements",
+        "text": "In doing so, the site will be subject to full indemnification of liability.",
+        "match_type": "xml_text_body_requirements_section",
+        "verdict": "pass",
+        "reject_reason": null
+      }
+    ]
+  }
+}

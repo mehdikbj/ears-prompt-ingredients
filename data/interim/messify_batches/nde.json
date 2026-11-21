@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PURE-063",
+    "text": "The System shall provide the capability to operate in a Degraded System Mode, within which the system generates a subset of products based upon priority and availability of system resources."
+  },
+  {
+    "id": "PURE-064",
+    "text": "The System shall be capable of generating Data Products."
+  },
+  {
+    "id": "PURE-065",
+    "text": "The System shall be capable of reformatting Data Products into GRIB2."
+  },
+  {
+    "id": "PURE-066",
+    "text": "The System shall be capable of notifying registered users of the status of the System."
+  },
+  {
+    "id": "PURE-067",
+    "text": "The System shall be capable of automatically submitting Ad Hoc Requests to the IDPS for retransmission of Data Products."
+  },
+  {
+    "id": "PURE-068",
+    "text": "The System shall be capable of executing tasks according to a schedule."
+  },
+  {
+    "id": "PURE-069",
+    "text": "The System shall be capable of accepting technology updates without System downtime."
+  },
+  {
+    "id": "PURE-070",
+    "text": "The System shall be capable of protecting the integrity of NDE data in the event of a hardware malfunction such as a disk crash."
+  }
+]

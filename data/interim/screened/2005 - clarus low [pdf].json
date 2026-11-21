@@ -1,0 +1,3728 @@
+[
+  {
+    "id": "2005 - clarus low [pdf]__C0001",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "1.5   Overview",
+    "text": "A requirements document states what must be accomplished to fulfill the vision described in a concept of operations.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0002",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Clarus system design must address how best to minimize these times to optimize the flow of data in a timely manner.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0003",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "The requirements of the broader stakeholder community are essential to the Clarus Initiative and these interests must serve as a framework for the core Clarus system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0004",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Functional Requirements – Lists the characteristics that the system must support for each interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0005",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "This section lists the functional characteristics that the system must support.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0006",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Source(s) for the Identifies the Supporting text that H = High to trace requirements Requirements formulated with “… requirement; could module(s) for the may help explain the M = Medium from beginning to end in shall…” are direct requirements; be a reference high-level requirement, its a system development those using “… shall be able to…” document or a requirement as priority, or the risks L = Low process.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0007",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.1     Configuration & Administration Service (CAS)",
+    "text": "ID Requirement Source Allocation Comment Criticality - CAS F-101 The Clarus system shall ConOps §2.4 QChS, SS, H implement quality checking CAS processes as soon as data become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0008",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.1     Configuration & Administration Service (CAS)",
+    "text": "F- The CAS shall be able to 101B1 configure schedules for executing QChS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0009",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.1     Configuration & Administration Service (CAS)",
+    "text": "F-151 The Clarus system shall MHI QChS, H record the methods applied CAS when deriving quality checking information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0010",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall record the 151B1 quality checking methods used.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0011",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-155 The Clarus system shall be ConOps §3.5.1.4 QChS, H able to implement quality CAS, checking rules for each CAUI environmental parameter.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0012",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall be able to 155B1 configure the quality checking rules for each environmental parameter.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0013",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall enable 155B2 administrators to manage quality checking rules.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0014",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 28 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - CAS F-161 The Clarus system shall be ConOps §3.5.1.4 QChS, The rules for setting quality flags H able to implement quality CAS on environmental data elements checking rules for specific may themselves depend on other environmental situations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0015",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall be able to 161B1 configure quality checking rules for specific environmental situations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0016",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-163 The Clarus system shall be Task Force review QChS, Quality checking rules may vary H able to implement quality CAS from region to region.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0017",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall be able to 163B1 configure quality checking rules specific to observation locations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0018",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-171 The Clarus system shall be Inferred from ConOps QChS, H able to base its quality §3.5.1.4 CAS checking process on historical environmental data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0019",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall be able to 171B1 configure historical environmental data to be used by quality checking processes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0020",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 29 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - CAS F-175 The Clarus system shall be Inferred from ConOps §4.3 QChS, Multiple methods or comparisons M able to use multiple CAS may be needed for a given algorithms for its quality observation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0021",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall be able to 175B1 configure multiple algorithms to be used in the quality checking process.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0022",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-213 The Clarus system shall ConOps §1, 2.4, 3.1 CS, QChS, Access could only be provided L allow access to new surface QEDC, when new data sources are transportation-related QEDS, established and available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0023",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "CAS, EMC, EMS, DOG F- The CAS shall be 213B1 configurable to allow new observation types to be implemented as they become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0024",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-806 The Clarus system shall MHI CAS, Manage means create, read, H enable administrators to CAUI update, and delete.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0025",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS system shall 806B1 enable administrators to manage security group members.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0026",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall have an 806B2 administrator security group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0027",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall have a quality 806B3 manager security group.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0028",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 30 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - CAS F-811 The Clarus system shall be MHI & ConOps §4.5 QEDS, Use MADIS as a template H able to restrict environmental CAS (ConOps §3.6).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0029",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall be able to 811B1 record data sharing restrictions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0030",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-901 The Clarus system shall OCS CAS H record statistics about its operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0031",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The CAS shall record 901B1 statistics about the system operation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0032",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-905 The Clarus system shall log MHI CS, QEDS, H data transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0033",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "EMS, QChS, CAS, SS, DOG F- The CAS shall log data 905B1 transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0034",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-120 The Clarus system shall ConOps §3.3 CAS, EMC, Roll up of H-121, H-122, H-123, acquire, process, and EMS, H-201, which were deprecated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0035",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The CAS shall manage For example, ESS & VII 120B1 contributor metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0036",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The CAS shall manage For example, ESS & VII collector 120B2 collector metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0037",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The CAS shall manage 120B3 quality checking schedules.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0038",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 31 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - CAS H- The CAS shall manage 120B4 environmental data collection schedules.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0039",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The CAS shall manage ESS Task Force 120B5 metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0040",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-032 The Clarus system shall MHI CAS, Changed from “The Clarus system H manage environmental data CAUI shall manage system user and metadata according to privileges according to the Clarus the Clarus data sharing data sharing agreements.” agreements.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0041",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-032B1 The CAS shall manage data sharing rules based on contributor data sharing agreements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0042",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.2     Configuration & Administration User Interface (CAUI)",
+    "text": "ID Requirement Source Allocation - Comment Criticality CAUI F-100 The Clarus system shall collect, ConOps §1 CS, QChS, Environmental data includes all NTCIP H quality check, and disseminate QEDS, 1204 data (summarized in Table 1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0043",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.2     Configuration & Administration User Interface (CAUI)",
+    "text": "CAUI F-100C1 The CAUI shall be able to initiate CS on demand.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0044",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.2     Configuration & Administration User Interface (CAUI)",
+    "text": "F-111 The Clarus system shall provide OCS QChS, H environmental data quality flags.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0045",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.2     Configuration & Administration User Interface (CAUI)",
+    "text": "CAUI, QEDC F-111C1 The CAUI shall enable a quality This requirement allows all observations manager to apply manual flags to from an ESS to have manual flags applied.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0046",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-111C2 The CAUI shall enable a quality This requirement allows only some of the manager to apply manual flags to observations from an ESS to have manual a set of observations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0047",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-111C3 The CAUI shall enable a quality manager to apply manual flags to a set of observations over a fixed time range.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0048",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-111C4 The CAUI shall enable a quality manager to apply manual flags to a set of observations over a time range with an open ended future time.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0049",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-141 The Clarus system shall allow OCS CAUI, Changed from “The Clarus system shall M human quality checks of QChS allow human intervention to override environmental data.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0050",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 33 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CAUI F-141C1 The CAUI shall allow a quality manager to apply a manual quality flag to environmental data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0051",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-141C3 The CAUI shall allow manual quality flags to be entered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0052",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-155 The Clarus system shall be able to ConOps QChS, CAS, H implement quality checking rules §3.5.1.4 CAUI specific to each environmental parameter.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0053",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-155C1 The CAUI shall enable quality checking rules to be configured specific to each environmental parameter.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0054",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-806 The Clarus system shall enable MHI CAS, CAUI H administrators to manage security groups.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0055",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-806C1 The CAUI shall enable administrators to manage security group members.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0056",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-120 The Clarus system shall acquire, ConOps §3.3 CAS, EMC, Roll up of H-121, H-122, H-123, H-201, process, and disseminate EMS, CAUI which were deprecated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0057",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The CAUI shall enable 120C1 administrators to acquire environmental metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0058",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The CAUI shall enable 120C2 administrators to manage environmental metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0059",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 34 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CAUI I-031 The Clarus system shall provide a MHI CAUI H user interface for administration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0060",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-031C1 The CAUI shall enable administrators to manage contributor metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0061",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-031C2 The CAUI shall enable administrators to manage collector metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0062",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-031C3 The CAUI shall enable administrators to manage quality checking schedules.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0063",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-031C4 The CAUI shall enable administrators to manage environmental data collection schedules.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0064",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-032 The Clarus system shall manage MHI CAS, CAUI Changed from “The Clarus system shall H environmental data and metadata manage system user privileges according according to the Clarus data to the Clarus data sharing agreements.” sharing agreements.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0065",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-032C1 The CAUI shall enable administrators to manage contributor data sharing agreements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0066",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-032C2 The CAUI shall enable administrators to assign system privileges.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0067",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.3     Collector Services (CS)",
+    "text": "The Collector Services shall receive environmental data, convert the environmental data into a standard format, and store the environmental data in the Qualified Environmental Data Cache.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0068",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.3     Collector Services (CS)",
+    "text": "ID Requirement Source Allocation - Comment Criticality CS F-100 The Clarus system shall collect, ConOps §1 CS, QChS, Environmental data includes all NTCIP H quality check, and disseminate QEDS, 1204 data (summarized in Table 1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0069",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.3     Collector Services (CS)",
+    "text": "CAUI F-100D1 CS shall collect environmental data based on its configured schedule.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0070",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.3     Collector Services (CS)",
+    "text": "F-100D2 CS shall be able to transform extracted environmental data into the internal storage format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0071",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-100D3 CS shall be able to store transformed environmental data in the QEDC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0072",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-100D4 CS shall be able to convert observation units into the Clarus standard unit specification.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0073",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-100D5 CS shall be able to be initiated on a schedule.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0074",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-100D6 CS shall be able to be initiated on demand.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0075",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-200 The Clarus system shall be able to MHI CS H detect data submission errors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0076",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-200D1 CS shall log when a data submission error occurs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0077",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 36 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CS F-201 The Clarus system shall be able to OCS CS Access to data may be conditional based H access in-situ environmental on data sharing agreements to be reached observations from data collectors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0078",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-201D1 CS shall be able to collect in-situ environmental observations from data collectors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0079",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-205 The Clarus system shall be able to OCS CS M access remotely sensed environmental observations from data collectors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0080",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-205D1 CS shall be able to retrieve remotely sensed environmental observations from data collectors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0081",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-211 The Clarus system shall be able to OCS CS M receive roadway weather measurements derived from VII data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0082",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-211D1 CS shall be able to retrieve roadway weather measurements derived from VII data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0083",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-213 The Clarus system shall allow ConOps §1, CS, QChS, Access could only be provided when new L access to new surface 2.4, 3.1 QEDC, data sources are established and available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0084",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "CAS, EMC, EMS, DOG F-213D1 CS shall be able to be implemented to collect new observation types as they become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0085",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 37 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CS F-214 The Clarus system shall accept MHI CS Images would include CCTV and still H environmental data derived from images.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0086",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-214D1 CS shall accept surface condition Task Force Surface condition data may include, for H data derived from surface images.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0087",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-214D2 CS shall accept atmospheric Task Force Used to be F-217.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0088",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-221 The Clarus system shall be able to Task Force CS Changed from \"The Clarus system shall L retrieve environmental data review be able to retrieve environmental data directly from environmental sensor directly from environmental sensor station collectors.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0089",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "stations.\" F-221D1 CS shall be able to retrieve environmental data directly from environmental sensor station collectors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0090",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-222 The Clarus system shall minimize OCS H the time for data acquisition.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0091",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-222D1 CS shall be able to dynamically adjust its retrieval schedules when environmental data is expected to be ready but is temporarily delayed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0092",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-223 The Clarus system shall process ConOps CS, QChS H data as they are received.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0093",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "§3.4.3 F-223D1 CS shall process environmental data as they are received.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0094",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 38 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CS F-231 The Clarus system shall collect ConOps §2.5 CS Pavement-related observations could H pavement-related observations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0095",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-231D1 CS shall be able to collect pavement-related observations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0096",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-241 The Clarus system shall accept ConOps CS H environmental data from railway §2.5.7 systems or in-situ ESS along tracks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0097",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-241D1 CS shall be able to collect environmental data from railway systems from railway collectors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0098",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-241D2 CS shall be able to collect environmental data from in-situ ESS along tracks from railway collectors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0099",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-245 The Clarus system shall accept ConOps CS H environmental data from railroad §2.5.7 vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0100",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-245D1 CS shall accept environmental data derived from railroad vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0101",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-251 The Clarus system shall accept Inferred from CS H environmental data from ConOps (roadway) vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0102",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "§2.5.x F-251D1 CS shall accept environmental data collected from (roadway) vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0103",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 39 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CS F-255 The Clarus system shall accept ConOps CS H environmental data from §2.5.2 maintenance and construction vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0104",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-255D1 CS shall accept environmental data collected from maintenance and construction vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0105",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-261 The Clarus system shall accept ConOps CS H environmental data from service §2.5.3 patrol vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0106",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-261D1 CS shall accept environmental data collected from service patrol vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0107",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-271 The Clarus system shall accept ConOps CS Transit vehicles include watercraft H environmental data from transit §2.5.5 (ferries) and buses.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0108",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-271D1 CS shall accept environmental data collected from transit vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0109",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-275 The Clarus system shall accept ConOps CS H environmental data from §2.5.6 emergency vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0110",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-275D1 CS shall accept environmental data collected from emergency vehicles.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0111",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-281 The Clarus system shall be able to ConOps CS H receive weather data from weather §3.5.1.4 service providers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0112",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 40 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CS F-281D1 CS shall be able to receive weather For example, ASOS/AWOS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0113",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-905 The Clarus system shall log data MHI CS, QEDS, H transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0114",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "EMS, QChS, CAS, SS, DOG F-905D1 CS shall create a log entry when a An “invalid” data set is one that cannot be data set is invalid.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0115",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-011 The Clarus system baseline data ConOps §3.3 CS, QEDC, Version 02.20 was accepted as a H types shall be defined by the (Table 2) QEDS recommended standard by the NTCIP NTCIP ESS 1204 standard.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0116",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- CS shall accept data types defined 011D1 by NTCIP 1204.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0117",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-012 The Clarus system data definitions Task Force CS, QEDS H shall be consistent with the ITE review TM 1.03 standard, Functional Level Traffic Management Data Dictionary (TMDD).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0118",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- CS shall accept environmental 012D1 data described by definitions defined by the TMDD.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0119",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- CS shall accept environmental 012D2 data described by definitions defined by CMML version 2.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0120",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-020 The Clarus system shall acquire, ConOps §2.1 CS, QChS, Roll up of H-021, H-022, H-023, which H process, and disseminate QEDS were deprecated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0121",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 41 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CS H-151 The Clarus system shall accept Implied CS Appendix A includes a discussion of H only observations that include throughout \"metadata\" in this context.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0122",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- CS shall accept only observations 151D1 that include location, timestamp, and source metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0123",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-155 The Clarus system shall accept OCS CS H only observations of identified measurement types and units.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0124",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- CS shall accept only observation Incoming units will be converted to 155D1 of identified measurement types NTCIP 1204 units.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0125",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-301 The Clarus system shall be able to ConOps CS, QChS, North America in this context includes the H acquire, process, and disseminate §3.4.2, QEDS United States, it territories, Canada, and environmental data from across amended in Mexico North America.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0126",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Task Force review H- CS shall be able to acquire 301D1 environmental data from across North America.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0127",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-011 The Clarus system shall accept OCS CS Standard to be determined during design H data through a Clarus standard phase of this project.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0128",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-011D1 CS shall implement the Clarus standard interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0129",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 42 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CS I-012 The Clarus system shall be able to ConOps §3.3 CS Version 02.20 was accepted as a L communicate with environmental recommended standard by the NTCIP sensor stations through its Joint Committee in March 2005.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0130",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "1204.                                                                 ending phrase \"for data collection\" was",
+    "text": "I-012D1 CS shall be able to process NTCIP ESS 1204 data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0131",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "1204.                                                                 ending phrase \"for data collection\" was",
+    "text": "I-013 The Clarus system shall be able to ConOps CS L communicate with RWIS §3.4.2 databases through their native interfaces.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0132",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "1204.                                                                 ending phrase \"for data collection\" was",
+    "text": "I-013D1 CS shall be able to accept data At such time as this requirement may be from an RWIS database in its implemented RWIS databases will be native output format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0133",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "1204.                                                                 ending phrase \"for data collection\" was",
+    "text": "I-014 The Clarus system shall be able to ConOps CS Deprecated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0134",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "1204.                                                                 ending phrase \"for data collection\" was",
+    "text": "I-016 The Clarus system shall transfer Inferred from CS, EMS, Related to F-501, F-222.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0135",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps §3.2 QEDS, SS I-016D1 CS shall transfer data concurrently.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0136",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-016D2 CS shall be able to request collector environmental data on demand.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0137",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-016D3 CS shall be able to accept environmental data pushed from collectors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0138",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 43 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality CS I-017 The Clarus system shall employ Inferred from CS, QEDS, Standards in this context refer to the H industry standards to minimize ConOps §4.1 EMC, EMS environmental data standards in common implementation impact to users use among Clarus stakeholders.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0139",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017D1 CS shall be able to extract environmental data from an XML message that conforms to the Clarus standard XML message specification.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0140",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017D2 CS shall be able to extract environmental data from comma separated value messages.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0141",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017D3 CS that process comma separated value ASCII text shall be able to dynamically parse environmental data that includes a descriptive header row conforming to the Clarus collector standard message specification.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0142",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017D4 CS that process comma separated value ASCII text shall be able to dynamically parse environmental data described by a stored collector configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0143",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017D5 CS shall be able to extract environmental data from CMML version 2 messages.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0144",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017D6 CS shall be able to extract environmental data from netCDF version 3.6 messages.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0145",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.4     Watchdog (DOG)",
+    "text": "ID Requirement Source Allocation - Comment Criticality DOG F-213 The Clarus system shall allow ConOps §1, 2.4, CS, QChS, Access could only be provided when L access to new surface 3.1 QEDC, new data sources are established and transportation related observed QEDS, available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0146",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.4     Watchdog (DOG)",
+    "text": "CAS, EMC, EMS, DOG F- The DOG shall be able to 213G1 monitor new environmental data services as they are added.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0147",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "EMS, QChS, CAS, SS, DOG F- The DOG shall be able to record 905G1 its activities.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0148",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Q-012 The Clarus system shall be able MHI DOG H to automatically recover from an unexpected shutdown.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0149",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Q- The watchdog service shall 012G1 monitor the overall Clarus system state.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0150",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Q- The watchdog service shall be 012G2 able to restart unresponsive Clarus system services.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0151",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.5     Environmental Metadata Cache (EMC)",
+    "text": "ID Requirement Source Allocation Comment Criticality - EMC F-213 The Clarus system shall allow ConOps §1, 2.4, 3.1 CS, QChS, Access could only be provided when L access to new surface QEDC, new data sources are established and transportation related observed QEDS, available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0152",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.5     Environmental Metadata Cache (EMC)",
+    "text": "CAS, EMC, EMS, DOG F- The EMC shall be configurable 213E1 to allow new observation types to be implemented as they become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0153",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-120 The Clarus system shall ConOps §3.3 CAS, Roll up of H-121, H-122, H-123, H- acquire, process, and EMC, 201, which have been deprecated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0154",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "CAUI H- The EMC shall be able to 120E1 process environmental metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0155",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The EMC shall be able to 120E2 uniquely identify each contributor, collector, and station sensor.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0156",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 46 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - EMC H- The EMC shall be able to 120E3 maintain contact info for each contributor, collector, and station sensor.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0157",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The EMC shall be able to 120E4 maintain backup contact info for each contributor, collector, and station sensor.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0158",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The EMC shall be able to 120E5 maintain owner names for each contributor, collector, and station sensor.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0159",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The EMC shall be able to 120E6 maintain an equipment list for each station.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0160",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The EMC shall be able to 120E7 maintain pavement types for stations with corresponding instrumentation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0161",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The EMC shall be able to 120E8 maintain latitude, longitude, and elevation for stations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0162",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The EMC shall be able to Task Force An example would be a URL to a 120E9 maintain a reference to picture of the ESS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0163",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017 The Clarus system shall Inferred from ConOps CS, QEDS, Standards in this context refer to the H employ industry standards to §4.1 EMC, environmental data standards in minimize implementation EMS common use among Clarus impact to users and providers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0164",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 47 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - EMC I-017E1 The EMC shall store collector metadata that consists of information based on TMDD & MS/ETMCC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0165",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.6     Environmental Metadata Services (EMS)",
+    "text": "ID Requirement Source Allocation Comment Criticality - EMS D-062 The Clarus system shall OCS EMS H disseminate environmental metadata in response to polling.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0166",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.6     Environmental Metadata Services (EMS)",
+    "text": "D- EMS shall disseminate 062F1 metadata in response to polling.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0167",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.6     Environmental Metadata Services (EMS)",
+    "text": "D-091 The Clarus system shall OCS QEDS, H disseminate data using EMS standard Internet protocols.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0168",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D- EMS shall disseminate 091F1 metadata using standard Internet protocols.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0169",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-213 The Clarus system shall allow ConOps §1, 2.4, 3.1 CS, QChS, Access could only be provided when L access to new surface QEDC, new data sources are established and transportation related observed QEDS, available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0170",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "CAS, EMC, EMS, DOG F-213F1 The Clarus system shall allow new EMS to be implemented that disseminate new observation types to be implemented as they become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0171",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 49 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - EMS F-401 The Clarus system shall be OCS EMS Subject to data sharing agreements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0172",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-401F1 EMS shall be able to provide sensor equipment metadata in response to a request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0173",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-501 The Clarus system shall MHI QEDS, H minimize the time for data EMS dissemination.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0174",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-501F1 EMS shall respond to queries Related to I-016, F-222.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0175",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "EMS, QChS, CAS, SS, DOG F-905F1 EMS shall log metadata transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0176",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "CAUI H- The EMS shall accept source 120F1 queries that consist of a list of Clarus contributors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0177",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The EMS shall accept source 120F2 queries that consist of a list of Clarus contributors including station identifier.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0178",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 50 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - EMS H- The EMS shall accept location 120F3 queries based on a bounding latitude/longitude coordinate pair.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0179",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- The EMS shall accept location Task Force 120F4 queries based on latitude/longitude location and radius.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0180",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-016 The Clarus system shall Inferred from ConOps CS, EMS, Related to F-501, F-222.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0181",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-016F1 EMS shall transfer data concurrently.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0182",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017 The Clarus system shall Inferred from ConOps CS, QEDS, “Standards” in this context refer to H employ industry standards to §4.1 EMS the environmental data standards in minimize implementation common use among Clarus impact to users and providers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0183",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017F1 EMS shall be able to distribute metadata in a comma separated value ASCII format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0184",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-023 The Clarus system shall MHI H respond to queries for environmental metadata from the available metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0185",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-023F1 EMS responses shall include metadata that meets the requested metadata query filtering specifications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0186",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 51 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - EMS I-023F2 EMS shall respond to queries Task Force returning no results with a message stating that no results matching that query are available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0187",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-025 The Clarus system shall MHI QEDS, Related to F-501.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0188",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-025F1 The EMS shall respond to a request for metadata within five minutes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0189",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.7     Qualified Environmental Data (QEDC)",
+    "text": "ID Requirement Source Allocation Comment Criticality - QEDC F-111 The Clarus system shall OCS QChS, H provide environmental data CAUI, quality flags.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0190",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.7     Qualified Environmental Data (QEDC)",
+    "text": "QEDC F-111I1 The QEDC shall keep the results of each quality test for each observation for the life of the observation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0191",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.7     Qualified Environmental Data (QEDC)",
+    "text": "F-213 The Clarus system shall ConOps §1, 2.4, 3.1 CS, QChS, Access could only be provided when new L allow access to new surface QEDC, data sources are established and available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0192",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "CAS, EMC, EMS, DOG F-213I1 The QEDC shall be configurable to allow new observation types to be implemented as they become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0193",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-521 The Clarus system shall Task Force review QEDC H maintain a dynamic library of data for at least seven days.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0194",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 53 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - QEDC F-521I1 The QEDC shall maintain observations and their associated quality flags for seven days.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0195",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-011 The Clarus system baseline ConOps §3.3 (Table CS, QEDC, Version 02.20 was accepted as a H data types shall be defined by 2) QEDS recommended standard by the NTCIP the NTCIP ESS 1204 Joint Committee in March 2005.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0196",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-011I1 The QEDC observation types shall be defined by NTCIP ESS 1204.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0197",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-021 The Clarus system shall ConOps §3.5.1.4 QEDS, H allow service providers to QEDC select specific desired data sets.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0198",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-021I1 The QEDC shall support queries for its observations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0199",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-022 The Clarus system shall MHI QEDS, H respond to queries for QEDC environmental data from the available data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0200",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-022I1 The QEDC shall support queries against all of its available observation datasets.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0201",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-013 The Clarus system shall MHI QEDC 4.7 million road miles in North America; M support 470 million current approximately 100 environmental observations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0202",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 54 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality - QEDC P-013I1 The QEDC combined from all available Clarus hosts shall support 470 million current observations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0203",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.8     Qualified Environmental Data Services (QEDS)",
+    "text": "ID Requirement Source Allocation - Comment Criticality QEDS D-051 The Clarus system shall OCS QEDS, SS H disseminate data in response to a scheduled request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0204",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.8     Qualified Environmental Data Services (QEDS)",
+    "text": "D-051J1 QEDS shall disseminate data in response to a scheduled environmental data request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0205",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-061 The Clarus system shall OCS QEDS H disseminate environmental data in response to polling.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0206",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-061J1 QEDS shall disseminate data in response to an immediate environmental data request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0207",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-071 The Clarus system shall OCS QEDS H disseminate data in response to a change notification request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0208",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-071J1 QEDS shall disseminate data in response to a change notification request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0209",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-081 The Clarus system shall be OCS QEDS H able to notify subscribers when data sets become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0210",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 56 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QEDS D-081J1 QEDS shall disseminate environmental data to subscribers when datasets fulfilling a subscription query become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0211",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-081J2 QEDS shall be able to disseminate environmental data to contributor subscribers when datasets fulfilling a subscription query applying threshold filters become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0212",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-091J1 QEDS system shall disseminate environmental data using standard Internet protocols.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0213",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-100 The Clarus system shall ConOps §1 CS, QChS, “Environmental data” includes all NTCIP H collect, quality check, and QEDS, 1204 data (summarized in Table 1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0214",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-100J1 QEDS shall disseminate environmental data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0215",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-100J2 QEDS shall be able to disseminate environmental data in English units.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0216",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 57 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QEDS F-115 The Clarus system shall ConOps §2.4 QChS, A “data contributor” in this context could H provide notification of data QEDS ultimately be a State DOT maintenance quality conditions to data engineer or traffic manager.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0217",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-115J1 The observation quality flags shall be used to determine data quality condition notifications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0218",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-115J2 QEDS shall provide quality Task Force Functionality may be similar to that provided checking statistics to data by MADIS and MesoWest.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0219",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-140 The Clarus system shall OCS New high-level requirement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0220",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-140J1 QEDS shall enable quality managers to review which quality checks passed or failed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0221",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-213 The Clarus system shall ConOps §1, 2.4, 3.1 CS, QChS, Access could only be provided when new data L allow access to new surface QEDC, sources are established and available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0222",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "EMS, DOG F-213J1 QEDS shall be able to disseminate new observation types as they become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0223",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-219 The Clarus system shall Task Force review QEDS New.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0224",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 58 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QEDS F-219J1 QEDS shall be able to disseminate NWS watches, warnings, and advisories.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0225",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-501J1 QEDS shall respond to Related to I-016, F-222.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0226",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-505 The Clarus system shall be ConOps §3.4.2 QEDS Defining this as \"spatial\" allows coverage of H able to disseminate data custom regions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0227",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-505J1 QEDS shall be able to disseminate data based on spatial queries.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0228",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-811 The Clarus system shall be MHI & ConOps QEDS, Use MADIS as a template (ConOps §3.6).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0229",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-811J1 QEDS shall be able to determine if an observation can be disseminated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0230",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "EMS, QChS, CAS, SS, DOG F-905J1 QEDS shall log their activities.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0231",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 59 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QEDS H-011 The Clarus system baseline ConOps §3.3 CS, QEDC, Version 02.20 was accepted as a H data types shall be defined (Table 2) QEDS recommended standard by the NTCIP Joint by the NTCIP ESS 1204 Committee in March 2005.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0232",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-011J1 QEDS shall disseminate environmental data types defined by NTCIP 1204.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0233",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-012 The Clarus system data Task Force review CS, QEDS H definitions shall be consistent with the ITE TM 1.03 standard, Functional Level Traffic Management Data Dictionary (TMDD).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0234",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "1.03 standard, Functional",
+    "text": "H-012J1 QEDS shall disseminate data with descriptions that conform to the TMDD.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0235",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "1.03 standard, Functional",
+    "text": "H-020 The Clarus system shall ConOps §2.1 CS, QChS, Roll up of H-021, H-022, H-023, which were H acquire, process, and QEDS deprecated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0236",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "1.03 standard, Functional",
+    "text": "H-301 The Clarus system shall be ConOps §3.4.2, CS, QChS, North America in this context includes the H able to acquire, process, amended in Task QEDS United States, it territories, Canada, and and disseminate Force review Mexico environmental data from across North America.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0237",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-301J1 QEDS shall be able to disseminate environmental data collected from across North America.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0238",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-016 The Clarus system shall Inferred from CS, EMS, Related to F-501, F-222.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0239",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 60 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QEDS I-016J1 QEDS shall transfer data concurrently.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0240",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017 The Clarus system shall Inferred from CS, QEDS, “Standards” in this context refer to the H employ industry standards ConOps §4.1 EMS environmental data standards in common use to minimize among Clarus stakeholders.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0241",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017J1 QEDS shall be able to disseminate environmental data in netCDF version 3.6 format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0242",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017J2 QEDS shall be able to disseminate environmental data in HDF version 5 format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0243",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017J3 QEDS shall be able to disseminate environmental data in CMML version 2 format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0244",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-017J4 QEDS shall be able to disseminate environmental data in comma separated value ASCII format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0245",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-021 The Clarus system shall ConOps §3.5.1.4 QEDS, H allow service providers to QEDC select specific desired datasets.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0246",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 61 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QEDS I-021J1 QEDS shall respond to environmental data queries selecting specific desired datasets.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0247",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-022J1 QEDS shall enable users to request environmental data from among the available output formats.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0248",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-022J2 QEDS shall respond to Task Force queries returning no results with a message stating that no results matching that query are available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0249",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-025 The Clarus system shall ConOps §3.5.1.4 H enable environmental data queries by timestamp.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0250",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-025J1 QEDS shall accept timestamp queries based on a single timestamp range.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0251",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-026 The Clarus system shall ConOps §3.5.1.4 H enable environmental data queries by location reference.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0252",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-026J1 QEDS shall accept location queries based on a bounding latitude/longitude coordinate pair.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0253",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 62 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QEDS I-026J2 QEDS shall accept location queries based on a latitude/longitude location and radius.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0254",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-027 The Clarus system shall ConOps §3.5.1.4 H enable environmental data queries by quality.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0255",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-027J1 QEDS shall accept quality flag queries based on a range of quality flag values.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0256",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-028 The Clarus system shall MHI H enable environmental data queries by source.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0257",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-028J1 QEDS shall accept source queries that consist of a list of Clarus contributors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0258",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-028J2 QEDS shall accept source queries that are a list of Clarus contributors combined with a station identifier.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0259",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-033 The Clarus system shall ConOps §4.5 H allow users to create a data subscription request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0260",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-033J1 QEDS shall be able to accept a subscription request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0261",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 63 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QEDS I-033J2 QEDS shall accept data subscriptions that include an environmental data request and the publishing trigger.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0262",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-033J3 QEDS shall be able to accept subscription requests with triggers based on a schedule.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0263",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-033J4 QEDS shall be able to accept subscription requests with triggers based on quality flag state changes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0264",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-033J5 QEDS shall disseminate subscription responses to the originating request address by default.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0265",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-033J6 QEDS shall disseminate subscription responses to a specified return address.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0266",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-033J7 QEDS shall uniquely identify environmental data subscriptions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0267",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-033J8 QEDS shall automatically delete a subscription when the triggering event will not occur again and no more responses are possible.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0268",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-024 The Clarus system shall be ConOps §3.2 (Fig.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0269",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 64 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QEDS P-024J1 QEDS shall disseminate subscription responses within twenty minutes of new data becoming available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0270",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-025J1 QEDS shall respond to an environmental data request within one minute.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0271",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-031 The Clarus system shall be MHI QEDS Estimated that half of the concurrent users H able to handle three may be requesting data at any one time.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0272",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-031J1 QEDS shall be able to respond to three hundred simultaneous queries.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0273",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.9     Quality Checking Services (QChS)",
+    "text": "ID Requirement Source Allocation - Comment Criticality QChS F-100 The Clarus system shall ConOps §1 CS, QChS, “Environmental data” includes all NTCIP H collect, quality check, and QEDS, 1204 data (summarized in Table 1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0274",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.9     Quality Checking Services (QChS)",
+    "text": "F-100H1 The QChS shall quality check environmental data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0275",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.9     Quality Checking Services (QChS)",
+    "text": "F-101 The Clarus system shall ConOps §2.4 QChS, SS, H implement quality CAS checking processes as soon as data become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0276",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-101H1 QChS shall be able to be configured individually.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0277",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-101H2 QChS processing order shall be able to be configured.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0278",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-101H3 QChS processing shall commence when new data arrives but no less frequently than the scheduled interval.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0279",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-111 The Clarus system shall OCS QChS, H provide environmental data CAUI, quality flags.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0280",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "QEDC F-111H1 Each QChS shall produce a unique quality flag value.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0281",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 66 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QChS F-111H2 The QChS shall be able to indicate a numeric confidence value.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0282",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-115 The Clarus system shall ConOps §2.4 QChS, A “data contributor” could be a State DOT H provide notification of data QEDS maintenance engineer or traffic manager.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0283",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-115H1 A QChS shall evaluate data quality conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0284",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-121 The Clarus system shall ConOps §3.5.1.4 QChS Examples – sensor range tests and climates H detect out of range values.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0285",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-121H1 QChS algorithms shall use sensor range metadata for range checking bounds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0286",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-121H2 QChS algorithms shall use climate records for range checking bounds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0287",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-121H3 QChS algorithms shall be able to use monthly climate extremes for range checking bounds.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0288",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-125 The Clarus system shall OCS QChS H not modify original observations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0289",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-125H1 QChS shall apply separate, independent quality flags that do not modify the observation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0290",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-141 The Clarus system shall OCS CAUI, Changed from “The Clarus system shall M allow human quality QChS allow human intervention to override checks of observations.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0291",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 67 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QChS F-141H1 QChS shall implement a manual override to set quality flags.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0292",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-151 The Clarus system shall MHI QChS, CAS H record the methods applied when deriving quality checking information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0293",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-151H1 QChS shall indicate when a quality check has been performed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0294",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-155 The Clarus system shall be ConOps §3.5.1.4 QChS, Example – variable-specific tests.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0295",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-155H1 QChS shall be able to implement quality checking rules for a specific environmental parameter.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0296",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-161 The Clarus system shall be ConOps §3.5.1.4 QChS, CAS The rules for setting quality flags on H able to implement quality environmental data elements may checking rules for specific themselves depend on other environmental environmental situations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0297",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-161H1 QChS shall be able to implement quality checking rules for specific environmental situations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0298",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 68 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QChS F-162 The Clarus system shall be OCS New requirement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0299",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-162H1 QChS shall be able to Available data could be from adjacent implement quality environmental sensor stations and ASOS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0300",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-163 The Clarus system shall be Task Force review QChS, CAS Quality checking rules may vary from H able to implement quality region to region.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0301",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-163H1 QChS shall be able to implement different quality checking rules specific to regional weather.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0302",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-165 The Clarus system shall be ConOps §3.5.1.4 Example – variable-specific and like H able to base its quality instrument tests.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0303",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-165H1 QChS shall be able to flag observations based on more than one observation type.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0304",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-166 The Clarus system shall be OCS New high-level requirement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0305",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-166H1 QChS shall be able to base its quality checking process on values distributed in time.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0306",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 69 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QChS F-171 The Clarus system shall be Inferred from QChS, CAS See F-121.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0307",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-171H1 QChS shall be able to use historical environmental data in their quality checking algorithms.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0308",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-175 The Clarus system shall be Inferred from QChS, CAS Multiple methods or comparisons may be M able to use multiple ConOps §4.3 needed for a given observation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0309",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-175H1 QChS shall be implemented for each defined standard quality checking algorithm.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0310",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-213 The Clarus system shall ConOps §1, 2.4, 3.1 CS, QChS, Access could only be provided when new L allow access to new QEDC, data sources are established and available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0311",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "EMS, DOG F-213H1 QChS shall be implemented to quality check new observation types as they become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0312",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-223 The Clarus system shall ConOps §3.4.3 CS,QChS H process data as they are received.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0313",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 70 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QChS F-223H1 QChS shall apply quality flags to data as they are received.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0314",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F-905 The Clarus system shall MHI CS, QEDS, H log data transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0315",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "EMS, QChS, CAS, SS, DOG F-905H1 QChS shall log quality checking activity.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0316",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H-020 The Clarus system shall ConOps §2.1 CS, QChS, Roll up of H-021, H-022, H-023, which H acquire, process, and QEDS were deprecated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0317",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "H- QChS shall process 301H1 environmental data from across North America.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0318",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-023 The Clarus system shall be OCS QChS H able to complete an automated quality checking check of environmental data within ten seconds of data receipt.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0319",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 71 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation - Comment Criticality QChS P-023H1 A QChS shall be able to complete an automated quality check within ten seconds of when data is available for checking.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0320",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-024H1 All QChS shall be A goal of 5 minutes was established at the completed within twenty task force review.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0321",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.10 Schedule Service (SS)",
+    "text": "ID Requirement Source Allocation Comment Criticality - SS D-051 The Clarus system shall OCS QEDS, SS H disseminate data in response to a scheduled request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0322",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.10 Schedule Service (SS)",
+    "text": "D- The SS shall be able to initiate 051K1 a QEDS response.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0323",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.10 Schedule Service (SS)",
+    "text": "F-101 The Clarus system shall ConOps §2.4 QChS, SS, H implement quality checking CAS processes as soon as data become available.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0324",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "F- The SS shall be able to initiate 101K1 QChS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0325",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "EMS, QChS, CAS, SS, DOG F- The SS shall record when it 905K1 initiates actions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0326",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-016K1 The SS shall be able to store event schedules.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0327",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "I-016K2 The SS shall be able to initiate CS.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0328",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.11 Program Requirements",
+    "text": "ID Requirement Source Allocation Comment Criticality D-011 The Clarus system shall be MHI H able to be hosted at one or more physical locations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0329",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.11 Program Requirements",
+    "text": "D- The Clarus system shall 011A1 track its constituent hosts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0330",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.11 Program Requirements",
+    "text": "D- The Clarus system shall 011A2 allocate each collector to a specific host.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0331",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.11 Program Requirements",
+    "text": "D- The Clarus system shall 011A3 allocate each contributor to a specific host.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0332",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "4.11 Program Requirements",
+    "text": "D- Clarus hosts shall be able to 011A4 aggregate environmental data from other Clarus hosts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0333",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D- Clarus hosts shall be able to 011A5 distribute queries to other Clarus hosts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0334",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-021 The Clarus system shall use MHI H hardware that implements industry accepted standard interfaces.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0335",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-031 The Clarus system shall use MHI H software that implements industry accepted standard interfaces.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0336",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-041 The Clarus system shall be ConOps §3.4.2 H able to operate on redundant hardware.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0337",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 74 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality D-101 All HTML coding shall Contract FHWA requirements for HTML H meet FHWA requirements coding can be found at for web sites.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0338",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "http://www.tfhrc.gov/qkref/qrg08.htm D-111 The Clarus system shall OCS H support modular components.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0339",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-121 The Clarus system shall be MHI H able to use latitude, longitude, and elevation coordinates to specify location to the nearest three feet.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0340",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "D-126 The Clarus system shall use OCS H Coordinated Universal Time (UTC) for all timestamps.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0341",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-801 The Clarus program shall OCS Changed from F-801.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0342",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-011 The Clarus system shall be MHI M able to publish environmental data at three times the volume rate that it collects it.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0343",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-041 The Clarus system shall be MHI An estimate of the number of H able to support six hundred concurrent potential users of the concurrent users.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0344",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "P-042 The Clarus system shall be MHI An estimate of the number of H able to support six thousand individual users: a pool of 250 registered users.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0345",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "25 per agency; and 1000 other users.",
+    "text": "Page 75 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality Q-011 The Clarus system shall be MHI H able to mitigate communication denial-of- service attacks.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0346",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "25 per agency; and 1000 other users.",
+    "text": "Q-013 The Clarus system shall be MHI H able to respond to 95% of all requests for environmental data 95% of the time.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0347",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-201 The Clarus program shall Task Force review H establish data sharing agreements with all participating sources of environmental data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0348",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X- The Clarus program shall Task Force 20110 identify categories of recipients for dissemination of data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0349",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20110   identify categories of",
+    "text": "X- The Clarus program shall The U.S.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0350",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20110   identify categories of",
+    "text": "X- The authorized Both the signatories of the Clarus 20112 representative(s) of the Data Sharing Agreement and the contributors shall be positions/organizations responsible identified.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0351",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20110   identify categories of",
+    "text": "for Quality Control (QC)/Quality Assurance (QA) shall be named.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0352",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 76 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X- The contributors shall Examples of data and information 20113 identify and define the types include surface condition data, of data and information that atmospheric condition data,weather will be included in the hazards reports and associated Clarus Data Sharing metadata.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0353",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X- The contributors shall 20114 identify the intended use of their shared data and information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0354",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20114   identify the intended use of",
+    "text": "X- The contributors shall 20115 identify the categories of recipients of their shared data and information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0355",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20115   identify the categories of",
+    "text": "X- The contributors shall define Identification markers are needed for 20116 the units of measurements of qualitative data and information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0356",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20115   identify the categories of",
+    "text": "X- The Clarus program shall 20118 determine how it will provide data and information to contributors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0357",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20118   determine how it will",
+    "text": "X- The Clarus program shall 20119 provide data and information statistics on its operation to contributors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0358",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20119   provide data and",
+    "text": "X- The contributors shall Task Force 20120 inform the Clarus program of changes in authorized personnel/offices.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0359",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20120   inform the Clarus program",
+    "text": "Page 77 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X- The Clarus program shall 20121 inform contributors of the \"acceptance and use\" of their data and information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0360",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20121   inform contributors of the",
+    "text": "X- The Clarus Initiative 20123 Management Team shall undertake joint communications activities and products that will enhance public understanding and dissemination of contributions of the Clarus program.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0361",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20123   Management Team shall",
+    "text": "X- The Clarus Initiative 20124 Management Team shall agree upon the activities and products that will enhance public understanding/ communication of the contribution of the Clarus program.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0362",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20124   Management Team shall",
+    "text": "X- The contributors shall 20126 inform the Clarus program of known error(s) and modifications in its data and information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0363",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20126   inform the Clarus program",
+    "text": "X- The Clarus program shall 20127 determine its redistribution of shared data from contributors based upon Clarus Data Sharing Agreements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0364",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20127   determine its redistribution",
+    "text": "Page 78 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X- The Clarus program shall 20128 report successes and failures in data and information transmission to its contributors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0365",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20128   report successes and failures",
+    "text": "X- The contributors shall report 20129 periods of data and information outages to the Clarus program.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0366",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20129   periods of data and",
+    "text": "X- The Clarus program shall 20131 maintain information about requestors and their access to data and information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0367",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20132   Management Team shall",
+    "text": "20132 Management Team shall review and amend data and information sharing and use policies.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0368",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20133   Management Team shall",
+    "text": "20133 Management Team shall specify the general frequency of policy meetings.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0369",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20134   Coordinating Committee                                               structure.",
+    "text": "shall nominate technical expert(s) to participate on technical working groups.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0370",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20134   Coordinating Committee                                               structure.",
+    "text": "Page 79 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X- The requestors shall adhere Task Force 20135 to the intellectual property requirements of the Clarus User Agreement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0371",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20135   to the intellectual property",
+    "text": "X- The contributors shall 20136 adhere to the intellectual property requirements of the Clarus Data Sharing Agreement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0372",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20136   adhere to the intellectual",
+    "text": "X- The contributors shall have 20139 the right to use the Clarus system data and information for purposes delineated within the Clarus Data Sharing Agreement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0373",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20139   the right to use the Clarus",
+    "text": "X- The requestors shall have Task Force 20140 the right to use the Clarus system data and information for purposes delineated within the Clarus User Agreement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0374",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20140   the right to use the Clarus",
+    "text": "X- The Clarus program shall 20141 have the right to reject the use of data and information provided by the contributors when deemed appropriate.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0375",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20141   have the right to reject the",
+    "text": "X- The Clarus program shall 20142 inform contributors of the policies, processes and procedures employed to reject data and information provided by the contributors.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0376",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20142   inform contributors of the",
+    "text": "Page 80 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X- The contributors shall 20149 provide the Clarus program with a timely notice of their intent to change, alter, replace, or eliminate any shared data and information as specified within this Clarus Data Sharing Agreement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0377",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20149   provide the Clarus program",
+    "text": "X- Any reference in the Clarus 20152 Data Sharing Agreement to statutes, regulations and rules shall be a reference to the amended, substituted, replaced or re-enacted statute, regulations and rules.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0378",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20152   Data Sharing Agreement to",
+    "text": "X- The Clarus program shall Task Force 20165 provide to contributors the limitation of liability for contributing environmental data and metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0379",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20165   provide to contributors the",
+    "text": "X- The Clarus program shall Task Force 20166 provide to requesters the limitation of liability for using environmental data and metadata.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0380",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20166   provide to requesters the",
+    "text": "X-205 The Clarus program shall OCS H maintain continuous 24x7 operations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0381",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": "20166   provide to requesters the",
+    "text": "Page 81 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X-207 The Clarus program shall MHI H provide an environment that has uninterruptible power for the Clarus system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0382",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-209 The Clarus program shall MHI H provide an environment that has redundant communication for the Clarus system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0383",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-211 The Clarus program shall OCS Network management tools can be H provide network used to determine latency.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0384",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-215 The Clarus program shall ConOps §3.3.1 (Fig.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0385",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-221 The Clarus program shall OCS H provide for customer service.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0386",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-225 The Clarus program shall ConOps §3.3.1 H provide a trained support staff.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0387",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-232 The Clarus program shall MHI Specifies the rules to be implemented H define quality checking rules according to F-155, F-161, F-165, F- for environmental 171, and F-175.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0388",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-233 The Clarus program shall MHI H define data retention standards.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0389",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-235 The Clarus program shall OCS That is, the Clarus program needs to H provide documentation of provide documentation of whatever Clarus standards.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0390",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 82 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X-237 The Clarus program Inferred from ConOps §1 M standards shall accommodate contributions of new sensor technologies to the Clarus system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0391",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-239 The Clarus program Inferred from ConOps M standards shall support §4.3 multiple methods of data delivery to users.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0392",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-305 The Clarus program shall OCS H maintain a comprehensive Clarus system test environment.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0393",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-311 The Clarus program shall OCS H test all software changes in the designated test environment before deployment to production.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0394",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-315 The Clarus program shall OCS H test all hardware changes in the designated test environment before deployment to production.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0395",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-601 The Clarus program shall Contract H operate the Clarus system according to its published IT Security Plan.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0396",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 83 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X-605 The Clarus program shall Contract H operate according to Government IT security requirements as outlined in OMB Circular A-130, Management of Federal Information Resources, Appendix III, Security of Federal Automated Information Resources.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0397",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-611 The Clarus program shall Contract H operate according to Government IT security requirements as outlined in the National Institute of Standards and Technology (NIST) Guidelines, Departmental Information Resource Management Manual, and associated guidelines.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0398",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-615 The Clarus program shall Contract H operate according to Government IT security requirements as outlined in U.S.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0399",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-805 Weather service providers ConOps §3.4.2 L shall be able to use Clarus data to provide localized special weather products.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0400",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 84 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X-811 Public agency maintenance ConOps §2.5.2 L and construction personnel shall be able to use the Clarus system to obtain environmental conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0401",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-815 Rail system personnel shall Inferred from ConOps L be able to use the Clarus §2.5.7 system to obtain environmental conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0402",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-821 Traffic management Inferred from ConOps L personnel shall be able to §2.5.3 use the Clarus system to obtain environmental conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0403",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-823 Transit personnel shall be Inferred from ConOps L able to use the Clarus §2.5.5 system to obtain environmental conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0404",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-825 The freight community shall Inferred from ConOps L be able to use the Clarus §2.5.8 system to obtain environmental conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0405",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-827 Emergency management and Inferred from ConOps L public safety personnel shall §2.5.6 be able to use the Clarus system to obtain environmental conditions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0406",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-905 The Clarus program shall OCS H maintain information about data providers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0407",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "Page 85 Clarus Weather System Design Detailed System Requirements Specification ID Requirement Source Allocation Comment Criticality X-910 The Clarus program shall OCS H maintain metadata about each data provider's network.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0408",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-915 The Clarus program shall OCS H maintain information about data provider redistribution restrictions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0409",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-921 The Clarus program shall OCS H maintain information about service providers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0410",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-925 The Clarus program shall OCS M maintain information about service provider communications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0411",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-931 The Clarus program shall OCS H maintain information about service provider access to data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0412",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-935 The Clarus program shall MHI H allow potential weather element data providers to request permission to submit weather information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0413",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "X-101 The Clarus system shall MHI (The “Approved sources” are anticipated H accept data only from Clarus to be those with whom a data sharing sources which data sharing program agreement has been established.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - clarus low [pdf]__C0414",
+    "document": "2005 - clarus low [pdf].txt",
+    "nearest_heading": null,
+    "text": "agreements have been shall established.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  }
+]

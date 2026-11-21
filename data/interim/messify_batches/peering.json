@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PURE-084",
+    "text": "The format for service information description is defined"
+  },
+  {
+    "id": "PURE-085",
+    "text": "The interaction protocol between Web Server-SR, SR-mediator is defined."
+  },
+  {
+    "id": "PURE-086",
+    "text": "Malicious requests are detected and rejected."
+  },
+  {
+    "id": "PURE-087",
+    "text": "Mediator-SR, mediator-PR, mediator-PA interaction protocols are defined."
+  },
+  {
+    "id": "PURE-088",
+    "text": "Interaction protocols between PAs are identified."
+  },
+  {
+    "id": "PURE-089",
+    "text": "Negotiation is established between selected CDN peers."
+  }
+]

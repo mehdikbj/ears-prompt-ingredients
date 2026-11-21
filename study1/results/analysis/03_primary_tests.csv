@@ -1,0 +1,7 @@
+test,estimate,ci_lo,ci_hi,stat,df,p,analysis,p_holm
+main effect: examples,0.026111111111111137,0.01215491379159035,0.04006730843063192,13.447100361186664,1,0.00024538514828645954,"primary: identity GEE, item clusters, extraction failure = non-compliant",0.0014723108897187571
+main effect: chain-of-thought,-0.0016666666666666425,-0.008461542731816077,0.005128209398482793,0.23112480739598745,1,0.6306910521618195,"primary: identity GEE, item clusters, extraction failure = non-compliant",0.6306910521618195
+main effect: rules,0.027222222222222262,0.006024004345422725,0.0484204400990218,6.33520378546678,1,0.01183645158775942,"primary: identity GEE, item clusters, extraction failure = non-compliant",0.059182257938797105
+examples x tier,,,,7.1243206189100174,2,0.028377454365604883,"primary: identity GEE, item clusters, extraction failure = non-compliant",0.08784607309587097
+chain-of-thought x tier,,,,2.4767801857585603,2,0.2898504748666048,"primary: identity GEE, item clusters, extraction failure = non-compliant",0.5797009497332096
+rules x tier,,,,7.636927053143834,2,0.021961518273967744,"primary: identity GEE, item clusters, extraction failure = non-compliant",0.08784607309587097

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PURE-090",
+    "text": "Any national pilot solution that will be developed in the context of PEPPOL WP2 has to follow the pre- VCD mapping defined in stage 1."
+  },
+  {
+    "id": "PURE-091",
+    "text": "The VCD simple package (Stage 2) lays the basic ground for the creation of VCDs and the implementation of other services mentioned in stages 3 and 4 so the key concepts of Stage 2 MUST be implemented in each Member States."
+  },
+  {
+    "id": "PURE-092",
+    "text": "Classification schemes for goods, services and code lists SHOULD be publicly available and identified in the document objects."
+  },
+  {
+    "id": "PURE-093",
+    "text": "The contracting authority SHOULD specify a subset of evidences from the superset evidences that are relevant to a specific Call for Tender."
+  },
+  {
+    "id": "PURE-094",
+    "text": "Relevant regulations of national data protection acts MUST be analysed and considered."
+  },
+  {
+    "id": "PURE-095",
+    "text": "A process for document handling compliant with the relevant legal regulations MUST be defined (especially with respect to the data protection acts)."
+  },
+  {
+    "id": "PURE-096",
+    "text": "Every party participating MUST be uniquely identifiable"
+  },
+  {
+    "id": "PURE-097",
+    "text": "The PEPPOL infrastructure MUST have the capability to submit a VCD to a contracting authority or tendering platform."
+  }
+]

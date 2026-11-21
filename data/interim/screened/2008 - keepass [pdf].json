@@ -1,0 +1,515 @@
+[
+  {
+    "id": "2008 - keepass [pdf]__C0001",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Composite Master Key To open a database you must use all key sources such as password, key file and/or Windows account details that were used when the Master Key was created.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0002",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.1 New Database",
+    "text": "3.1 New Database This feature provides the ability to create a new database 3.1.1 Description It is the first thing a user must do to begin using KeePass.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0003",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.1.2.2.3 Alternative Data Flow 3",
+    "text": "A message is appeared which prompts him to enter a password or key file 3.1.3 Functional Requirements REQ-1: KeePass must be downloaded and installed REQ-2: Master Password has no limits in length.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0004",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "4. Exit from KeePass",
+    "text": "Exit from KeePass 3.2.3 Functional Requirements REQ-3: Folder selected must be of type the database can read and that is “name”.kdb Software Requirements Specification for KeePass Password Safe Page 10 3.3 Save Database This feature allows the user to save any changes or updates he has performed to his database.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0005",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.3.2.2.4 Alternative Data Flow 4",
+    "text": "A message is appeared asking if he wants to save the database before locking 3.3.3 Functional Requirements REQ-4: Databases must have different names or else the previews one will be replace if selected Software Requirements Specification for KeePass Password Safe Page 11 3.4 Print Database This feature allows user to print a selection of data that are stored in the database.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0006",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "5. User returns on the main window",
+    "text": "User returns on the main window 3.4.3 Functional Requirements Software Requirements Specification for KeePass Password Safe Page 12 REQ-5: There must be entries in the database in order for them to be printed 3.5 Search Database This feature allows user to search for keywords in his database.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0007",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3. Nothing appears in the main window",
+    "text": "Nothing appears in the main window Software Requirements Specification for KeePass Password Safe Page 13 3.5.3 Functional Requirements REQ-6: All data related to the word must be shown.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0008",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.5.3     Functional Requirements",
+    "text": "For example if user types “abc” and abc is part of a password and of a username, both entries must be shown 3.6 Add Group/Subgroup This feature is used to keep data organized in categories for easier access.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0009",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.6.1    Description",
+    "text": "When creating a group/subgroup the user must select a name and then he can add entries into it.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0010",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.8.1    Description",
+    "text": "In order for that to happen, he must have chosen first a group/subgroup.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0011",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "5. Nothing appears in the main window",
+    "text": "Nothing appears in the main window 3.9.3 Functional Requirements REQ-10: In order to find something in a group a word must be placed in the find field 3.10 Add Entry This feature adds a new entry on the database.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0012",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.10.2.2.1 Alternative Data Flow 1",
+    "text": "A message appears “the repeated password must be identical with the password 3.10.2.2.2 Alternative Data Flow 2 2a.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0013",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "4. The main window opens",
+    "text": "The main window opens 3.10.3 Functional Requirements REQ-11: An entry must belong to a group to be created REQ-12: When the password field is completed the repeat password field must be completed REQ-13: Password field and repeat password field must be identical 3.11 View/Edit Entry This feature allows the user to change or modify an existing entry.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0014",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.11.1 Description",
+    "text": "In order for that to happen, the user must select an entry first.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0015",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.11.2.2.1 Alternative Data Flow 1",
+    "text": "A message appears “the repeated password must be identical with the password 3.11.2.2.2 Alternative Data Flow 2 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0016",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "4. The main window opens and the selected entry is not modified",
+    "text": "The main window opens and the selected entry is not modified 3.11.3 Functional Requirements REQ-14: An entry must be selected to be viewed or modified REQ-15: When the password field is changed the repeat password field must be Changed and be identical with password field 3.12 Duplicate Entry This feature creates an exact copy of the selected entry in the same group.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0017",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3. The new entry is added below the first one",
+    "text": "The new entry is added below the first one 3.12.2.2 Alternative Data Flows Not exist 3.12.3 Functional Requirements REQ-16: An entry must be selected before it is duplicated 3.13 Delete Entry This feature allows the user to delete an existing entry 3.13.1 Description The user can delete an existing entry by selecting it and then by clicking delete entry.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0018",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.13.2.2.2 Alternative Data Flow 2",
+    "text": "No entry is deleted 3.13.3 Functional Requirements REQ-17: An entry must be selected to be deleted 3.14 Change Language This feature allows user to choose one of the language translations that are available in KeePass 3.14.1 Description The user can select between a number of translations that are available at KeePass website.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0019",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.14.2.1 Basic Data Flow",
+    "text": "A message appears that informs user that the installation has been done and in order for the changes to take place KeePass must be restarted Software Requirements Specification for KeePass Password Safe Page 21 4.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0020",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.15.1 Description",
+    "text": "The sequence must be prefixed with “Auto-Type” and length of one line.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0021",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.15.2 Functional Requirements",
+    "text": "3.15.2 Functional Requirements REQ-19: The prefix “Auto-Type:” is required in front of each sequence REQ-20: Sequence’s length must not be more than a line (59 characters) REQ-21: If two auto-types are referred in one note field, only the first is used 3.16 Command Line Options This feature allows user to pass a file patch in the command line so that KeePass will open it immediately after start up.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0022",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.16.1 Description",
+    "text": "More about this feature and examples for using it can be found at help contents in KeePass 3.16.2 Functional Requirements REQ-22: Only one database file is allowed in command line options REQ-23: In case a space is found in the path, it must be enclosed into quotes 3.17 Composite Master Key This feature is a composition of master password and key files and all its composites are required so that the database can be unlocked.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0023",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.17.1 Description",
+    "text": "But the same composition of them must be used always.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0024",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "5.1 Performance Requirements",
+    "text": "If in the meanwhile it is not pasted anywhere, it must be copied again.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0025",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.1.3    Functional Requirements",
+    "text": "REQ-1: KeePass must be downloaded and installed",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0026",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.1.3    Functional Requirements",
+    "text": "REQ-2: Master Password has no limits in length. A whole sentence can be used with more",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0027",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.2.3      Functional Requirements",
+    "text": "REQ-3: Folder selected must be of type the database can read and that is “name”.kdb",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0028",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.3.3      Functional Requirements",
+    "text": "REQ-4: Databases must have different names or else the previews one will be replace if",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0029",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.4.3     Functional Requirements",
+    "text": "REQ-5: There must be entries in the database in order for them to be printed",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0030",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.5.3     Functional Requirements",
+    "text": "REQ-6: All data related to the word must be shown. For example if user types “abc” and",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0031",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.6.3     Functional Requirements",
+    "text": "REQ-7: A name is required in order for the new group/subgroup to be created",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0032",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.6.3     Functional Requirements",
+    "text": "REQ-8: A subgroup cannot be created when no group is selected",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0033",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.7.3     Functional Requirements",
+    "text": "REQ-9: A name is required in order for the group/subgroup to be renamed",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0034",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.9.3    Functional Requirements",
+    "text": "REQ-10: In order to find something in a group a word must be placed in the find field",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0035",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.10.3 Functional Requirements",
+    "text": "REQ-11: An entry must belong to a group to be created",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0036",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.10.3 Functional Requirements",
+    "text": "REQ-12: When the password field is completed the repeat password field must be",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0037",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.10.3 Functional Requirements",
+    "text": "REQ-13: Password field and repeat password field must be identical",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0038",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.11.3 Functional Requirements",
+    "text": "REQ-14: An entry must be selected to be viewed or modified",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0039",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.11.3 Functional Requirements",
+    "text": "REQ-15: When the password field is changed the repeat password field must be",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0040",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.12.3 Functional Requirements",
+    "text": "REQ-16: An entry must be selected before it is duplicated",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0041",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.13.3 Functional Requirements",
+    "text": "REQ-17: An entry must be selected to be deleted",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0042",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.14.3 Functional Requirements",
+    "text": "REQ-18: An internet connection and a browser are required in order to download new",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0043",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.15.2 Functional Requirements",
+    "text": "REQ-19: The prefix “Auto-Type:” is required in front of each sequence",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0044",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.15.2 Functional Requirements",
+    "text": "REQ-20: Sequence’s length must not be more than a line (59 characters)",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0045",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.15.2 Functional Requirements",
+    "text": "REQ-21: If two auto-types are referred in one note field, only the first is used",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0046",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.16.2 Functional Requirements",
+    "text": "REQ-22: Only one database file is allowed in command line options",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0047",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.16.2 Functional Requirements",
+    "text": "REQ-23: In case a space is found in the path, it must be enclosed into quotes",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0048",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.17.2 Functional Requirements",
+    "text": "REQ-24: If a master password is required to unlock the database, the database doesn’t",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0049",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.17.2 Functional Requirements",
+    "text": "REQ-25: If a key file is required to unlock the database, the database doesn’t open unless",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0050",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.17.2 Functional Requirements",
+    "text": "REQ-26: If there is a composite key, both master password and key file are",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0051",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.17.2 Functional Requirements",
+    "text": "REQ-27: In case of lost master password or key file, the database never unlocks",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0052",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.17.2 Functional Requirements",
+    "text": "REQ-28: There is no backdoor or key that unlocks all databases",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0053",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.18.2 Functional Requirements",
+    "text": "REQ-29: File formats are not specialized password database formats",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0054",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.18.2 Functional Requirements",
+    "text": "REQ-30: File formats only specify a low-level layout of stored data",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0055",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.19.2 Functional Requirements",
+    "text": "REQ-31: Global hot key cannot be changed",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0056",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.21.2 Functional Requirements",
+    "text": "REQ-32: Title, username or URL cannot be changed in a TAN entry.",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass [pdf]__C0057",
+    "document": "2008 - keepass [pdf].txt",
+    "nearest_heading": "3.21.2 Functional Requirements",
+    "text": "REQ-33: When a TAN is used, it expires automatically and can never be used again.",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

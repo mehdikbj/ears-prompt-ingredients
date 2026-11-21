@@ -1,0 +1,93 @@
+You are generating "messified" inputs for an empirical requirements-engineering study. Each of the items below is a clean, formal software requirement (verbatim from the PURE dataset). Your job: rewrite each one as a rambling, informal, ambiguous description of what a non-technical stakeholder wants, as if they were describing it out loud in a meeting or a quick verbal walkthrough — NOT a written user story, NOT bullet points.
+
+RULES (apply to every item):
+
+PERSONA/REGISTER: first-person, informal, conversational. Natural filler is expected ("oh, and," "I guess," "yeah, so"). Same register for every item — don't vary between email/chat/meeting-notes styles.
+
+LENGTH: 25-70 words, one paragraph, no bullets/numbering.
+
+ALWAYS REMOVE OR REWORD:
+- The modal verb "shall"/"must" -> replace with natural obligation language ("I want," "we need," "it should probably," "it'd be nice if").
+- Formal EARS trigger keywords used as a structured clause opener (WHEN/WHILE/IF/WHERE at the start of a formal condition) -> reword as casual conditional language. Ordinary conversational "if"/"when" elsewhere in the sentence is fine.
+- The source's exact clause structure and subject naming (e.g. "the user," "the system") -> reword in the stakeholder's own words ("someone," "the thing," "it").
+- At least one precise term replaced with something vaguer where the source has one (a threshold, a count, a qualifier) — EXCEPT exact numeric/quantitative values, see next rule.
+
+ALWAYS PRESERVE:
+- The underlying actor, trigger condition, action, and response — reworded, never deleted. A competent reader must be able to reconstruct the original requirement's meaning from your messified version.
+- EXACT numeric/quantitative values (e.g. "327.68 microseconds," "59 characters," "3 rate groups") verbatim — casualize the FRAMING around a number, never round, invent, or drop the number itself. Where a source item is dense with technical constants, lean on "the engineers will know what I mean about the exact number" framing rather than pretending a stakeholder would casually restate it precisely.
+
+HARD CONSTRAINT: never use the literal word "shall" anywhere in your output. Never copy a contiguous run of 6+ words verbatim from the source text.
+
+WORKED EXAMPLES:
+Source: "Where EIRENE facilities are not available within the currently selected network, the user shall be given a visible indication."
+Messified: "Oh, and if someone's on a network that doesn't actually have EIRENE, they need some way to know — like, something on the screen so they're not just sitting there wondering if it's working."
+
+Source: "The scheduler shall support up to 3 rate groups per vehicle mode."
+Messified: "For the scheduling side, I think we need it to juggle a few rate groups per vehicle mode — three should cover it, that's the max we'd realistically need."
+
+Source: "Privileged users shall be able to delete an existing inspection unless it is \u201clocked down\u201d."
+Messified: "If someone's got the right permissions they should be able to get rid of an old inspection — unless it's been locked, obviously, then just leave it alone."
+
+Source: "Sequence\u2019s length must not be more than a line (59 characters)"
+Messified: "Also, that auto-type sequence thing — keep it to one line, nothing crazy long, so like under 60 characters or so."
+
+Source: "The maximum time-out value shall be 327.68 microseconds (256 counts of the least significant bit of the fault tolerant clock which is 1.28 microseconds)."
+Messified: "There's also a timeout thing tied to the clock — it has to work out to exactly 327.68 microseconds, based on 256 ticks where each tick's 1.28 microseconds. I know that sounds oddly specific but that's the number the engineers need."
+
+YOUR TASK: messify each of the following items. Return ONLY a raw JSON array (no markdown fences, no commentary) with one object per item: {"id": "...", "messified_text": "..."}. Preserve the ids exactly as given. Output must be valid JSON parseable by json.loads.
+
+ITEMS:
+[
+  {
+    "id": "PURE-126",
+    "text": "The TCS mission planning function shall provide a graphical user interface that gives the operator the ability to define waypoints on a map based display using a pointing device with full keyset redundancy."
+  },
+  {
+    "id": "PURE-127",
+    "text": "The TCS will have the capability to control and monitor an AV, payload, data link, and C4I interfaces during the execution of a mission."
+  },
+  {
+    "id": "PURE-128",
+    "text": "The TCS shall have the capability to command the AV to use the navigation methods inherent to the selected AV."
+  },
+  {
+    "id": "PURE-129",
+    "text": "TCS shall display a LOL timer to the operator initiating a LOL onset."
+  },
+  {
+    "id": "PURE-130",
+    "text": "The TCS shall support a LOS data link and SATCOM data link capability."
+  },
+  {
+    "id": "PURE-131",
+    "text": "The image enhancement capability shall include contrast, brightness, edge enhancement, and sharpness."
+  },
+  {
+    "id": "PURE-132",
+    "text": "The TCS will have the capability to manage all operational C4I interfaces across all 5 levels of interaction."
+  },
+  {
+    "id": "PURE-133",
+    "text": "As a minimum, the TCS shall restrict Operator access to this capability via password protection."
+  },
+  {
+    "id": "PURE-134",
+    "text": "The TCS shall provide the necessary hardware and software functionality to allow the TCS to integrate with JMCIS."
+  },
+  {
+    "id": "PURE-135",
+    "text": "The TCS will provide an interface between the TCS and a video cassette recorder."
+  },
+  {
+    "id": "PURE-136",
+    "text": "The TCS shall provide adequate capability to allow the operator to operate each UAV within its certified operational flight envelope."
+  },
+  {
+    "id": "PURE-137",
+    "text": "The TCS shall use standard military worldwide 110/220 volt 50/60 hertz generators and commercial power sources."
+  },
+  {
+    "id": "PURE-138",
+    "text": "The TCS software shall restrict the operator(s) from exercising levels of interaction not achievable by the system."
+  }
+]

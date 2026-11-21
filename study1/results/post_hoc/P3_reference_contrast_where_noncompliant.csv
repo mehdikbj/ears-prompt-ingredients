@@ -1,0 +1,5 @@
+contrast,tier,estimate,ci_lo,ci_hi,p
+F_base - A0_name_only,pooled,-0.02888888888888895,-0.09168647464626287,0.03390869686848497,0.3672362295169367
+F_base - A0_name_only,gpt-5.4-nano,-0.06,,,
+F_base - A0_name_only,gpt-5.4-mini,0.006666666666666667,,,
+F_base - A0_name_only,gpt-5.4,-0.03333333333333333,,,

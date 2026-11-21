@@ -1,0 +1,10 @@
+reasoning,tier,n,share_ge15_words_before_tag,share_any_text_before_tag,share_reasoning_tokens,mean_completion_tokens,check_passed
+native,gpt-5.4,600,0.0,0.0,1.0,246.63333333333333,True
+native,gpt-5.4-mini,600,0.0,0.0,1.0,273.1483333333333,True
+native,gpt-5.4-nano,600,0.03,0.03,0.98,204.31333333333333,True
+none,gpt-5.4,600,0.0,0.0,0.0,29.458333333333332,True
+none,gpt-5.4-mini,600,0.0,0.0,0.0,28.981666666666666,True
+none,gpt-5.4-nano,600,0.0016666666666666668,0.0016666666666666668,0.0,35.083333333333336,True
+written,gpt-5.4,600,1.0,1.0,0.0,137.37666666666667,True
+written,gpt-5.4-mini,600,0.9383333333333334,0.9383333333333334,0.0,105.55666666666667,True
+written,gpt-5.4-nano,600,1.0,1.0,0.0,132.40166666666667,True

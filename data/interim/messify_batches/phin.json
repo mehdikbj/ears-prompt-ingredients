@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PURE-098",
+    "text": "A plan must be established for continuing activities when systems supporting OM are unavailable."
+  },
+  {
+    "id": "PURE-099",
+    "text": "Systems supporting OM should be capable of using configurable, domain-specific vocabulary."
+  },
+  {
+    "id": "PURE-100",
+    "text": "A Subject ID should also be collected for animals in an OM investigation."
+  },
+  {
+    "id": "PURE-101",
+    "text": "Information about each leg of a trip, as well as the parent information about the trip, should be captured."
+  },
+  {
+    "id": "PURE-102",
+    "text": "Systems supporting OM must allow for dynamic, event-specific case investigation data to be captured."
+  },
+  {
+    "id": "PURE-103",
+    "text": "Systems supporting OM must provide the ability to control the configuration of and revisions to investigation-specific questionnaires."
+  },
+  {
+    "id": "PURE-104",
+    "text": "Entity-to-epi data links must match the entity to their symptoms, survey questions, specimens/samples collected, laboratory results, and prophylaxis and treatment data."
+  },
+  {
+    "id": "PURE-105",
+    "text": "Systems supporting OM must support contact exposure tracing by allowing one contact to be linked to multiple cases, and allowing multiple contacts to be linked to a single case."
+  }
+]

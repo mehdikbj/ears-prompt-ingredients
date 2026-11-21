@@ -1,0 +1,54 @@
+[
+  {
+    "id": "PURE-126",
+    "text": "The TCS mission planning function shall provide a graphical user interface that gives the operator the ability to define waypoints on a map based display using a pointing device with full keyset redundancy."
+  },
+  {
+    "id": "PURE-127",
+    "text": "The TCS will have the capability to control and monitor an AV, payload, data link, and C4I interfaces during the execution of a mission."
+  },
+  {
+    "id": "PURE-128",
+    "text": "The TCS shall have the capability to command the AV to use the navigation methods inherent to the selected AV."
+  },
+  {
+    "id": "PURE-129",
+    "text": "TCS shall display a LOL timer to the operator initiating a LOL onset."
+  },
+  {
+    "id": "PURE-130",
+    "text": "The TCS shall support a LOS data link and SATCOM data link capability."
+  },
+  {
+    "id": "PURE-131",
+    "text": "The image enhancement capability shall include contrast, brightness, edge enhancement, and sharpness."
+  },
+  {
+    "id": "PURE-132",
+    "text": "The TCS will have the capability to manage all operational C4I interfaces across all 5 levels of interaction."
+  },
+  {
+    "id": "PURE-133",
+    "text": "As a minimum, the TCS shall restrict Operator access to this capability via password protection."
+  },
+  {
+    "id": "PURE-134",
+    "text": "The TCS shall provide the necessary hardware and software functionality to allow the TCS to integrate with JMCIS."
+  },
+  {
+    "id": "PURE-135",
+    "text": "The TCS will provide an interface between the TCS and a video cassette recorder."
+  },
+  {
+    "id": "PURE-136",
+    "text": "The TCS shall provide adequate capability to allow the operator to operate each UAV within its certified operational flight envelope."
+  },
+  {
+    "id": "PURE-137",
+    "text": "The TCS shall use standard military worldwide 110/220 volt 50/60 hertz generators and commercial power sources."
+  },
+  {
+    "id": "PURE-138",
+    "text": "The TCS software shall restrict the operator(s) from exercising levels of interaction not achievable by the system."
+  }
+]

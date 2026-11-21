@@ -1,0 +1,6 @@
+item_id,token,arm,tier,requirement
+PURE-124,HTTP,A0_name_only,gpt-5.4-nano,"The system shall provide web-based access using standard web protocols (e.g., HTTP/HTTPS) and shall integrate with map-server style services/APIs to enable correct operation of its mapping-related functionality when accessed over the web."
+PURE-124,HTTP,F_C,gpt-5.4-nano,The system shall provide web-based access using standard HTTP/HTTPS protocols and shall support integration with map-server style services to enable correct operation over the web.
+PURE-124,HTTP,F_EC,gpt-5.4-mini,"WHERE the system is accessed over the web, the system shall support the Hypertext Transfer Protocol (HTTP) and map-server applications."
+PURE-124,HTTP,J_json,gpt-5.4-nano,The system shall provide web-based access using standard HTTP/HTTPS protocols and shall support map-server style requests for retrieving map data.
+PURE-130,LOS,A0_name_only,gpt-5.4-nano,"The system shall support establishing and maintaining data connections over both (1) a line-of-sight (LOS) link and (2) a satellite link, such that either connection type can be used to transmit data as required by the user without requiring separate system configurations."

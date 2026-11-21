@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "PURE-001",
+    "text": "The Clarus system design must address how best to minimize these times to optimize the flow of data in a timely manner.",
+    "source_document": "2005 - clarus low [pdf].txt",
+    "source_document_key": "clarus_low",
+    "source_section": null,
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-002",
+    "text": "The CAUI shall enable administrators to manage contributor metadata.",
+    "source_document": "2005 - clarus low [pdf].txt",
+    "source_document_key": "clarus_low",
+    "source_section": null,
+    "source_requirement_id": "I-031C1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-003",
+    "text": "The Clarus system shall collect pavement-related observations.",
+    "source_document": "2005 - clarus low [pdf].txt",
+    "source_document_key": "clarus_low",
+    "source_section": null,
+    "source_requirement_id": "F-231",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-004",
+    "text": "The Clarus system shall accept data through a Clarus standard interface.",
+    "source_document": "2005 - clarus low [pdf].txt",
+    "source_document_key": "clarus_low",
+    "source_section": null,
+    "source_requirement_id": "I-011",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-005",
+    "text": "The EMC shall be able to maintain contact info for each contributor, collector, and station sensor.",
+    "source_document": "2005 - clarus low [pdf].txt",
+    "source_document_key": "clarus_low",
+    "source_section": null,
+    "source_requirement_id": "H-120E3",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-006",
+    "text": "The QEDC combined from all available Clarus hosts shall support 470 million current observations.",
+    "source_document": "2005 - clarus low [pdf].txt",
+    "source_document_key": "clarus_low",
+    "source_section": null,
+    "source_requirement_id": "P-013I1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-007",
+    "text": "The Clarus system shall allow users to create a data subscription request.",
+    "source_document": "2005 - clarus low [pdf].txt",
+    "source_document_key": "clarus_low",
+    "source_section": null,
+    "source_requirement_id": "I-033",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-008",
+    "text": "The SS shall be able to initiate a QEDS response.",
+    "source_document": "2005 - clarus low [pdf].txt",
+    "source_document_key": "clarus_low",
+    "source_section": null,
+    "source_requirement_id": "D-051K1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-009",
+    "text": "The network shall support data rates of at least 2.4 kbit/s.",
+    "source_document": "2007-eirene_fun_7-2.xml",
+    "source_document_key": "eirene_fun_7",
+    "source_section": "Network requirements > Data services",
+    "source_requirement_id": "2.3.8",
+    "compliance_level": "Mandatory"
+  },
+  {
+    "id": "PURE-010",
+    "text": "At any time during the call, the lead driver shall be able to remove a member of the group.",
+    "source_document": "2007-eirene_fun_7-2.xml",
+    "source_document_key": "eirene_fun_7",
+    "source_section": "Cab radio > Driver call related functions",
+    "source_requirement_id": "5.2.2.30",
+    "compliance_level": "Mandatory"
+  },
+  {
+    "id": "PURE-011",
+    "text": "It shall be possible for the user to re-join the call which is on hold at any time.",
+    "source_document": "2007-eirene_fun_7-2.xml",
+    "source_document_key": "eirene_fun_7",
+    "source_section": "Network requirements > Call related services",
+    "source_requirement_id": "2.4.14",
+    "compliance_level": "Mandatory"
+  },
+  {
+    "id": "PURE-012",
+    "text": "A connection of Railway emergency priority (see section 10.2) shall be established to a pre-determined set of receiving mobiles and controller(s).",
+    "source_document": "2007-eirene_fun_7-2.xml",
+    "source_document_key": "eirene_fun_7",
+    "source_section": "Railway emergency calls > Management of Railway emergency calls > Stage 1: Warning",
+    "source_requirement_id": "13.2.2.2",
+    "compliance_level": "Mandatory"
+  },
+  {
+    "id": "PURE-013",
+    "text": "The activation of the driver safety device shall automatically trigger the Cab radio to send a data message.",
+    "source_document": "2007-eirene_fun_7-2.xml",
+    "source_document_key": "eirene_fun_7",
+    "source_section": "Cab radio > Driver safety device interface",
+    "source_requirement_id": "5.7.2",
+    "compliance_level": "Mandatory"
+  },
+  {
+    "id": "PURE-014",
+    "text": "A short audible and visual indication of the incoming call shall be provided.",
+    "source_document": "2007-eirene_fun_7-2.xml",
+    "source_document_key": "eirene_fun_7",
+    "source_section": "Operational radio functions",
+    "source_requirement_id": "7.2.2.15",
+    "compliance_level": "Mandatory"
+  },
+  {
+    "id": "PURE-015",
+    "text": "A visual and audible alarm shall be given when the remaining capacity of the battery is such as to enable only 10 minutes of full duplex call time.",
+    "source_document": "2007-eirene_fun_7-2.xml",
+    "source_document_key": "eirene_fun_7",
+    "source_section": "Operational radio man-machine interface > Indications",
+    "source_requirement_id": "7.4.4.1",
+    "compliance_level": "Mandatory"
+  },
+  {
+    "id": "PURE-016",
+    "text": "Where EIRENE facilities are not available within the currently selected network, the user shall be given a visible indication.",
+    "source_document": "2007-eirene_fun_7-2.xml",
+    "source_document_key": "eirene_fun_7",
+    "source_section": "Subscriber management > Network selection list",
+    "source_requirement_id": "10.5.2",
+    "compliance_level": "Mandatory"
+  },
+  {
+    "id": "PURE-017",
+    "text": "ETCS shall provide the driver with information to allow him to drive the train safely.",
+    "source_document": "2007-ertms.xml",
+    "source_document_key": "ertms",
+    "source_section": "General requirements > Basic functioning",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-018",
+    "text": "The DMI shall indicate the result of the self-test.",
+    "source_document": "2007-ertms.xml",
+    "source_document_key": "ertms",
+    "source_section": "Operational Functions > On Board Equipment self Test",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-019",
+    "text": "Exit from Shunting shall take place when the driver selects exit from shunting.",
+    "source_document": "2007-ertms.xml",
+    "source_document_key": "ertms",
+    "source_section": "Operational Functions > Shunting operation",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-020",
+    "text": "The driver shall be able to release an ETCS emergency brake application when stationary.",
+    "source_document": "2007-ertms.xml",
+    "source_document_key": "ertms",
+    "source_section": "Trainborne Functions > Indication displayed on the DMI",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-021",
+    "text": "The character set used shall support different languages.",
+    "source_document": "2007-ertms.xml",
+    "source_document_key": "ertms",
+    "source_section": "Additional Functions > Plain text transmission",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-022",
+    "text": "If a train cannot stop at the proposed new target location it shall reject the request and keep the old target location.",
+    "source_document": "2007-ertms.xml",
+    "source_document_key": "ertms",
+    "source_section": "Functions related to RBC > Revocation of a Movement Authority",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-023",
+    "text": "The product profile is a questionnaire which must be completed by an ELSS supplier to list the mandatory, optional and conditional features supported in their product.",
+    "source_document": "2010 - fishing [pdf].txt",
+    "source_document_key": "fishing",
+    "source_section": null,
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-024",
+    "text": "The ELSS must provide data capture screens for the entry of the logbook, transhipment and landing declaration data that is required to be transmitted to the UK fisheries administrations’ ERS system.",
+    "source_document": "2010 - fishing [pdf].txt",
+    "source_document_key": "fishing",
+    "source_section": "2.4 Capture Functions",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-025",
+    "text": "The subject header must consist of a character string containing ‘ERS – ‘ prefixed to the contents of the GBRRN attribute of the Electronic Logbook data being transmitted.",
+    "source_document": "2010 - fishing [pdf].txt",
+    "source_document_key": "fishing",
+    "source_section": "2.5 Data Transmission",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-026",
+    "text": "All deletions must be easily identifiable within the ELSS user interface.",
+    "source_document": "2010 - fishing [pdf].txt",
+    "source_document_key": "fishing",
+    "source_section": "2.5.3 Data Deletions",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-027",
+    "text": "Each copy of the ELSS installed must be provided with a unique (internal?) number that is automatically entered into each transmission to identify the instance of the ELSS from which the report has been transmitted.",
+    "source_document": "2010 - fishing [pdf].txt",
+    "source_document_key": "fishing",
+    "source_section": null,
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-028",
+    "text": "Any C change of vessel master during a voyage must be notified in the next LOG message.",
+    "source_document": "2010 - fishing [pdf].txt",
+    "source_document_key": "fishing",
+    "source_section": null,
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-029",
+    "text": "The monitor's keyboard would not have any effect on the observer's environment",
+    "source_document": "1995 - gemini.xml",
+    "source_document_key": "gemini",
+    "source_section": "Observing model requirements > Remote operations > Multipoint Monitoring",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-030",
+    "text": "In particular also, the meteorological information coming from a weather station should be available centrally.",
+    "source_document": "1995 - gemini.xml",
+    "source_document_key": "gemini",
+    "source_section": "Data Specifications > Control Information Flow",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-031",
+    "text": "It should also be network transparent so that it does not matter where it is being run.",
+    "source_document": "1995 - gemini.xml",
+    "source_document_key": "gemini",
+    "source_section": "External Interface Requirements > User Interface (UIF)",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-032",
+    "text": "All essential tasks, not including remote observing, must take place on resources controlled by the project (such as leased lines).",
+    "source_document": "1995 - gemini.xml",
+    "source_document_key": "gemini",
+    "source_section": "External Interface Requirements > Communication interface > Local area network (LAN)",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-033",
+    "text": "In any case, remote operation must include remote monitoring from the Gemini 8m Telescopes base facilities, together with access tools for diagnostic and test use.",
+    "source_document": "1995 - gemini.xml",
+    "source_document_key": "gemini",
+    "source_section": "General constraints > Hardware constraints",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-034",
+    "text": "Each subsystem should have a background task running whenever that subsystem is operational, performing such tasks as checking power supply levels, temperatures, performance, correct responses to commands.",
+    "source_document": "1995 - gemini.xml",
+    "source_document_key": "gemini",
+    "source_section": "Attributes > Maintainability > Maintenance Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-035",
+    "text": "In general this will require mechanical hard stops, electrical interlocks, electrical hard limit switches, soft limit switches, software limits, and watch dogs,.",
+    "source_document": "1995 - gemini.xml",
+    "source_document_key": "gemini",
+    "source_section": "Attributes > Security and Safety > Security and Safety Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-036",
+    "text": "The database must support both remote access and distributed data.",
+    "source_document": "1995 - gemini.xml",
+    "source_document_key": "gemini",
+    "source_section": "Other Controls and Software Requirements > On-line database subsystems",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-037",
+    "text": "The Unique Tag must be at most 18 characters long",
+    "source_document": "2009 - inventory 2.0 [pdf].txt",
+    "source_document_key": "inventory_2_0",
+    "source_section": null,
+    "source_requirement_id": "1.5",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-038",
+    "text": "The Item Detail Name must be unique across the inventory",
+    "source_document": "2009 - inventory 2.0 [pdf].txt",
+    "source_document_key": "inventory_2_0",
+    "source_section": null,
+    "source_requirement_id": "4.4",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-039",
+    "text": "If the „Other‟ reason is selected, the user must enter an additional comment",
+    "source_document": "2009 - inventory 2.0 [pdf].txt",
+    "source_document_key": "inventory_2_0",
+    "source_section": null,
+    "source_requirement_id": "2.2.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-040",
+    "text": "The original CRM acquisition data must be kept, not overridden by the values entered here",
+    "source_document": "2009 - inventory 2.0 [pdf].txt",
+    "source_document_key": "inventory_2_0",
+    "source_section": null,
+    "source_requirement_id": "3.9.6",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-041",
+    "text": "The sale price must not override the original item price in the inventory",
+    "source_document": "2009 - inventory 2.0 [pdf].txt",
+    "source_document_key": "inventory_2_0",
+    "source_section": null,
+    "source_requirement_id": "1.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-042",
+    "text": "The system must be available during normal Construction Junction operating hours.",
+    "source_document": "2009 - inventory 2.0 [pdf].txt",
+    "source_document_key": "inventory_2_0",
+    "source_section": "5.2 Availability",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-043",
+    "text": "Access to the application by the Construction Junction staff must require user login.",
+    "source_document": "2009 - inventory 2.0 [pdf].txt",
+    "source_document_key": "inventory_2_0",
+    "source_section": "5.4 Security",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-044",
+    "text": "Department‟s Unique Tag must be unique across the inventory",
+    "source_document": "2009 - inventory 2.0 [pdf].txt",
+    "source_document_key": "inventory_2_0",
+    "source_section": null,
+    "source_requirement_id": "3",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-045",
+    "text": "KeePass must be downloaded and installed",
+    "source_document": "2008 - keepass.xml",
+    "source_document_key": "keepass",
+    "source_section": "New Database > Functional Requirements",
+    "source_requirement_id": "REQ-1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-046",
+    "text": "Databases must have different names or else the previews one will be replace if selected",
+    "source_document": "2008 - keepass.xml",
+    "source_document_key": "keepass",
+    "source_section": "Save Database > Functional Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-047",
+    "text": "There must be entries in the database in order for them to be printed",
+    "source_document": "2008 - keepass.xml",
+    "source_document_key": "keepass",
+    "source_section": "Print Database > Functional Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-048",
+    "text": "An entry must belong to a group to be created",
+    "source_document": "2008 - keepass.xml",
+    "source_document_key": "keepass",
+    "source_section": "Add Entry > Functional Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-049",
+    "text": "When the password field is completed the repeat password field must be completed",
+    "source_document": "2008 - keepass.xml",
+    "source_document_key": "keepass",
+    "source_section": "Add Entry > Functional Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-050",
+    "text": "Sequence’s length must not be more than a line (59 characters)",
+    "source_document": "2008 - keepass.xml",
+    "source_document_key": "keepass",
+    "source_section": "Auto-type > Functional Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-051",
+    "text": "In case a space is found in the path, it must be enclosed into quotes",
+    "source_document": "2008 - keepass.xml",
+    "source_document_key": "keepass",
+    "source_section": "Command Line Options > Functional Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-052",
+    "text": "If there is a composite key, both master password and key file are required",
+    "source_document": "2008 - keepass.xml",
+    "source_document_key": "keepass",
+    "source_section": "Composite Master Key > Functional Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-053",
+    "text": "The scheduler shall support up to 3 rate groups per vehicle mode.",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": null,
+    "source_requirement_id": "SRS197",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-054",
+    "text": "The scheduler shall take no longer than 1 millisecond to execute scheduler and Time Services FTSS overhead tasks in each rate group.",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": null,
+    "source_requirement_id": "SRS034",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-055",
+    "text": "Communication services shall restrict the use of \"immediate\" message passing services between virtual groups (from FCP to ICP) to tasks running in the highest rate group on the FCP.",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": null,
+    "source_requirement_id": "SRS050",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-056",
+    "text": "The FTSS shall configure each FCP to continue processing if any of the Power-up or Initial BIT tests fail.",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": null,
+    "source_requirement_id": "SRS262",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-057",
+    "text": "RAM scrub shall report detected errors to the application, congruently on all channels, via an API service for inclusion in the telemetry stream.",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": null,
+    "source_requirement_id": "SRS044",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-058",
+    "text": "The FTSS API shall specify a memory map that provides the boundaries for congruent aligned memory, congruent initialized memory, and non-congruent memory.",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": null,
+    "source_requirement_id": "SRS217",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-059",
+    "text": "In all error cases, Support Services shall attempt to choose an error-free FCC-MPCC path, switching back and forth between channels if necessary.",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": null,
+    "source_requirement_id": "SRS222",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-060",
+    "text": "In addition, the FTSS software shall provide up to 600 bits of start-up data that indicates the state of the FTPP system during start-up.",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": null,
+    "source_requirement_id": "SRS280",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-061",
+    "text": "The FTPP system shall be capable of powering up and operating with any combination of 3 of the 5 FCR's active.",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": "3.1 FTPP System Requirements",
+    "source_requirement_id": "3.1.18",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-062",
+    "text": "The maximum time-out value shall be 327.68 microseconds (256 counts of the least significant bit of the fault tolerant clock which is 1.28 microseconds).",
+    "source_document": "2000 - nasa x38 [doc].txt",
+    "source_document_key": "nasa_x38",
+    "source_section": "3.2.2.3 Initial Synchronization (ISYNC)",
+    "source_requirement_id": "3.2.2.3.7",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-063",
+    "text": "The System shall provide the capability to operate in a Degraded System Mode, within which the system generates a subset of products based upon priority and availability of system resources.",
+    "source_document": "2007 - nde [pdf].txt",
+    "source_document_key": "nde",
+    "source_section": "3.1.2 Degraded System Mode",
+    "source_requirement_id": "3.1.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-064",
+    "text": "The System shall be capable of generating Data Products.",
+    "source_document": "2007 - nde [pdf].txt",
+    "source_document_key": "nde",
+    "source_section": "3.2.6 Data Product Generation",
+    "source_requirement_id": "3.2.6",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-065",
+    "text": "The System shall be capable of reformatting Data Products into GRIB2.",
+    "source_document": "2007 - nde [pdf].txt",
+    "source_document_key": "nde",
+    "source_section": "3.2.6.9 GRIB2 Data Format",
+    "source_requirement_id": "3.2.6.9",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-066",
+    "text": "The System shall be capable of notifying registered users of the status of the System.",
+    "source_document": "2007 - nde [pdf].txt",
+    "source_document_key": "nde",
+    "source_section": "3.2.10 System Status Notification",
+    "source_requirement_id": "3.2.10",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-067",
+    "text": "The System shall be capable of automatically submitting Ad Hoc Requests to the IDPS for retransmission of Data Products.",
+    "source_document": "2007 - nde [pdf].txt",
+    "source_document_key": "nde",
+    "source_section": "3.3.1.5 Ad Hoc Requests to the IDPS",
+    "source_requirement_id": "3.3.1.5",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-068",
+    "text": "The System shall be capable of executing tasks according to a schedule.",
+    "source_document": "2007 - nde [pdf].txt",
+    "source_document_key": "nde",
+    "source_section": "3.4.1 Schedule Tasks",
+    "source_requirement_id": "3.4.1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-069",
+    "text": "The System shall be capable of accepting technology updates without System downtime.",
+    "source_document": "2007 - nde [pdf].txt",
+    "source_document_key": "nde",
+    "source_section": "3.6.1 Technology Updates",
+    "source_requirement_id": "3.6.1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-070",
+    "text": "The System shall be capable of protecting the integrity of NDE data in the event of a hardware malfunction such as a disk crash.",
+    "source_document": "2007 - nde [pdf].txt",
+    "source_document_key": "nde",
+    "source_section": "3.7.8 Integrity - Protect from Hardware Malfunction",
+    "source_requirement_id": "3.7.8",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-071",
+    "text": "NPAC SMS shall only allow access to encrypted passwords by authorized users.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "R7-16 Passwords, Encrypted - Privileged Users Access Control",
+    "source_requirement_id": "R7-16",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-072",
+    "text": "NPAC SMS shall allow Service Providers to add their NPA-NXX data with an effective date that is set to a past, present, or future date.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "RX3-1.1.2 Service Provider NPA-NXX Data Effective Date Validation",
+    "source_requirement_id": "RX3-1.1.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-073",
+    "text": "NPAC SMS shall have documented procedures for data backup.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "R7-84.2 Data Backup Procedures",
+    "source_requirement_id": "R7-84.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-074",
+    "text": "NPAC SMS shall allow NPAC personnel to view all Subscription Versions associated with an NPA-NXX.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "R4-24.3 Display of NPA-NXX and related subscription data",
+    "source_requirement_id": "R4-24.3",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-075",
+    "text": "NPAC SMS NMS shall notify the NPAC personnel immediately when security event thresholds are exceeded through the SNMP agent.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "R7-80.2 Security Event Notification",
+    "source_requirement_id": "R7-80.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-076",
+    "text": "NPAC SMS shall provide a mechanism to limit system entry for privileged NPAC SMS users on a specifiable per‑port basis.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "R7-42.2 System Access - Per-Port Basis",
+    "source_requirement_id": "R7-42.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-077",
+    "text": "NPAC SMS shall have documented procedures for software backup.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "R7-84.1 Software Backup Procedures",
+    "source_requirement_id": "R7-84.1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-078",
+    "text": "NPAC SMS shall default the long Business Day Duration tunable parameter to 12 hours.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "RR3-12.4 Long Business Day Duration - Tunable Parameter Default",
+    "source_requirement_id": "RR3-12.4",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-079",
+    "text": "NPAC SMS shall allow the NPAC SMS Administrator to modify the LSMS Retry Interval tunable parameter.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "RR6-25 LSMS Retry Interval - Tunable Parameter Modification",
+    "source_requirement_id": "RR6-25",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-080",
+    "text": "NPAC SMS shall default the short Conflict Resolution New Service Provider Restriction tunable parameter to 6 business hours.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "RR5-12.6 Short Conflict Resolution New Service Provider Restriction - Tunable Parameter Default",
+    "source_requirement_id": "RR5-12.6",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-081",
+    "text": "NPAC SMS shall store database extract files at the NPAC SMS FTP site for Local SMS file retrieval.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "R3-15 FTP Site for Database Extracts",
+    "source_requirement_id": "R3-15",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-082",
+    "text": "NPAC SMS shall download NPA-NXX data and LRN data via the NPAC SMS to Local SMS Interface and/or the SOA to NPAC SMS interface if the indicator is ON.",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": "RR3-2 Service Provider Download Indicator",
+    "source_requirement_id": "RR3-2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-083",
+    "text": "NPAC SMS shall sort the report listed in RR9-16, in the following order: (Previously R-141) New Service Provider SPID (primary sort) TN (secondary sort)",
+    "source_document": "2001 - npac [doc].txt",
+    "source_document_key": "npac",
+    "source_section": null,
+    "source_requirement_id": "RR9-16 (Previously R-141)",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-084",
+    "text": "The format for service information description is defined",
+    "source_document": "2008 - peering.xml",
+    "source_document_key": "peering",
+    "source_section": "Service Registration > Functional Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-085",
+    "text": "The interaction protocol between Web Server-SR, SR-mediator is defined.",
+    "source_document": "2008 - peering.xml",
+    "source_document_key": "peering",
+    "source_section": "Service Registration > Functional Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-086",
+    "text": "Malicious requests are detected and rejected.",
+    "source_document": "2008 - peering.xml",
+    "source_document_key": "peering",
+    "source_section": "Request Initiation to Trigger Peering > Exceptions",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-087",
+    "text": "Mediator-SR, mediator-PR, mediator-PA interaction protocols are defined.",
+    "source_document": "2008 - peering.xml",
+    "source_document_key": "peering",
+    "source_section": "Mediator Invokes Creation of Negotiated Relationship > Exceptions",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-088",
+    "text": "Interaction protocols between PAs are identified.",
+    "source_document": "2008 - peering.xml",
+    "source_document_key": "peering",
+    "source_section": "Resource Discovery through PA > Exceptions",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-089",
+    "text": "Negotiation is established between selected CDN peers.",
+    "source_document": "2008 - peering.xml",
+    "source_document_key": "peering",
+    "source_section": "Operational Management > Exceptions",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-090",
+    "text": "Any national pilot solution that will be developed in the context of PEPPOL WP2 has to follow the pre- VCD mapping defined in stage 1.",
+    "source_document": "2009 - peppol approved.xml",
+    "source_document_key": "peppol",
+    "source_section": "Organisational requirements > Conformance of national solution with pre-VCD mapping tool defined in stage 1",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-091",
+    "text": "The VCD simple package (Stage 2) lays the basic ground for the creation of VCDs and the implementation of other services mentioned in stages 3 and 4 so the key concepts of Stage 2 MUST be implemented in each Member States.",
+    "source_document": "2009 - peppol approved.xml",
+    "source_document_key": "peppol",
+    "source_section": "Semantic Requirements > Implementation approach with regard to stages of maturity",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-092",
+    "text": "Classification schemes for goods, services and code lists SHOULD be publicly available and identified in the document objects.",
+    "source_document": "2009 - peppol approved.xml",
+    "source_document_key": "peppol",
+    "source_section": "Semantic Requirements > Classification schemes awareness",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-093",
+    "text": "The contracting authority SHOULD specify a subset of evidences from the superset evidences that are relevant to a specific Call for Tender.",
+    "source_document": "2009 - peppol approved.xml",
+    "source_document_key": "peppol",
+    "source_section": "Legal Requirements > Legal effect of subset criteria and evidences",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-094",
+    "text": "Relevant regulations of national data protection acts MUST be analysed and considered.",
+    "source_document": "2009 - peppol approved.xml",
+    "source_document_key": "peppol",
+    "source_section": "Legal Requirements > Legal requirements regarding data protection",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-095",
+    "text": "A process for document handling compliant with the relevant legal regulations MUST be defined (especially with respect to the data protection acts).",
+    "source_document": "2009 - peppol approved.xml",
+    "source_document_key": "peppol",
+    "source_section": "Legal Requirements > Legal Validity",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-096",
+    "text": "Every party participating MUST be uniquely identifiable",
+    "source_document": "2009 - peppol approved.xml",
+    "source_document_key": "peppol",
+    "source_section": "Technical Requirements > Identity",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-097",
+    "text": "The PEPPOL infrastructure MUST have the capability to submit a VCD to a contracting authority or tendering platform.",
+    "source_document": "2009 - peppol approved.xml",
+    "source_document_key": "peppol",
+    "source_section": "Technical Requirements > Use of PEPPOL infrastructure to submit a VCD",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-098",
+    "text": "A plan must be established for continuing activities when systems supporting OM are unavailable.",
+    "source_document": "2005 - phin.xml",
+    "source_document_key": "phin",
+    "source_section": "System Security and Availability",
+    "source_requirement_id": "2.8",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-099",
+    "text": "Systems supporting OM should be capable of using configurable, domain-specific vocabulary.",
+    "source_document": "2005 - phin.xml",
+    "source_document_key": "phin",
+    "source_section": "System Architecture",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-100",
+    "text": "A Subject ID should also be collected for animals in an OM investigation.",
+    "source_document": "2005 - phin.xml",
+    "source_document_key": "phin",
+    "source_section": "Data Requirements > Entity Data",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-101",
+    "text": "Information about each leg of a trip, as well as the parent information about the trip, should be captured.",
+    "source_document": "2005 - phin.xml",
+    "source_document_key": "phin",
+    "source_section": "Data Requirements > Travel History and Conveyance Data",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-102",
+    "text": "Systems supporting OM must allow for dynamic, event-specific case investigation data to be captured.",
+    "source_document": "2005 - phin.xml",
+    "source_document_key": "phin",
+    "source_section": "Data Requirements > Case Investigation and Exposure Contact Data",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-103",
+    "text": "Systems supporting OM must provide the ability to control the configuration of and revisions to investigation-specific questionnaires.",
+    "source_document": "2005 - phin.xml",
+    "source_document_key": "phin",
+    "source_section": "System Functions and Behaviors > Case Investigation",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-104",
+    "text": "Entity-to-epi data links must match the entity to their symptoms, survey questions, specimens/samples collected, laboratory results, and prophylaxis and treatment data.",
+    "source_document": "2005 - phin.xml",
+    "source_document_key": "phin",
+    "source_section": "System Functions and Behaviors > Linking",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-105",
+    "text": "Systems supporting OM must support contact exposure tracing by allowing one contact to be linked to multiple cases, and allowing multiple contacts to be linked to a single case.",
+    "source_document": "2005 - phin.xml",
+    "source_document_key": "phin",
+    "source_section": "System Functions and Behaviors > Contact Exposure Tracing",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-106",
+    "text": "The user shall be able to switch between predefined structure lists.",
+    "source_document": "2005 - pontis [pdf].txt",
+    "source_document_key": "pontis",
+    "source_section": "1.2",
+    "source_requirement_id": "1.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-107",
+    "text": "The user shall be able to create a new structure by copying all data of an existing structure.",
+    "source_document": "2005 - pontis [pdf].txt",
+    "source_document_key": "pontis",
+    "source_section": "5.2",
+    "source_requirement_id": "5.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-108",
+    "text": "The user shall have the option to copy the notes from previous inspection when creating a new inspection.",
+    "source_document": "2005 - pontis [pdf].txt",
+    "source_document_key": "pontis",
+    "source_section": "6.5",
+    "source_requirement_id": "6.5",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-109",
+    "text": "Privileged users shall be able to delete an existing inspection unless it is “locked down”.",
+    "source_document": "2005 - pontis [pdf].txt",
+    "source_document_key": "pontis",
+    "source_section": "6.19",
+    "source_requirement_id": "6.19",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-110",
+    "text": "The system shall be capable of prompting users when the dependent fields for ratings are changed and offer the user option to recalculate the ratings.",
+    "source_document": "2005 - pontis [pdf].txt",
+    "source_document_key": "pontis",
+    "source_section": "7.6",
+    "source_requirement_id": "7.6",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-111",
+    "text": "The user shall be able to modify the technical parameters governing the simulation, including the parameters of the improvement model and the simulation rules.",
+    "source_document": "2005 - pontis [pdf].txt",
+    "source_document_key": "pontis",
+    "source_section": "10.3",
+    "source_requirement_id": "10.3",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-112",
+    "text": "The system shall be capable of performing single-field and cross-field validation on NBI data items in batch mode.",
+    "source_document": "2005 - pontis [pdf].txt",
+    "source_document_key": "pontis",
+    "source_section": "UC-15 Perform Data Validation, 15.1",
+    "source_requirement_id": "15.1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-113",
+    "text": "During normal times of operation, Pontis shall achieve 98 percent up time.",
+    "source_document": "2005 - pontis [pdf].txt",
+    "source_document_key": "pontis",
+    "source_section": null,
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-114",
+    "text": "The RLCS software shall display information about active overrides: Which are active, and which devices have no currently active 'rules protection' against erroneous opening/closing.",
+    "source_document": "2004 - rlcs [pdf].txt",
+    "source_document_key": "rlcs",
+    "source_section": null,
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-115",
+    "text": "The user shall be able to retrieve historic reports from the COTS reporting system based on date range and report name.",
+    "source_document": "2004 - rlcs [pdf].txt",
+    "source_document_key": "rlcs",
+    "source_section": "3.2.1.9 Report Screen",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-116",
+    "text": "Updating non-volatile memory-based tables shall be sufficient to accommodate future changes to the roadway.",
+    "source_document": "2004 - rlcs [pdf].txt",
+    "source_document_key": "rlcs",
+    "source_section": null,
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-117",
+    "text": "Not including device and network response time, requests from the GUI for device status changes (control commands) shall not exceed 2 seconds.",
+    "source_document": "2004 - rlcs [pdf].txt",
+    "source_document_key": "rlcs",
+    "source_section": "3.3.2 User Interface (GUI)",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-118",
+    "text": "The RLCS shall incorporate a database to store, process, and retrieve all data necessary to secure the system from unauthorized use.",
+    "source_document": "2004 - rlcs [pdf].txt",
+    "source_document_key": "rlcs",
+    "source_section": "3.5.2 Security",
+    "source_requirement_id": "3.5.2.1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-119",
+    "text": "Safety screening shall be applied to all device commands at the originating control unit, and at all subordinate control units to which the device command or any of its subordinate device commands may be forwarded.",
+    "source_document": "2004 - rlcs [pdf].txt",
+    "source_document_key": "rlcs",
+    "source_section": null,
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-120",
+    "text": "View entire universe of watersheds from top-level screen for selection",
+    "source_document": "2006 - stewards [pdf].txt",
+    "source_document_key": "stewards",
+    "source_section": "3. Functional Requirements > FR-2 Data Access",
+    "source_requirement_id": "FR-2.1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-121",
+    "text": "Browse, query, and download individual sampling station data and metadata",
+    "source_document": "2006 - stewards [pdf].txt",
+    "source_document_key": "stewards",
+    "source_section": "3. Functional Requirements > FR-2 Data Access",
+    "source_requirement_id": "FR-2.3",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-122",
+    "text": "Browse and query watershed metadata by theme or location",
+    "source_document": "2006 - stewards [pdf].txt",
+    "source_document_key": "stewards",
+    "source_section": "3. Functional Requirements > FR-3 Metadata",
+    "source_requirement_id": "FR-3.2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-123",
+    "text": "Data and application backups will be managed through fully supported backup software solutions.",
+    "source_document": "2006 - stewards [pdf].txt",
+    "source_document_key": "stewards",
+    "source_section": "3.5 Software requirements",
+    "source_requirement_id": "SR-1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-124",
+    "text": "As the Web will be the primary delivery protocol for the application, HTTP and related GIS server applications will be required to support system functionality.",
+    "source_document": "2006 - stewards [pdf].txt",
+    "source_document_key": "stewards",
+    "source_section": "3.5 Software requirements",
+    "source_requirement_id": "SR-2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-125",
+    "text": "As the primary data storage mechanism for the corporate standard relational database management system, Microsoft SQL Server will be required to support system functionality.",
+    "source_document": "2006 - stewards [pdf].txt",
+    "source_document_key": "stewards",
+    "source_section": "3.5 Software requirements",
+    "source_requirement_id": "SR-5",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-126",
+    "text": "The TCS mission planning function shall provide a graphical user interface that gives the operator the ability to define waypoints on a map based display using a pointing device with full keyset redundancy.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "System Capability Requirements > Mission Planning Function",
+    "source_requirement_id": "SSS058",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-127",
+    "text": "The TCS will have the capability to control and monitor an AV, payload, data link, and C4I interfaces during the execution of a mission.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "System Capability Requirements > Mission Control And Monitoring Functions",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-128",
+    "text": "The TCS shall have the capability to command the AV to use the navigation methods inherent to the selected AV.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "System Capability Requirements > Mission Control And Monitoring Functions > AV Control And Monitoring Capability > AV Navigation Control Task",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-129",
+    "text": "TCS shall display a LOL timer to the operator initiating a LOL onset.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "AV Monitoring Task > AV Monitoring Displays",
+    "source_requirement_id": "SSS146",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-130",
+    "text": "The TCS shall support a LOS data link and SATCOM data link capability.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "Data Terminal Control Task",
+    "source_requirement_id": "SSS163",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-131",
+    "text": "The image enhancement capability shall include contrast, brightness, edge enhancement, and sharpness.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "Payload Product Management Function > Payload Product Exploitation Capability",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-132",
+    "text": "The TCS will have the capability to manage all operational C4I interfaces across all 5 levels of interaction.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "C4I System Interface Function > C4I Interface Control Capability",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-133",
+    "text": "As a minimum, the TCS shall restrict Operator access to this capability via password protection.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "System Capability Requirements > Software Upgrade Function",
+    "source_requirement_id": "SSS278",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-134",
+    "text": "The TCS shall provide the necessary hardware and software functionality to allow the TCS to integrate with JMCIS.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "System External Interface Requirements > TCS to C4I > TCS to JMCIS",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-135",
+    "text": "The TCS will provide an interface between the TCS and a video cassette recorder.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "System Internal Interface Requirements > VCR",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-136",
+    "text": "The TCS shall provide adequate capability to allow the operator to operate each UAV within its certified operational flight envelope.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "Safety Requirements > Air Vehicle Safety",
+    "source_requirement_id": "SSS347",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-137",
+    "text": "The TCS shall use standard military worldwide 110/220 volt 50/60 hertz generators and commercial power sources.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "Resource Requirements > Hardware Requirements > Power",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-138",
+    "text": "The TCS software shall restrict the operator(s) from exercising levels of interaction not achievable by the system.",
+    "source_document": "1999 - tcs.xml",
+    "source_document_key": "tcs",
+    "source_section": "Resource Requirements > Computer Software Requirements",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-139",
+    "text": "Torrent search will share the same search bar with the streaming search.",
+    "source_document": "2009 - video search.xml",
+    "source_document_key": "video_search",
+    "source_section": "Torrent Search > Functional Requirements",
+    "source_requirement_id": "REQ-1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-140",
+    "text": "There will be a tick box to allow the user to choose to include torrent searching in the search.",
+    "source_document": "2009 - video search.xml",
+    "source_document_key": "video_search",
+    "source_section": "Torrent Search > Functional Requirements",
+    "source_requirement_id": "REQ-3",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-141",
+    "text": "Results will be arranged in size/date/alphabetical order by clicking on the column headers.",
+    "source_document": "2009 - video search.xml",
+    "source_document_key": "video_search",
+    "source_section": "Torrent Search > Functional Requirements",
+    "source_requirement_id": "REQ-6",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-142",
+    "text": "There will be a tick box to allow the user to choose to include video link searching in the search.",
+    "source_document": "2009 - video search.xml",
+    "source_document_key": "video_search",
+    "source_section": "Video Stream Search > Functional Requirements",
+    "source_requirement_id": "REQ-4",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-143",
+    "text": "The software will use hyperlinks to allow the user to open websites in their default web browser.",
+    "source_document": "2009 - video search.xml",
+    "source_document_key": "video_search",
+    "source_section": "External Interface Requirements > Software Interfaces",
+    "source_requirement_id": null,
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-144",
+    "text": "Query times will take no longer than 5 seconds to any website.",
+    "source_document": "2009 - video search.xml",
+    "source_document_key": "video_search",
+    "source_section": "Other Nonfunctional Requirements > Performance Requirements",
+    "source_requirement_id": "REQ-1",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-145",
+    "text": "The tools shall be able to scale to process large collections using distributed processing and data transport (see FRS 10 and 11)",
+    "source_document": "2009 - warc III [pdf].txt",
+    "source_document_key": "warc_iii",
+    "source_section": null,
+    "source_requirement_id": "NFR 2",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-146",
+    "text": "The tools shall offer best possible performance to correctly process large collections (I/O bound)",
+    "source_document": "2009 - warc III [pdf].txt",
+    "source_document_key": "warc_iii",
+    "source_section": null,
+    "source_requirement_id": "NFR 3",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-147",
+    "text": "The tools shall be compliant with Java development environments, by using web services, RESTful API’s, etc.",
+    "source_document": "2009 - warc III [pdf].txt",
+    "source_document_key": "warc_iii",
+    "source_section": null,
+    "source_requirement_id": "NFR 6",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-148",
+    "text": "The tools shall provide logging facilities, for example, to follow command progression, i.e. process duration, output levels, etc.",
+    "source_document": "2009 - warc III [pdf].txt",
+    "source_document_key": "warc_iii",
+    "source_section": null,
+    "source_requirement_id": "NFR 7",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-149",
+    "text": "The workflow system shall have a configurable management strategy for migration from ARCs to WARCs.",
+    "source_document": "2009 - warc III [pdf].txt",
+    "source_document_key": "warc_iii",
+    "source_section": null,
+    "source_requirement_id": "NFR 10",
+    "compliance_level": null
+  },
+  {
+    "id": "PURE-150",
+    "text": "The migration API will require inclusion of only one header file.",
+    "source_document": "2009 - warc III [pdf].txt",
+    "source_document_key": "warc_iii",
+    "source_section": null,
+    "source_requirement_id": "FR 2",
+    "compliance_level": null
+  }
+]

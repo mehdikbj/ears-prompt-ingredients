@@ -1,0 +1,2108 @@
+[
+  {
+    "id": "2009 - peppol [pdf]__C0001",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "1.1 Need for a Virtual Company Dossier",
+    "text": "When a contracting authority publishes a contract notice, it shall include the selection, qualification and non- exclusion criteria.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0002",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Therefore the contracting authority must either specify the documentation that has to be submitted by economic operator or the criteria of qualitative selection and exclusion that have to be fulfilled by the economic operator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0003",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The criteria must be consistent with directive 2004/18/EC (EC 30.04.2004): • Article 45 - Personal situation of the candidate or tenderer: e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0004",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Thereby it must be taken into account that some countries do not issue such documents or certificates (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0005",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "So the link between individual evidences and the respective criteria they may approve for (as listed above) must be precisely indicated and mapped in order to support economic operators in their activity.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0006",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Hence, the Economic Operator must directly get the authentic contract notice and exact conditions from the Contracting Authority in order to avoid a failure on interpreting the requirements for participation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0007",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The following flows of documents have to be considered specifically: • documents that cannot be generated in the target language by the originating authority; • documents produced by the Economic Operator such as self declarations; • documents that must be accessed by the contracting authority from the official source.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0008",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The VCD specification must be generically and semantically extensible in order to reach a sustainable and fully-fledged solution in the final stage.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0009",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "An eTendering system and a contracting authority must be able to interpret a VCD package assembled by a VCD application regardless of the implementation stage of the VCD application and the eTendering system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0010",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3 Major Features, Requirements and Quality Attributes",
+    "text": "To handle the large set of ruling articles, which may especially vary in the national implementations (articles 47-50), arts 45 and 46 shall get a higher priority for a smooth implementation at first hand, while arts 47 to 50 will only be selectively implemented on the basis of specific and deeper analysis in the PEPPOL pilot contexts.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0011",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.1 Create standard representation of European criteria of qualitative selection and",
+    "text": "• A standard representation of common criteria of qualitative selection and exclusion MUST be defined according to Articles 45-50 of Directive 2004/18/EC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0012",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs • The right granularity and consistency of criteria MUST be found through testing and iterative re- definition in order to ensure legitimacy and to retrieve adequate mapping results.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0013",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• National requirements for qualitative selection and exclusion MUST correspond to the EC criteria given in Article 45-50.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0014",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.4 Define a mapping template, perform mapping and ensure legitimacy",
+    "text": "• A template that ensures comparable and reliable mappings between criteria for qualitative selection and exclusion and national attestations MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0015",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.4 Define a mapping template, perform mapping and ensure legitimacy",
+    "text": "• The members of this work package MUST perform the mapping between national attestations and European criteria of qualitative selection and exclusion.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0016",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.5 Ensure legitimacy and trust of mapping",
+    "text": "Compliances to national and European conditions must be ensured in particular for the definition of a standard representation of common criteria of qualitative selection and exclusion, the definition of a mapping template and the mapping between national attestations and the common criteria for qualitative selection and exclusion.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0017",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.5 Ensure legitimacy and trust of mapping",
+    "text": "• Legitimacy of standard representation of common criteria of qualitative selection and exclusion MUST be ensured.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0018",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.5 Ensure legitimacy and trust of mapping",
+    "text": "• Legitimacy of standard mapping template MUST be ensured.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0019",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.5 Ensure legitimacy and trust of mapping",
+    "text": "• Legitimacy of mapping between national attestations and common criteria for qualitative selection and exclusion MUST be ensured.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0020",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.8 Specify an infrastructure and facility that provides the mapping service",
+    "text": "A decision to deploy either a centralised or a decentralized infrastructure that provides the mapping service MUST be made.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0021",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "It MUST be defined by which technical means the mapping service will be provided.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0022",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "An entity that hosts the mapping facility MUST be defined in dependence of the type of infrastructure and the dedicated governing model.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0023",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "A governing model with the necessary status and power MUST be formally defined in order to ensure fulfilment of functions like liability, sustainability and maintainability.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0024",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Liability of organisation that governs the infrastructure and mapping facility MUST be defined Sustainability: Sustainability is the capacity to maintain a certain process or state into the future.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0025",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The governing model must ensure that the state of the mapping system will be kept over time.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0026",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The mapping facility MUST ensure sustainability of the system over time based on commonly agreed mapping schemes.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0027",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• A formal procedure to make changes to the system MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0028",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.10 Accessibility of mapping facility",
+    "text": "Therefore each national service provider that provides a VCD (stage 2-4) and all relevant key other stakeholder such as economic operators, contracting authorities and certifiers must be able to retrieve the latest mapping information from the mapping facility.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0029",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.3.10 Accessibility of mapping facility",
+    "text": "The mapping facility MUST be accessible to all relevant key stakeholders such as economic operators, contracting authorities, certifiers and national service providers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0030",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Besides such functionalities of the tool, some general requirements regarding the operation of the pre- VCD mapping tool have to be implemented: • The Member States shall agree on a common representation format for the information they intend to supply into the knowledge base supporting the tool’s operations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0031",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The Member States shall supply the information generated from the analysis of the national context they represent.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0032",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Hence, it must be established and funded with clearly defined responsibilities for maintenance and conformance assessment between national solutions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0033",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.2.4 Expected Benefits for stakeholders",
+    "text": "The formal commitment must in turn specify what is taken as pure guidance or qualified template.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0034",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Sensitive economic operator data must initially be provided by an economic operator (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0035",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.3.3.1 Identity and access management",
+    "text": "Requirements: Application for VCD account • Identity and access management MUST provide a functionality to register an economic operator in a formal procedure in order to create a VCD account.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0036",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.3.3.1 Identity and access management",
+    "text": "• Identity and access management MUST provide an interface to submit sensitive economic operator data (for example by uploading attestations that verify sensitive economic operator data) in order to allow the economic operator to apply for the creation of a VCD account.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0037",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.3.3.1 Identity and access management",
+    "text": "• Pending Sensitive economic operator data MUST be verified through a formal procedure by an officer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0038",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Sensitive economic operator data MUST be placed to a VCD account by an officer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0039",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Identity and access management MUST provide a functionality that enables the economic operator to receive his log-in data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0040",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• A change procedure MUST be defined in order to modify sensitive economic operator data that is connected to the VCD account.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0041",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• approval The economic operator MUST be able to delete his account.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0042",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Quality attributes of Identity and access management • It MUST be clearly defined which economic operator data are sensitive and belong to identity and access management.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0043",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.3.3.2 VCD system",
+    "text": "• The VCD system MUST provide a functionality to check through identity and access management whether an economic operator has sufficient user rights to access his account.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0044",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs • The VCD system MUST provide an interface where the economic operator can provide non- sensitive economic operator data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0045",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST provide an interface where tender-specific data can be either fetched from or be provided through (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0046",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST provide an interface where the economic operator can request the creation of a VCD package.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0047",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Pending Requirements: Arrangement of VCD instance • The VCD system MUST have an interface to receive and process the information (mapping of evidence) provided by the pre-VCD mapping tool.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0048",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST provide a functionality that suggests a possible compilation of the VCD to the economic operator according to the tender-specific criteria.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0049",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST provide a functionality where the economic operator can decide which particular attestation services should be invoked and collected.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0050",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• EC The VCD system MUST provide a functionality that displays the attestation services that cannot be invoked automatically and that have to be manually added by the economic operator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0051",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirements: Collection of Evidence • • approval The VCD system must provide a functionality to request attestations that can be collected automatically via an issuing body.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0052",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The VCD system MUST have an interface/technical access to retrieve attestations that can be automatically retrieved from issuing bodies.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0053",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST have a functionality to extract structural data of evidence from attestations that can be retrieved automatically.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0054",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST have an interface to submit/upload evidence that have to be provided manually by the economic operator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0055",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The evidence submitted to the VCD system MUST correspond to the mapping information suggested by the VCD system (or the pre-VCD mapping tool).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0056",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST provide an interface where an economic operator can add structural data of evidence that belong to specific evidence.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0057",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST provide and interface where the economic operator can initiate the compilation process.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0058",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs Requirements: Compilation of VCD instance • The VCD system MUST provide a functionality to compile various data formats from various sources (issuing bodies) into a single VCD package.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0059",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "- The VCD package MUST provide a functionality to add structural VCD package data to the VCD package and VCD system (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0060",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "- The VCD package MUST provide a functionality to add tender-specific data to the VCD package and VCD system (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0061",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "- The VCD package MUST provide a functionality to add economic operator data to the VCD package and VCD system (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0062",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "- The VCD package MUST provide a functionality to add tender-specific data to the VCD package Pending and VCD system (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0063",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "- The VCD package MUST provide a functionality to add structural data of evidence to the VCD package and VCD system (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0064",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "log file) during the compilation process - The VCD package MUST provide a functionality to add evidences to the VCD package and VCD system (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0065",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "- The VCD package MUST provide a functionality to add translations to the VCD package and VCD system (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0066",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST provide a functionality to notify the economic operator when the compilation process is finished.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0067",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• EC The VCD system MUST provide interfaces to deliver the VCD to the economic operator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0068",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Quality attributes of VCD system • VCD system MUST be operated by at least one national VCD service provider • The VCD system MUST have the status of a trusted system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0069",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The national VCD service provider that hosts the system must have the status of a trusted entity.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0070",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• • approval Direct access to attestations issued by (national) issuing bodies MUST be established through organisational agreements (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0071",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The compilation suggestion that is given to the economic operator by the VCD system MUST be reliable with regard to fulfilment of tender-specific requirements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0072",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• It has MUST be clearly defined which economic operator data are not-sensitive and belong to VCD system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0073",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• User rights for the VCD system MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0074",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Structural data of evidence MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0075",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The evidence submitted to the VCD system MUST be eligible for the requirements mentioned by §§45– 46 of European Directive 2004/18/EC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0076",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.3.3.3 VCD transportation system",
+    "text": "pan-European needs • The VCD transportation system MUST provide a functionality that enables both parties involved, contracting authorities and economic operators, to authenticate to the VCD transportation system before using it.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0077",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirements: Exchange of VCD packages • • Pending The VCD transportation system MUST provide a functionality that enables the economic operator to find an electronic address of a contracting authority for receiving VCD packages.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0078",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The VCD transportation system MUST have an interface to connect to it in order to submit the VCD package to a contracting authority.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0079",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD transportation system MUST provide a functionality that supports the economic operator in submitting the VCD package to a contracting authority.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0080",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The transportation system MUST provide an interface that enables contracting authorities to receive a VCD.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0081",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Quality attributes of VCD transportation system • Both parties involved, contracting authorities and economic operators, MUST have an electronic address for receiving/sending VCD packages.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0082",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• • approval The transport of a VCD package MUST be initiated by the economic operator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0083",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The choice of how to submit the VCD package to the contracting authority MUST be the one that is preferred by the economic operator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0084",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• It MUST be clarified which possibilities exist to utilize the infrastructure for submitting a VCD package directly to procurement platforms (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0085",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The transportation system MUST ensure that the VCD package is being delivered to the contracting authority • The transport of a VCD package MUST be confidential.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0086",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The transport of a VCD package MUST be reliable.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0087",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The transport of a VCD package MUST be secure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0088",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The transport of a VCD package MUST ensure that the package has not been altered or modified during transportation or validation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0089",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Non-repudiation of origin of a VCD package MUST be supported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0090",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.3.3.4 VCD viewing system",
+    "text": "Requirements: Authentication to VCD viewing system • The VCD viewing system MUST provide a functionality to authenticate contracting authorities to view the data contained within a VCD package.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0091",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.3.3.4 VCD viewing system",
+    "text": "Requirements: View VCD The VCD viewing system MUST provide an interface that adequately displays various types of data formats contained within a single VCD package.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0092",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• EC The VCD viewing system MUST display structural VCD package data contained in the VCD package • The VCD viewing system MUST display tender-specific data contained in the VCD package • The VCD viewing system MUST display economic operator data contained in the VCD package • The VCD viewing system MUST display tender-specific data contained in the VCD package • The VCD viewing system MUST display structural data of evidence contained in the VCD package • The VCD viewing system MUST display evidences contained in the VCD package • approval The VCD viewing system MUST display translations of evidences contained in the VCD package Quality attributes of viewing system • Member State of this work package SHOULD follow a common standard representation of the different types of data • Member State of this work package SHOULD define a national version of the common standard representation of the different types of data.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0093",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Any standard representation of the different types of data MUST be agreed upon the pilot partners.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0094",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.4.2.6 Compile VCD advanced package",
+    "text": "2.4.2.6 Compile VCD advanced package In order to be able to compile a VCD advanced package, the VCD compilation process must be extended to be able to process data from existing VCD packages of other economic operators and to process the context specific data that are included.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0095",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.4.3.1 Context specific data",
+    "text": "The enhanced and automated documents’ readability that comes from the context specific data must be compared to the local legal provisions and document checking practice adopted by contracting authorities.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0096",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirements: context specific data • A VCD system MUST provide functionality to collect and process context specific data for evidence that has to be provided manually or semi-automatically by the issuing body, by the • EC economic operator or any trusted third party.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0097",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "A VCD system MUST provide functionality to collect and process context specific data for evidence that has to be provided automatically by the issuing body.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0098",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• A VCD system MUST provide IT-interfaces to issuing bodies which provide evidences in machine interpretable format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0099",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• A VCD system MUST interact with the issuing bodies which provide evidences in machine interpretable format through IT-interfaces.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0100",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• • approval A VCD system MUST provide a user interface to the issuing body to provide context specific data for an evidence in a structured form (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0101",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The VCD system MUST provide a functionality to validate the provided context specific data during the submission process of context specific data to ensure the data is consistent with the VCD advanced package schema.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0102",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Interfaces MUST be defined to retrieve context specific data from issuing bodies either automatically or semi-automatically.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0103",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The rule set derived from legal requirements concerning “evidence checking” MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0104",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The rule set allowing for a Stage 3 mapping among concepts expressed by the “context specific data” MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0105",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The rule set derived from legal requirements concerning subcontracting and other consortium constellations MUST be defined • A functionality to display context specific data SHOULD/MUST be included within any VCD.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0106",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Quality attributes: context specific data • Any VCD advanced package MUST follow a common standard schema of context specific data that summarize and structure major information contained within context specific evidences.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0107",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Context specific data MUST be machine interpretable 2009-05-19, Version 1.0 – pending EC approval PEPPOL Deliverable D2.1: page 51 of 127 Functional and non-functional requirements specification for the VCD, including critical synthesis, comparison and assessment of national vs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0108",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs • Evidences that have a simple structure and limited variety of contents MUST be included into the common standard schema first.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0109",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• A semantic definition of each element/class of the common standard schema of context specific data MUST be created and has to ensure a common understanding.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0110",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• A semantic definition of each element/class of the common standard schema of context specific data MUST ensure that these data is mutually recognized as replacement of the official translation of an evidences included.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0111",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Pending A method and agreement procedure to develop a common standard schema of context specific data MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0112",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "This procedure must cover the technical aspects of data analysis (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0113",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Any common standard schema of context specific data classes MUST be agreed upon the pilot partners.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0114",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Representation of context specific data SHOULD be available in multiple languages • • EC Every pilot partner MUST follow the common standard schema of context specific data by defining a national version of it.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0115",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.4.3.2 Advanced VCD creation service",
+    "text": "Requirements: Advanced VCD creation service • A VCD system MUST provide a user-interface to the economic operator to initiate the creation of a VCD advanced package.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0116",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.4.3.2 Advanced VCD creation service",
+    "text": "• A VCD system MUST provide a user-interface to the economic operator to provide existing VCD packages of other economic operators when specific disclosure options have been activated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0117",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.4.3.2 Advanced VCD creation service",
+    "text": "• A VCD system MUST provide a functionality to check, whether the structural VCD package data of existing VCD packages of other economic operators are consistent with the VCD advanced package schema of other economic operators, or not • A VCD system MUST provide a functionality to check, whether the tender specific data of existing VCD packages are consistent with the tender specific data of other VCD packages.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0118",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• A VCD system MUST provide functionality to merge the following data from several existing VCD packages of other economic operators: - Structural VCD package data - Structural data of evidence - Tender specific data - Economic operator data - Context specific data - Evidence - Authorized translation of evidence 2009-05-19, Version 1.0 – pending EC approval PEPPOL Deliverable D2.1: page 52 of 127 Functional and non-functional requirements specification for the VCD, including critical synthesis, comparison and assessment of national vs.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0119",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs • A VCD system MUST provide functionality to compile the data which result from the evidence collection process and the data provided by the economic operator in the VCD advanced package creation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0120",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.4.3.3 VCD re-compilation service",
+    "text": "Requirements: VCD re-compilation service • A VCD system MUST provide a user-interface to the economic operator to initiate the re- compilation of an existing VCD package into a VCD advanced package.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0121",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• • approval A VCD system MUST provide a user-interface to the economic operator for uploading an existing VCD package A VCD system MUST provide a functionality to decompose an existing VCD package • A VCD system MUST provide a functionality to identify outdated or obsolete evidences • A VCD system must provide a functionality to retrieve actual instances of outdated evidences Quality attributes: VCD re-compilation service • Re-compiling a VCD simple package into a VCD advanced package MUST be possible • Re-compiling a VCD advanced package into a VCD advanced package MUST be possible • A VCD service provider SHOULD be trusted to correctly process unstructured evidences into (structured) context specific data by manual means in order to create context specific data using the semi-automated approach.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0122",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.5.3 Major Features, Requirements and Quality Attributes",
+    "text": "Feature: Mandate contracting authority • The VCD system MUST provide functionality and an interface to the economic operator that enables him to mandate a certain contracting authority to request attestations on demand.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0123",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.5.3 Major Features, Requirements and Quality Attributes",
+    "text": "Feature: Storing attestations and referencing to it • The VCD system MUST detect which attestations can be used by this feature (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0124",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "2.5.3 Major Features, Requirements and Quality Attributes",
+    "text": "• • approval The VCD system MUST provide a functionality that enables National VCD Service Providers to store attestations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0125",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "A functionality for referencing to attestations MUST be implemented within the VCD system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0126",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST ensure that a contracting authority is able to request attestations via the provided reference (including time-restrictions).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0127",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The functionality for referencing to attestations within the VCD MUST be implemented, either VCD-specific or contracting authority-specific, in order to approve whether the contracting authority has sufficient rights for requesting the attestations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0128",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• VCD-specific or contracting authority-specific reference to attestations MUST be stored within the VCD system (processing instructions).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0129",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Feature: Retrieving attestations on demand • The VCD system MUST provide a functionally to check whether a contracting authority has sufficient rights and has been mandated by the economic operator to retrieve attestations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0130",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST provide a functionality and an interface that enables contracting authorities to retrieve the attestation from the storage.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0131",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The VCD system MUST ensure that the attestation that is requested by the contracting authority is still valid at the time of awarding or when the Call for Tender is closed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0132",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs • The VCD system MUST provide a functionality that initiates a conflict resolution process between economic operator and contracting authority if errors occur or when certain attestation or a translation cannot be delivered on demand.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0133",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Quality attributes of VCD networked package • • Pending There MUST be an access policy that is issued by the economic operator that mandates a contracting authority to request attestation from the national VCD service provider on demand.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0134",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "A general reference structure and syntax MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0135",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• National and local political commitments and service-level agreements MUST ensure that consensuses on roles and responsibilities are built with regard to this solution and in particular the National Service Providers who delivers attestations on demand.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0136",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• • EC There MUST be a service-level agreement between the parties involved (Economic Operators, Contracting authorities, National Service Providers, and Trusted Attestation Service) about the response time of a delivery of attestations and data availability.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0137",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "There MUST be a service-level agreement between the parties involved (Economic Operators, Contracting authorities, National Service Providers, and Trusted Attestation Service) about conflict resolution that describe what to do when errors occur or when attestation or translations cannot be delivered “on demand”.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0138",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• • approval WP2 SHOULD provide easy solutions for displaying context specific data and should enable their validation through validation values Legal systems MUST ensure that context specific data and validation values have an equivalent value to the provision of conventional / traditional attestations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0139",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• The national procurement law MUST ensure that National Service Provider can act as national validation points in accordance with Article 52 (1) of Directive 2004/18/EC for economic operators.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0140",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Liability issues of the National Service Providers MUST be clarified when they act as national validation points in accordance with Article 52 (1) of Directive 2004/18/EC for economic operators.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0141",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• National procedures with regard to Article 52 (1) of Directive 2004/18/EC MUST be mutually recognized and trusted in across borders.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0142",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "We assume that the attestation must be valid when the call for tender is closed instead of pre-serving permanent validity of attestations at the temporary storage of the national VCD service provider.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0143",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.1.2.1 List of recognized public attestation bodies",
+    "text": "Requirement A list of recognized public authorities that are able to issue certain attestations in a particular Member State MUST be established.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0144",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.1.2.4 Increasing trust through national authority",
+    "text": "Requirement A national authority MUST support critical processes in order to increase the trust between the entities involved.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0145",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Any national pilot solution that will be developed using resources of PEPPOL must use the pre-VCD mapping tool in order to achieve the desired objectives.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0146",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "52 and EFTA EEA Committee decision 68/2006.",
+    "text": "Requirement A Member State MUST formally define an authority that is able to provide a proof of conformance to certain criteria if the Member State wishes to implement Article 52 or if Article 52 is already implemented.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0147",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.1.2.9 Provision of subset of evidences and criteria by the Economic Operator",
+    "text": "Requirement Any VCD system must have an interface to provide tender-specific data and (in particular the relevant criteria subset) in order to perform the mapping.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0148",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.1.2.12 Economic Operators that act as Issuing Bodies",
+    "text": "An Economic Operators must take care of collecting and preparing these evidences and to submit them to the VCD system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0149",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.1.2.12 Economic Operators that act as Issuing Bodies",
+    "text": "Requirement An economic operator MUST be able to act as an issuing body for candidate statements or other evidence that cannot be directly or electronically retrieved by the VCD system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0150",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.1.2.13 Universal support",
+    "text": "2009) Requirement The electronic procurement framework MUST support organizations of any size and industry.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0151",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.1.2.14 Testing of VCD solution",
+    "text": "Requirement The VCD solutions MUST be tested in specific cases by re-processing historical tenders.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0152",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Stakeholder MUST be found in order to re-process historical tenders.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0153",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Such documents find also application in tendering procedures and shall be part of VCD.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0154",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.2.3 Relevant standards, methodologies and initiatives for the VCD package",
+    "text": "3.2.3 Relevant standards, methodologies and initiatives for the VCD package The following subsections contain major standards and methodologies that shall be used for creating a VCD package.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0155",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "1117918 offers such a methodology that is widely accepted.",
+    "text": "The purpose of ISO/IEC 11179 is to give concrete guidance on the formulation and maintenance of discrete data element descriptions and semantic content (metadata) that shall be used to formulate data elements in a consistent, standardized manner.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0156",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.2.4.1 Semantic interoperability",
+    "text": "“To run real electronic business transactions without human intervention, semantic interoperability must be achieved.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0157",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "2009) Requirement Evidential documents exchanged between parties MUST be semantically harmonized in order to be processed electronically.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0158",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.2.4.2 Correspondence between national and European criteria",
+    "text": "Requirement National criteria for qualitative selection and exclusion MUST correspond to European criteria which are derived from Article 45-50 and which are partially described in the Eligibility of Tenders.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0159",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.2.4.3 VCD specific characteristics",
+    "text": "Requirement Any VCD instance MUST be specific with regards to a certain economic operator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0160",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.2.4.4 Method for ensuring “Level of completeness”",
+    "text": "Requirement When implementing any tool, system or service WP2 MUST focus on mandatory requirements and evidences mentioned in Articles 45 and 46 first since theses Articles are not tender-specific and therewith relevant for nearly all tenders.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0161",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Measurement EC Any definition, specification, modelling or implementation will first focus on Article 45 to 46 Requirement The mapping between evidences via requirements MUST have set a primary focus on the mandatory requirements and evidences of a VCD.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0162",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Measurement approval The definition, specification, modelling or implementation of the pre-VCD mapping tool will focus on Articles 45 to 46 Requirement Articles 47 to 50 open a wide range of different criteria which are tender- and country-specific thus they MUST be added stepwise to the pre-VCD mapping tool (which may require a higher-level mapping).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0163",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.2.4.8 Implementation approach with regard to stages of maturity",
+    "text": "pan-European needs The pre-VCD mapping tool (Stage 1) MUST be filled with instances (defined) by every Member State since Stage 1 is a precondition for any other stage.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0164",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Measurement Pre-VCD mapping tool filled with national instances Requirement The VCD simple package (Stage 2) lays the basic ground for the creation of VCDs and the implementation of other services mentioned in stages 3 and 4 so the key concepts of Stage 2 MUST be implemented in each Member States.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0165",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirement EC The stages are logically built upon each other but it MUST be possible to implement certain features of stage 4 if the necessary requirements for this are fulfilled in the lower stages even if maybe not all requirements are fulfilled in stage 3.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0166",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.1 Equal treatment of foreign economic operators",
+    "text": "The contracting authorities shall recognise equivalent certificates from bodies established in other Member States.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0167",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.1 Equal treatment of foreign economic operators",
+    "text": "They shall also accept other equivalent means of proof” [(EC 30.04.2004),p.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0168",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Measurement Definition of the legal basis 3.3.2.5 Scope of mutual recognition Description Article 52(5) states “that contracting authorities shall recognise equivalent certificates from bodies established in other Member States.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0169",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.5 Scope of mutual recognition",
+    "text": "They shall also accept other equivalent means of proof” (EC 30.04.2004).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0170",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.5 Scope of mutual recognition",
+    "text": "- Which role trusted third parties (TTP) must take in this respect (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0171",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.7 Legal basis for exchanging validation data",
+    "text": "certified “Yes/No” statements) instead of delivering an attestation physically (stage 4 specific) it MUST ensure that this provision is legally allowed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0172",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.8 Legal requirements regarding service providers",
+    "text": "Several formal legal requirements have to be answered previously in order to define the scope of such European Service Provider Requirement The legal status and legitimacy of the European Service Provider MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0173",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.8 Legal requirements regarding service providers",
+    "text": "Measurement Formal establishment of the European Service Provider Requirements The responsibility of the European Service Provider MUST be defined (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0174",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The liability of the European Service Provider MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0175",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs Requirements The legal regulation applicable for the European Service Provider MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0176",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Measurement Definition of the legal basis for the establishment of such Service Provider Requirements A suitable way to establish the relevant regulation for the European Service Provider MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0177",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.8.2   National Service Providers",
+    "text": "Several formal legal requirements have to be answered previously in order to define the scope of such a National Service Provider Requirement The legal status and legitimacy of the National Service Provider MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0178",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.8.2   National Service Providers",
+    "text": "Measurement Formal establishment of the National Service Provider Requirements approval The responsibility and the related processes of the National Service Provider MUST be defined (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0179",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The liability of the National Service Provider (depending on its legal status) MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0180",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Measurement Definition of the legal basis for the establishment of such Service Provider Requirements The legal regulation applicable for the National Service Provider MUST be defined.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0181",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Measurement Definition of the legal basis for the establishment of such a Service Provider Requirement A suitable way to establish the relevant regulations for the National Service Provider MUST be defined (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0182",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs Requirement Regulations concerning monetary aspects of the VCD service provision MUST be defined, therefore related legal regulations (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0183",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "competition protection act) MUST be considered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0184",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.9 Legal requirements regarding the collection of evidences",
+    "text": "Requirement Special legal regulations for evidences MUST be considered (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0185",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "EC Requirement Regulations for handling the non-existence of selected evidence requested in a MS MUST be defined and made operational.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0186",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.10 Legal requirements regarding data protection",
+    "text": "Requirement Relevant regulations of national data protection acts MUST be analysed and considered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0187",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.3.2.10 Legal requirements regarding data protection",
+    "text": "Additional requirements for cross-border data exchange MUST be analysed and considered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0188",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirement It MUST be clarified which prospects and limitations exists within a Member State to separate a VCD package from the tender itself.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0189",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirement EC A trust model and trust system MUST be defined from a legal point of view for every process which includes the roles and responsibilities of the entities involved.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0190",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "mandatory usage of an e-signature) MUST be considered (especially regulations from national procurement act and directive 2004/18/EC).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0191",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs Requirement A process for document handling compliant with the relevant legal regulations MUST be defined (especially with respect to the data protection acts).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0192",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4 Technical Framework (Infrastructure specific)",
+    "text": "3.4 Technical Framework (Infrastructure specific) Pending 3.4.1 Overview of technical framework This chapter shall include technical requirements that are essential for submitting a VCD via the PEPPOL infrastructures.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0193",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Time-stamping shall ensure that the submission of a VCD is adequately documented for example to verify that it has been sent or received previously to the closure of a call for tender.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0194",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "This shall ensure that unauthorized usage of an individuals’ identity is avoided.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0195",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.1 Interrelation of governance models of WP2 and WP8",
+    "text": "Requirement It MUST be clarified how the governance model of WP2 fits into the overall governance model of WP8.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0196",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.2 Authentication of PEPPOL Actors",
+    "text": "Requirement WP2 stakeholders MUST be authenticated to the VCD system and for the PEPPOL infrastructure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0197",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.3 Allocation of identifiers",
+    "text": "Requirement A method MUST be found how to allocate identifiers to the participants that use the infrastructure for transportation of VCDs and related services.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0198",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.4 Identity",
+    "text": "2009) Requirement Every party participating MUST be uniquely identifiable.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0199",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.6 Discovery",
+    "text": "2009) Requirement In stage 4 it MUST be possible to discover the verified electronic address for an identified party.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0200",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.7 Access Points to the PEPPOL infrastructure",
+    "text": "Therefore different access points to the PEPPOL infrastructure may be necessary in particular: • National connection points • Direct access points for SMEs • Web services and client-side code generation in SOAP frameworks Requirement It MUST be clarified which are the best access points for economic operators to use the infrastructure for transportation of a VCD package.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0201",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirement It MUST be clarified whether the possibility exist to have access to web clients via the infrastructure in order to have access to specific web services which depend upon functionalities provided by the infrastructure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0202",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirement It MUST be clarified whether tendering platforms enable a separated submission of a VCD and the bid itself.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0203",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirement The PEPPOL infrastructure MUST have the capability to submit a VCD to a contracting authority or tendering platform.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0204",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.9 Confidentiality",
+    "text": "Specifically, contracting authorities must provide a way to receive electronic tenders and ensure those electronic tenders are not accessed until the prescribed time for opening them.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0205",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.9 Confidentiality",
+    "text": "2009) Requirement It MUST be possible to guarantee confidentiality for specific documents.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0206",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.10 Usage of validation service provided by WP1",
+    "text": "The e-tendering platform must offer download functionality for forms and other material to be filled in, signed, and returned by an economic operator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0207",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "pan-European needs Requirement It MUST be possible to apply the validation service provided by WP1 to a VCD in order to enable economic operators to guarantee data integrity and confidentiality of a VCD.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0208",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Requirement It MUST be clarified whether the VCD can use the validation service of WP1 if the transportation infrastructure is not used by an economic operator.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0209",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.11 Reliability",
+    "text": "The transactions must be performed with high level of security and reliability.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0210",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.11 Reliability",
+    "text": "it must be ensured that business documents are actually delivered to the recipient party.” (Bausa O.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0211",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.11 Reliability",
+    "text": "2009) Requirement EC Transport mechanisms between party’s addresses MUST be reliable.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0212",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.12 Security",
+    "text": "The transactions must be performed with high level of security.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0213",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.12 Security",
+    "text": "it must be ensured that third parties cannot intercept and read or modify the business documents.” (Bausa O.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0214",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.12 Security",
+    "text": "Requirement Transport mechanisms between party’s addresses MUST be secure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0215",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.13 Data Integrity",
+    "text": "Requirement It MUST be assured that business document instances are consistent and correct during transportation, validation or transformation operations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0216",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.14 Non-repudiation of origin",
+    "text": "Requirement Authentication of origin for business document instances MUST be supported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0217",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "3.4.2.16 Audit trail",
+    "text": "Requirement EC The electronic procurement process MUST have an audit trailing to ensure transparency for both parties.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0218",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "certification by auditing bodies of environmental practices or equivalent documents) The study may follow up with a “proposal for a tool for a mutual information mechanism on the electronic provision of certificates and attestations usually required in public procurement procedures” which shall be aligned with our approach of a pre-VCD mapping tool.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0219",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The VCD shall ensure that a significant part of the public procurement processes can be made through electronic cross-border transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0220",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "5.2.2 Weaknesses of a VCD",
+    "text": "The development of context specific data shall ensure the automatic processing of approval electronic attestations without regard to linguistic barriers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0221",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": "5.3 Next steps in specification",
+    "text": "Name the Description Priority Relevance Measurement References requirement for stage indicators and further in VCD comments model Must- Should- Nice- 1 2 3 4 have have to- have approval Table 11: Structure of Requirements spreadsheet The spreadsheet will be used in the project in order to maintain, adapt and perform change management to the requirements over the project lifetime.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0222",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The official public available document describing the Call for Tender can also be referred as Contract Notice.26 Candidate Pending An economic operator who has sought an invitation to take part in a restricted or negotiated procedure or a competitive dialogue shall be designated a “candidate”.27 Candidate Statement Any document originating from the candidate intending to demonstrate a quality or fact pertaining to the candidate.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0223",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The term “economic operator” shall cover equally the concepts of contractor, supplier, candidate and tenderer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0224",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "A VCD solution can fulfil several stages at the same time Tenderer An economic operator who has submitted a tender shall be designated a “tenderer”.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0225",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The Virtual Company Dossier shall enable suppliers to collect evidences from existing registries and to submit those evidences electronically and assembled as information Pending package to any public sector awarding entity in Europe.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0226",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "The creation of a VCD must be motivated by clear potential benefits for each stakeholder.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0227",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• At what time must or may evidence be required and produced?",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0228",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• approval What requirements for suitability (criteria) exist with respect to authorisation and by means of what evidence must or may suitability be proven?",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0229",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• What requirements for suitability (criteria) with respect to reliability does the Act provide for and by means of what evidence must or may reliability be proven?",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0230",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• What requirements for suitability (criteria) with respect to financial and economic standing does the national public procurement act provide for and by means of what references must or may such standing be proven?",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0231",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• What requirements for suitability (criteria) with respect to technical capacity are provided by the national public procurement act and by means of what references must or may such capacity be proven?",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0232",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• • Pending For how long must evidence be retained?",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0233",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "Or: what must be changed for it to become suitable?",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - peppol [pdf]__C0234",
+    "document": "2009 - peppol [pdf].txt",
+    "nearest_heading": null,
+    "text": "• Are there any statutory requirements according to which specific evidence must be signed electronically or does the Act permit that the signature of the entire package is also sufficient?",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

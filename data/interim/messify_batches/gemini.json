@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PURE-029",
+    "text": "The monitor's keyboard would not have any effect on the observer's environment"
+  },
+  {
+    "id": "PURE-030",
+    "text": "In particular also, the meteorological information coming from a weather station should be available centrally."
+  },
+  {
+    "id": "PURE-031",
+    "text": "It should also be network transparent so that it does not matter where it is being run."
+  },
+  {
+    "id": "PURE-032",
+    "text": "All essential tasks, not including remote observing, must take place on resources controlled by the project (such as leased lines)."
+  },
+  {
+    "id": "PURE-033",
+    "text": "In any case, remote operation must include remote monitoring from the Gemini 8m Telescopes base facilities, together with access tools for diagnostic and test use."
+  },
+  {
+    "id": "PURE-034",
+    "text": "Each subsystem should have a background task running whenever that subsystem is operational, performing such tasks as checking power supply levels, temperatures, performance, correct responses to commands."
+  },
+  {
+    "id": "PURE-035",
+    "text": "In general this will require mechanical hard stops, electrical interlocks, electrical hard limit switches, soft limit switches, software limits, and watch dogs,."
+  },
+  {
+    "id": "PURE-036",
+    "text": "The database must support both remote access and distributed data."
+  }
+]

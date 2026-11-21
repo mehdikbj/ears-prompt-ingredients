@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PURE-120",
+    "text": "View entire universe of watersheds from top-level screen for selection"
+  },
+  {
+    "id": "PURE-121",
+    "text": "Browse, query, and download individual sampling station data and metadata"
+  },
+  {
+    "id": "PURE-122",
+    "text": "Browse and query watershed metadata by theme or location"
+  },
+  {
+    "id": "PURE-123",
+    "text": "Data and application backups will be managed through fully supported backup software solutions."
+  },
+  {
+    "id": "PURE-124",
+    "text": "As the Web will be the primary delivery protocol for the application, HTTP and related GIS server applications will be required to support system functionality."
+  },
+  {
+    "id": "PURE-125",
+    "text": "As the primary data storage mechanism for the corporate standard relational database management system, Microsoft SQL Server will be required to support system functionality."
+  }
+]

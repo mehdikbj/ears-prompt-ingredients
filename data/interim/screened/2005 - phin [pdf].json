@@ -1,0 +1,542 @@
+[
+  {
+    "id": "2005 - phin [pdf]__C0001",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5 System Integration and Data Exchange: OM information must be",
+    "text": "2.5 System Integration and Data Exchange: OM information must be exchangeable, based on established standards, between systems involved in the investigation, identification, confirmation, and reporting of a health event.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0002",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.6 Vocabulary Standards: Standard vocabulary lists and data structures have been",
+    "text": "A plan must be established for continuing activities when systems supporting OM are unavailable.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0003",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.9 Privacy: Patients, organizations, and personnel must be protected from fraudulent",
+    "text": "2.9 Privacy: Patients, organizations, and personnel must be protected from fraudulent and unauthorized use of their information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0004",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.1   SYSTEM ARCHITECTURE",
+    "text": "2.1 SYSTEM ARCHITECTURE 2.1.1 Systems designed to support OM must offer configuration flexibility so that new data fields, entities, entity types and relationship types may be added to capture information unique to each particular health event.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0005",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.1   SYSTEM ARCHITECTURE",
+    "text": "2.1.2 Systems supporting OM must support structured data entry for common forms and fields to ensure data integrity, validity, and standardization.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0006",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.1.1 Systems supporting OM must have the capability to capture demographic data",
+    "text": "2.2.1.1 Systems supporting OM must have the capability to capture demographic data about persons involved in an OM investigation, including: Subject ID, name, address, date of birth, gender, phone number, race, ethnicity, and country of citizenship.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0007",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.1.2 Systems supporting OM must have the capability to capture data about",
+    "text": "2.2.1.2 Systems supporting OM must have the capability to capture data about organizations (e.g., a local health department, a university, a professional association) involved in an OM investigation, including: organization name, location, and contact information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0008",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.1.3 Systems supporting OM must have the capability to capture data about",
+    "text": "2.2.1.3 Systems supporting OM must have the capability to capture data about locations involved in an OM investigation, including: name (if applicable), type (e.g., floor, building, room, store), street address, city, state, zip code, country, GPS coordinates, and other specific details (e.g., a specific building on a campus, a business branch location, a local chapter’s meeting hall) 2.2.1.4 Systems supporting OM must have the capability to capture data about any animals involved in an OM investigation, including: type (dog, monkey, etc), age, gender, owner’s name and address, color, weight, and species.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - phin [pdf]__C0009",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "Revision Date: 4/28/2005 Page 5 of 16 OM_RSv1.0 FINAL.doc Outbreak Management Functional Requirements Version: 1.0 2.2.1.5 Systems supporting OM must have the capability to capture data for any object involved in an OM investigation, such as a letter, invoice, food item, or any object that cannot be classified as a “person, organization, place, or animal.” Collected data may include: name of the object, type, physical descriptors, address, identification number (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - phin [pdf]__C0010",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "2.2.1.6 Systems supporting OM must have the capability to capture data about any conveyance involved in an OM investigation, including: type of conveyance, route taken (e.g., flight number), etc.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0011",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "2.2.1.7 Systems supporting OM must have the capability to capture data about any public or private gathering of people (e.g., church social, ball game) involved in an OM investigation, including: time, location, nature of the event, etc.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0012",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "2.2.1.8 Systems supporting OM must have the capability to capture data about any living things other than persons or animals that are involved in an OM investigation, including: type of living thing, and other customizable data collection questions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0013",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "2.2.1.9 Systems supporting OM must have the capability to capture an entity’s travel history to support investigations of entities infected, exposed or potentially exposed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0014",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.2    Health Event Data",
+    "text": "2.2.2 Health Event Data 2.2.2.1 When a health event is investigated, it must be assigned an event identifier (i.e., Event ID) that is unique within the jurisdiction.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0015",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.3.3 Detailed conveyance data must be collected when relevant to the",
+    "text": "2.2.3.3 Detailed conveyance data must be collected when relevant to the investigation, including the carrier identifier, the type of conveyance (such as airplane, bus, or train, among countless others), as well as the make, model, year, and identification number (e.g., VIN) of each vehicle with which the entity was in contact (if this information is relevant to the investigation).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2005 - phin [pdf]__C0016",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.4    Case Investigation and Exposure Contact Data",
+    "text": "2.2.4.1 Because attributes of both case and exposure data may describe the same entity, systems supporting OM must have the ability to avoid capturing redundant entity demographic information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0017",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.4.2 Public Health Case Data",
+    "text": "2.2.4.2.b There must be a means to update the case diagnosis either manually or automatically if the case definition changes during an event.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0018",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.4.2 Public Health Case Data",
+    "text": "2.2.4.2.c Epidemiological (epi) data must be collected to assist in the case investigation of events.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0019",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.4.2 Public Health Case Data",
+    "text": "2.2.4.2.d Systems supporting OM must allow for dynamic, event-specific case investigation data to be captured.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0020",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "Revision Date: 4/28/2005 Page 7 of 16 OM_RSv1.0 FINAL.doc Outbreak Management Functional Requirements Version: 1.0 2.2.4.2.e In the context of a case, all entities exposed to a case must be recorded and linked to the case.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0021",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "2.2.4.2.g Both the jurisdiction investigating the event and the jurisdiction reporting the cases and associated investigations must be captured.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0022",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.4.3 Exposure Contact Data",
+    "text": "2.2.4.3 Exposure Contact Data 2.2.4.3.a Exposure investigation data to be captured must include information related to exposure levels, type of exposure (e.g., intimate, social, household, common conveyance), place of exposure, length of time the entity was exposed, frequency of exposure, and the entity’s proximity to the source of exposure.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0023",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.4.3 Exposure Contact Data",
+    "text": "2.2.4.3.b Detailed data must be collected about the source of exposure as well as the exposed entity to support contact exposure tracing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0024",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.4.3 Exposure Contact Data",
+    "text": "2.2.4.3.c Epi data must be collected to assist in the exposure investigation of health events.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0025",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "2.2.4.3.d Systems supporting OM must support capturing dynamic, event- specific data that describes contact between two subjects.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0026",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.1 Specimens/samples collected for laboratory testing must be assigned an",
+    "text": "2.2.6.1 Specimens/samples collected for laboratory testing must be assigned an identifier (i.e., Specimen ID) that is unique within the jurisdiction.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0027",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.2 The subject of a specimen/sample collected for laboratory testing must be",
+    "text": "2.2.6.2 The subject of a specimen/sample collected for laboratory testing must be linked to the specimen/sample by an identifier (i.e., Subject ID) that is unique within the jurisdiction.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0028",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.3 Systems supporting OM must be able to store data about the",
+    "text": "2.2.6.3 Systems supporting OM must be able to store data about the specimens/samples that are collected for laboratory testing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0029",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.4 Chain of custody information for all specimens/samples should be captured.",
+    "text": "2.2.6.5 Chain of custody information for forensic and select agent samples must be captured, including the person who collected the sample, the location of collection, all people who came into contact with the sample during the preparation for shipment to the laboratory, and the acceptance of the package by the shipper.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0030",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.4 Chain of custody information for all specimens/samples should be captured.",
+    "text": "2.2.6.6 Systems supporting OM must be able to create a laboratory test request for a specimen/sample or group of specimens/samples.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0031",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.7 Information about batch shipments of specimens/samples that are transferred",
+    "text": "2.2.6.7 Information about batch shipments of specimens/samples that are transferred to test laboratories or other facilities must be collected, including the shipper (e.g., UPS, FedEx), shipment tracking number, and the sending organization’s contact information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0032",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.7 Information about batch shipments of specimens/samples that are transferred",
+    "text": "2.2.6.9 Systems supporting OM must be able to store laboratory result(s) and link the result(s) to the original laboratory test request.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0033",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.10 Systems supporting OM must store data about laboratory results. Examples of",
+    "text": "2.2.6.10 Systems supporting OM must store data about laboratory results.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2005 - phin [pdf]__C0034",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.10 Systems supporting OM must store data about laboratory results. Examples of",
+    "text": "2.2.6.10.a If the specimen/sample collection record exists, the laboratory result must be linked to the specimen collection record by the Specimen ID.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2005 - phin [pdf]__C0035",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.10 Systems supporting OM must store data about laboratory results. Examples of",
+    "text": "2.2.6.10.b If the specimen/sample collection record does not exist, the laboratory result must be linked to the subject by the Subject ID.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2005 - phin [pdf]__C0036",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.2.6.10 Systems supporting OM must store data about laboratory results. Examples of",
+    "text": "2.2.6.10.c All levels of granularity of results (e.g., specimen/sample level, assay level) must be supported.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2005 - phin [pdf]__C0037",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3     SYSTEM FUNCTIONS AND BEHAVIORS",
+    "text": "2.3 SYSTEM FUNCTIONS AND BEHAVIORS 2.3.1 Case Investigation 2.3.1.1 Electronic questionnaires must be developed and validated.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0038",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3.1.1 Electronic questionnaires must be developed and validated. They will be",
+    "text": "Revision Date: 4/28/2005 Page 11 of 16 OM_RSv1.0 FINAL.doc Outbreak Management Functional Requirements Version: 1.0 2.3.1.2 Systems supporting OM must provide the ability to control the configuration of and revisions to investigation-specific questionnaires.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0039",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3.1.3 Systems supporting OM must provide the ability to publish investigation-",
+    "text": "2.3.1.3 Systems supporting OM must provide the ability to publish investigation- specific questionnaires and implementation guides.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0040",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3.2.1 Systems supporting OM must support dynamically defined associations",
+    "text": "2.3.2.1 Systems supporting OM must support dynamically defined associations between entities for the purpose of defining relationships.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0041",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3.2.2 Entity-to-epi data links must match the entity to their symptoms, survey",
+    "text": "2.3.2.2 Entity-to-epi data links must match the entity to their symptoms, survey questions, specimens/samples collected, laboratory results, and prophylaxis and treatment data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0042",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3.2.2 Entity-to-epi data links must match the entity to their symptoms, survey",
+    "text": "2.3.2.3 Each new case must be able to link an assigned Entity ID to an Event ID within the scope of the investigation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0043",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3.2.5 Laboratory results must be linked to corresponding specimens/samples",
+    "text": "2.3.2.5 Laboratory results must be linked to corresponding specimens/samples including multiple results from one specimen/sample), and subjects when the participating laboratory returns the results.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0044",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3.2.5 Laboratory results must be linked to corresponding specimens/samples",
+    "text": "These linkages must unambiguously associate multiple laboratory results to case and contact identifiers.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0045",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3.2.5 Laboratory results must be linked to corresponding specimens/samples",
+    "text": "2.3.2.5.a If the specimen/sample was created from another specimen/sample (e.g., aliquots, and new specimen types created from a source sample), laboratory results for the child specimens/samples must be linked to the corresponding parent specimen/sample.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0046",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.3.3.4 Systems supporting OM must support contact exposure tracing by allowing",
+    "text": "2.3.3.4 Systems supporting OM must support contact exposure tracing by allowing one contact to be linked to multiple cases, and allowing multiple contacts to be linked to a single case.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0047",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.4.7   Systems supporting OM should have the ability to compare characteristics of",
+    "text": "2.4.9 Systems supporting OM must have the ability to print questionnaires for multiple uses, including taking to the field, use during phone interviews, etc.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0048",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.4.7   Systems supporting OM should have the ability to compare characteristics of",
+    "text": "2.4.10 Systems supporting OM must be able to aggregate data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0049",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5   SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "This section is limited to describing the types of data exchange that OM must support; not the requirements for transporting the data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0050",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5   SYSTEM INTEGRATION AND DATA EXCHANGE",
+    "text": "2.5.2 Systems supporting OM must be able to accept data from other partner systems supporting OM.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0051",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "2.5.3 Systems supporting OM must be able to create and send messages for laboratory test requests.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0052",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": null,
+    "text": "2.5.5 Systems supporting OM must be able to receive, parse and process messages for laboratory results.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0053",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5.7   Systems supporting OM must be able to exchange messages for confirmed,",
+    "text": "2.5.7 Systems supporting OM must be able to exchange messages for confirmed, probable and suspect cases, and the other case classifications that are noted in the PHIN message implementation guide, with systems supporting surveillance, early event detection (EED), and other preparedness areas.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0054",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5.7   Systems supporting OM must be able to exchange messages for confirmed,",
+    "text": "Revision Date: 4/28/2005 Page 14 of 16 OM_RSv1.0 FINAL.doc Outbreak Management Functional Requirements Version: 1.0 2.5.8 Systems supporting OM must exchange messages for investigations and for exposure contacts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0055",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5.8   Systems supporting OM must exchange messages for investigations and for",
+    "text": "2.5.9 Systems supporting OM must be able to receive, parse and process messages for countermeasures that have been administered.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0056",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5.9.1 Countermeasures that have been administered must be linked to the",
+    "text": "2.5.9.1 Countermeasures that have been administered must be linked to the entity that was administered the countermeasures.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0057",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5.9.1 Countermeasures that have been administered must be linked to the",
+    "text": "2.5.10 Systems supporting OM must be able to create and send messages for countermeasure administration requests.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0058",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5.9.1 Countermeasures that have been administered must be linked to the",
+    "text": "2.5.11 Systems supporting OM must be able to exchange aggregated data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0059",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.5.9.1 Countermeasures that have been administered must be linked to the",
+    "text": "2.5.13 Mapping interfaces and data dictionaries must be clearly defined and included in data exchanges to indicate and describe both standard and customized fields because systems supporting OM are configurable to meet the individual needs of each event and therefore collect data specific to each event.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2005 - phin [pdf]__C0060",
+    "document": "2005 - phin [pdf].txt",
+    "nearest_heading": "2.8   SYSTEM SECURITY AND AVAILABILITY",
+    "text": "2.8 SYSTEM SECURITY AND AVAILABILITY Systems and data supporting OM must be protected from sabotage, corruption and unauthorized access, and must be available subsequent to a catastrophic event.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  }
+]

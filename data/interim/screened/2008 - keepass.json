@@ -1,0 +1,776 @@
+[
+  {
+    "id": "2008 - keepass__X0001",
+    "document": "2008 - keepass",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "In chapter 2 an overall description of KeePass is provided. First product perspective is presented with product features and main functions. Then follow user classes and characteristics, operating environments that KeePass supports as well as design and implementation constraints. After all that user documentation is presented and will provide you with more details about each feature’s technology.",
+    "match_type": "xml_item_modal",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass__X0002",
+    "document": "2008 - keepass",
+    "nearest_heading": "Product Features",
+    "text": "Auto-Type The user can select a sequence of keypresses that KeePass will be able to perform and send them to any window or browser.",
+    "match_type": "xml_item_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0003",
+    "document": "2008 - keepass",
+    "nearest_heading": "Product Features",
+    "text": "Composite Master Key To open a database you must use all key sources such as password, key file and/or Windows account details that were used when the Master Key was created. All these together form the Composite Master Key and are all required in order to open the database. So the user cannot use a combination of them to unlock the database.",
+    "match_type": "xml_item_modal",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass__X0004",
+    "document": "2008 - keepass",
+    "nearest_heading": "Product Features",
+    "text": "Password Generator There are available generations based on character sets and based on patterns the first for generating random passwords and the second for creating passwords which require specific patterns. There is also available generating passwords that follow rules which are determined further down on this document. Then there are security-reducing options which reduce the security of the passwords they are applied to. Finally there are configuring settings of automatically generated passwords for new entries so that a random password will automatically be created by KeePass when a new entry is wanted.",
+    "match_type": "xml_item_modal",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass__X0005",
+    "document": "2008 - keepass",
+    "nearest_heading": "Product Features",
+    "text": "URL Field The URL field supports various special protocols and placeholders and can be used for Standard capabilities where URL field can execute valid URLs for which a protocol handler is defined. In addition to that, KeePass supports all registered protocols that Internet Explorer supports. URL field also offers the ability of executed command lines instead of URLs. Also, placeholders can be used that will be automatically replaced when the URL is executed.",
+    "match_type": "xml_item_modal",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - keepass__X0006",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features",
+    "text": "System features are organized by use cases and functional hierarchy so that the main functions of the system will be understandable.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0007",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > New Database > Description",
+    "text": "It is the first thing a user must do to begin using KeePass.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0008",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > New Database > Description",
+    "text": "Its main function is the determination of the master password that will unlock the database from now on",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0009",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > New Database > Functional Requirements",
+    "text": "REQ-1: KeePass must be downloaded and installed",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0011",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > New Database > Functional Requirements",
+    "text": "REQ-2: Master Password has no limits in length. A whole sentence can be used with more than 100 characters.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0012",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > New Database > Functional Requirements",
+    "text": "REQ-2: Master Password has no limits in length.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0013",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > New Database > Functional Requirements",
+    "text": "A whole sentence can be used with more than 100 characters.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0014",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Open Database > Description",
+    "text": "When the database is found, the master password is wanted so that the database will be unlocked.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0015",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Open Database > Functional Requirements",
+    "text": "Folder selected must be of type the database can read and that is “name”.kdb",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0017",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Save Database > Functional Requirements",
+    "text": "Databases must have different names or else the previews one will be replace if selected",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0019",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Print Database > Functional Requirements",
+    "text": "There must be entries in the database in order for them to be printed",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0021",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Search Database > Description",
+    "text": "By writing just one character the database will present all data which contains it or are related with it.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0022",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Search Database > Stimulus/Response Sequences > Functional Requirements",
+    "text": "All data related to the word must be shown. For example if user types “abc” and abc is part of a password and of a username, both entries must be shown",
+    "match_type": "xml_req_tag",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2008 - keepass__X0023",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Search Database > Stimulus/Response Sequences > Functional Requirements",
+    "text": "All data related to the word must be shown.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0024",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Search Database > Stimulus/Response Sequences > Functional Requirements",
+    "text": "For example if user types “abc” and abc is part of a password and of a username, both entries must be shown",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0025",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Add Group/Subgroup > Description",
+    "text": "When creating a group/subgroup the user must select a name and then he can add entries into it.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0026",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Add Group/Subgroup > Functional Requirements",
+    "text": "A name is required in order for the new group/subgroup to be created",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0028",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Add Group/Subgroup > Functional Requirements",
+    "text": "A subgroup cannot be created when no group is selected",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0030",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Modify group/subgroup > Functional Requirements",
+    "text": "A name is required in order for the group/subgroup to be renamed",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0032",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Delete Group/Subgroup > Description",
+    "text": "In order for that to happen, he must have chosen first a group/subgroup.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0033",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Delete Group/Subgroup > Functional Requirements",
+    "text": "Not exists.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  },
+  {
+    "id": "2008 - keepass__X0034",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Find Group/Subgroup > Stimulus/Response Sequences > Basic Data Flow",
+    "text": "User selects the fields which will be searched",
+    "match_type": "xml_item_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0035",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Find Group/Subgroup > Functional Requirements",
+    "text": "In order to find something in a group a word must be placed in the find field",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0037",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Add Entry > Description",
+    "text": "He can fill in fields like: group where the entry will be added, title, user name, password, repeat password, URL, notes, expiration date and attachment file.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0038",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Add Entry > Stimulus/Response Sequences > Alternative Data Flows > Alternative Data Flow 1",
+    "text": "A message appears “the repeated password must be identical with the password",
+    "match_type": "xml_item_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0039",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Add Entry > Functional Requirements",
+    "text": "An entry must belong to a group to be created",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0041",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Add Entry > Functional Requirements",
+    "text": "When the password field is completed the repeat password field must be completed",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0043",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Add Entry > Functional Requirements",
+    "text": "REQ-13: Password field and repeat password field must be identical",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0045",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > View/Edit Entry > Description",
+    "text": "In order for that to happen, the user must select an entry first.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0047",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > View/Edit Entry > Functional Requirements",
+    "text": "ìAn entry must be selected to be viewed or modified",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0049",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > View/Edit Entry > Functional Requirements",
+    "text": "ìWhen the password field is changed the repeat password field must be Changed and be identical with password field",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0051",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Duplicate Entry > Functional Requirements",
+    "text": "An entry must be selected before it is duplicated",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0053",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Delete Entry > Functional Requirements",
+    "text": "REQ-17: An entry must be selected to be deleted",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0054",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Change Language > Description",
+    "text": "Doing this he will be transferred at KeePass website and choose the language he wants for downloading.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0055",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Change Language > Stimulus/Response Sequences > Basic Data Flow",
+    "text": "A message appears that informs user that the installation has been done and in order for the changes to take place KeePass must be restarted 4.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0056",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Change Language > Functional Requirements",
+    "text": "REQ-18: An internet connection and a browser are required in order to download new language translations For the following features, use cases are not included",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0058",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Auto-type",
+    "text": "This feature allows user to define a sequence of keypresses which KeePass will automatically perform.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0059",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Auto-type > Description",
+    "text": "The sequence must be prefixed with “Auto-Type” and length of one line.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0060",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Auto-type > Functional Requirements",
+    "text": "The prefix “Auto-Type:” is required in front of each sequence",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0062",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Auto-type > Functional Requirements",
+    "text": "Sequence’s length must not be more than a line (59 characters)",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0064",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Auto-type > Functional Requirements",
+    "text": "If two auto-types are referred in one note field, only the first is used",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0066",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Command Line Options",
+    "text": "This feature allows user to pass a file patch in the command line so that KeePass will open it immediately after start up.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0067",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Command Line Options > Functional Requirements",
+    "text": "Only one database file is allowed in command line options",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0069",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Command Line Options > Functional Requirements",
+    "text": "In case a space is found in the path, it must be enclosed into quotes",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0071",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Composite Master Key > Description",
+    "text": "But the same composition of them must be used always.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0072",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+    "text": "If a master password is required to unlock the database, the database doesn’t open unless the password is entered",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0074",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+    "text": "If a key file is required to unlock the database, the database doesn’t open unless the key file is present",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0076",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+    "text": "If there is a composite key, both master password and key file are required",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0078",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+    "text": "In case of lost master password or key file, the database never unlocks again. There is no recovery",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0079",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+    "text": "In case of lost master password or key file, the database never unlocks again.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0080",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+    "text": "There is no recovery",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "too_short"
+  },
+  {
+    "id": "2008 - keepass__X0081",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Composite Master Key > Functional Requirements",
+    "text": "There is no backdoor or key that unlocks all databases",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0083",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Import/Export > Functional Requirements",
+    "text": "REQ-29: File formats are not specialized password database formats",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0085",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Import/Export > Functional Requirements",
+    "text": "REQ-30: File formats only specify a low-level layout of stored data",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0087",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Integration > Functional Requirements",
+    "text": "Global hot key cannot be changed",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0089",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > Password Generator > Functional Requirements",
+    "text": "According to restriction rules that are applied every time.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0090",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > TAN Support > Description",
+    "text": "When TAN are created, they appear as typical entries which in the field title contain “TAN” so that KeePass will know it’s a TAN.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0091",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > TAN Support > Functional Requirements",
+    "text": "Title, username or URL cannot be changed in a TAN entry.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0093",
+    "document": "2008 - keepass",
+    "nearest_heading": "System Features > TAN Support > Functional Requirements",
+    "text": "When a TAN is used, it expires automatically and can never be used again.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0095",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "User interface includes various forms and windows.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0096",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "The main database window consists of the main menu bar with file, edit, view, tools and help.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0097",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "Under main menu there is a toolbar with shortcuts to most used functions of KeePass.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0098",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "Those are: new, open, save, add entry, edit/view entry, delete entry, copy username to clipboard, copy password to clipboard, find in database and lock workspace.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0099",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "On the main database window are appeared entries from a selected group.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0100",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "Groups and subgroups can be found at a side bar.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0101",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "When a function is performed like adding, editing or deleting, the active window is the one performing the action.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0102",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "At this time the main database window is inactive and cannot be accessed unless the current active window is closed.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0103",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "KeePass as referred previously uses NET/Mono and Win32 (MS Windows) interfaces.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0104",
+    "document": "2008 - keepass",
+    "nearest_heading": "External Interface Requirements > Communications Interfaces",
+    "text": "Internet connection and a browser are required in order for several functions to be executed such as downloading plug-ins",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0105",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "When a password is copied, it remains on memory for only 10 seconds.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0106",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "If in the meanwhile it is not pasted anywhere, it must be copied again.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0107",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "That happens so that if user copies a password and not paste it anywhere, the password cannot be found by anyone later.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0108",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Safety Requirements",
+    "text": "When a USB which contains the database is removed from a computer while changes haven’t been completely saved, the database is damaged and cannot be opened.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0109",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Safety Requirements",
+    "text": "In this case the repair functionality can help by repairing KeePass database file from tools menu.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0110",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Safety Requirements",
+    "text": "In case the user forgets or loses the Master Password, the repair functionality won’t help.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0111",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Safety Requirements",
+    "text": "In case the header of the database, which is the first few bytes, is corrupted, again the repair functionality won’t help.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0112",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Safety Requirements",
+    "text": "To avoid this kind of situations, backups can be done regularly.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0113",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Software Quality Attributes",
+    "text": "KeePass is a small and light project so it does not need to be installed. All it takes is unpacking from the Zip package. It can be transferred also in a USB stick with no additional configuration needed.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0114",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Software Quality Attributes",
+    "text": "KeePass is a project that once uninstalled from a computer, leaves no trace behind. So there is no way passwords and other data in the database to be found later.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0115",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Software Quality Attributes",
+    "text": "KeePass is developed under GNU General Public License version 2 or later (copy from http://www.gnu.org/licenses/gpl.html) and can be distributed under those terms.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - keepass__X0116",
+    "document": "2008 - keepass",
+    "nearest_heading": "Other Nonfunctional Requirements > Software Quality Attributes",
+    "text": "KeePass can be found and downloaded from www.sourceforge.com and the project’s official website at http://keepass.info/ for free.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

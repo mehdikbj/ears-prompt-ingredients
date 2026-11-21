@@ -1,0 +1,1001 @@
+[
+  {
+    "id": "2010 - fishing [pdf]__C0001",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "\u0001 Product Profile – The product profile is a questionnaire which must be completed by an ELSS supplier to list the mandatory, optional and conditional features supported in their product.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0002",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.2        Functional Requirements Specification",
+    "text": "2.2 Functional Requirements Specification 2.2.1 General Requirements The ELSS must capture all data necessary for recording the fishing activities undertaken by a UK fishing vessel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0003",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.2.1      General Requirements",
+    "text": "The ELSS must output the data as an XML file for transmission to the UK fisheries administrations’ ERS system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0004",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.2.1      General Requirements",
+    "text": "The ELSS data must be validated against the UK XML/XSD before transmission from the fishing vessel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0005",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.2.1      General Requirements",
+    "text": "The ELSS data must be transmitted at the required times set out below in Section 2.5.1.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0006",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.3.3       Data Definitions",
+    "text": "The ELSS may also provide the means for recording additional data but this must not interfere with the data capture and submission functions as set out below.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0007",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.4         Capture Functions",
+    "text": "2.4 Capture Functions The ELSS must provide data capture screens for the entry of the logbook, transhipment and landing declaration data that is required to be transmitted to the UK fisheries administrations’ ERS system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0008",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.4         Capture Functions",
+    "text": "The ELSS must use English (UK) localizations for all UK Electronic Logbook features.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0009",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.4         Capture Functions",
+    "text": "All dates and times must be UTC.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0010",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.4.1       Printing Features",
+    "text": "2.4.1 Printing Features The ELSS must provide the ability to print out the ELSS logbook data (including landing declarations) using an onboard printer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0011",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.4.1       Printing Features",
+    "text": "The ELSS must provide a means so that electronic print files are protected so that they cannot be modified in any way once generated and distributed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0012",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5         Data Transmission",
+    "text": "2.5 Data Transmission The ELSS must provide Electronic Logbook data for transmission to the UK fisheries administrations’ ERS system in accordance with the frequency requirements defined below (Section 5.1).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0013",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5         Data Transmission",
+    "text": "The subject header must consist of a character string containing ‘ERS – ‘ prefixed to the contents of the GBRRN attribute of the Electronic Logbook data being transmitted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0014",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "All xml documents attached to emails to the UK fisheries administrations’ ERS system must be encrypted using PGP.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0015",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Copyright © 2009,2010 UK Fisheries Administrations All Rights Reserved PROTECT – COMMERCIAL [when completed] UK Fishing Vessel’s Electronic Logbook Functional Requirement Specification [including Product Profile & Self Declaration Form] Version 1.2 Page 10 of 49 2.5.1 Frequency of Transmission The ELSS must permit the Master of the vessel to generate formatted data for transmission to the UK fisheries administrations’ ERS system.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0016",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.1       Frequency of Transmission",
+    "text": "There are 2 categories of transmission, those that must be generated automatically by the ELSS and those that can be generated and transmitted under the control of the Master of the vessel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0017",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.1       Frequency of Transmission",
+    "text": "Transmission must be resumed when the vessel leaves port o immediately after the last fishing operation has been completed o immediately on departing port o immediately after a transhipment immediately on completion of the Landing declaration • Generation and transmission under the control of the Master of the vessel o before entering into port o at the time of inspection at sea o at the request of the UK fisheries administrations 2.5.2 Data Corrections The ELSS must provide facilities to capture and deliver for transmission corrections to previously successfully transmitted data.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0018",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.2       Data Corrections",
+    "text": "Data corrections must not be transmitted piecemeal; the entire report containing one or more corrected items must be transmitted.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0019",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.2       Data Corrections",
+    "text": "All corrections must be easily identifiable within the ELSS user interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0020",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.2       Data Corrections",
+    "text": "The ELSS must only permit correction messages to be generated and sent for reports sent during a current trip up to the submission of the End of Fishing report for that voyage 2.5.3 Data Deletions The ELSS must provide facilities to transmit deletions to previously transmitted data.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0021",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.3       Data Deletions",
+    "text": "The ELSS must only permit deletion messages to be generated and sent for reports sent during a current trip up to the End of Fishing report for that voyage.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0022",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.3       Data Deletions",
+    "text": "All deletions must be easily identifiable within the ELSS user interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0023",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.4       Acknowledgement",
+    "text": "2.5.4 Acknowledgement The ELSS must be able to receive acknowledgement (RET) messages transmitted from the UK fisheries administrations’ ERS system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0024",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.4       Acknowledgement",
+    "text": "The ELSS must match each acknowledgement message with the appropriate transmitted data operation, deletion or correction report.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0025",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.4       Acknowledgement",
+    "text": "The ELSS must be able to confirm that a transmission has been successfully acknowledged or display any error message should the ELSS receive a negative acknowledgement message.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0026",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.5.5       Test Transmissions",
+    "text": "This test facility must be used to send test transmissions to establish that the communications between the vessel and the UK fisheries administrations’ ERS system are fully operational.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0027",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.6         Specific High Level Requirements",
+    "text": "These requirements are listed below; Copyright © 2009,2010 UK Fisheries Administrations All Rights Reserved PROTECT – COMMERCIAL [when completed] UK Fishing Vessel’s Electronic Logbook Functional Requirement Specification [including Product Profile & Self Declaration Form] Version 1.2 Page 11 of 49 • ELSS must retain all logbook reports and any corrections on the system at least until the end of each trip, i.e.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0028",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.6         Specific High Level Requirements",
+    "text": "• Any ELSS software updates must not impact upon the ELSS’s ability to meet the requirements set out in this document and other test documentation .",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0029",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "2.6         Specific High Level Requirements",
+    "text": "If it does then the product must be submitted for re-approval, and can not be deployed by fishing vessels until this is granted and the new version id is published on the UKFA web site lists • ELSS security and access controls such that o one username/password must be provided for the owner of each vessel o the owner is then able to set up subsidiary users such as the master of the vessel with their own username and password.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0030",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "o Each copy of the ELSS installed must be provided with a unique (internal?) number that is automatically entered into each transmission to identify the instance of the ELSS from which the report has been transmitted.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0031",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "• ELSS must only be supplied for use at sea and loaded onto an onboard system and is not to be provided for onshore use by agents or representatives.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0032",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.3       ELSS Data Capture and Data Operations",
+    "text": "A supplier must indicate the elements supported by their product in the columns marked in grey.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0033",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.3.1.1   Data Operations (OPS)",
+    "text": "C Must conform to the ISO alpha-3 country code.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0034",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.3.1.1   Data Operations (OPS)",
+    "text": "Must C conform to the ISO alpha-3 country code.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0035",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:OPS 06n Operation Time attribute OT The time of sending for this OPS message.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0036",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:OPS 07a ELSS Software version number attribute GBRS Version number of the software that transmits the C VN LOG message ers:OPS 07b ELSS Reference (serial) number attribute GBRS Reference or serial number of the software that C RN transmits the LOG message Copyright © 2009,2010 UK Fisheries Administrations All Rights Reserved PROTECT – COMMERCIAL [when completed] UK Fishing Vessel’s Electronic Logbook Functional Requirement Specification [including Product Profile & Self Declaration Form] Version 1.2 Page 15 of 49 Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:OPS 07n Test flag attribute TS Set to \"1\" if this OPS message is to be regarded O as a test message.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0037",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "(Free text field.) O The following features are required for the ELSS product: Item Description Status Support Notes Y|N|N/A Deletion-001 Product MUST only permit deletion message to C be sent only during a current trip up to the End of Fishing report for that voyage Deletion-002 Product MUST only permit deletion messages to C be sent only during a current trip up to the End of Fishing report for that voyage.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0038",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Deletion-003 Product MUST provide a means to allow C deletions to be identifiable via the ELSS user interface 4.3.1.4 Correction Message (COR) Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:COR 019 Start of Correction Message element COR Correction operation to ask UK fisheries C administrations to correct previously sent data.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0039",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "the whole C message Copyright © 2009,2010 UK Fisheries Administrations All Rights Reserved PROTECT – COMMERCIAL [when completed] UK Fishing Vessel’s Electronic Logbook Functional Requirement Specification [including Product Profile & Self Declaration Form] Version 1.2 Page 17 of 49 The following features are required for the ELSS product: Item Description Status Support Notes Y|N|N/A Correction-001 Product MUST submit the whole Electronic C Logbook report when sending a correction message i.e.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0040",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "the entire report containing one or more corrected items is to be submitted for re- transmission and not piecemeal corrections Correction-002 Product MUST only permit correction messages C to be sent only during a current trip up to the End of Fishing report for that voyage.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0041",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Correction-003 Product MUST provide a means to allow C corrections to be identifiable via the ELSS user interface 4.3.1.5 Acknowledgement Message (RET) Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:RET 023n Start of RET Message element RET The message acknowledges the good or bad C reception of the message identified by ON ers:RET 024n Sent Message number attribute ON The Record Number of the ERS message being CIF not from referred to.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0042",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "(Free text field.) O The following features are required for the ELSS product: Copyright © 2009,2010 UK Fisheries Administrations All Rights Reserved PROTECT – COMMERCIAL [when completed] UK Fishing Vessel’s Electronic Logbook Functional Requirement Specification [including Product Profile & Self Declaration Form] Version 1.2 Page 18 of 49 Item Description Status Support Notes Y|N|N/A Acknowledgement-001 Product MUST correlate each Acknowledgment C message with the outgoing report and operation (DAT|DEL|COR).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0043",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Acknowledgement-002 Product MUST provide a means of indicating that C the report as being successfully acknowledged and for displaying any error message or data provided in the acknowledgement.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0044",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Acknowledgement-003 Product MUST alert the Master if no C acknowledgement is received within a time limit as pre-set by the Master.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0045",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4       Electronic Logbook Software Specification Supported Features",
+    "text": "In each item of these tables there is a status value which shall reflect the static conformance requirements of the UK Fishing Vessel’s Electronic Logbook Functional Requirements Specification.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0046",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:ERS 7 Message (record) time attribute RT The transmission time of the message.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0047",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) Copyright © 2009,2010 UK Fisheries Administrations All Rights Reserved PROTECT – COMMERCIAL [when completed] UK Fishing Vessel’s Electronic Logbook Functional Requirement Specification [including Product Profile & Self Declaration Form] Version 1.2 Page 20 of 49 4.4.3 Electronic Logbook - LOG Declaration (LOG) Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:LOG 24 Start of log record element LOG Tag Indicating the start of the logbook C record ers:LOG 22a Logbook number attribute GBRLOGNO The unique logbook reference number for C this specific voyage.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0048",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Any C change of vessel master during a voyage must be notified in the next LOG message.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0049",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Any C change during a voyage must be notified in the next LOG message.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0050",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.1   Logbook Departure Declaration (DEP)",
+    "text": "Values must conform to UTC standards.) ers:DEP 36 Time attribute TI The departure time of the vessel.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0051",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.1   Logbook Departure Declaration (DEP)",
+    "text": "Values must conform to UTC standards.) ers:DEP 37 Port name attribute PO The port code of the port from which the C vessel is departing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0052",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:FAR 47 Time attribute TI The time of the fishing activity being O reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0053",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:FAR 48 Relevant area sub-declaration element RAS (See details of sub-elements and attributes CIF no catch of RAS).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0054",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:RLC 58 Time attribute TI The time of the relocation being reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0055",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:RLC 59 Receiving vessel CFR number attribute IR The receiving vessel's Community Fleet CIF joint fishing Registration number.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0056",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Must CIF joint fishing conform to the ISO alpha-3 country code.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0057",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.4   Transhipment Declaration (TRA)",
+    "text": "Values must conform to UTC standards.) ers:TRA 72 Time attribute TI The time of the transshipment being C reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0058",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:TRA 74 Port name attribute PO The port code, if the transshipment CIF took place occurred in a port.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0059",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Must C vessel conform to the ISO alpha-3 country code.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0060",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.5   Entry in Zone Declaration (COE)",
+    "text": "Values must conform to UTC standards.) ers:COE 87 Time attribute TI The time of the entry being reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0061",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:COE 88 Target specie(s) attribute TS Species targeted within zone.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0062",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Must conform to a single CIF Norway FAO (Fisheries and Agricultural Organisation) species code.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0063",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.6   Exit from Zone Declaration (COX)",
+    "text": "Values must conform to UTC standards.) Copyright © 2009,2010 UK Fisheries Administrations All Rights Reserved PROTECT – COMMERCIAL [when completed] UK Fishing Vessel’s Electronic Logbook Functional Requirement Specification [including Product Profile & Self Declaration Form] Version 1.2 Page 29 of 49 Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:COX 94 Time attribute TI The time of the entry being reported.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0064",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:COX 95 Target specie(s) attribute TS Species targeted within zone.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0065",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:GBRCON 99d Time of arrival attribute GBRTI The estimated time of arrival at the control CIF Norway point.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0066",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:GBRCON 99e Position sub-declaration element POS (See details of sub-elements and attributes CIF Norway of POS) 4.4.3.8 Discard Declaration (DIS) Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:DIS 119 Start of Discard declaration element DIS Tag indicating the start of a Discard C declaration message.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0067",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.8   Discard Declaration (DIS)",
+    "text": "Must be sent at least once per day with an FAR message.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0068",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.8   Discard Declaration (DIS)",
+    "text": "Values must conform to UTC standards.) ers:DIS 121 Time attribute TI The time of the discard being reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0069",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.8   Discard Declaration (DIS)",
+    "text": "Values must conform to UTC standards.) ers:DIS 122 Position sub-declaration element POS (See details of sub-elements and attributes C of POS) ers:DIS 123 Discarded fish sub-declaration element SPE (See details of sub-elements and attributes CIF of SPE) 4.4.3.9 Prior Notification of Return Declaration (PNO) Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:PNO 126 Start of Prior Notification element PNO Tag indicating the start of a Prior C Notification of Return declaration message.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0070",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:PNO 126b Time of departure element GBRDTI The time of the departure being reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0071",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:PNO 127 Predicted date attribute PD The estimated date of arrival being C reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0072",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:PNO 128 Predicted time attribute PT The estimated time of arrival being C reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0073",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:PNO 129 Port name attribute PO The port code for the port of arrival.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0074",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:PNO 132 Predicted landing time attribute TI The estimated time of landing being CIF in the reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0075",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:PNO 133 Catch on Board sub-declarations (list element SPE (See details of sub-elements and attributes C of species SPE sub-declarations) of SPE) ers:PNO 134 Position sub-declaration element POS (See details of sub-elements and attributes CIF of POS) 4.4.3.10 End of Fishing Declaration (EOF) Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:EOF 137 Start of Sign off of catch declaration element EOF Tag indicating the start of an End of Fishing C declaration message.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0076",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.10 End of Fishing Declaration (EOF)",
+    "text": "Values must conform to UTC standards.) ers:EOF 139 Time attribute TI The time the fishing log is recorded as complete.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0077",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.10 End of Fishing Declaration (EOF)",
+    "text": "Values must conform to UTC standards.) 4.4.3.11 Return to Port Declaration (RTP) Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:RTP 142 Start of Return to port declaration element RTP Tag indicating the start of a Return To Port C declaration message.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0078",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.11 Return to Port Declaration (RTP)",
+    "text": "Values must conform to UTC standards.) ers:RTP 144 Time attribute TI The time the vessel returned to port.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0079",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.11 Return to Port Declaration (RTP)",
+    "text": "Values must conform to UTC Copyright © 2009,2010 UK Fisheries Administrations All Rights Reserved PROTECT – COMMERCIAL [when completed] UK Fishing Vessel’s Electronic Logbook Functional Requirement Specification [including Product Profile & Self Declaration Form] Version 1.2 Page 33 of 49 Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A standards.) ers:RTP 145 Port name attribute PO The port code for the port the vessel returned to.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0080",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.12 Landing Declaration (LAN)",
+    "text": "Values must conform to UTC standards.) ers:LAN 151 Time attribute TI The time of the landing being reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0081",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.12 Landing Declaration (LAN)",
+    "text": "Values must conform to UTC standards.) ers:LAN 152 Sender type attribute TS Description of the message sender type.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0082",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.3.12 Landing Declaration (LAN)",
+    "text": "Fixed C format, the response must be one of: \"MAS\" (Vessel Master) \"REP\" (Representative of the Vessel Master) or \"AGE\" (Agent of the Vessel Master).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0083",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.4.3   Gear Shot Sub-declaration (GES)",
+    "text": "Values must conform to UTC standards.) ers:GES 179 Time attribute TI The time of the gear-shot event being C reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0084",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.4.3   Gear Shot Sub-declaration (GES)",
+    "text": "Values must conform to UTC standards.) ers:GES 179a Start zone attribute GBRZO Indicator of where zone fishing will be CIF Norway commencing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0085",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.4.4   Gear Retrieved Sub-declaration (GER)",
+    "text": "Values must conform to UTC standards.) ers:GER 185 Time attribute TI The time of the gear retrieval being C reported.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0086",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Values must conform to UTC standards.) ers:GER 186 POS sub-declaration element POS (See details of sub-elements and attributes C of POS) ers:GER 186a Gill net fleet retrieved attribute GBRGNFN Unique reference number identifying the CIF gill nets gill net fleet retrieved.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0087",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.4.5   Gear Loss Sub-declaration (GLS)",
+    "text": "Values must conform to UTC standards.) ers:GLS 199 Number of units attribute NN Numerical value indicating the quantity of C gear lost.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0088",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.4.7   Species Sub-declaration (SPE)",
+    "text": "4.4.4.7 Species Sub-declaration (SPE) Item Ref Feature - XML Code Description and content Status Support Notes No Element or attribute name Syntax Y|N|N/A ers:SPE 213 Start of SPE sub-declaration element SPE Details of fish caught by species C ers:SPE 214 Species name attribute SN Must conform to a single FAO (Fisheries C and Agricultural Organisation) species code.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0089",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.5 ELSS XML Schemas",
+    "text": "A supplier must indicate the elements supported by their ELSS product in the columns marked in grey.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0090",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.6 ELSS Capture Functions",
+    "text": "A supplier must indicate how the following functional requirements are supported by their product in the columns marked in grey.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0091",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.6 ELSS Capture Functions",
+    "text": "Item Description Status Support Notes Y|N|N/A Capture-001 Product MUST provide data capture screens for the entry C of the logbook, transhipment and landing declaration data that is required to be transmitted to the UK fisheries administrations’ ERS system.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0092",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.6 ELSS Capture Functions",
+    "text": "Capture-002 Product MUST provide a means for fisherman to C manually enter required Electronic Logbook and Landing Declaration information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0093",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "{ Please list systems in the Notes field } Capture-004 Product SHOULD provide Man-Machine Interface O factors suitable for operation of the ELSS on a moving/swaying platform Capture-005 Product MUST use English (UK) localization for all UK C Electronic Logbook features.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0094",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Capture-006 Product MUST use UTC for all dates and times C Printing-001 Product MUST provide a means to provide a hard copy C print out of the Electronic Logbook and Landing Declaration using an onboard printer.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0095",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Printing-003 Product MUST provide a means so that electronic print CIF files are protected so that they are not able to be modified Printing-003 in any way once generated and distributed Printing-004 Product MAY provide features to facilitate other print O requirements, including: \u0001 Generation of hard copies of the Electronic Logbook when fishing in 3rd country or Regional Fisheries waters, e.g.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0096",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.7 ELSS Data Transmission Features",
+    "text": "Tranmission-001 Product MUST enable the transmission of the C required reports by an on-board email system eg by generating the data for transmission as xml documents attached to email for the email system deployed to be sent to an email address of the UK fisheries administrations’ ERS system .",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0097",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Tranmission-002 Product MUST use the Electronic Logbook C filename syntax based on the GBRRN attribute i.e.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0098",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "[RSSNumber][YYYYMMDD][999999] Transmission-003 Product MUST encrypt the Electronic Logbook C Alternatives may be offered and deployed subject to satisfactory testing and acceptance XML file using the UK Fisheries public PGP key by the UKFAs when sent as an email attachment Transmission-004 Supplier MAY provide details of other transmission O methods supported by the ELSS product which should be considered by UK Fisheries for future release of the ERS Transmission-005 Product MUST provide a means whereby the C system can track whether the submitted Electronic Logbook report has been successfully transmitted to the ERS systems and to track whether an acknowledgment has been received for each transmission.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0099",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Transmission-006 Product MUST provide for a test mode of operation C to enable the fishermen and the UK fisheries administrations to carry out test transmissions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0100",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.7.1     Frequency of Transmission",
+    "text": "Item Description Status Support Notes Y|N|N/A Frequency-001 Product MUST provide a means to ensure that Electronic C Logbook is transmitted to the UK ERS at least on a daily basis not later than 24:00 hours even when there is no catch data with the proviso that if the vessel is in port, has no fish on board and has submitted a landing declaration, transmission may be suspended subject to prior notification to the Fisheries Monitoring Centre of the flag Member State.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0101",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.7.1     Frequency of Transmission",
+    "text": "Transmission shall be resumed when the vessel leaves port.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0102",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Frequency-002 Product MUST provide a means to transmit the C Electronic Logbook at the time of completion in response to a UK fishing administration request Frequency-003 Product MUST provide a means to transmit the C Electronic Logbook immediately after the last fishing operation has been completed.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0103",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Frequency-004 Product MUST provide a means of sending the C Electronic Logbook before entering into port.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0104",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Frequency-005 Product MUST provide a means of sending the C Electronic Logbook immediately on departing a port.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0105",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Frequency-006 Product MUST provide a means of sending the C Electronic Logbook at the time of inspection at sea.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0106",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "Frequency-007 Product MUST provide a means of sending the C Electronic Logbook at the time of events defined in Community legislation or by the UK fisheries administrations Frequency-008 Product MUST provide a means of sending a C transhipment electronic logbook data immediately after the transhipment Frequency-008 Product MUST provide a means of sending a transhipment electronic logbook data immediately on completion of a Landing Declaration Frequency-009 Product MAY use stored zone definitions to provide an O alarm for the Master to prepare a report or to generate a Copyright © 2009,2010 UK Fisheries Administrations All Rights Reserved PROTECT – COMMERCIAL [when completed] UK Fishing Vessel’s Electronic Logbook Functional Requirement Specification [including Product Profile & Self Declaration Form] Version 1.2 Page 45 of 49 Item Description Status Support Notes Y|N|N/A report from catch data already stored e.g.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0107",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.8 ELSS System Features",
+    "text": "Item Description Status Support Notes Y|N|N/A ELSS-Features-001 Product MUST retain all logbook reports and C any corrections on the system at least until the end of each trip, i.e.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0108",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.8 ELSS System Features",
+    "text": "on submission for transmission of the electronic landing declaration or of a transhipment report ELSS-Features-002 Software updates for a product MUST NOT C impact upon requirements described in Council Regulation (EC) No.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0109",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "4.4.8 ELSS System Features",
+    "text": "1077/2008 ELSS-Features-003 Product MUST: C \u0001 provide a unique ID for the master of each vessel; \u0001 provide a means for the Master to assign a unique ID to each person with computer access; \u0001 provide a means for each unique ID to authenticate (e.g.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0110",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": null,
+    "text": "\u0001 associate an Electronic Logbook report with a unique User ID \u0001 record a legal acknowledgement from the user entering the data for the Electronic Logbook record ELSS-Features Product MUST only to be supplied for use at C sea and loaded onto an onboard system and is not to be provided for onshore use by agents or representatives .",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2010 - fishing [pdf]__C0111",
+    "document": "2010 - fishing [pdf].txt",
+    "nearest_heading": "7.2       Definitions",
+    "text": "Static Conformance Requirement A definition of the compulsory and optional behaviour a product must implement in order to be considered conformant to the ERS eLogbook specification.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  }
+]

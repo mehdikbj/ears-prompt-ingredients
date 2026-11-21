@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "2007 - mdot [pdf]__C0001",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "1.2   Document Purpose",
+    "text": "A system requirements specification states what must be accomplished to fulfill the vision described in a concept of operations (ConOps).",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0002",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "2.2.2   Dynamic Data Services",
+    "text": "The DUAP system must be able to cache the data after input such that it remains available for downstream processing.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0003",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "2.3.2   Stakeholders",
+    "text": "The gathered information must be presented to all users in “real-time”, meaning that the information is only valuable if it can be provided and acted upon quickly enough to reduce the impact of the event as it is occurring.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0004",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "2.5   Assumptions and Dependencies",
+    "text": "Latency enters into the data collection process in several ways: • The time required for vehicle systems to collect and store vehicle data • The delay between the data collection and the data transmission from the vehicle to the roadside equipment (RSE) • The time required for the transmission of data from the RSE to the DUAP system • The time required for the DUAP system to process the data and publish it to other systems • The time between the DUAP processing and the transmission to the end systems While the VII data is much more timely and complete than data currently being processed, participants must recognize that VII data is “near real-time” data.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0005",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "2.5   Assumptions and Dependencies",
+    "text": "Each system using DUAP data must be capable of evaluating the data based on the source and date/time stamps to determine the suitability of each data element for the intended purpose.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0006",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Source(s) for the Supporting text that may help H – indicates that it is essential to identifier (ID) Requirements formulated with requirement; explain the requirement, its the DUAP system used to trace “…shall…” are direct could be a importance, or the risks associated M – indicates that it should be requirements requirements; those using “…shall reference with implementing the implemented from be able to…” are conditioned on document or a requirement.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0007",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.1   IS – Input Services",
+    "text": "Table 3 – Input Services ID Function Source Comments Importance IS-010 The DUAP System shall collect probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0008",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.1   IS – Input Services",
+    "text": "ConOps § 4.4 ConOps § 5.1 ConOps § 5.2 ConOps § 5.3 ConOps § 5.4 ConOps § 5.5 IS-010-005 The DUAP data elements shall include probe vehicle ConOps § 3.2.1 See List in APPENDIX C - H data fields corresponding to the SAE J2735 format as SAE J2735 Probe Data enumerated in APPENDIX C - SAE J2735 Probe Data Elements for probe data Elements.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0009",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-010-010 The DUAP Input Services shall be able to collect probe ConOps § 4.3.1 The ability to collect probe H vehicle data from the VII Proof of Concept (POC) Probe vehicle data is one of the Data Service (PDS) using the X-031 interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0010",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-010-015 The DUAP Input Services shall be able to collect probe ConOps § 4.2 The specific format of the H vehicle data from the Chrysler Fast Feedback (telematics interface is to be determined demonstration) fleet using the Chrysler telematics in the design of the prototype.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0011",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-010-020 The DUAP Input Services shall be able to collect probe ConOps § 5.2 The specific format of the M vehicle data from Southeast Michigan Snow and Ice interface is to be determined Management (SEMSIM) using the SEMSIM interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0012",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-010-030 The DUAP Input Services shall be able to collect probe ConOps § 2.3.2.7 The specific format of the L vehicle data from Suburban Mobility Authority for ConOps § 4.1 interface is to be determined Regional Transportation (SMART) Transit using the in the design of the prototype.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0013",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification ID Function Source Comments Importance IS-010-040 The DUAP Input Services shall be able to collect probe ConOps § 2.3.2.7 The specific format of the D vehicle data from The Rapid Transit using the “The ConOps § 4.1 interface is to be determined Rapid Transit” interface.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0014",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-010-050 The DUAP Input Services shall be able to collect probe ConOps § 2.3.2.7 The specific format of the D vehicle data from Ann Arbor Transit using the Ann ConOps § 4.1 interface is to be determined Arbor Transit interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0015",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-010-060 The DUAP Input Services shall be able to collect probe ConOps § 2.3.2.7 The specific format of the D vehicle data from Detroit Department of Transportation ConOps § 4.1 interface is to be determined (DDOT) Transit using the DDOT interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0016",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-010-070 The DUAP Input Services shall be able to collect probe ConOps § 3.2.2 The specific format of the M vehicle data from the MDOT fleet using the MDOT interface is to be determined probe vehicle data interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0017",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-010-080 The DUAP Input Services shall be able to collect probe ConOps § 3.2.2 The specific format of the L vehicle data from truck fleets using the truck fleets’ interface is to be determined interfaces.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0018",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-010-090 The DUAP Input Services shall be able to collect probe ConOps § 3.2.2 The specific format of the D vehicle data from the car rental fleets using the car rental interface is to be determined fleets’ interfaces.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0019",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-030 The DUAP System shall be able to collect weather data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0020",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 4.4 ConOps § 5.2 ConOps § 5.4 ConOps § 7.1 IS-030-022 The DUAP Input Services shall be able to collect weather ConOps § 2.3.2.1 The specific format of the H data from the Road Commission for Oakland County ConOps § 4.1 interface is to be determined (RCOC) Road Weather Information Systems (RWIS) in the design of the prototype.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0021",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification ID Function Source Comments Importance IS-030-023 The DUAP Input Services shall be able to collect weather ConOps § 2.3.2.6 The MDOT RWIS system is L data from the MDOT RWIS using the MDOT RWIS ConOps § 4.1 currently being installed and interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0022",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-030-024 The DUAP Input Services shall be able to collect weather MHI The specific format of the L data from Michigan Department of Natural Resources interface is to be determined (MDNR) weather information systems using the MDNR in the design of the prototype.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0023",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-030-026 The DUAP Input Services shall be able to collect weather MHI The specific format of the L data from MDOT Aeronautics Automated Weather interface is to be determined Observing System (AWOS) using the AWOS interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0024",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-030-030 The DUAP Input Services shall be able to collect Clarus ConOps § 2.3.2.6 Inferred to be a high level H weather data as enumerated in APPENDIX D -Weather ConOps § 5.2 requirement since winter Data Elements from Clarus.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0025",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-030-040 The DUAP Input Services shall be able to include ConOps § 3.2.1 See list in APPENDIX E - M weather condition fields corresponding to the SAE J2354 SAE J2354 Weather WeatherInformation structure as enumerated in Information Elements for APPENDIX E -SAE J2354 Weather Information weather condition data Elements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0026",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-040 The DUAP System shall be able to collect ConOps § 3.2.2 Type of O/D data to be L Origin/Destination (O/D) data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0027",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 7.1 IS-070 The DUAP System shall collect roadway traffic data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0028",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-003 The DUAP data elements shall include roadway event ConOps § 4.3.1 See List in APPENDIX F - H information data fields corresponding to the SAE J2354 SAE J2354 EventInformation structure as enumerated in APPENDIX F - SAE J2354 Elements for traffic data EventInformation Elements.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0029",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification ID Function Source Comments Importance IS-070-005 The DUAP Input Services shall include roadway traffic ConOps § 4.3.1 See List in APPENDIX G - H data fields corresponding to the SAE J2354 structure as SAE J2354 enumerated in APPENDIX G - SAE J2354 LinkTrafficInformation LinkTrafficInformation Elements.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0030",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-010 The DUAP Input Services shall be able to collect ConOps § 4.3.1 The specific format of the H roadway traffic data from the MITS Center using the interface is to be determined MITS traffic data interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0031",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-020 The DUAP Input Services shall be able to collect ConOps § 2.3.2.1 The specific format of the D roadway traffic data from the Western Michigan Traffic interface is to be determined Management System (WMTMS) using the WMTMS in the design of the prototype.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0032",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-030 The DUAP Input Services shall be able to collect ConOps § 2.3.2.1 The specific format of the H roadway traffic data from the RCOC system using the ConOps § 4.1 interface is to be determined RCOC system interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0033",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-040 The DUAP Input Services shall be able to collect ConOps § 2.3.2.1 The specific format of the L roadway traffic data from the Road Commission of ConOps § 4.1 interface is to be determined Macomb County (RCMC) system using the RCMC in the design of the prototype.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0034",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-050 The DUAP Input Services shall be able to collect ConOps § 2.3.2.8 Data sharing agreements may L roadway traffic data from NAVTEQ Corporation’s prevent commingling of data Traffic.com using the Traffic.com interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0035",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-060 The DUAP Input Services shall be able to collect ConOps § 2.3.2.2 The specific format of the L roadway traffic data from the Traffic Monitoring System interface is to be determined for Highways (TMS/H) using the TMS/H interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0036",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-070 The DUAP Input Services shall be able to collect traffic ConOps § 2.3.2.6 The specific format of the D data from the Ann Arbor Traffic Management Center interface is to be determined (TMC) system using the Ann Arbor TMC interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0037",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-080 The DUAP Input Services shall be able to collect traffic ConOps § 2.3.2.6 The specific format of the D data from the Detroit TMC system using the Detroit interface is to be determined TMC interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0038",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-070-090 The DUAP Input Services shall be able to collect traffic ConOps § 2.3.2.6 The specific format of the D data from the Superior and Traverse City North Regions interface is to be determined TMC system using the Superior and Traverse City North in the design of the prototype.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0039",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification ID Function Source Comments Importance IS-070-100 The DUAP Input Services shall be able to collect traffic ConOps § 2.3.2.6 The specific format of the D data from the Statewide TMC system using the Statewide interface is to be determined TMC interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0040",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-110 The DUAP System shall be able to collect traveler ConOps § 2.3.2.6 L information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0041",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 4.3.1 IS-130 The DUAP System shall be able to collect road condition ConOps § 5.4 The ability to collect road H data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0042",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-130-010 The DUAP Input Services shall be able to collect road ConOps § 5.4 The specific format of the H condition data from Traffic Management Systems (TMS) ConOps § 7.1 interface is to be determined using the TMS interface.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0043",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-140 The DUAP System shall be able to collect work zone H (lane closure) data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0044",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "IS-905 The DUAP System shall log Input Services data MHI M transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0045",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.2   AS – Administrative Services",
+    "text": "Table 4 – Administrative Services ID Function Source Comments Importance AS-020 The DUAP System shall be able to organize the sequence ConOps § 4.3.7 H of execution of computational modules.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0046",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.2   AS – Administrative Services",
+    "text": "AS-030 The DUAP System shall allow the system administrator MHI H to add, modify, and delete Input Services.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0047",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.2   AS – Administrative Services",
+    "text": "AS-040 The DUAP System shall allow the system administrator MHI H to add, modify, and delete Computational Services.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0048",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.2   AS – Administrative Services",
+    "text": "AS-050 The DUAP System shall allow the system administrator MHI H to add, modify, and delete Output Services.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0049",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.2   AS – Administrative Services",
+    "text": "AS-060 The DUAP System shall allow the system administrator MHI H to add, modify, and delete Presentation Services.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0050",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "AS-200 The DUAP System shall restrict access to authorized MDOT H users.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0051",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "AS-210 The DUAP System shall keep records of user access.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0052",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "MDOT H AS-220 The DUAP System shall allow a system administrator to MDOT H add, modify and delete user access rights.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0053",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "AS-905 The DUAP System shall be able to log system operations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0054",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "MHI H AS-906 The DUAP System shall log Administrative Services data MHI H transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0055",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.3   DD – Dynamic Data Services",
+    "text": "Table 5 – Dynamic Data Services ID Function Source Comments Importance DD-010 The DUAP System shall cache (both raw and derived) MHI See List in APPENDIX C - SAE H probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0056",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.3   DD – Dynamic Data Services",
+    "text": "DD-070 The DUAP System shall cache (both raw and derived) MHI See List in APPENDIX G - SAE H traffic data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0057",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.3   DD – Dynamic Data Services",
+    "text": "DD-030 The DUAP System shall cache (both raw and derived) MHI See List in APPENDIX E - SAE H road weather data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0058",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "DD-130 The DUAP System shall cache (both raw and derived) MHI H road condition data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0059",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "DD-100 The DUAP System shall cache data only if the data MHI H record associates the data with its source, a geo- referenced location, and a timestamp.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0060",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "DD-050 The DUAP System shall cache data for 1 week.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0061",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "DD-040 The DUAP System shall allow data to be accessed as ConOps § 4.3.2 H soon as it is cached.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0062",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "DD-905 The DUAP System shall log Dynamic Data Services data MHI H transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0063",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.4   CS – Computational Services",
+    "text": "Table 6 – Computational Services ID Function Source Comments Importance CS-010 The DUAP System shall derive traffic data from probe ConOps § 3.2.3 The ability to collect and process H vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0064",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.4   CS – Computational Services",
+    "text": "ConOps § 5.2 ConOps § 5.3 CS-010-010 The DUAP Computational Services shall be able to ConOps § 4.3.4 H derive speed from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0065",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.3 CS-010-020 The DUAP Computational Services shall be able to ConOps § 4.3.4 H derive congestion level based on volume to capacity from ConOps § 5.3 probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0066",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "CS-010-030 The DUAP Computational Services shall be able to ConOps § 4.3.4 L derive traffic counts from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0067",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.3 CS-010-040 The DUAP Computational Services shall be able to ConOps § 4.3.4 L derive traffic distribution (occupancy) from probe vehicle ConOps § 5.3 data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0068",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "CS-010-050 The DUAP Computational Services shall be able to ConOps § 4.3.4 H derive freeway queue length from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0069",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.3 CS-010-055 The DUAP Computational Services shall be able to ConOps § 4.3.4 L derive arterial queue length from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0070",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.3 CS-010-060 The DUAP Computational Services shall be able to ConOps § 4.3.4 H derive travel time from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0071",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.3 CS-010-070 The DUAP Computational Services shall be able to ConOps § 4.3.4 M derive turning movements from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0072",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.3 CS-020 The DUAP System shall be able to infer incidents from ConOps § 4.3.4 H probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0073",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification ID Function Source Comments Importance CS-020-010 The DUAP Computational Services shall be able to infer ConOps § 4.3.4 H incident occurrences from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0074",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.1 ConOps § 5.3 CS-020-020 The DUAP Computational Services shall be able to infer ConOps § 4.3.4 H incident locations from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0075",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.1 ConOps § 5.3 CS-020-030 The DUAP Computational Services shall be able to infer ConOps § 4.3.4 M incident type from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0076",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.1 ConOps § 5.3 CS-020-040 The DUAP Computational Services shall be able to infer ConOps § 4.3.4 M incident severity from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0077",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.1 ConOps § 5.3 CS-040 The DUAP System shall be able to derive road surface ConOps § 4.3.4 H weather observations from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0078",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.2 CS-070 The DUAP System shall be able to derive travel demand ConOps § 4.3.4 L from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0079",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.3 CS-100 The DUAP System shall be able to derive roadway ConOps § 4.3.4 L surface conditions from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0080",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "CS-100-010 The DUAP Computational Services shall be able to ConOps § 4.3.4 L derive pavement surface conditions from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0081",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "CS-100-020 The DUAP Computational Services shall be able to ConOps § 4.3.4 L derive bridge surface conditions from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0082",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "CS-100-030 The DUAP Computational Services shall be able to ConOps § 4.3.4 H derive pothole location from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0083",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.4 CS-100-040 The DUAP Computational Services shall be able to ConOps § 4.3.4 L derive pothole severity from probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0084",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.4 CS-120 The DUAP System shall be able to identify high risk ConOps § 4.3.4 M locations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0085",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.2 CS-130 The DUAP System shall be able to calculate measures of ConOps § 3.1.3 H effectiveness.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0086",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "CS-140 The DUAP System shall be able to perform data quality ConOps § 4.3.4 M checking.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0087",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "CS-905 The DUAP System shall log Computational Services data MHI H transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0088",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.5   PD – Persistent Data Services",
+    "text": "Table 7 – Persistent Data Services ID Function Source Comments Importance PD-020 The DUAP System shall store geo-references for ConOps § 2.3.2.4 H Michigan roadways.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0089",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.5   PD – Persistent Data Services",
+    "text": "PD-030 The DUAP System shall store DUAP system MHI H configuration data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0090",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.5   PD – Persistent Data Services",
+    "text": "PD-040 The DUAP System shall archive cached data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0091",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.5   PD – Persistent Data Services",
+    "text": "ConOps § 4.3.3 H ConOps § 5.1 ConOps § 5.2 ConOps § 5.3 ConOps § 5.4 PD-040-010 The DUAP Persistent Data Services shall be able to ConOps § 4.3.3 H archive cached (raw and derived) probe vehicle data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0092",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PD-040-020 The DUAP Persistent Data Services shall be able to ConOps § 4.3.3 H archive cached (raw and derived) traffic data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0093",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PD-040-030 The DUAP Persistent Data Services shall be able to ConOps § 4.3.3 H archive cached (raw and derived) roadway weather data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0094",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PD-040-040 The DUAP Persistent Data Services shall be able to ConOps § 4.3.3 H archive cached (raw and derived) road condition data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0095",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PD-905 The DUAP System shall log Persistent Data Services data MHI H transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0096",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.6   OS – Output Services",
+    "text": "Table 8 – Output Services ID Function Source Comments Importance OS-010 The DUAP System shall publish data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0097",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.6   OS – Output Services",
+    "text": "ConOps § 4.3.5 H ConOps § 5.1 ConOps § 5.2 OS-010-010 The DUAP Output Services shall be able to publish ConOps § 4.3.5 See APPENDIX E - for listing H traveler data in SAE J2354 format as enumerated in ConOps § 5.1 of traveler data using the SAE Appendix E.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0098",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.6   OS – Output Services",
+    "text": "OS-010-025 The DUAP Output Services shall be able to publish ConOps § 5.3 L roadway traffic information in Traffic Management Data MHI Dictionary (TMDD) format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0099",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.6   OS – Output Services",
+    "text": "OS-010-030 The DUAP Output Services shall be able to publish ConOps § 4.1 Integrate new capabilities with M traffic data to TMS using the TMS interface format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0100",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-010-020 The DUAP Output Services shall be able to publish data ConOps § 4.1 Integrate new capabilities with L to SEMSIM using the SEMSIM interface format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0101",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-010-050 The DUAP Output Services shall be able to publish ConOps § 4.1 Integrate new capabilities with D traffic data in the VISSIM traffic analysis tool VISSIM ConOps § 2.3.2 existing applications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0102",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-010-060 The DUAP Output Services shall be able to publish ConOps § 4.1 Integrate new capabilities with D traffic data in the Synchro traffic analysis tool Synchro ConOps § 2.3.2 existing applications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0103",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification ID Function Source Comments Importance OS-010-070 The DUAP Output Services shall be able to publish ConOps § 4.1 Integrate new capabilities with D traffic data in the Paramics traffic analysis tool Paramics ConOps § 2.3.2 existing applications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0104",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-010-075 The DUAP Output Services shall be able to publish ConOps § 4.1 Integrate new capabilities with D traffic data in the SimTraffic traffic analysis tool ConOps § 2.3.2 existing applications.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0105",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-010-080 The DUAP Output Services shall be able to publish ConOps § 4.1 Integrate new capabilities with M traffic management data in TMS/H interface format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0106",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-010-090 The DUAP Output Services shall be able to publish ConOps § 2.3.2.6 See APPENDIX D -Weather H weather data elements as enumerated in APPENDIX D - Data Elements from Clarus for Weather Data Elements from Clarus output format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0107",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-010-100 The DUAP Output Services shall be able to publish asset ConOps § 3.1 The specific format of the L condition data using the asset condition data interface ConOps § 3.1.3 interface is to be determined in format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0108",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 7.1 OS-020 The DUAP System shall publish alerts.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0109",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps §4.3.6 ConOps § 5.1 OS-020-010 The DUAP Output Services shall be able to publish ConOps § 5.1 The specific format of the M traffic condition alerts using the traffic condition alert interface is to be determined in interface format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0110",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-020-020 The DUAP Output Services shall be able to publish ConOps § 5.2 The specific format of the M weather condition alerts using the weather condition alert interface is to be determined in interface format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0111",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-020-030 The DUAP Output Services shall be able to publish asset ConOps § 5.4 The specific format of the L condition alerts using the asset condition alert interface interface is to be determined in format.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0112",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-020-040 The DUAP Output Services shall be able to publish alerts ConOps § 4.3.6 The specific format of the H using the threshold exceeded alert interface format when ConOps § 5.1 interface is to be determined in thresholds have been exceeded.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0113",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "OS-030 The DUAP System shall publish information for the MDOT MI Drive presentation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0114",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification ID Function Source Comments Importance OS-905 The DUAP System shall log Output Services data MHI H transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0115",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.7   PS – Presentation Services",
+    "text": "Table 9 – Presentation Services ID Function Source Comments Importance PS-010 The DUAP Presentation Services shall present data ConOps § 4.3.5 H published by Output Services.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0116",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.7   PS – Presentation Services",
+    "text": "ConOps § 4.3.6 PS-020 The DUAP Presentation Services shall include a user ConOps § 4.3.6 H interface for browsing traffic information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0117",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.7   PS – Presentation Services",
+    "text": "PS-020-010 The traffic information browser shall allow a user to ConOps § 4.3.6 Web browsers such as Microsoft H query traffic-related information using a web browser Internet Explorer 6.0 (and later) capable of supporting HTML 4.01, JavaScript (ECMA- and Mozilla Firefox 2.0 (and 262 edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0118",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.7   PS – Presentation Services",
+    "text": "PS-020-020 The traffic information browser shall allow a user to view ConOps § 4.3.6 Web browsers such as Microsoft H traffic-related information using a web browser capable Internet Explorer 6.0 (and later) of supporting HTML 4.01, JavaScript (ECMA-262 and Mozilla Firefox 2.0 (and edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0119",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-020-030 The information browsers shall provide a means for users ConOps § 4.3.6 Not currently a stakeholder- D to select between Metric and English units of MHI requested function.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0120",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-020-040 The information browsers shall provide a map display ConOps § 4.3.6 H which uses icons to identify the locations with associated MHI data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0121",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-020-050 The system map display shall provide a means to select ConOps § 4.3.6 L which data layers are displayed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0122",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "MHI PS-020-060 The system map display shall support each type of traffic ConOps § 4.3.6 M item to be displayed in its own layer.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0123",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "MHI PS-020-070 The system map display shall support pan and zoom ConOps § 4.3.6 M capabilities to allow a user to select the area to be MHI displayed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0124",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-020-080 The system map display shall support de-cluttering to ConOps § 4.3.6 L reduce the number of icons displayed when large areas MHI are displayed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0125",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-020-090 The information browsers shall provide tabular ConOps § 4.3.6 H information identifying locations with associated data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0126",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "MHI PS-020-100 The tabular information display shall provide a means to ConOps § 4.3.6 L select the data to be displayed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0127",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification ID Function Source Comments Importance PS-020-110 The tabular information display shall provide a means to ConOps § 4.3.6 M select the area to be displayed.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0128",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "MHI PS-030 The DUAP Presentation Services shall include a user ConOps § 4.3.6 H interface for browsing incident information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0129",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.1 PS-030-010 The incident information browser shall allow a user to ConOps § 4.3.6 Web browsers such as Microsoft H query incident-related information using a web browser ConOps § 5.1 Internet Explorer 6.0 (and later) capable of supporting HTML 4.01, JavaScript (ECMA- and Mozilla Firefox 2.0 (and 262 edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0130",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-030-020 The incident information browser shall allow a user to ConOps § 4.3.6 Web browsers such as Microsoft H view incident-related information using a web browser ConOps § 5.1 Internet Explorer 6.0 (and later) capable of supporting HTML 4.01, JavaScript (ECMA- and Mozilla Firefox 2.0 (and 262 edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0131",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-040 The DUAP Presentation Services shall include a user ConOps § 4.3.6 M interface for browsing traveler information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0132",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.1 PS-040-010 The traveler information browser shall allow a user to ConOps § 4.3.6 Web browsers such as Microsoft M query traveler-related information using a web browser ConOps § 5.1 Internet Explorer 6.0 (and later) capable of supporting HTML 4.01, JavaScript (ECMA- and Mozilla Firefox 2.0 (and 262 edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0133",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-040-020 The traveler information browser shall allow a user to ConOps § 4.3.6 Web browsers such as Microsoft M view traveler-related information using a web browser ConOps § 5.1 Internet Explorer 6.0 (and later) capable of supporting HTML 4.01, JavaScript (ECMA- and Mozilla Firefox 2.0 (and 262 edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0134",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-050 The DUAP Presentation Services shall include a user ConOps § 4.3.6 M interface for browsing asset condition information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0135",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.4 ConOps § 7.1 PS-050-010 The asset condition information browser shall allow a ConOps § 4.3.6 Web browsers such as Microsoft M user to query asset condition-related information using a ConOps § 7.1 Internet Explorer 6.0 (and later) web browser capable of supporting HTML 4.01, and Mozilla Firefox 2.0 (and JavaScript (ECMA-262 edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0136",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-050-020 The asset condition information browser shall allow a ConOps § 4.3.6 Web browsers such as Microsoft M user to view asset condition-related information using a ConOps § 7.1 Internet Explorer 6.0 (and later) web browser capable of supporting HTML 4.01, and Mozilla Firefox 2.0 (and JavaScript (ECMA-262 edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0137",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-080 The DUAP Presentation Services shall include a user ConOps § 4.3.6 H interface for browsing weather information.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0138",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "ConOps § 5.2 PS-080-010 The weather information browser shall allow a user to ConOps § 4.3.6 Web browsers such as Microsoft H query weather-related information using a web browser ConOps § 5.2 Internet Explorer 6.0 (and later) capable of supporting HTML 4.01, JavaScript (ECMA- and Mozilla Firefox 2.0 (and 262 edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0139",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification ID Function Source Comments Importance PS-080-020 The weather information browser shall allow a user to ConOps § 4.3.6 Web browsers such as Microsoft H view weather-related information using a web browser ConOps § 5.2 Internet Explorer 6.0 (and later) capable of supporting HTML 4.01, JavaScript (ECMA- and Mozilla Firefox 2.0 (and 262 edition 3), and XML 1.0.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0140",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-200 The DUAP System shall require users to log in for MDOT system access.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0141",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-200-010 The DUAP Presentation Services shall require users to MHI Could be implemented, for uniquely identify themselves.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0142",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-200-020 The DUAP Presentation Services shall require users to MHI Could be implemented, for confirm their identity.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0143",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "PS-905 The DUAP System shall log Presentation Services data MHI H transactions.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0144",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.8   DC – Design Constraints",
+    "text": "Table 10 – Design Constraints ID Requirement Source Comments Importance DC-010 The DUAP System shall conform to IT standards ConOps § 2.5 The software for this project will H established by the Michigan Department of Information ConOps § 4.6.4 meet MDIT standards provided Technology (MDIT).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0145",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.8   DC – Design Constraints",
+    "text": "DC-010-010 The DUAP System shall use a Java software foundation.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0146",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.8   DC – Design Constraints",
+    "text": "ConOps § 4.6.4 M DC-010-015 The DUAP system shall use Java Database Connectivity M (JDBC) components to interact with databases.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0147",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "DC-010-020 The DUAP System shall be able to use Oracle 10G as the ConOps § 4.6.4 M relational database.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0148",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "DC-010-030 The DUAP System shall handle database data requests ConOps § 4.6.4 H through standard Structured Query Language (SQL).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0149",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "DC-040 The DUAP System shall use Michigan Geographic ConOps § 2.3.2.4 Section 2 of the ConOps H Framework geo-references.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0150",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.9   QC – Quality Characteristics",
+    "text": "Table 11 – Quality Characteristics ID Requirement Source Comments Importance QC-020 The DUAP System shall be capable of adding new data ConOps § 3.2.3 Access could only be provided L sources.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0151",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.9   QC – Quality Characteristics",
+    "text": "QC-030 The DUAP System shall be capable of adding new ConOps § 3.2.3 Access could only be provided L computational algorithms.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0152",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.9   QC – Quality Characteristics",
+    "text": "QC-040 The DUAP System shall be capable of adding new output ConOps § 3.2.3 Access could only be provided L formats of published data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0153",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "QC-050 The DUAP System shall be capable of adding new ConOps § 3.2.3 Access could only be provided L presentations of published data.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0154",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": "3.10 XR – External Requirements",
+    "text": "Table 12 – External Requirements ID Requirement Source Comments Importance XR-100 Access to the DUAP system shall be limited to users ConOps § 4.4 H authorized by MDOT.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0155",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification APPENDIX C - SAE J2735 PROBE DATA ELEMENTS The DUAP system shall be capable of storing the following data elements: ID Element Description IS-010-500 Probe Segment Number Identifier of related probe data snapshots IS-010-510 Time Local time IS-010-520 Date Local date IS-010-530 Time Confidence 95% confidence level for the currently reported value of time IS-010-540 Latitude Latitude of the center of the vehicle IS-010-550 Longitude Longitude of the center of the vehicle IS-010-560 Elevation Elevation of the center of the vehicle IS-010-570 Positioning Confidence 95% confidence level for the currently reported value of positioning entries IS-010-580 Heading Current heading of the vehicle IS-010-590 Speed Current vehicle speed IS-010-600 Speed & Heading 95% confidence level for the currently Confidence reported values of Speed and Heading.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0156",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification APPENDIX D - WEATHER DATA ELEMENTS FROM CLARUS The DUAP system shall be capable of storing the following weather data elements from Clarus: ID Element Description Units IS-030-200 essLatitude Latitude of the 10^-6 degrees Environmental Sensor Station (ESS) [observation] per WGS- 84 datum IS-030-210 essLongitude East longitude from the 10^-6 degrees Prime Meridian of the ESS [observation] IS-030-220 essVehicleSpeed Current speed being km/hr reported by the vehicle IS-030-230 essVehicleBearing Current bearing of the degrees vehicle clockwise from true North IS-030-240 essVehicleOdometer Current odometer reading meters of the vehicle IS-030-250 essReferenceHeight Reference elevation of the meters above ESS; height to base of mean sea station for permanent ESS level height to the ground surface upon which the ESS resides for transportable ESS, or height to surface under vehicle for mobile ESS IS-030-260 essAtmosphericPressure Force per unit area 10^-1 exerted by the atmosphere millibars, or 10^-1 hectopascals IS-030-270 windSensorAvgSpeed Two-min.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0157",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification APPENDIX E - SAE J2354 WEATHER INFORMATION ELEMENTS The DUAP system shall be capable of storing the following data elements for each weather condition item received from SAE J2354 providers: ID Element Description IS-030-901 id Unique identifier IS-030-902 reference Reference identifier IS-030-903 issuingAgency Name of reporting agency IS-030-904 updateTime Date/timestamp indicating when the item was updated by the issuing agency IS-030-905 location Geographic location description IS-030-906 altLocType Alternate location data IS-030-907 elevationsAbove Indicate whether the information reported applies to elevations above the given elevation IS-030-908 elevationsBelow Indicate whether the information reported applies to elevations below the given elevation IS-030-909 isForecast Indicate whether the date/timestamps are forecasted or absolute IS-030-910 coverageTime Date/timestamp indicating the coverage time IS-030-911 forecastExpires Date/timestamp indicating the forecasted expiration time IS-030-912 tempSummary Temperature summary IS-030-913 tempQualifiers Temperature qualifier IS-030-914 highTemp High temperature in tenths of degree Celsius IS-030-915 lowTemp Low temperature in tenths of degree Celsius IS-030-916 currTemp Current temperature in tenths of degree Celsius IS-030-917 conditions Weather conditions IS-030-918 sunriseTime Sunrise time IS-030-919 sunsetTime Sunset time IS-030-920 skyConditions Sky conditions IS-030-921 cloudPercent Amount of cloud cover IS-030-922 visibilityLevel Visibility level IS-030-923 visibilityQualifier Visibility qualifier IS-030-924 visibility Surface visibility in tenths of a meter IS-030-925 windsType Type of winds IS-030-926 windDirection Wind direction IS-030-927 windAngle Wind angle in degrees IS-030-928 windSpeed Wind speed in tenths of meters per second IS-030-929 windGustSpeed Wind gust speed in tenths of meters per second IS-030-930 precipitationProbability Precipitation probability IS-030-931 precipitation Precipitation type IS-030-932 humidity Relative humidity in percent IS-030-933 snowDepth Current depth of unpacked snow in centimeters IS-030-934 snowPack Current depth of packed snow in centimeters IS-030-935 snowFall Snowfall accumulation rate in 10-7 meters per second IS-030-936 snowOffRoad Depth of snow in centimeters on representative areas other than the highway pavement IS-030-937 iceThickness Thickness of ice in millimeters 06022-rq301srs0102_DUAP_SysReq_Final.doc Copyright © 2007 Page 47 Mixon/Hill of Michigan, Inc.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0158",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification APPENDIX F - SAE J2354 EVENTINFORMATION ELEMENTS The DUAP system shall be capable of storing and publishing the following data elements for each traffic event or incident item: ID Element Description IS-070-301 id Unique identifier IS-070-302 reference Reference identifier IS-070-303 issuingAgency Name of reporting agency IS-070-304 updateTime Date/timestamp indicating when the item was updated by the issuing agency IS-070-305 location Geographic location description IS-070-306 isForecast Indicate whether the date/timestamps are forecasted or absolute IS-070-307 coverageTime Date/timestamp indicating the coverage time IS-070-308 forecastExpires Date/timestamp indicating the forecasted expiration time IS-070-309 typeEvent Type of traffic event IS-070-310 severity Severity IS-070-311 status Status IS-070-312 cause Cause IS-070-313 description Description IS-070-314 advice Advice IS-070-315 affectedLane Lanes affected and direction(s) of travel impacted IS-070-316 vehiclesInvolvedCount Number of vehicles involved IS-070-317 types Types of vehicles involved IS-070-318 injuries Number of injuries IS-070-319 startTime Date/timestamp indicating the start time IS-070-320 clearTime Date/timestamp indicating the ending time IS-070-321 repeatTimes Repeating times for traffic events which recur over a period of days IS-070-322 furtherData URL for further information 06022-rq301srs0102_DUAP_SysReq_Final.doc Copyright © 2007 Page 50 Mixon/Hill of Michigan, Inc.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2007 - mdot [pdf]__C0159",
+    "document": "2007 - mdot [pdf].txt",
+    "nearest_heading": null,
+    "text": "Michigan Department of Transportation VII Data Use Analysis and Processing System Requirements Specification APPENDIX G - SAE J2354 LINKTRAFFICINFORMATION ELEMENTS The DUAP system shall be capable of storing and publishing the following data elements for each traffic condition item: ID Element Description IS-070-501 id Unique identifier IS-070-502 reference Reference identifier IS-070-503 issuingAgency Name of reporting agency IS-070-504 updateTime Date/timestamp indicating when the item was updated by the issuing agency IS-070-505 location Geographic location description IS-070-506 isForecast Indicate whether the date/timestamps are forecasted or absolute IS-070-507 coverageTime Date/timestamp indicating the coverage time IS-070-508 forecastExpires Date/timestamp indicating the forecasted expiration time IS-070-509 capacity Link capacity expressed as the maximum capacity in vehicles per hour for each referenced link IS-070-510 delay Calculated delay in seconds (additional time it will take above that recorded during free flow conditions) for vehicles driving along each referenced link IS-070-511 density Link density expressed as the vehicle concentration per kilometer of the link for each referenced link IS-070-512 lanesMinimumNumber Minimum number of lanes for each referenced link IS-070-513 lanesNumberOpen Minimum number of open lanes for each referenced link IS-070-514 length Link length for each referenced link from beginning node to ending node in meters IS-070-515 levelOfService Link level of service for each referenced link IS-070-516 medianType Link median type for each referenced link IS-070-517 name Link name for each referenced link IS-070-518 occupancy Percent occupancy measured for each referenced link IS-070-519 pavementType Pavement type for each referenced link.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  }
+]

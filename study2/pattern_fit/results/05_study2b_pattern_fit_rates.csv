@@ -1,0 +1,109 @@
+admissible_set,arm,model_alias,rate
+cue rule for optional feature,B_ER_native,gpt-5.4,0.9266666666666666
+cue rule for optional feature,B_ER_native,gpt-5.4-mini,0.8866666666666667
+cue rule for optional feature,B_ER_native,gpt-5.4-nano,0.8
+cue rule for optional feature,B_ER_none,gpt-5.4,0.8933333333333333
+cue rule for optional feature,B_ER_none,gpt-5.4-mini,0.8333333333333334
+cue rule for optional feature,B_ER_none,gpt-5.4-nano,0.7866666666666666
+cue rule for optional feature,B_ER_written,gpt-5.4,0.9333333333333333
+cue rule for optional feature,B_ER_written,gpt-5.4-mini,0.8
+cue rule for optional feature,B_ER_written,gpt-5.4-nano,0.7533333333333333
+cue rule for optional feature,B_E_native,gpt-5.4,0.8933333333333333
+cue rule for optional feature,B_E_native,gpt-5.4-mini,0.7933333333333333
+cue rule for optional feature,B_E_native,gpt-5.4-nano,0.7
+cue rule for optional feature,B_E_none,gpt-5.4,0.82
+cue rule for optional feature,B_E_none,gpt-5.4-mini,0.82
+cue rule for optional feature,B_E_none,gpt-5.4-nano,0.7733333333333333
+cue rule for optional feature,B_E_written,gpt-5.4,0.8666666666666667
+cue rule for optional feature,B_E_written,gpt-5.4-mini,0.8
+cue rule for optional feature,B_E_written,gpt-5.4-nano,0.6866666666666666
+cue rule for optional feature,B_R_native,gpt-5.4,0.88
+cue rule for optional feature,B_R_native,gpt-5.4-mini,0.8266666666666667
+cue rule for optional feature,B_R_native,gpt-5.4-nano,0.7533333333333333
+cue rule for optional feature,B_R_none,gpt-5.4,0.74
+cue rule for optional feature,B_R_none,gpt-5.4-mini,0.76
+cue rule for optional feature,B_R_none,gpt-5.4-nano,0.4266666666666667
+cue rule for optional feature,B_R_written,gpt-5.4,0.78
+cue rule for optional feature,B_R_written,gpt-5.4-mini,0.7733333333333333
+cue rule for optional feature,B_R_written,gpt-5.4-nano,0.72
+cue rule for optional feature,B_base_native,gpt-5.4,0.7266666666666667
+cue rule for optional feature,B_base_native,gpt-5.4-mini,0.7733333333333333
+cue rule for optional feature,B_base_native,gpt-5.4-nano,0.6
+cue rule for optional feature,B_base_none,gpt-5.4,0.6466666666666666
+cue rule for optional feature,B_base_none,gpt-5.4-mini,0.7733333333333333
+cue rule for optional feature,B_base_none,gpt-5.4-nano,0.47333333333333333
+cue rule for optional feature,B_base_written,gpt-5.4,0.7933333333333333
+cue rule for optional feature,B_base_written,gpt-5.4-mini,0.6533333333333333
+cue rule for optional feature,B_base_written,gpt-5.4-nano,0.5733333333333334
+intersection,B_ER_native,gpt-5.4,0.7466666666666667
+intersection,B_ER_native,gpt-5.4-mini,0.7066666666666667
+intersection,B_ER_native,gpt-5.4-nano,0.6266666666666667
+intersection,B_ER_none,gpt-5.4,0.68
+intersection,B_ER_none,gpt-5.4-mini,0.6466666666666666
+intersection,B_ER_none,gpt-5.4-nano,0.6333333333333333
+intersection,B_ER_written,gpt-5.4,0.7333333333333333
+intersection,B_ER_written,gpt-5.4-mini,0.62
+intersection,B_ER_written,gpt-5.4-nano,0.6133333333333333
+intersection,B_E_native,gpt-5.4,0.7
+intersection,B_E_native,gpt-5.4-mini,0.6266666666666667
+intersection,B_E_native,gpt-5.4-nano,0.5533333333333333
+intersection,B_E_none,gpt-5.4,0.64
+intersection,B_E_none,gpt-5.4-mini,0.6466666666666666
+intersection,B_E_none,gpt-5.4-nano,0.6133333333333333
+intersection,B_E_written,gpt-5.4,0.7066666666666667
+intersection,B_E_written,gpt-5.4-mini,0.6333333333333333
+intersection,B_E_written,gpt-5.4-nano,0.56
+intersection,B_R_native,gpt-5.4,0.7066666666666667
+intersection,B_R_native,gpt-5.4-mini,0.6466666666666666
+intersection,B_R_native,gpt-5.4-nano,0.5533333333333333
+intersection,B_R_none,gpt-5.4,0.5466666666666666
+intersection,B_R_none,gpt-5.4-mini,0.58
+intersection,B_R_none,gpt-5.4-nano,0.3
+intersection,B_R_written,gpt-5.4,0.64
+intersection,B_R_written,gpt-5.4-mini,0.62
+intersection,B_R_written,gpt-5.4-nano,0.5466666666666666
+intersection,B_base_native,gpt-5.4,0.56
+intersection,B_base_native,gpt-5.4-mini,0.6133333333333333
+intersection,B_base_native,gpt-5.4-nano,0.44
+intersection,B_base_none,gpt-5.4,0.46
+intersection,B_base_none,gpt-5.4-mini,0.5933333333333334
+intersection,B_base_none,gpt-5.4-nano,0.36
+intersection,B_base_written,gpt-5.4,0.6
+intersection,B_base_written,gpt-5.4-mini,0.48
+intersection,B_base_written,gpt-5.4-nano,0.41333333333333333
+union (primary),B_ER_native,gpt-5.4,0.9333333333333333
+union (primary),B_ER_native,gpt-5.4-mini,0.8866666666666667
+union (primary),B_ER_native,gpt-5.4-nano,0.8133333333333334
+union (primary),B_ER_none,gpt-5.4,0.8933333333333333
+union (primary),B_ER_none,gpt-5.4-mini,0.8333333333333334
+union (primary),B_ER_none,gpt-5.4-nano,0.7866666666666666
+union (primary),B_ER_written,gpt-5.4,0.94
+union (primary),B_ER_written,gpt-5.4-mini,0.8066666666666666
+union (primary),B_ER_written,gpt-5.4-nano,0.76
+union (primary),B_E_native,gpt-5.4,0.9
+union (primary),B_E_native,gpt-5.4-mini,0.7933333333333333
+union (primary),B_E_native,gpt-5.4-nano,0.7
+union (primary),B_E_none,gpt-5.4,0.8333333333333334
+union (primary),B_E_none,gpt-5.4-mini,0.8266666666666667
+union (primary),B_E_none,gpt-5.4-nano,0.7733333333333333
+union (primary),B_E_written,gpt-5.4,0.8733333333333333
+union (primary),B_E_written,gpt-5.4-mini,0.8133333333333334
+union (primary),B_E_written,gpt-5.4-nano,0.6933333333333334
+union (primary),B_R_native,gpt-5.4,0.8866666666666667
+union (primary),B_R_native,gpt-5.4-mini,0.8266666666666667
+union (primary),B_R_native,gpt-5.4-nano,0.7533333333333333
+union (primary),B_R_none,gpt-5.4,0.7533333333333333
+union (primary),B_R_none,gpt-5.4-mini,0.78
+union (primary),B_R_none,gpt-5.4-nano,0.46
+union (primary),B_R_written,gpt-5.4,0.7866666666666666
+union (primary),B_R_written,gpt-5.4-mini,0.78
+union (primary),B_R_written,gpt-5.4-nano,0.74
+union (primary),B_base_native,gpt-5.4,0.7333333333333333
+union (primary),B_base_native,gpt-5.4-mini,0.7866666666666666
+union (primary),B_base_native,gpt-5.4-nano,0.6066666666666667
+union (primary),B_base_none,gpt-5.4,0.6466666666666666
+union (primary),B_base_none,gpt-5.4-mini,0.7866666666666666
+union (primary),B_base_none,gpt-5.4-nano,0.5066666666666667
+union (primary),B_base_written,gpt-5.4,0.8133333333333334
+union (primary),B_base_written,gpt-5.4-mini,0.66
+union (primary),B_base_written,gpt-5.4-nano,0.58

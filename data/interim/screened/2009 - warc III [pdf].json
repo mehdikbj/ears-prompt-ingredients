@@ -1,0 +1,731 @@
+[
+  {
+    "id": "2009 - warc III [pdf]__C0001",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 1 — The tools shall be able to process a set of multiple WARC files at the same time.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0002",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "For this purpose, the tools will allow you to choose/group them by: • explicit naming • wildcard name matching • size limitation • number of items NFR 2 — The tools shall be able to scale to process large collections using distributed processing and data transport (see FRS 10 and 11) NFR 3 — The tools shall offer best possible performance to correctly process large collections (I/O bound) NFR 4 — The tools shall be able to run on multiple machines but will not provide functionality for dealing with hardware failures (out of scope) NFR 5 — Implementation of the tools shall avoid unnecessary technology dependencies and shall not include development of partner-specific integration technologies NFR 6 — The tools shall be compliant with Java development environments, by using web services, RESTful API’s, etc.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0003",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 7 — The tools shall provide logging facilities, for example, to follow command progression, i.e.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0004",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 8 — The tools shall provide enhanced usability by providing easy to adapt shell script wrappers for the major commands NFR 9 — It shall be possible to operate the tools in modes that restrict their effects to selected collection subsets.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0005",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 10 — The workflow system shall have a configurable management strategy for migration from ARCs to WARCs.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0006",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "A web user interface shall be available to set up the migration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0007",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "Configuration shall persist as a configuration file or database.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0008",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 1 — The migration workflow shall provide a clear Application Programming Interface (API) to handle the migration process and default configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0009",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 3 — A configuration must be provided explicitly, errors should be generated in the absence of a configuration.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0010",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 4 — The user shall be able to provide metadata related to the conversion that will be stored in the converted files (e.g., institution, context, crawler, collection name, ...) FR 5 — It shall be possible to request that automatically generated migration metadata be stored in the converted files (e.g., OS/Kernel type, original ARC name, ARC size, ARC digests, conversion timestamp, ARC record offset, ...) NFR 13 — IIPC members should provide us with the default METADATA they want to be included for migration.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0011",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "WARC Tools Phase III Functional Requirements Specification 4 FR 6 — The migration workflow shall be able to call external tools and services (e.g., database queries, shell commands, web service).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0012",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "• tools to scan files for malware and viruses and identify them as such in the WARC file FR 7 — The migration process shall use persistent, opaque, unique, and global identifiers for records access.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0013",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 12 — Software checkpoints (such as start-trans, end-trans) may be added during processing for managing atomic transactions (e.g., operations on a file, these must start and complete to be accepted in the migration), except where operating system limitations would prohibit it.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0014",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 13 — It shall be possible to perform a “dry-run migration”.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0015",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "WARC Tools Phase III Functional Requirements Specification 5 While doing a migration, we shall be able to detect and avoid duplicate documents.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0016",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 14 — Duplicate detection shall find and report WARC records with the same checksums.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0017",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 15.1 — Core validation shall use payload checksum comparisons.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0018",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": "18 for example).",
+    "text": "FR 17 — Validation shall use Heritrix’s arcreader to double check that the original ARC record was correctly converted to WARC.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0019",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": "18 for example).",
+    "text": "FR 18 — It shall be possible to perform a round trip validation: migrate the newly created WARC file back to ARC and compare both checksums (NFR 5) Repackaging Tool A tool will be created to extract WARC records from a collection and generate a new set of WARC files.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0020",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 19 — It shall be possible to repackage WARC files by filtering records based on URL (regular expressions) FR 20 — It shall be possible to repackage WARC files by filtering records based on MIME-Types.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0021",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "WARC Tools Phase III Functional Requirements Specification 6 FR 21 — It shall be possible to repackage WARC files by filtering records based on size.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0022",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 22 — It shall be possible to repackage WARC files by filtering records based on timestamp (e.g., dates interval).",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0023",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 23 — It shall be possible to repackage WARC files by filtering on any field in the WARC specification.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0024",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 25 — Each repackaged WARC file shall include a user-defined METADATA record which will describe the extraction context (e.g., filter used, involved WARC files, ...",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0025",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 26 — The migration framework shall provide tools to build reports from WARC files The summary tool also enables fine grained manipulation of the reports and the production of useful variations.",
+    "match_type": "modal_verb",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0026",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 16 — Repackaging filters can be used by the summary module FR 27 — It shall be possible to export summaries in various formats (e.g., XML, CSV) WARC Tools Phase III Functional Requirements Specification 7 This command will also have options for XML and CSV output and filtering, for example, to restrict the report by time ranges, domain or other metadata values.",
+    "match_type": "modal_verb",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0027",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 1 — The tools shall be able to process a set of multiple WARC files at the same time. For this",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0028",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 2 — The tools shall be able to scale to process large collections using distributed processing and",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0029",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 3 — The tools shall offer best possible performance to correctly process large collections (I/O",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0030",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 4 — The tools shall be able to run on multiple machines but will not provide functionality for",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0031",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 5 — Implementation of the tools shall avoid unnecessary technology dependencies and shall not",
+    "match_type": "labeled_id",
+    "verdict": "reject",
+    "reject_reason": "multiple_modals_likely_compound"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0032",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 6 — The tools shall be compliant with Java development environments, by using web services,",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0033",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 8 — The tools shall provide enhanced usability by providing easy to adapt shell script wrappers for",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0034",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 9 — It shall be possible to operate the tools in modes that restrict their effects to selected collection",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0035",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "subsets. For example, select by name (see NFR1), random sampling, etc.",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0036",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 10 — The workflow system shall have a configurable management strategy for migration from ARCs",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0037",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 11 — The migration workflow system will be driven by command line tools and scripts",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0038",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 11.1 -- Migration configurations can be built with a Web User Interface",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0039",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 11.2 -- Active migrations can be monitored, paused, and restarted (a console application) with a Web",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0040",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 12 — Pre and post conversion actions will be provided for at each level of the migration, e.g. record,",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0041",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 1 — The migration workflow shall provide a clear Application Programming Interface (API) to handle",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0042",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 2 — The migration API will require inclusion of only one header file.",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0043",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 3 — A configuration must be provided explicitly, errors should be generated in the absence of a",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0044",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 4 — The user shall be able to provide metadata related to the conversion that will be stored in the",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0045",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 5 — It shall be possible to request that automatically generated migration metadata be stored in the",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0046",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 13 — IIPC members should provide us with the default METADATA they want to be included for",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0047",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 6 — The migration workflow shall be able to call external tools and services (e.g., database queries,",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0048",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 7 — The migration process shall use persistent, opaque, unique, and global identifiers for records",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0049",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 8 — A (default) external tool (e.g., ClamAV) will be used to scan files before conversion (pre-conversion",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0050",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 9 — The API should be flexible enough to allow external tools such as JHOVE, DROID to be used for",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0051",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 10 — The ARC to WARC migration should be able to run on multiple machines that will be easy to",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0052",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 11 —Logging during the migration may be turned on/off at any time .",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0053",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 12 — Software checkpoints (such as start-trans, end-trans) may be added during processing for",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0054",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 13 — It shall be possible to perform a “dry-run migration”. That is, a blank conversion to generate",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0055",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 14 — Deduplication may be run before migration, inside a batch process.",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0056",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 14 — Duplicate detection shall find and report WARC records with the same checksums. A centralised",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0057",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 15 — To validate that the migration succeeded, arc_warc_verify will use the METADATA included in the",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0058",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "newly generated WARC files to match records with their corresponding ARC files (see FR4, and FR5).",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0059",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 16 — Sampling will be provided where applicable to quickly validate the conversions (FR 15.1 and FR",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0060",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": "18 for example).",
+    "text": "FR 17 — Validation shall use Heritrix’s arcreader to double check that the original ARC record was",
+    "match_type": "labeled_id",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0061",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": "18 for example).",
+    "text": "FR 18 — It shall be possible to perform a round trip validation: migrate the newly created WARC file back",
+    "match_type": "labeled_id",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0062",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "to ARC and compare both checksums (NFR 5)",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0063",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 19 — It shall be possible to repackage WARC files by filtering records based on URL (regular",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0064",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 20 — It shall be possible to repackage WARC files by filtering records based on MIME-Types.",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0065",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 21 — It shall be possible to repackage WARC files by filtering records based on size.",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0066",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 22 — It shall be possible to repackage WARC files by filtering records based on timestamp (e.g., dates",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0067",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 24 -- Repackaging will allow pre and post record, file and job operations",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0068",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 24.1 -- Pre operation can prevent a file or record being processed by returning value",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0069",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 25 — Each repackaged WARC file shall include a user-defined METADATA record which will describe the",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0070",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "extraction context (e.g., filter used, involved WARC files, ... - see also FR4).",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0071",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 26 — The migration framework shall provide tools to build reports from WARC files",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0072",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "NFR 16 — Repackaging filters can be used by the summary module",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0073",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 27 — It shall be possible to export summaries in various formats (e.g., XML, CSV)",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0074",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 28 — Enhance the WARC browser to display aggregated WARCs summaries in its UI",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0075",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 29 — Enhance the WARC browser to display a manifest of WARC files and their locations",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0076",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 30 — Provide a ‘‘diff‘‘ tool to compare WARC sets based on defined criteria (e.g., timestamp,",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0077",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 31 — Provide a tool to draw difference graphs between WARC collections (see FR 30)",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0078",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 32 — Provide a way to view crawls deltas for quality assurance",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0079",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 33 — Implement WARC browser server side rewriting",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0080",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 34 — Integrate a proxy mode inside the WARC browser",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - warc III [pdf]__C0081",
+    "document": "2009 - warc III [pdf].txt",
+    "nearest_heading": null,
+    "text": "FR 35 — Integrate the full-text search (search-tools project) module with the WARC browser to provide",
+    "match_type": "labeled_id",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

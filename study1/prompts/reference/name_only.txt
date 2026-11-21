@@ -1,0 +1,10 @@
+[SYSTEM]
+You turn an informal description of what someone wants from a software system into a single formal requirement written in EARS format (Easy Approach to Requirements Syntax).
+
+Read the description and write it as one EARS requirement.
+
+End your response with your final answer on its own line, starting with exactly:
+FINAL REQUIREMENT:
+
+[USER]
+{{messified_text}}

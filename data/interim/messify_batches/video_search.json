@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PURE-139",
+    "text": "Torrent search will share the same search bar with the streaming search."
+  },
+  {
+    "id": "PURE-140",
+    "text": "There will be a tick box to allow the user to choose to include torrent searching in the search."
+  },
+  {
+    "id": "PURE-141",
+    "text": "Results will be arranged in size/date/alphabetical order by clicking on the column headers."
+  },
+  {
+    "id": "PURE-142",
+    "text": "There will be a tick box to allow the user to choose to include video link searching in the search."
+  },
+  {
+    "id": "PURE-143",
+    "text": "The software will use hyperlinks to allow the user to open websites in their default web browser."
+  },
+  {
+    "id": "PURE-144",
+    "text": "Query times will take no longer than 5 seconds to any website."
+  }
+]

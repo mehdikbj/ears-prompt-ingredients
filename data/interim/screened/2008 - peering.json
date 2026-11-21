@@ -1,0 +1,344 @@
+[
+  {
+    "id": "2008 - peering__X0001",
+    "document": "2008 - peering",
+    "nearest_heading": "Introduction > Project Scope",
+    "text": "Each provider must ensure that their individual SLAs are met when serving content for its own customers to end users, while meeting any obligations it has made when participating in a group of many providers.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2008 - peering__X0002",
+    "document": "2008 - peering",
+    "nearest_heading": "Overall Description > Product Perspective",
+    "text": "Initiation: A CDN’s reach and scale is limited by its ability to handle peak load, cost of equipment, scalable infrastructure, and/or demand for the increased coverage of its infrastructure. Peering allows a particular CDN to achieve larger scale/reach through resource sharing with other CDN(s). It is triggered by an initialization request sent to the mediator under exceptional circumstances, e.g. flash crowds, when the (primary) CDN realizes that it cannot handle a part of the workload on its Web Servers (WSs). The triggering condition must consider the expected and unexpected load increases in the initiating CDN.",
+    "match_type": "xml_item_modal",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - peering__X0003",
+    "document": "2008 - peering",
+    "nearest_heading": "Overall Description > Product Perspective",
+    "text": "Negotiated relationship: The controlling interest of a CDN to interconnect with other CDNs leads to the creation of a negotiated relationship. In the business domain, this relationship (most likely) would take the form of a legal document which describes the expected level of services from the involving parties such as storage requirements, the required rate of transfer, cost of services; the expected duration of receiving service, penalties for service violations, and other preconditions such as the initiating CDN’s preference to gain resources at a particular region. Negotiated relationships can also be established through means nontechnical terms (financial statement) or technical terms (SLAs). Thus, negotiated relationships must specify the interactions among entities including service administration, coordination and disband (or re-arrangement) of internetworked CDNs. In the CDN peering architecture, the mediator instance obtains the resource and access information from the Service Registry (SR), whilst SLAs and other policies from the Policy Repository (PR). The mediator instance on the primary CDN’s behalf generates its service requirements based on the current circumstance and SLA requirements of its customer(s). Therefore, divergent policies are allowed that specify the information that can be shared during interaction through providing a certain level of visibility to preserve privacy.",
+    "match_type": "xml_item_modal",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - peering__X0004",
+    "document": "2008 - peering",
+    "nearest_heading": "Overall Description > Product Perspective",
+    "text": "Resource discovery: Once the initiating CDN identifies its roles and activities through the created negotiated relationships for coordination and cooperation between CDNs, the next step is to choose potential CDNs to peer with. The mediator instance passes the service requirements to the local PA to discover external resources from peers. The PA performs the resource discovery process through predicting performance of the peers, working around issues of separate administration and limited information sharing among enlisted CDNs. If there are any preexisting peering arrangements (for a long term scenario) then these will be returned at this point. Otherwise, it carries out short term negotiations with the Peering Agent (PA) identified peering targets.",
+    "match_type": "xml_item_modal",
+    "verdict": "reject",
+    "reject_reason": "too_long_likely_compound"
+  },
+  {
+    "id": "2008 - peering__X0005",
+    "document": "2008 - peering",
+    "nearest_heading": "Overall Description > User Classes and Characteristics",
+    "text": "Moreover, individual users (or a group of users) can have dynamic QoS requirements depending on the situations that will result in “customized” content delivery.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0006",
+    "document": "2008 - peering",
+    "nearest_heading": "Overall Description > Operating Environment",
+    "text": "In this regard, existing Web services technologies will be studied in detail to examine the feasibility of leveraging them.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0007",
+    "document": "2008 - peering",
+    "nearest_heading": "Overall Description > Operating Environment",
+    "text": "It is anticipated that a cryptographically secure auction-based framework will be used to assist content replication among peered CDNs to allow incentives for all participants.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0008",
+    "document": "2008 - peering",
+    "nearest_heading": "Overall Description > Design and Implementation Constraints",
+    "text": "Therefore, request-redirections must occur over distributed sets of Web servers belonging to multiple CDN providers, without the benefit of the full information available, as in the single provider case.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0009",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Service Registration > Functional Requirements",
+    "text": "The format for service information description is defined",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0013",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Service Registration > Functional Requirements",
+    "text": "The interaction protocol between Web Server-SR, SR-mediator is defined.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0015",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Service Registration > Functional Requirements",
+    "text": "Resource provisioning, delegation and reservation policies are in place",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0017",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Service Registration > Functional Requirements",
+    "text": "There is an established norm that any resource failure will be reported",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0021",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Request Initiation to Trigger Peering > Exceptions",
+    "text": "Malicious requests are detected and rejected.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0022",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Request Initiation to Trigger Peering > Exceptions",
+    "text": "Web servers have already replicated necessary content.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0023",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Request Initiation to Trigger Peering > Exceptions",
+    "text": "Both anticipated and unanticipated user requests (traffic) are considered.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0025",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Mediator Invokes Creation of Negotiated Relationship > Exceptions",
+    "text": "The format of service requirements is defined.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0026",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Mediator Invokes Creation of Negotiated Relationship > Exceptions",
+    "text": "Mediator-SR, mediator-PR, mediator-PA interaction protocols are defined.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0027",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Mediator Invokes Creation of Negotiated Relationship > Exceptions",
+    "text": "Mediator works in conjunction with the PA to establish negotiation.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0028",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Resource Discovery through PA > Exceptions",
+    "text": "Interaction protocols between PAs are identified.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0029",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Resource Discovery through PA > Exceptions",
+    "text": "Malicious requests are identified and acted upon.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0030",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Resource Discovery through PA > Exceptions",
+    "text": "There are existing policies for long-term peering arrangement.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0031",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Resource Discovery through PA > Exceptions",
+    "text": "There is procedure to perform short-term negotiation.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0032",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Operational Management > Exceptions",
+    "text": "Negotiation is established between selected CDN peers.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0033",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Operational Management > Exceptions",
+    "text": "Primary CDN has already acquired sufficient external resources.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0034",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Operational Management > Exceptions",
+    "text": "Functional policies are identified and deployed.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0035",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Operational Management > Exceptions",
+    "text": "Effective content delivery is ensured through SLA satisfaction.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0036",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Disband or Re-arrangement > Exceptions",
+    "text": "Policies identifying the consequences of SLA violation are defined.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0037",
+    "document": "2008 - peering",
+    "nearest_heading": "System Features > Disband or Re-arrangement > Exceptions",
+    "text": "Policies are in place to perform renegotiation for problem resolution.",
+    "match_type": "xml_req_tag",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0039",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "This section describes the logical characteristics of each interface between the intended software product and the users.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0040",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "For user interface design, common GUI standards will be followed along with the presence of keyboard shortcuts, error message display standards etc., and standard buttons and functions (i.e.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0041",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "help) will appear on every screen.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0042",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "Details of the user interface design are intended to be documented in a separate user interface specification.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0043",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > Communications Interfaces",
+    "text": "As mentioned earlier, the intended product to exploit existing Web service technologies to leverage existing infrastructures through building an overlay.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0044",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > Communications Interfaces",
+    "text": "The communication among software component would be performed through message passing over the IP network.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0045",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > Communications Interfaces",
+    "text": "From a technical point of view, TCP/IP will be used as the transport protocol, where each CDN server establishes a TCP connection to the network elements using a well-known port number.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0046",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > Communications Interfaces",
+    "text": "Messages can then be sent bi-directionally between the server and network elements.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0047",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > Communications Interfaces",
+    "text": "All messages consist of a fixed length-header containing the total data length and a request followed by a reply or an acknowledgement.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2008 - peering__X0048",
+    "document": "2008 - peering",
+    "nearest_heading": "External Interface Requirements > Communications Interfaces",
+    "text": "Interaction among surrogates will be performed using HTTP or FTP.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

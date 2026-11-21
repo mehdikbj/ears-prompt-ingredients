@@ -1,0 +1,8 @@
+The data in this repository (every file except source code, *.py and *.sh) is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+The 150 items and the 150 inputs derive from the PURE dataset:
+A. Ferrari, G. O. Spagnolo and S. Gnesi, "PURE: A Dataset of Public Requirements Documents,"
+2017 IEEE 25th International Requirements Engineering Conference (RE), 2017, pp. 502-505.
+Zenodo: https://doi.org/10.5281/zenodo.1414117 (CC BY 4.0).

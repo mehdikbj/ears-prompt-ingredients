@@ -1,0 +1,25 @@
+criterion,tier,contrast,n_items,n_nonzero,mean_diff,wilcoxon_stat,p
+faithfulness,gpt-5.4,F_E - F_base,50,21,0.33,10.5,0.00018216330464953574
+faithfulness,gpt-5.4,F_R - F_base,50,14,0.09,24.0,0.05784889615697652
+faithfulness,gpt-5.4-mini,F_E - F_base,50,18,0.18,24.0,0.005724242140056089
+faithfulness,gpt-5.4-mini,F_R - F_base,50,24,0.19,63.5,0.01115472924754854
+faithfulness,gpt-5.4-nano,F_E - F_base,50,31,0.58,13.5,2.619730407374127e-06
+faithfulness,gpt-5.4-nano,F_R - F_base,50,19,0.05,78.0,0.48621146295669626
+unambiguity,gpt-5.4,F_E - F_base,50,11,0.02,29.0,0.7097486481705149
+unambiguity,gpt-5.4,F_R - F_base,50,14,-0.26,10.5,0.007729831620429886
+unambiguity,gpt-5.4-mini,F_E - F_base,50,6,0.07,2.5,0.08446903225325182
+unambiguity,gpt-5.4-mini,F_R - F_base,50,23,-0.43,7.0,4.57925586662994e-05
+unambiguity,gpt-5.4-nano,F_E - F_base,50,13,0.07,21.0,0.05220363534131467
+unambiguity,gpt-5.4-nano,F_R - F_base,50,23,-0.25,56.0,0.010655869381346258
+singularity,gpt-5.4,F_E - F_base,50,7,0.04,10.5,0.5468652689558395
+singularity,gpt-5.4,F_R - F_base,50,6,0.13,0.0,0.02354410241255279
+singularity,gpt-5.4-mini,F_E - F_base,50,12,0.09,23.0,0.19418243850938743
+singularity,gpt-5.4-mini,F_R - F_base,50,11,0.01,31.0,0.8560193324872836
+singularity,gpt-5.4-nano,F_E - F_base,50,15,0.06,54.0,0.7314951191364822
+singularity,gpt-5.4-nano,F_R - F_base,50,19,0.58,0.0,0.00010762958726141587
+ears_wellformedness,gpt-5.4,F_E - F_base,50,21,0.2,35.0,0.0038379935105122332
+ears_wellformedness,gpt-5.4,F_R - F_base,50,16,-0.03,58.0,0.5808403603117523
+ears_wellformedness,gpt-5.4-mini,F_E - F_base,50,25,0.16,73.5,0.010590410312762998
+ears_wellformedness,gpt-5.4-mini,F_R - F_base,50,22,0.13,65.0,0.03429348336407896
+ears_wellformedness,gpt-5.4-nano,F_E - F_base,50,30,0.45,14.0,4.0596488796811865e-06
+ears_wellformedness,gpt-5.4-nano,F_R - F_base,50,18,-0.07,60.5,0.2582491413012965

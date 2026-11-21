@@ -1,0 +1,749 @@
+[
+  {
+    "id": "2009 - video search__X0001",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Purpose",
+    "text": "This document will give a detailed description of the Video Searching software.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0002",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Purpose",
+    "text": "The software will be used to search multiple web sites for streaming videos and torrents and return these results to the user.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0003",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Purpose",
+    "text": "This document will cover the features of the software and include specifics on what the system will do and any constraints and external factors that might affect the system.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0004",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "It will also be used by the potential users of the product to get their opinions on the software, this will help to revise and improve the product.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0005",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "The Overall Description will give an overview of the product functionality and features.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0006",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "Also mentioned are the constraints that will affect the system and the interface.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0007",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "This section will be used by the rest of the document and will give a better understanding of the system.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0008",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "All the major services that will be provided by the product are documented here.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0009",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "The fourth section, the External Interface Requirements, will give details on the interaction between the user and the software through external interfaces.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0010",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "This section will give a description on hardware and software interfaces that the Video Searching software requires to perform an action.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0011",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "Other requirements of the software will be described in the fifth section, Other Nonfunctional Requirements.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0012",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Intended Audience and Reading Suggestions",
+    "text": "This will give the requirements for the software when dealing with external entities and restrictions.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0013",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Project Scope",
+    "text": "This Video Searching software will be a system that uses an active internet connection to search multiple websites for streaming videos or torrents.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0014",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Project Scope",
+    "text": "The system will be used to aid the user when trying to locate a specific video or genre of video.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0015",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Project Scope",
+    "text": "It will help them reduce searching time through various different websites by searching all these websites with just one query.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0016",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Project Scope",
+    "text": "It provides tools to help when navigating through search results which will save time and effort.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0017",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Project Scope",
+    "text": "It will also provide the user with various options and tools to help make their search more relevant to the content that they need.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0018",
+    "document": "2009 - video search",
+    "nearest_heading": "Introduction > Project Scope",
+    "text": "The system will contain databases of the different websites that will be used within the search.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "reject",
+    "reject_reason": "non_normative_heading"
+  },
+  {
+    "id": "2009 - video search__X0019",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Product Perspective",
+    "text": "This was especially true of the studies by Alan Woosnam, Irshad Qabool and Will Josephy.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0020",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Product Perspective",
+    "text": "Our system will aim to speed up this process.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0021",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Product Features",
+    "text": "The main feature of the system will be a search engine for finding the location of torrents and streaming sites for videos on the internet.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0022",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Product Features",
+    "text": "The results will be divided into the types that were specified using different tabs, and then the results will be orderable by different categories, such as name, size, site, etc.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0023",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Product Features",
+    "text": "The user will have the option to filter out videos containing certain content depending on age restrictions, for example adult content.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0024",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Product Features",
+    "text": "In addition the user will have the option to filter out or only search certain websites; for example a user may only want to look at videos on YouTube.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0025",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Product Features",
+    "text": "They will have the facility for users to store their favorite videos, so that they can come back to the video at another time.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0026",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > User Classes and Characteristics",
+    "text": "There will be two levels of user for our system.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0027",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > User Classes and Characteristics",
+    "text": "The first will be the general user that will be using our software to find their videos.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0028",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > User Classes and Characteristics",
+    "text": "They will only see the front end of the system.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0029",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > User Classes and Characteristics",
+    "text": "The second level will be the system developers.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0030",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > User Classes and Characteristics",
+    "text": "They will be able to edit which sites the system will search, depending on whether they think the site is safe, compatible with our software, the speed at which the site can be searched, and how useful the site is to us, i.e.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0031",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Operating Environment",
+    "text": "The system will be portable; this means it will work across different operating systems including Microsoft XP and Vista, Mac OS X and a range of Linux platforms.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0032",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Operating Environment",
+    "text": "Also it will work with different web browsers, for example Internet Explorer, Firefox, and Safari.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0033",
+    "document": "2009 - video search",
+    "nearest_heading": "Overall Description > Operating Environment",
+    "text": "The hardware needed for our system will be a reasonably up-to-date computer that is connected to the internet via a modem.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0034",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Description and Priority",
+    "text": "The user will give a search-term that will search through a database of compatible torrent websites that are added by the development team.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0035",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Description and Priority",
+    "text": "The results of this search will be displayed as web links in a tab on the program’s main window.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0036",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Stimulus/Response Sequences",
+    "text": "User ticks torrent tick box – system will now query the torrent websites in its database when a search is started.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0037",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Stimulus/Response Sequences",
+    "text": "Results for this query will then be sent to the torrent tab in the program where they will display information such as website, seeds, peers, size, date posted and a link for the webpage.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0038",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+    "text": "REQ-1: Torrent search will share the same search bar with the streaming search.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0039",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+    "text": "REQ-2: Database of torrent sites can be updated via the internet.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0040",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+    "text": "REQ-3: There will be a tick box to allow the user to choose to include torrent searching in the search.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0041",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+    "text": "REQ-4: Query will retrieve the no. of seed and peers, size of the file, date posted and a link to the webpage itself.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0042",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+    "text": "REQ-5: If no results are found on a search it will display a message “No results were found for this search.”",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0043",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+    "text": "REQ-6: Results will be arranged in size/date/alphabetical order by clicking on the column headers.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0044",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Torrent Search > Functional Requirements",
+    "text": "REQ-7: There will be page button for the user to navigate the results.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0045",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Stimulus/Response Sequences",
+    "text": "User ticks streaming host tick box – system will now query the video hosting sites in its database when a search is started.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0046",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Stimulus/Response Sequences",
+    "text": "Hosting sites will include the actual videos on their servers, e.g.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0047",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Stimulus/Response Sequences",
+    "text": "User ticks streaming links tick box – system will now query the video link sites in its database when a search is started.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0048",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Stimulus/Response Sequences",
+    "text": "The link sites will include external video links to different video hosting sites, e.g.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0049",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Stimulus/Response Sequences",
+    "text": "Results for this query will then be sent to the video stream tab in the program.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0050",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+    "text": "REQ-1: Streaming search will share the same search bar with the torrent search.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0051",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+    "text": "REQ-2: Database of video hosting and video linking sites can be updated via the internet.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0052",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+    "text": "REQ-3: There will be a tick box to allow the user to choose to include video host searching in the search.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0053",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+    "text": "REQ-4: There will be a tick box to allow the user to choose to include video link searching in the search.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0054",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+    "text": "REQ-5: Query to video hosting sites will retrieve full video name, length, date posted and a link to the video itself.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0055",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+    "text": "REQ-6: Query to video link sites will retrieve the show’s name, episode name and a link to the webpage itself.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0056",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+    "text": "REQ-7: If no results are found on a search it will display a message “No results were found for this search.”",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "duplicate_of_2009 - video search__X0042"
+  },
+  {
+    "id": "2009 - video search__X0057",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+    "text": "REQ-8: Results will be arranged in length/date/alphabetical order by clicking on the column headers.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0058",
+    "document": "2009 - video search",
+    "nearest_heading": "System Features > Video Stream Search > Functional Requirements",
+    "text": "REQ-9: There will be page button for the user to navigate the results.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "reject",
+    "reject_reason": "duplicate_of_2009 - video search__X0044"
+  },
+  {
+    "id": "2009 - video search__X0059",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "The user Interface will consist of one main screen, allowing all the functionally to come from this one screen.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0060",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "This allows the user to use the software with ease by not flicking through a number of different screens.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0061",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "In addition to this the user can always see the videos they are looking for.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0062",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "The main screen will be laid out as in Appendix: B Diagram along with the description of the diagram.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0063",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "We decided on this type of interface because we felt that it would be very simple for the user to navigate.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0064",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "From our reports we found that the simpler the interface was, the more people liked it.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0065",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "With all these features complied into one screen it will give the software more flexibility and allows for easy and simple usage.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0066",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > User Interfaces",
+    "text": "This will appeal to both naïve computer users and experienced computer users with a higher selling market.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0067",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > Software Interfaces",
+    "text": "The software will use hyperlinks to allow the user to open websites in their default web browser.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0068",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > Communications Interfaces",
+    "text": "Communication standards that will be used through the software will be PHP or other such languages.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0069",
+    "document": "2009 - video search",
+    "nearest_heading": "External Interface Requirements > Communications Interfaces",
+    "text": "These will be used to query the different servers that the websites use and will give us back",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0070",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "REQ-1: Query times will take no longer than 5 seconds to any website.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0071",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "REQ-2: Sending the hyperlink to the default browser will take less than 1 second.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0072",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "REQ-3: Loading the program will take less than 10 seconds.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0073",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "REQ-4: Any torrent result with 0 seeds will not be displayed.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0074",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "REQ-5: Sorting results should take less than 0.1 seconds.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0075",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "REQ-6: A results page will display 100 results.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0076",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Performance Requirements",
+    "text": "REQ-7: Any torrent result with a rating of less than 1 will not be displayed.",
+    "match_type": "xml_item_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0077",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Safety Requirements",
+    "text": "Our development team must thoroughly investigate each website within our database each month, to ensure that no illegal or harmful content is exposed to our users.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0078",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Security Requirements",
+    "text": "We don’t maintain any user data or host any content.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0079",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Legal Requirements",
+    "text": "While all safety measures resulting from the site may not be fully identified, a recommendation of a full legal review of the software should be undertaken before the site is available to the public.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0080",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Legal Requirements",
+    "text": "In doing so, the site will be subject to full indemnification of liability.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0081",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Legal Requirements",
+    "text": "The system we produce will stay within all the legal requirements on our behalf, as our software is only listing links for video streams and video download, and this is not illegal.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0082",
+    "document": "2009 - video search",
+    "nearest_heading": "Other Nonfunctional Requirements > Legal Requirements",
+    "text": "Our system will not host any videos.",
+    "match_type": "xml_text_body_requirements_section",
+    "verdict": "pass",
+    "reject_reason": null
+  },
+  {
+    "id": "2009 - video search__X0083",
+    "document": "2009 - video search",
+    "nearest_heading": "Issues List",
+    "text": "In the next version we will consider adding a system to also search UseNet Binaries.",
+    "match_type": "xml_text_body_modal",
+    "verdict": "pass",
+    "reject_reason": null
+  }
+]

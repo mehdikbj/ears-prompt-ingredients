@@ -1,0 +1,26 @@
+[
+  {
+    "id": "PURE-023",
+    "text": "The product profile is a questionnaire which must be completed by an ELSS supplier to list the mandatory, optional and conditional features supported in their product."
+  },
+  {
+    "id": "PURE-024",
+    "text": "The ELSS must provide data capture screens for the entry of the logbook, transhipment and landing declaration data that is required to be transmitted to the UK fisheries administrations’ ERS system."
+  },
+  {
+    "id": "PURE-025",
+    "text": "The subject header must consist of a character string containing ‘ERS – ‘ prefixed to the contents of the GBRRN attribute of the Electronic Logbook data being transmitted."
+  },
+  {
+    "id": "PURE-026",
+    "text": "All deletions must be easily identifiable within the ELSS user interface."
+  },
+  {
+    "id": "PURE-027",
+    "text": "Each copy of the ELSS installed must be provided with a unique (internal?) number that is automatically entered into each transmission to identify the instance of the ELSS from which the report has been transmitted."
+  },
+  {
+    "id": "PURE-028",
+    "text": "Any C change of vessel master during a voyage must be notified in the next LOG message."
+  }
+]

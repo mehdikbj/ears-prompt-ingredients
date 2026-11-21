@@ -1,0 +1,14 @@
+arm,pattern_v2,n
+F_E,event-driven,43
+F_E,optional-feature,5
+F_E,state-driven,4
+F_E,ubiquitous,87
+F_E,unwanted-behaviour,11
+F_R,event-driven,46
+F_R,optional-feature,40
+F_R,ubiquitous,49
+F_R,unwanted-behaviour,15
+F_base,event-driven,55
+F_base,optional-feature,43
+F_base,ubiquitous,38
+F_base,unwanted-behaviour,14

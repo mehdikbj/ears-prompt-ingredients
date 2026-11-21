@@ -1,0 +1,86 @@
+{
+  "_comment": "Study 2 arms. Factorial arms combine three ingredients on one shared base (header + five EARS patterns + one-line output): examples (E), chain-of-thought (C), rules (R). A0 is a name-only reference prompt (it names EARS but gives no pattern definitions; byte-identical to the zero-shot prompt of the prior exploratory run). J_json is the base with a JSON output schema (pattern + requirement) instead of the one-line output. Section order in every assembled prompt: header, patterns, [examples], [rules], [cot], output.",
+  "arms": [
+    {
+      "arm": "A0_name_only",
+      "family": "reference",
+      "source": "study2/prompts/reference/name_only.txt (name-only reference prompt)",
+      "E": null,
+      "C": null,
+      "R": null,
+      "output": "final_line"
+    },
+    {
+      "arm": "F_base",
+      "family": "factorial",
+      "E": 0,
+      "C": 0,
+      "R": 0,
+      "output": "final_line"
+    },
+    {
+      "arm": "F_E",
+      "family": "factorial",
+      "E": 1,
+      "C": 0,
+      "R": 0,
+      "output": "final_line"
+    },
+    {
+      "arm": "F_C",
+      "family": "factorial",
+      "E": 0,
+      "C": 1,
+      "R": 0,
+      "output": "final_line"
+    },
+    {
+      "arm": "F_R",
+      "family": "factorial",
+      "E": 0,
+      "C": 0,
+      "R": 1,
+      "output": "final_line"
+    },
+    {
+      "arm": "F_EC",
+      "family": "factorial",
+      "E": 1,
+      "C": 1,
+      "R": 0,
+      "output": "final_line"
+    },
+    {
+      "arm": "F_ER",
+      "family": "factorial",
+      "E": 1,
+      "C": 0,
+      "R": 1,
+      "output": "final_line"
+    },
+    {
+      "arm": "F_CR",
+      "family": "factorial",
+      "E": 0,
+      "C": 1,
+      "R": 1,
+      "output": "final_line"
+    },
+    {
+      "arm": "F_ECR",
+      "family": "factorial",
+      "E": 1,
+      "C": 1,
+      "R": 1,
+      "output": "final_line"
+    },
+    {
+      "arm": "J_json",
+      "family": "json",
+      "E": 0,
+      "C": 0,
+      "R": 0,
+      "output": "final_json"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "_comment": "SHA-256 of every file the Study 2 design depends on. Written by build_prompts.py; committed in the freeze commit. run_inference_study2.py refuses to call the API if any listed file changed.",
+  "arms": {
+    "A0_name_only": {
+      "sha256": "f3748dafc3de1bbef3dcea001adf2718123a28465b84f1c212e1d6e32b528b2a",
+      "chars": 371
+    },
+    "F_base": {
+      "sha256": "1bb0c22be09ff28c18aaa18186b713a6de321fb12a68f2ec37bca7a4119ff8ee",
+      "chars": 899
+    },
+    "F_E": {
+      "sha256": "4589d6a0dd1b80fc7d34b0fdb752cd1eb45900c712769276874fbc9b8088add8",
+      "chars": 2460
+    },
+    "F_C": {
+      "sha256": "7cc7bb69b736637b0d5ced92801edab44d131668d36dd8d0da8418bfce8d9a72",
+      "chars": 957
+    },
+    "F_R": {
+      "sha256": "8a92264813358a25747ed70ec5c3498080f45bac7c3e031b115a1a6649e1fd29",
+      "chars": 1450
+    },
+    "F_EC": {
+      "sha256": "72f20f11fb9c513beb92d955081f319ed8276995e01175fdf825ba47bc7240a3",
+      "chars": 2518
+    },
+    "F_ER": {
+      "sha256": "a69fa5cd0f381d4c2d8c197f97a398aead5089f854fa786125075e96daebe057",
+      "chars": 3011
+    },
+    "F_CR": {
+      "sha256": "d386430e117a077e160f506fce161ba26c64b25dfeedb12e8badd0821bd5102b",
+      "chars": 1508
+    },
+    "F_ECR": {
+      "sha256": "d8f9507c03a03b95be709f6cce0ec3b6d01bc54ccaddb0bf56e125f6739d37f8",
+      "chars": 3069
+    },
+    "J_json": {
+      "sha256": "7d932e68f0493fadb9e0a5a1af61ebf7c59438210d6c6d299c7fbeffb7065d9c",
+      "chars": 1120
+    }
+  },
+  "files": {
+    "study2/prompts/components/cot.txt": "9fd0c8f3a3884e1aeb5d38b3a969ca829dbeae0f39fde7f7644fa92c8d884cdf",
+    "study2/prompts/components/examples_heading.txt": "1a3fe43e01bbc96bae7d24b55f4423d080ebcd44fddf576ae28bd051d57b6339",
+    "study2/prompts/components/header.txt": "6c90084544a35db76744c4f3fb2218064ada8e10d0b994cc54cf3f3b86708122",
+    "study2/prompts/components/output_final_json.txt": "34ae63c53f13ee53ebecc328a5cb2f063be605d95f53e0291f29951a58fa7bf5",
+    "study2/prompts/components/output_final_line.txt": "904e20fb642db626d70d5b5049912233600036c29c4c47fc46804d53ff4227b0",
+    "study2/prompts/components/patterns.txt": "828a730335aecb291070c9e7942ab74ac7321716b63ca6a904936fb8210e510b",
+    "study2/prompts/components/rules.txt": "80e1fcc0334f83139c06615550174ad59898cc52e09357a007b38fdd4cd2f1d7",
+    "study2/prompts/arms/A0_name_only.txt": "f3748dafc3de1bbef3dcea001adf2718123a28465b84f1c212e1d6e32b528b2a",
+    "study2/prompts/arms/F_base.txt": "1bb0c22be09ff28c18aaa18186b713a6de321fb12a68f2ec37bca7a4119ff8ee",
+    "study2/prompts/arms/F_E.txt": "4589d6a0dd1b80fc7d34b0fdb752cd1eb45900c712769276874fbc9b8088add8",
+    "study2/prompts/arms/F_C.txt": "7cc7bb69b736637b0d5ced92801edab44d131668d36dd8d0da8418bfce8d9a72",
+    "study2/prompts/arms/F_R.txt": "8a92264813358a25747ed70ec5c3498080f45bac7c3e031b115a1a6649e1fd29",
+    "study2/prompts/arms/F_EC.txt": "72f20f11fb9c513beb92d955081f319ed8276995e01175fdf825ba47bc7240a3",
+    "study2/prompts/arms/F_ER.txt": "a69fa5cd0f381d4c2d8c197f97a398aead5089f854fa786125075e96daebe057",
+    "study2/prompts/arms/F_CR.txt": "d386430e117a077e160f506fce161ba26c64b25dfeedb12e8badd0821bd5102b",
+    "study2/prompts/arms/F_ECR.txt": "d8f9507c03a03b95be709f6cce0ec3b6d01bc54ccaddb0bf56e125f6739d37f8",
+    "study2/prompts/arms/J_json.txt": "7d932e68f0493fadb9e0a5a1af61ebf7c59438210d6c6d299c7fbeffb7065d9c",
+    "study2/config/arms.json": "46fb211c42f25ae23babecb6ad4b1d7f96134a89d1851cf6893001f28f7739aa",
+    "study2/config/fewshot_exemplars.json": "177baab1382875da18e1fd7dcbdd3a07f17acc5d1d8ebfaf317ea1fb0f00042d",
+    "study2/config/frozen_settings.json": "b9d0a3812e54d026e2e8021b942294101371f74cb5fb727182e247ed5c4eb86c",
+    "study2/prompts/reference/name_only.txt": "f3748dafc3de1bbef3dcea001adf2718123a28465b84f1c212e1d6e32b528b2a",
+    "scripts/check_ears_compliance_v2.py": "4a9bb37b78851e01bf600f65d117f74c9583412f4f1f5938233daaa477c20e8f",
+    "data/pure_150_messified.json": "83fdfdbf55ba1007624d8563a918c798a556c1416ed0954e7509405d37668674",
+    "data/pure_150.json": "bdefa1e82b237b74d49d498fcdc3f190f25029720411835ed07ad5aeb5fa206b",
+    "config/model_lineup.json": "c11f7cc1276d2b2705a025aafee01445b27d329f6551afa32b17de3cfb908e45",
+    "study2/ANALYSIS_PLAN.md": "f2d62593f73fc128aa31c15dcdd2ce08028c47488f7f528dca40b2fcdb0304d5",
+    "study2/scripts/s2common.py": "9b9aadca5e267df144c85647c93e88a4c8ee82cc6b42126b962e80799bde1753",
+    "study2/scripts/build_prompts.py": "44cf31f20de364008091ebb526b4d41909c818db54a126aa6a92378cf1325aad",
+    "study2/scripts/estimate_cost.py": "718c4a47f431ebf29609cafe00c6e9c76e5d63dcd7af78ce88571f041eef0047",
+    "study2/scripts/run_inference_study2.py": "67c774d7963aefecaa5b94b6be47cb0c3fd870d90bba69e8809c4a047067c710",
+    "study2/scripts/extract_answers_study2.py": "d5745b108f929f58eb3bb9ba106e94e239aea135711ace44101138136e8dfd87",
+    "study2/scripts/check_study2.py": "5df0d8e39ada3abc09b0fa9dcdedf3ee5ac5229327abef4df425700a145d4dcb",
+    "study2/scripts/analyze_study2.py": "f8a23ee660459f2a0b63de0459e63f936e742f8614012195864d6de3461367bb",
+    "study2/scripts/human_subsample_study2.py": "5636a361cbff9db120b8d198ba84230aa760eb98ba0a043ff3f52a2aa25f84d0",
+    "study2/config/human_subsample_items.json": "ca8cd8ce5cb14185aafeaff6761f4b60c14476f85f7e0015786fec3661c23a1a",
+    "archive/study1/results/raw_inference.jsonl": "6e1f6068f77b2f5355a0b37260ee8c7dea2e0811e72868a972cfc5ce4741e746"
+  }
+}
