@@ -27,27 +27,13 @@ The nano snapshot (`gpt-5.4-nano-2026-03-17`) is removed from the API on 1 April
 
 | Paper | Repository |
 |---|---|
-| Study 1 | `study1/` (frozen as `study2/`; file names keep `study2`) |
-| Study 2 | `study2/` (frozen as `study2b/`; file names keep `2b`) |
-| Study 1, Study 2 in result files | `Study 2`, `Study 2b` in some `study` columns |
+| Study 1 | `study1/`|
+| Study 2 | `study2/`|
 | R1 | `R1`; annotator `B` in `study2/pattern_fit/` |
-| R2 | `R3` in rating files; annotator `A` in `study2/pattern_fit/` |
+| R2 | in rating files; annotator `A` in `study2/pattern_fit/` |
 | Base, Base+E, …, Base+ECR; Name-only; JSON (Study 1) | arms `F_base`, `F_E`, …, `F_ECR`; `A0_name_only`; `J_json` |
 | Study 2 conditions | arms `B_<ingredients>_<reasoning>`, e.g. `B_base_none`, `B_ER_native` |
 | nano, mini, full | `gpt-5.4-nano-2026-03-17`, `gpt-5.4-mini-2026-03-17`, `gpt-5.4-2026-03-05` |
-
-**Why the old folder names still matter.** Before any model call, each study's design files (prompts,
-configuration, scripts, analysis plan) were frozen: their SHA-256 hashes are recorded in
-`study1/prompts/MANIFEST.json` and `study2/prompts/MANIFEST.json`, under the folder names used then
-(`study2/`, `study2b/`). The folders were renamed for this repository, but the frozen files were not edited,
-so their hashes still match. Scripts therefore expect the old names: `reproduce.sh` runs them in a temporary
-copy that uses those names. To run one script by hand, do the same (copy `study1/` to `study2/` and
-`study2/` to `study2b/` in a scratch folder, next to `data/`, `scripts/` and `config/`).
-
-The only frozen files changed are two Study 1 files in which the raters' first names were replaced by their
-codes: `study1/config/human_subsample_items.json` and `study1/scripts/human_subsample_study2.py`.
-`tools/check_frozen.py` reports them, together with the output of the preliminary run, which the paper does
-not report and which is not included.
 
 ## Where to find each element of the paper
 
